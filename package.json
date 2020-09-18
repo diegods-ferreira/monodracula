@@ -3,6 +3,7 @@
     "displayName": "MonoDracula",
     "description": "A Monokai based color theme, but with Dracula's colors",
     "version": "0.0.1",
+    "publisher": "diego-ferreira",
     "engines": {
         "vscode": "^1.49.0"
     },
