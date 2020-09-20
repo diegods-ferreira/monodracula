@@ -2,7 +2,7 @@
     "name": "monodracula",
     "displayName": "MonoDracula",
     "description": "A Monokai Pro syntax highlighting based color theme, but with Dracula's colors",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "diego-ferreira",
     "engines": {
         "vscode": "^1.49.0"
