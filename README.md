@@ -16,15 +16,15 @@
 <br>
 <br>
 <h2>Monokai Pro</h2>
-<img src="./assets/MonokaiPro.png">
+<img src="https://imgur.com/3Qktq2d.png">
 <br>
 <br>
 <h2>Dracula</h2>
-<img src="./assets/Dracula.png">
+<img src="https://imgur.com/e63m31F.png">
 <br>
 <br>
 <h2>Now, putting them together, we have <b>MonoDracula</b>!</h2>
-<img src="./assets/MonoDracula.png">
+<img src="https://imgur.com/1rTY9UF.png">
 <br>
 <br>
 <br>
