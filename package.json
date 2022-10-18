@@ -17,9 +17,14 @@
     "contributes": {
         "themes": [
             {
+                "label": "MonoMin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MonoMinTheme.json"
+            },
+            {
                 "label": "MonoDracula",
                 "uiTheme": "vs-dark",
-                "path": "./themes/MonoDracula-color-theme.json"
+                "path": "./themes/MonoDraculaTheme.json"
             }
         ]
     },
