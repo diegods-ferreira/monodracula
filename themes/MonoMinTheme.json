@@ -337,7 +337,7 @@
 		"titleBar.activeForeground": "#939293",
 		"titleBar.border": "#121319",
 		"titleBar.inactiveBackground": "#151515",
-		"titleBar.inactiveForeground": "#1f1f1f",
+		"titleBar.inactiveForeground": "#EAEAEA50",
 		"walkThrough.embeddedEditorBackground": "#151515",
 		"welcomePage.buttonBackground": "#151515",
 		"welcomePage.buttonHoverBackground": "#1f1f1f",
