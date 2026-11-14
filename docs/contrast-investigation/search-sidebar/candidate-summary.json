@@ -1,0 +1,2005 @@
+[
+  {
+    "case": "dark-modern",
+    "searchNormal": {
+      "file": "dark-modern-normal.json",
+      "state": "normal",
+      "foreground": "rgb(204, 204, 204)",
+      "background": "#5d2e10",
+      "contrast": 6.9786,
+      "upstreamYellow": 10.0294,
+      "upstreamNeutral": 6.1738
+    },
+    "searchStates": [
+      {
+        "file": "dark-modern-chat.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#724329",
+        "contrast": 5.1158,
+        "upstreamYellow": 7.3522,
+        "upstreamNeutral": 4.5258
+      },
+      {
+        "file": "dark-modern-editor.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#724329",
+        "contrast": 5.1158,
+        "upstreamYellow": 7.3522,
+        "upstreamNeutral": 4.5258
+      },
+      {
+        "file": "dark-modern-hover.json",
+        "state": "hover",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#693d1f",
+        "contrast": 5.7311,
+        "upstreamYellow": 8.2364,
+        "upstreamNeutral": 5.0701
+      },
+      {
+        "file": "dark-modern-hover.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(255, 255, 255)",
+        "background": "#50453f",
+        "contrast": 9.3243,
+        "upstreamYellow": 8.3444,
+        "upstreamNeutral": 5.1366
+      },
+      {
+        "file": "dark-modern-normal.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(255, 255, 255)",
+        "background": "#50453f",
+        "contrast": 9.3243,
+        "upstreamYellow": 8.3444,
+        "upstreamNeutral": 5.1366
+      },
+      {
+        "file": "dark-modern-selected.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-selection.json",
+        "state": "normal",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.9786,
+        "upstreamYellow": 10.0294,
+        "upstreamNeutral": 6.1738
+      },
+      {
+        "file": "dark-modern-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#724329",
+        "contrast": 5.1158,
+        "upstreamYellow": 7.3522,
+        "upstreamNeutral": 4.5258
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk19 findMatchInline findMatchInline",
+        "fg": "rgb(79, 193, 255)",
+        "bg": "147,68,18",
+        "contrast": 3.3822459564448226
+      },
+      {
+        "class": "mtk13 findMatchInline findMatchInline",
+        "fg": "rgb(206, 145, 120)",
+        "bg": "147,68,18",
+        "contrast": 2.582977456360627
+      },
+      {
+        "class": "mtk13 currentFindMatchInline findMatchInline",
+        "fg": "rgb(206, 145, 120)",
+        "bg": "158,106,3",
+        "contrast": 1.7591714037034014
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(106, 153, 85)",
+        "bg": "143,64,14",
+        "contrast": 2.166887880530196
+      },
+      {
+        "class": "mtk19 findMatchInline findMatchInline",
+        "fg": "rgb(79, 193, 255)",
+        "bg": "143,64,14",
+        "contrast": 3.578325827449543
+      },
+      {
+        "class": "mtk13 findMatchInline findMatchInline",
+        "fg": "rgb(206, 145, 120)",
+        "bg": "143,64,14",
+        "contrast": 2.7327211157435944
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#a54608",
+        "contrast": 3.7771601547160216
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#5d2e10",
+        "contrast": 6.978598328500718
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(204, 204, 204)",
+        "background": "#603923",
+        "contrast": 6.172829738703611
+      }
+    ]
+  },
+  {
+    "case": "monodracula-baseline",
+    "searchNormal": {
+      "file": "monodracula-baseline-normal.json",
+      "state": "normal",
+      "foreground": "rgb(94, 104, 134)",
+      "background": "#3e4048",
+      "contrast": 1.8658,
+      "upstreamYellow": 9.2269,
+      "upstreamNeutral": 5.6798
+    },
+    "searchStates": [
+      {
+        "file": "monodracula-baseline-chat.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#45474e",
+        "contrast": 3.8397,
+        "upstreamYellow": 8.2894,
+        "upstreamNeutral": 5.1027
+      },
+      {
+        "file": "monodracula-baseline-editor.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#45474e",
+        "contrast": 3.8397,
+        "upstreamYellow": 8.2894,
+        "upstreamNeutral": 5.1027
+      },
+      {
+        "file": "monodracula-baseline-hover.json",
+        "state": "hover",
+        "foreground": "rgb(252, 252, 250)",
+        "background": "#484a50",
+        "contrast": 8.6647,
+        "upstreamYellow": 7.9651,
+        "upstreamNeutral": 4.9031
+      },
+      {
+        "file": "monodracula-baseline-hover.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#484a50",
+        "contrast": 3.6895,
+        "upstreamYellow": 7.9651,
+        "upstreamNeutral": 4.9031
+      },
+      {
+        "file": "monodracula-baseline-normal.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#484a50",
+        "contrast": 3.6895,
+        "upstreamYellow": 7.9651,
+        "upstreamNeutral": 4.9031
+      },
+      {
+        "file": "monodracula-baseline-selected.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-selection.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-baseline-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#45474e",
+        "contrast": 3.8397,
+        "upstreamYellow": 8.2894,
+        "upstreamNeutral": 5.1027
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "94,95,100",
+        "contrast": 5.700332932295231
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "94,95,100",
+        "contrast": 5.700332932295231
+      },
+      {
+        "class": "mtk10 currentFindMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "94,95,100",
+        "contrast": 5.700332932295231
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "99,101,108",
+        "contrast": 5.20794201673339
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "99,101,108",
+        "contrast": 5.20794201673339
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "99,101,108",
+        "contrast": 5.20794201673339
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#606167",
+        "contrast": 5.506136483684268
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#3e4048",
+        "contrast": 9.226903191141636
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#44464d",
+        "contrast": 8.46959394593232
+      }
+    ]
+  },
+  {
+    "case": "monodracula-darkbackground",
+    "searchNormal": {
+      "file": "monodracula-darkbackground-normal.json",
+      "state": "normal",
+      "foreground": "rgb(94, 104, 134)",
+      "background": "#1d1f28",
+      "contrast": 2.9716,
+      "upstreamYellow": 14.695,
+      "upstreamNeutral": 9.0458
+    },
+    "searchStates": [
+      {
+        "file": "monodracula-darkbackground-chat.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#1d1f28",
+        "contrast": 6.8069,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-editor.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#1d1f28",
+        "contrast": 6.8069,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-hover.json",
+        "state": "hover",
+        "foreground": "rgb(252, 252, 250)",
+        "background": "#1d1f28",
+        "contrast": 15.9856,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-hover.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#1d1f28",
+        "contrast": 6.8069,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-normal.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#1d1f28",
+        "contrast": 6.8069,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-selected.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-selection.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#1d1f28",
+        "contrast": 2.9716,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      },
+      {
+        "file": "monodracula-darkbackground-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#1d1f28",
+        "contrast": 6.8069,
+        "upstreamYellow": 14.695,
+        "upstreamNeutral": 9.0458
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "29,31,40",
+        "contrast": 14.694992007624899
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "29,31,40",
+        "contrast": 14.694992007624899
+      },
+      {
+        "class": "mtk10 currentFindMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "63,64,71",
+        "contrast": 9.2317698307472
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "29,31,40",
+        "contrast": 14.694992007624899
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "29,31,40",
+        "contrast": 14.694992007624899
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "29,31,40",
+        "contrast": 14.694992007624899
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#1d1f28",
+        "contrast": 14.694992007624899
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#1d1f28",
+        "contrast": 14.694992007624899
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#1d1f28",
+        "contrast": 14.694992007624899
+      }
+    ]
+  },
+  {
+    "case": "monodracula-infoforeground",
+    "searchNormal": {
+      "file": "monodracula-infoforeground-normal.json",
+      "state": "normal",
+      "foreground": "rgb(94, 104, 134)",
+      "background": "#3e4048",
+      "contrast": 1.8658,
+      "upstreamYellow": 9.2269,
+      "upstreamNeutral": 5.6798
+    },
+    "searchStates": [
+      {
+        "file": "monodracula-infoforeground-editor.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-infoforeground-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#45474e",
+        "contrast": 3.8397,
+        "upstreamYellow": 8.2894,
+        "upstreamNeutral": 5.1027
+      },
+      {
+        "file": "monodracula-infoforeground-hover.json",
+        "state": "hover",
+        "foreground": "rgb(252, 252, 250)",
+        "background": "#484a50",
+        "contrast": 8.6647,
+        "upstreamYellow": 7.9651,
+        "upstreamNeutral": 4.9031
+      },
+      {
+        "file": "monodracula-infoforeground-hover.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-infoforeground-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-infoforeground-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#484a50",
+        "contrast": 3.6895,
+        "upstreamYellow": 7.9651,
+        "upstreamNeutral": 4.9031
+      },
+      {
+        "file": "monodracula-infoforeground-normal.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-infoforeground-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#484a50",
+        "contrast": 3.6895,
+        "upstreamYellow": 7.9651,
+        "upstreamNeutral": 4.9031
+      },
+      {
+        "file": "monodracula-infoforeground-selected.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-infoforeground-selection.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#3e4048",
+        "contrast": 1.8658,
+        "upstreamYellow": 9.2269,
+        "upstreamNeutral": 5.6798
+      },
+      {
+        "file": "monodracula-infoforeground-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#45474e",
+        "contrast": 3.8397,
+        "upstreamYellow": 8.2894,
+        "upstreamNeutral": 5.1027
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "94,95,100",
+        "contrast": 5.700332932295231
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "94,95,100",
+        "contrast": 5.700332932295231
+      },
+      {
+        "class": "mtk10 currentFindMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "94,95,100",
+        "contrast": 5.700332932295231
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "99,101,108",
+        "contrast": 5.20794201673339
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "99,101,108",
+        "contrast": 5.20794201673339
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "99,101,108",
+        "contrast": 5.20794201673339
+      }
+    ]
+  },
+  {
+    "case": "monodracula-lightbackground",
+    "searchNormal": {
+      "file": "monodracula-lightbackground-normal.json",
+      "state": "normal",
+      "foreground": "rgb(94, 104, 134)",
+      "background": "#fcfcfa",
+      "contrast": 5.3795,
+      "upstreamYellow": 1.0878,
+      "upstreamNeutral": 1.7672
+    },
+    "searchStates": [
+      {
+        "file": "monodracula-lightbackground-chat.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#fcfcfa",
+        "contrast": 2.3485,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-editor.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#fcfcfa",
+        "contrast": 2.3485,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-hover.json",
+        "state": "hover",
+        "foreground": "rgb(252, 252, 250)",
+        "background": "#fcfcfa",
+        "contrast": 1,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-hover.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#fcfcfa",
+        "contrast": 2.3485,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-normal.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#fcfcfa",
+        "contrast": 2.3485,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-selected.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-selection.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#fcfcfa",
+        "contrast": 5.3795,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      },
+      {
+        "file": "monodracula-lightbackground-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#fcfcfa",
+        "contrast": 2.3485,
+        "upstreamYellow": 1.0878,
+        "upstreamNeutral": 1.7672
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "252,252,250",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "252,252,250",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "class": "mtk10 currentFindMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "252,252,250",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "252,252,250",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "252,252,250",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "252,252,250",
+        "contrast": 1.0878295878141213
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#fcfcfa",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#fcfcfa",
+        "contrast": 1.0878295878141213
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#fcfcfa",
+        "contrast": 1.0878295878141213
+      }
+    ]
+  },
+  {
+    "case": "monodracula-lowalpha",
+    "searchNormal": {
+      "file": "monodracula-lowalpha-normal.json",
+      "state": "normal",
+      "foreground": "rgb(94, 104, 134)",
+      "background": "#282a33",
+      "contrast": 2.5859,
+      "upstreamYellow": 12.7875,
+      "upstreamNeutral": 7.8716
+    },
+    "searchStates": [
+      {
+        "file": "monodracula-lowalpha-chat.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#30323a",
+        "contrast": 5.3178,
+        "upstreamYellow": 11.4802,
+        "upstreamNeutral": 7.0669
+      },
+      {
+        "file": "monodracula-lowalpha-editor.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#30323a",
+        "contrast": 5.3178,
+        "upstreamYellow": 11.4802,
+        "upstreamNeutral": 7.0669
+      },
+      {
+        "file": "monodracula-lowalpha-hover.json",
+        "state": "hover",
+        "foreground": "rgb(252, 252, 250)",
+        "background": "#33353c",
+        "contrast": 11.9784,
+        "upstreamYellow": 11.0113,
+        "upstreamNeutral": 6.7782
+      },
+      {
+        "file": "monodracula-lowalpha-hover.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#33353c",
+        "contrast": 5.1005,
+        "upstreamYellow": 11.0113,
+        "upstreamNeutral": 6.7782
+      },
+      {
+        "file": "monodracula-lowalpha-normal.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#33353c",
+        "contrast": 5.1005,
+        "upstreamYellow": 11.0113,
+        "upstreamNeutral": 6.7782
+      },
+      {
+        "file": "monodracula-lowalpha-selected.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-selection.json",
+        "state": "normal",
+        "foreground": "rgb(94, 104, 134)",
+        "background": "#282a33",
+        "contrast": 2.5859,
+        "upstreamYellow": 12.7875,
+        "upstreamNeutral": 7.8716
+      },
+      {
+        "file": "monodracula-lowalpha-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(189, 147, 249)",
+        "background": "#30323a",
+        "contrast": 5.3178,
+        "upstreamYellow": 11.4802,
+        "upstreamNeutral": 7.0669
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "55,56,65",
+        "contrast": 10.4148843895673
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "55,56,65",
+        "contrast": 10.4148843895673
+      },
+      {
+        "class": "mtk10 currentFindMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "75,76,84",
+        "contrast": 7.636466568944279
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "61,63,74",
+        "contrast": 9.357685150697012
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "61,63,74",
+        "contrast": 9.357685150697012
+      },
+      {
+        "class": "mtk10 findMatchInline findMatchInline",
+        "fg": "rgb(241, 250, 140)",
+        "bg": "61,63,74",
+        "contrast": 9.357685150697012
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#31333b",
+        "contrast": 11.283762456041297
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#282a33",
+        "contrast": 12.787483687793058
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(241, 250, 140)",
+        "background": "#2e3038",
+        "contrast": 11.737378276692375
+      }
+    ]
+  },
+  {
+    "case": "monomin-baseline",
+    "searchNormal": {
+      "file": "monomin-baseline-normal.json",
+      "state": "normal",
+      "foreground": "rgb(136, 136, 136)",
+      "background": "#353535",
+      "contrast": 3.4628,
+      "upstreamYellow": 7.7634,
+      "upstreamNeutral": 6.7622
+    },
+    "searchStates": [
+      {
+        "file": "monomin-baseline-chat.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3c3c3c",
+        "contrast": 6.9522,
+        "upstreamYellow": 6.9522,
+        "upstreamNeutral": 6.0556
+      },
+      {
+        "file": "monomin-baseline-editor.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3c3c3c",
+        "contrast": 6.9522,
+        "upstreamYellow": 6.9522,
+        "upstreamNeutral": 6.0556
+      },
+      {
+        "file": "monomin-baseline-hover.json",
+        "state": "hover",
+        "foreground": "rgb(234, 234, 234)",
+        "background": "#3e3e3e",
+        "contrast": 8.89,
+        "upstreamYellow": 6.764,
+        "upstreamNeutral": 5.8917
+      },
+      {
+        "file": "monomin-baseline-hover.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3e3e3e",
+        "contrast": 6.764,
+        "upstreamYellow": 6.764,
+        "upstreamNeutral": 5.8917
+      },
+      {
+        "file": "monomin-baseline-normal.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3e3e3e",
+        "contrast": 6.764,
+        "upstreamYellow": 6.764,
+        "upstreamNeutral": 5.8917
+      },
+      {
+        "file": "monomin-baseline-selected.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-selection.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-baseline-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3c3c3c",
+        "contrast": 6.9522,
+        "upstreamYellow": 6.9522,
+        "upstreamNeutral": 6.0556
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "80,80,80",
+        "contrast": 5.099543385851661
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "80,80,80",
+        "contrast": 5.099543385851661
+      },
+      {
+        "class": "mtk9 currentFindMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "80,80,80",
+        "contrast": 5.099543385851661
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "87,87,87",
+        "contrast": 4.570044738842956
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "87,87,87",
+        "contrast": 4.570044738842956
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "87,87,87",
+        "contrast": 4.570044738842956
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#555555",
+        "contrast": 4.722326803677366
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#353535",
+        "contrast": 7.763387776271407
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3b3b3b",
+        "contrast": 7.109340537073658
+      }
+    ]
+  },
+  {
+    "case": "monomin-darkbackground",
+    "searchNormal": {
+      "file": "monomin-darkbackground-normal.json",
+      "state": "normal",
+      "foreground": "rgb(136, 136, 136)",
+      "background": "#101010",
+      "contrast": 5.3678,
+      "upstreamYellow": 12.0341,
+      "upstreamNeutral": 10.4822
+    },
+    "searchStates": [
+      {
+        "file": "monomin-darkbackground-chat.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.0341,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-editor.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.0341,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-hover.json",
+        "state": "hover",
+        "foreground": "rgb(234, 234, 234)",
+        "background": "#101010",
+        "contrast": 15.8166,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-hover.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.0341,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-normal.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.0341,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-selected.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-selection.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#101010",
+        "contrast": 5.3678,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      },
+      {
+        "file": "monomin-darkbackground-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.0341,
+        "upstreamYellow": 12.0341,
+        "upstreamNeutral": 10.4822
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "16,16,16",
+        "contrast": 12.034131409862068
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "16,16,16",
+        "contrast": 12.034131409862068
+      },
+      {
+        "class": "mtk9 currentFindMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "49,49,49",
+        "contrast": 8.22739797335629
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "16,16,16",
+        "contrast": 12.034131409862068
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "16,16,16",
+        "contrast": 12.034131409862068
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "16,16,16",
+        "contrast": 12.034131409862068
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.034131409862068
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.034131409862068
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#101010",
+        "contrast": 12.034131409862068
+      }
+    ]
+  },
+  {
+    "case": "monomin-infoforeground",
+    "searchNormal": {
+      "file": "monomin-infoforeground-normal.json",
+      "state": "normal",
+      "foreground": "rgb(136, 136, 136)",
+      "background": "#353535",
+      "contrast": 3.4628,
+      "upstreamYellow": 7.7634,
+      "upstreamNeutral": 6.7622
+    },
+    "searchStates": [
+      {
+        "file": "monomin-infoforeground-editor.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-infoforeground-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3c3c3c",
+        "contrast": 6.9522,
+        "upstreamYellow": 6.9522,
+        "upstreamNeutral": 6.0556
+      },
+      {
+        "file": "monomin-infoforeground-hover.json",
+        "state": "hover",
+        "foreground": "rgb(234, 234, 234)",
+        "background": "#3e3e3e",
+        "contrast": 8.89,
+        "upstreamYellow": 6.764,
+        "upstreamNeutral": 5.8917
+      },
+      {
+        "file": "monomin-infoforeground-hover.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-infoforeground-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-infoforeground-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3e3e3e",
+        "contrast": 6.764,
+        "upstreamYellow": 6.764,
+        "upstreamNeutral": 5.8917
+      },
+      {
+        "file": "monomin-infoforeground-normal.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-infoforeground-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3e3e3e",
+        "contrast": 6.764,
+        "upstreamYellow": 6.764,
+        "upstreamNeutral": 5.8917
+      },
+      {
+        "file": "monomin-infoforeground-selected.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-infoforeground-selection.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#353535",
+        "contrast": 3.4628,
+        "upstreamYellow": 7.7634,
+        "upstreamNeutral": 6.7622
+      },
+      {
+        "file": "monomin-infoforeground-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#3c3c3c",
+        "contrast": 6.9522,
+        "upstreamYellow": 6.9522,
+        "upstreamNeutral": 6.0556
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "80,80,80",
+        "contrast": 5.099543385851661
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "80,80,80",
+        "contrast": 5.099543385851661
+      },
+      {
+        "class": "mtk9 currentFindMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "80,80,80",
+        "contrast": 5.099543385851661
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "87,87,87",
+        "contrast": 4.570044738842956
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "87,87,87",
+        "contrast": 4.570044738842956
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "87,87,87",
+        "contrast": 4.570044738842956
+      }
+    ]
+  },
+  {
+    "case": "monomin-lightbackground",
+    "searchNormal": {
+      "file": "monomin-lightbackground-normal.json",
+      "state": "normal",
+      "foreground": "rgb(136, 136, 136)",
+      "background": "#eaeaea",
+      "contrast": 2.9466,
+      "upstreamYellow": 1.3143,
+      "upstreamNeutral": 1.5089
+    },
+    "searchStates": [
+      {
+        "file": "monomin-lightbackground-chat.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-editor.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-hover.json",
+        "state": "hover",
+        "foreground": "rgb(234, 234, 234)",
+        "background": "#eaeaea",
+        "contrast": 1,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-hover.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-normal.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-selected.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-selection.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#eaeaea",
+        "contrast": 2.9466,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      },
+      {
+        "file": "monomin-lightbackground-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143,
+        "upstreamYellow": 1.3143,
+        "upstreamNeutral": 1.5089
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "234,234,234",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "234,234,234",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "class": "mtk9 currentFindMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "234,234,234",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "234,234,234",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "234,234,234",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "234,234,234",
+        "contrast": 1.3143144004299883
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143144004299883
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#eaeaea",
+        "contrast": 1.3143144004299883
+      }
+    ]
+  },
+  {
+    "case": "monomin-lowalpha",
+    "searchNormal": {
+      "file": "monomin-lowalpha-normal.json",
+      "state": "normal",
+      "foreground": "rgb(136, 136, 136)",
+      "background": "#202020",
+      "contrast": 4.615,
+      "upstreamYellow": 10.3466,
+      "upstreamNeutral": 9.0123
+    },
+    "searchStates": [
+      {
+        "file": "monomin-lowalpha-chat.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-chat.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#282828",
+        "contrast": 9.351,
+        "upstreamYellow": 9.351,
+        "upstreamNeutral": 8.1451
+      },
+      {
+        "file": "monomin-lowalpha-editor.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-editor.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#282828",
+        "contrast": 9.351,
+        "upstreamYellow": 9.351,
+        "upstreamNeutral": 8.1451
+      },
+      {
+        "file": "monomin-lowalpha-hover.json",
+        "state": "hover",
+        "foreground": "rgb(234, 234, 234)",
+        "background": "#2a2a2a",
+        "contrast": 11.9685,
+        "upstreamYellow": 9.1063,
+        "upstreamNeutral": 7.9319
+      },
+      {
+        "file": "monomin-lowalpha-hover.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-keyboard.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-keyboard.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#2a2a2a",
+        "contrast": 9.1063,
+        "upstreamYellow": 9.1063,
+        "upstreamNeutral": 7.9319
+      },
+      {
+        "file": "monomin-lowalpha-normal.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-selected.json",
+        "state": "selected-keyboard-focus",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#2a2a2a",
+        "contrast": 9.1063,
+        "upstreamYellow": 9.1063,
+        "upstreamNeutral": 7.9319
+      },
+      {
+        "file": "monomin-lowalpha-selected.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-selection.json",
+        "state": "normal",
+        "foreground": "rgb(136, 136, 136)",
+        "background": "#202020",
+        "contrast": 4.615,
+        "upstreamYellow": 10.3466,
+        "upstreamNeutral": 9.0123
+      },
+      {
+        "file": "monomin-lowalpha-selection.json",
+        "state": "selected-inactive",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#282828",
+        "contrast": 9.351,
+        "upstreamYellow": 9.351,
+        "upstreamNeutral": 8.1451
+      }
+    ],
+    "editorPixelContrast": [
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "42,42,42",
+        "contrast": 9.077663244841151
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "42,42,42",
+        "contrast": 9.077663244841151
+      },
+      {
+        "class": "mtk9 currentFindMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "62,62,62",
+        "contrast": 6.764279146496202
+      },
+      {
+        "class": "mtk3 mtki findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "51,51,51",
+        "contrast": 7.990656261876635
+      },
+      {
+        "class": "mtk5 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "51,51,51",
+        "contrast": 7.990656261876635
+      },
+      {
+        "class": "mtk9 findMatchInline findMatchInline",
+        "fg": "rgb(248, 198, 107)",
+        "bg": "51,51,51",
+        "contrast": 7.990656261876635
+      }
+    ],
+    "chatMeasured": [
+      {
+        "type": "chat-find-current-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#282828",
+        "contrast": 9.303239632183772
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#202020",
+        "contrast": 10.34659928721741
+      },
+      {
+        "type": "chat-find-other-match",
+        "foreground": "rgb(248, 198, 107)",
+        "background": "#262626",
+        "contrast": 9.551790576856828
+      }
+    ]
+  }
+]

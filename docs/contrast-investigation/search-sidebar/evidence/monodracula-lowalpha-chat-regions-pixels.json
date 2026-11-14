@@ -1,0 +1,149 @@
+[
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 490,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row focused selected;selected=true;hover=false",
+    "foreground": "rgb(189, 147, 249)",
+    "backgroundMode": "49,50,59",
+    "pixels": 405,
+    "contrast": 5.2758943910703975
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 475,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 471,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 464,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 469,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 490,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 469,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 475,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 471,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 464,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 469,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 469,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 459,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "41,42,51",
+    "pixels": 475,
+    "contrast": 2.579501675788357
+  },
+  {
+    "classes": "mtk5 findMatchInline findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "55,56,65",
+    "pixels": 545,
+    "contrast": 10.4148843895673
+  },
+  {
+    "classes": "mtk10 findMatchInline findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "55,56,65",
+    "pixels": 171,
+    "contrast": 10.4148843895673
+  },
+  {
+    "classes": "mtk10 currentFindMatchInline findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "75,76,84",
+    "pixels": 171,
+    "contrast": 7.636466568944279
+  },
+  {
+    "classes": "mtk3 mtki findMatchInline findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "71,73,83",
+    "pixels": 487,
+    "contrast": 8.011230811522504
+  },
+  {
+    "classes": "mtk5 findMatchInline findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "61,63,74",
+    "pixels": 545,
+    "contrast": 9.357685150697012
+  },
+  {
+    "classes": "mtk10 findMatchInline findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "61,63,74",
+    "pixels": 537,
+    "contrast": 9.357685150697012
+  }
+]

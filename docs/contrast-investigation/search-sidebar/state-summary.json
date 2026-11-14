@@ -1,0 +1,1253 @@
+[
+  {
+    "file": "dark-modern-chat.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#724329",
+    "contrast": 5.1158,
+    "upstreamYellow": 7.3522,
+    "upstreamNeutral": 4.5258
+  },
+  {
+    "file": "dark-modern-editor.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#724329",
+    "contrast": 5.1158,
+    "upstreamYellow": 7.3522,
+    "upstreamNeutral": 4.5258
+  },
+  {
+    "file": "dark-modern-hover.json",
+    "state": "hover",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#693d1f",
+    "contrast": 5.7311,
+    "upstreamYellow": 8.2364,
+    "upstreamNeutral": 5.0701
+  },
+  {
+    "file": "dark-modern-hover.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "#50453f",
+    "contrast": 9.3243,
+    "upstreamYellow": 8.3444,
+    "upstreamNeutral": 5.1366
+  },
+  {
+    "file": "dark-modern-normal.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(255, 255, 255)",
+    "background": "#50453f",
+    "contrast": 9.3243,
+    "upstreamYellow": 8.3444,
+    "upstreamNeutral": 5.1366
+  },
+  {
+    "file": "dark-modern-selected.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-selection.json",
+    "state": "normal",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#5d2e10",
+    "contrast": 6.9786,
+    "upstreamYellow": 10.0294,
+    "upstreamNeutral": 6.1738
+  },
+  {
+    "file": "dark-modern-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(204, 204, 204)",
+    "background": "#724329",
+    "contrast": 5.1158,
+    "upstreamYellow": 7.3522,
+    "upstreamNeutral": 4.5258
+  },
+  {
+    "file": "monodracula-baseline-chat.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#45474e",
+    "contrast": 3.8397,
+    "upstreamYellow": 8.2894,
+    "upstreamNeutral": 5.1027
+  },
+  {
+    "file": "monodracula-baseline-editor.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#45474e",
+    "contrast": 3.8397,
+    "upstreamYellow": 8.2894,
+    "upstreamNeutral": 5.1027
+  },
+  {
+    "file": "monodracula-baseline-hover.json",
+    "state": "hover",
+    "foreground": "rgb(252, 252, 250)",
+    "background": "#484a50",
+    "contrast": 8.6647,
+    "upstreamYellow": 7.9651,
+    "upstreamNeutral": 4.9031
+  },
+  {
+    "file": "monodracula-baseline-hover.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#484a50",
+    "contrast": 3.6895,
+    "upstreamYellow": 7.9651,
+    "upstreamNeutral": 4.9031
+  },
+  {
+    "file": "monodracula-baseline-normal.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#484a50",
+    "contrast": 3.6895,
+    "upstreamYellow": 7.9651,
+    "upstreamNeutral": 4.9031
+  },
+  {
+    "file": "monodracula-baseline-selected.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-selection.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-baseline-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#45474e",
+    "contrast": 3.8397,
+    "upstreamYellow": 8.2894,
+    "upstreamNeutral": 5.1027
+  },
+  {
+    "file": "monodracula-darkbackground-chat.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#1d1f28",
+    "contrast": 6.8069,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-editor.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#1d1f28",
+    "contrast": 6.8069,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-hover.json",
+    "state": "hover",
+    "foreground": "rgb(252, 252, 250)",
+    "background": "#1d1f28",
+    "contrast": 15.9856,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-hover.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#1d1f28",
+    "contrast": 6.8069,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-normal.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#1d1f28",
+    "contrast": 6.8069,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-selected.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-selection.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#1d1f28",
+    "contrast": 2.9716,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-darkbackground-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#1d1f28",
+    "contrast": 6.8069,
+    "upstreamYellow": 14.695,
+    "upstreamNeutral": 9.0458
+  },
+  {
+    "file": "monodracula-infoforeground-editor.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-infoforeground-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#45474e",
+    "contrast": 3.8397,
+    "upstreamYellow": 8.2894,
+    "upstreamNeutral": 5.1027
+  },
+  {
+    "file": "monodracula-infoforeground-hover.json",
+    "state": "hover",
+    "foreground": "rgb(252, 252, 250)",
+    "background": "#484a50",
+    "contrast": 8.6647,
+    "upstreamYellow": 7.9651,
+    "upstreamNeutral": 4.9031
+  },
+  {
+    "file": "monodracula-infoforeground-hover.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-infoforeground-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-infoforeground-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#484a50",
+    "contrast": 3.6895,
+    "upstreamYellow": 7.9651,
+    "upstreamNeutral": 4.9031
+  },
+  {
+    "file": "monodracula-infoforeground-normal.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-infoforeground-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#484a50",
+    "contrast": 3.6895,
+    "upstreamYellow": 7.9651,
+    "upstreamNeutral": 4.9031
+  },
+  {
+    "file": "monodracula-infoforeground-selected.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-infoforeground-selection.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#3e4048",
+    "contrast": 1.8658,
+    "upstreamYellow": 9.2269,
+    "upstreamNeutral": 5.6798
+  },
+  {
+    "file": "monodracula-infoforeground-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#45474e",
+    "contrast": 3.8397,
+    "upstreamYellow": 8.2894,
+    "upstreamNeutral": 5.1027
+  },
+  {
+    "file": "monodracula-lightbackground-chat.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#fcfcfa",
+    "contrast": 2.3485,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-editor.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#fcfcfa",
+    "contrast": 2.3485,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-hover.json",
+    "state": "hover",
+    "foreground": "rgb(252, 252, 250)",
+    "background": "#fcfcfa",
+    "contrast": 1,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-hover.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#fcfcfa",
+    "contrast": 2.3485,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-normal.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#fcfcfa",
+    "contrast": 2.3485,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-selected.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-selection.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#fcfcfa",
+    "contrast": 5.3795,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lightbackground-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#fcfcfa",
+    "contrast": 2.3485,
+    "upstreamYellow": 1.0878,
+    "upstreamNeutral": 1.7672
+  },
+  {
+    "file": "monodracula-lowalpha-chat.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#30323a",
+    "contrast": 5.3178,
+    "upstreamYellow": 11.4802,
+    "upstreamNeutral": 7.0669
+  },
+  {
+    "file": "monodracula-lowalpha-editor.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#30323a",
+    "contrast": 5.3178,
+    "upstreamYellow": 11.4802,
+    "upstreamNeutral": 7.0669
+  },
+  {
+    "file": "monodracula-lowalpha-hover.json",
+    "state": "hover",
+    "foreground": "rgb(252, 252, 250)",
+    "background": "#33353c",
+    "contrast": 11.9784,
+    "upstreamYellow": 11.0113,
+    "upstreamNeutral": 6.7782
+  },
+  {
+    "file": "monodracula-lowalpha-hover.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#33353c",
+    "contrast": 5.1005,
+    "upstreamYellow": 11.0113,
+    "upstreamNeutral": 6.7782
+  },
+  {
+    "file": "monodracula-lowalpha-normal.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#33353c",
+    "contrast": 5.1005,
+    "upstreamYellow": 11.0113,
+    "upstreamNeutral": 6.7782
+  },
+  {
+    "file": "monodracula-lowalpha-selected.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-selection.json",
+    "state": "normal",
+    "foreground": "rgb(94, 104, 134)",
+    "background": "#282a33",
+    "contrast": 2.5859,
+    "upstreamYellow": 12.7875,
+    "upstreamNeutral": 7.8716
+  },
+  {
+    "file": "monodracula-lowalpha-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(189, 147, 249)",
+    "background": "#30323a",
+    "contrast": 5.3178,
+    "upstreamYellow": 11.4802,
+    "upstreamNeutral": 7.0669
+  },
+  {
+    "file": "monomin-baseline-chat.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3c3c3c",
+    "contrast": 6.9522,
+    "upstreamYellow": 6.9522,
+    "upstreamNeutral": 6.0556
+  },
+  {
+    "file": "monomin-baseline-editor.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3c3c3c",
+    "contrast": 6.9522,
+    "upstreamYellow": 6.9522,
+    "upstreamNeutral": 6.0556
+  },
+  {
+    "file": "monomin-baseline-hover.json",
+    "state": "hover",
+    "foreground": "rgb(234, 234, 234)",
+    "background": "#3e3e3e",
+    "contrast": 8.89,
+    "upstreamYellow": 6.764,
+    "upstreamNeutral": 5.8917
+  },
+  {
+    "file": "monomin-baseline-hover.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3e3e3e",
+    "contrast": 6.764,
+    "upstreamYellow": 6.764,
+    "upstreamNeutral": 5.8917
+  },
+  {
+    "file": "monomin-baseline-normal.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3e3e3e",
+    "contrast": 6.764,
+    "upstreamYellow": 6.764,
+    "upstreamNeutral": 5.8917
+  },
+  {
+    "file": "monomin-baseline-selected.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-selection.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-baseline-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3c3c3c",
+    "contrast": 6.9522,
+    "upstreamYellow": 6.9522,
+    "upstreamNeutral": 6.0556
+  },
+  {
+    "file": "monomin-darkbackground-chat.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#101010",
+    "contrast": 12.0341,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-editor.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#101010",
+    "contrast": 12.0341,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-hover.json",
+    "state": "hover",
+    "foreground": "rgb(234, 234, 234)",
+    "background": "#101010",
+    "contrast": 15.8166,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-hover.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#101010",
+    "contrast": 12.0341,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-normal.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#101010",
+    "contrast": 12.0341,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-selected.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-selection.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#101010",
+    "contrast": 5.3678,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-darkbackground-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#101010",
+    "contrast": 12.0341,
+    "upstreamYellow": 12.0341,
+    "upstreamNeutral": 10.4822
+  },
+  {
+    "file": "monomin-infoforeground-editor.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-infoforeground-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3c3c3c",
+    "contrast": 6.9522,
+    "upstreamYellow": 6.9522,
+    "upstreamNeutral": 6.0556
+  },
+  {
+    "file": "monomin-infoforeground-hover.json",
+    "state": "hover",
+    "foreground": "rgb(234, 234, 234)",
+    "background": "#3e3e3e",
+    "contrast": 8.89,
+    "upstreamYellow": 6.764,
+    "upstreamNeutral": 5.8917
+  },
+  {
+    "file": "monomin-infoforeground-hover.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-infoforeground-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-infoforeground-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3e3e3e",
+    "contrast": 6.764,
+    "upstreamYellow": 6.764,
+    "upstreamNeutral": 5.8917
+  },
+  {
+    "file": "monomin-infoforeground-normal.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-infoforeground-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3e3e3e",
+    "contrast": 6.764,
+    "upstreamYellow": 6.764,
+    "upstreamNeutral": 5.8917
+  },
+  {
+    "file": "monomin-infoforeground-selected.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-infoforeground-selection.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#353535",
+    "contrast": 3.4628,
+    "upstreamYellow": 7.7634,
+    "upstreamNeutral": 6.7622
+  },
+  {
+    "file": "monomin-infoforeground-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#3c3c3c",
+    "contrast": 6.9522,
+    "upstreamYellow": 6.9522,
+    "upstreamNeutral": 6.0556
+  },
+  {
+    "file": "monomin-lightbackground-chat.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#eaeaea",
+    "contrast": 1.3143,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-editor.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#eaeaea",
+    "contrast": 1.3143,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-hover.json",
+    "state": "hover",
+    "foreground": "rgb(234, 234, 234)",
+    "background": "#eaeaea",
+    "contrast": 1,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-hover.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#eaeaea",
+    "contrast": 1.3143,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-normal.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#eaeaea",
+    "contrast": 1.3143,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-selected.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-selection.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#eaeaea",
+    "contrast": 2.9466,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lightbackground-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#eaeaea",
+    "contrast": 1.3143,
+    "upstreamYellow": 1.3143,
+    "upstreamNeutral": 1.5089
+  },
+  {
+    "file": "monomin-lowalpha-chat.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-chat.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#282828",
+    "contrast": 9.351,
+    "upstreamYellow": 9.351,
+    "upstreamNeutral": 8.1451
+  },
+  {
+    "file": "monomin-lowalpha-editor.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-editor.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#282828",
+    "contrast": 9.351,
+    "upstreamYellow": 9.351,
+    "upstreamNeutral": 8.1451
+  },
+  {
+    "file": "monomin-lowalpha-hover.json",
+    "state": "hover",
+    "foreground": "rgb(234, 234, 234)",
+    "background": "#2a2a2a",
+    "contrast": 11.9685,
+    "upstreamYellow": 9.1063,
+    "upstreamNeutral": 7.9319
+  },
+  {
+    "file": "monomin-lowalpha-hover.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-keyboard.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-keyboard.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#2a2a2a",
+    "contrast": 9.1063,
+    "upstreamYellow": 9.1063,
+    "upstreamNeutral": 7.9319
+  },
+  {
+    "file": "monomin-lowalpha-normal.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-selected.json",
+    "state": "selected-keyboard-focus",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#2a2a2a",
+    "contrast": 9.1063,
+    "upstreamYellow": 9.1063,
+    "upstreamNeutral": 7.9319
+  },
+  {
+    "file": "monomin-lowalpha-selected.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-selection.json",
+    "state": "normal",
+    "foreground": "rgb(136, 136, 136)",
+    "background": "#202020",
+    "contrast": 4.615,
+    "upstreamYellow": 10.3466,
+    "upstreamNeutral": 9.0123
+  },
+  {
+    "file": "monomin-lowalpha-selection.json",
+    "state": "selected-inactive",
+    "foreground": "rgb(248, 198, 107)",
+    "background": "#282828",
+    "contrast": 9.351,
+    "upstreamYellow": 9.351,
+    "upstreamNeutral": 8.1451
+  }
+]

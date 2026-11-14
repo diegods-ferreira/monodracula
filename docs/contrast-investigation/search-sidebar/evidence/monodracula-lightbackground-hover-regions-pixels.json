@@ -1,0 +1,149 @@
+[
+  {
+    "classes": "monaco-list-row;selected=false;hover=true",
+    "foreground": "rgb(252, 252, 250)",
+    "backgroundMode": "252,252,250",
+    "pixels": 704,
+    "contrast": 1
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 68,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 337,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 471,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 464,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 469,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 490,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 469,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 475,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 471,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 464,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 469,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 469,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 459,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(94, 104, 134)",
+    "backgroundMode": "252,252,250",
+    "pixels": 475,
+    "contrast": 5.379477951980568
+  },
+  {
+    "classes": "mtk5 findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "252,252,250",
+    "pixels": 545,
+    "contrast": 1.0878295878141213
+  },
+  {
+    "classes": "mtk10 findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "252,252,250",
+    "pixels": 545,
+    "contrast": 1.0878295878141213
+  },
+  {
+    "classes": "mtk10 findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "252,252,250",
+    "pixels": 538,
+    "contrast": 1.0878295878141213
+  },
+  {
+    "classes": "mtk3 mtki findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "252,252,250",
+    "pixels": 532,
+    "contrast": 1.0878295878141213
+  },
+  {
+    "classes": "mtk5 findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "252,252,250",
+    "pixels": 545,
+    "contrast": 1.0878295878141213
+  },
+  {
+    "classes": "mtk10 findMatchInline",
+    "foreground": "rgb(241, 250, 140)",
+    "backgroundMode": "252,252,250",
+    "pixels": 537,
+    "contrast": 1.0878295878141213
+  }
+]

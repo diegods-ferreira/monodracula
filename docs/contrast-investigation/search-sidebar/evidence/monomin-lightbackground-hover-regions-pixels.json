@@ -1,0 +1,149 @@
+[
+  {
+    "classes": "monaco-list-row;selected=false;hover=true",
+    "foreground": "rgb(234, 234, 234)",
+    "backgroundMode": "234,234,234",
+    "pixels": 704,
+    "contrast": 1
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 68,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 337,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 471,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 464,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 469,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 490,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 469,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 475,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 471,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 464,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 469,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 469,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 459,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "234,234,234",
+    "pixels": 475,
+    "contrast": 2.946596371113403
+  },
+  {
+    "classes": "mtk5 findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "234,234,234",
+    "pixels": 545,
+    "contrast": 1.3143144004299883
+  },
+  {
+    "classes": "mtk9 findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "234,234,234",
+    "pixels": 545,
+    "contrast": 1.3143144004299883
+  },
+  {
+    "classes": "mtk9 findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "234,234,234",
+    "pixels": 538,
+    "contrast": 1.3143144004299883
+  },
+  {
+    "classes": "mtk3 mtki findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "234,234,234",
+    "pixels": 532,
+    "contrast": 1.3143144004299883
+  },
+  {
+    "classes": "mtk5 findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "234,234,234",
+    "pixels": 545,
+    "contrast": 1.3143144004299883
+  },
+  {
+    "classes": "mtk9 findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "234,234,234",
+    "pixels": 537,
+    "contrast": 1.3143144004299883
+  }
+]

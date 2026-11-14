@@ -1,0 +1,149 @@
+[
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 490,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row focused selected;selected=true;hover=false",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "40,40,40",
+    "pixels": 405,
+    "contrast": 9.324218630468176
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 475,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 471,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 464,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 469,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 490,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 469,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 475,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 471,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 464,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 469,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 469,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 459,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(136, 136, 136)",
+    "backgroundMode": "32,32,32",
+    "pixels": 475,
+    "contrast": 4.596270336764878
+  },
+  {
+    "classes": "mtk5 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "42,42,42",
+    "pixels": 545,
+    "contrast": 9.077663244841151
+  },
+  {
+    "classes": "mtk9 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "42,42,42",
+    "pixels": 545,
+    "contrast": 9.077663244841151
+  },
+  {
+    "classes": "mtk9 currentFindMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "62,62,62",
+    "pixels": 538,
+    "contrast": 6.764279146496202
+  },
+  {
+    "classes": "mtk3 mtki findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "60,60,60",
+    "pixels": 488,
+    "contrast": 6.976448190966763
+  },
+  {
+    "classes": "mtk5 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "51,51,51",
+    "pixels": 545,
+    "contrast": 7.990656261876635
+  },
+  {
+    "classes": "mtk9 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "51,51,51",
+    "pixels": 537,
+    "contrast": 7.990656261876635
+  }
+]

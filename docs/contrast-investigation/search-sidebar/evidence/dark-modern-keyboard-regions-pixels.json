@@ -1,0 +1,149 @@
+[
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 390,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row focused selected;selected=true;hover=false",
+    "foreground": "rgb(255, 255, 255)",
+    "backgroundMode": "80,68,63",
+    "pixels": 344,
+    "contrast": 9.376172730198775
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 377,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 371,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 366,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 371,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 390,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 369,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 377,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 371,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 366,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 371,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 371,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 361,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "monaco-list-row;selected=false;hover=false",
+    "foreground": "rgb(204, 204, 204)",
+    "backgroundMode": "93,46,16",
+    "pixels": 377,
+    "contrast": 7.016401364314252
+  },
+  {
+    "classes": "mtk19 findMatchInline",
+    "foreground": "rgb(79, 193, 255)",
+    "backgroundMode": "109,68,43",
+    "pixels": 543,
+    "contrast": 4.141936404804591
+  },
+  {
+    "classes": "mtk13 findMatchInline",
+    "foreground": "rgb(206, 145, 120)",
+    "backgroundMode": "121,76,48",
+    "pixels": 545,
+    "contrast": 2.749916280648828
+  },
+  {
+    "classes": "mtk13 findMatchInline",
+    "foreground": "rgb(206, 145, 120)",
+    "backgroundMode": "109,68,43",
+    "pixels": 538,
+    "contrast": 3.163143218163583
+  },
+  {
+    "classes": "mtk5 findMatchInline",
+    "foreground": "rgb(106, 153, 85)",
+    "backgroundMode": "103,62,38",
+    "pixels": 548,
+    "contrast": 2.74681222851115
+  },
+  {
+    "classes": "mtk19 findMatchInline",
+    "foreground": "rgb(79, 193, 255)",
+    "backgroundMode": "103,62,38",
+    "pixels": 544,
+    "contrast": 4.535993407296513
+  },
+  {
+    "classes": "mtk13 findMatchInline",
+    "foreground": "rgb(206, 145, 120)",
+    "backgroundMode": "103,62,38",
+    "pixels": 545,
+    "contrast": 3.4640794502014094
+  }
+]

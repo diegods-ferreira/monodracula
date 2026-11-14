@@ -1,0 +1,304 @@
+{
+  "version": "1.146.0",
+  "app": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app",
+  "bundles": {
+    "js": "de23a500f770ad8d236af33eb2b0080c7fba7f2e0e2c5e4a27ce5ec75d147e9a",
+    "css": "3715919409d1ac177f8d52c8f35afad0c07ff88092708fc21e155567d4076140"
+  },
+  "registrations": [
+    {
+      "id": "editor.findMatchBackground",
+      "offset": 939119,
+      "code": "ue(\"editor.findMatchBackground\",{light:\"#A8AC94\",dark:\"#515C6A\",hcDark:null,hcLight:null},d(4920,null)),Ysn=ue(\"editor.findMatchForeground\",null,d(4922,null)),Vw=ue(\"editor.findMatchHighlightBackground\",{light:\"#EA5C0055\",dark:\"#EA5C0055\",hcDark:null,hcLight:null},d(4953,null),!0),Xsn=ue(\"editor.findMatchHighlightForeground\",null,d(4955,null),!0),Jsn=ue(\"editor.findRangeHighlightBackground\",{dark:\"#3a3d4166\",light:\"#b4b4b44d\",hcDark:null,hcLight:null},d(4956,null),!0),QAa=ue(\"editor.findMatchBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4921,null)),QN=ue(\"editor.findMatchHighlightBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4954,null)),Zsn=ue(\"editor.findRangeHighlightBorder"
+    },
+    {
+      "id": "editor.findMatchForeground",
+      "offset": 939227,
+      "code": "ue(\"editor.findMatchForeground\",null,d(4922,null)),Vw=ue(\"editor.findMatchHighlightBackground\",{light:\"#EA5C0055\",dark:\"#EA5C0055\",hcDark:null,hcLight:null},d(4953,null),!0),Xsn=ue(\"editor.findMatchHighlightForeground\",null,d(4955,null),!0),Jsn=ue(\"editor.findRangeHighlightBackground\",{dark:\"#3a3d4166\",light:\"#b4b4b44d\",hcDark:null,hcLight:null},d(4956,null),!0),QAa=ue(\"editor.findMatchBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4921,null)),QN=ue(\"editor.findMatchHighlightBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4954,null)),Zsn=ue(\"editor.findRangeHighlightBorder\",{dark:null,light:null,hcDark:Li(va,.4),hcLight:Li(va,.4)},d(4957,null),!0),bXt=ue(\"editor.hoverHighlightBa"
+    },
+    {
+      "id": "editor.findMatchHighlightBackground",
+      "offset": 939281,
+      "code": "ue(\"editor.findMatchHighlightBackground\",{light:\"#EA5C0055\",dark:\"#EA5C0055\",hcDark:null,hcLight:null},d(4953,null),!0),Xsn=ue(\"editor.findMatchHighlightForeground\",null,d(4955,null),!0),Jsn=ue(\"editor.findRangeHighlightBackground\",{dark:\"#3a3d4166\",light:\"#b4b4b44d\",hcDark:null,hcLight:null},d(4956,null),!0),QAa=ue(\"editor.findMatchBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4921,null)),QN=ue(\"editor.findMatchHighlightBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4954,null)),Zsn=ue(\"editor.findRangeHighlightBorder\",{dark:null,light:null,hcDark:Li(va,.4),hcLight:Li(va,.4)},d(4957,null),!0),bXt=ue(\"editor.hoverHighlightBackground\",{light:\"#ADD6FF26\",dark:\"#264f7840\",hcDark:\""
+    },
+    {
+      "id": "editor.findMatchHighlightForeground",
+      "offset": 939405,
+      "code": "ue(\"editor.findMatchHighlightForeground\",null,d(4955,null),!0),Jsn=ue(\"editor.findRangeHighlightBackground\",{dark:\"#3a3d4166\",light:\"#b4b4b44d\",hcDark:null,hcLight:null},d(4956,null),!0),QAa=ue(\"editor.findMatchBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4921,null)),QN=ue(\"editor.findMatchHighlightBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4954,null)),Zsn=ue(\"editor.findRangeHighlightBorder\",{dark:null,light:null,hcDark:Li(va,.4),hcLight:Li(va,.4)},d(4957,null),!0),bXt=ue(\"editor.hoverHighlightBackground\",{light:\"#ADD6FF26\",dark:\"#264f7840\",hcDark:\"#ADD6FF26\",hcLight:null},d(4962,null),!0),uq=ue(\"editorHoverWidget.background\",Yu,d(4959,null)),Aue=ue(\"editorHoverWidget.fo"
+    },
+    {
+      "id": "editor.findMatchBorder",
+      "offset": 939596,
+      "code": "ue(\"editor.findMatchBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4921,null)),QN=ue(\"editor.findMatchHighlightBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4954,null)),Zsn=ue(\"editor.findRangeHighlightBorder\",{dark:null,light:null,hcDark:Li(va,.4),hcLight:Li(va,.4)},d(4957,null),!0),bXt=ue(\"editor.hoverHighlightBackground\",{light:\"#ADD6FF26\",dark:\"#264f7840\",hcDark:\"#ADD6FF26\",hcLight:null},d(4962,null),!0),uq=ue(\"editorHoverWidget.background\",Yu,d(4959,null)),Aue=ue(\"editorHoverWidget.foreground\",bD,d(4961,null)),iQ=ue(\"editorHoverWidget.border\",e_,d(4960,null)),YAa=ue(\"editorHoverWidget.statusBarBackground\",{dark:Hb(uq,.2),light:lh(uq,.05),hcDark:Yu,hcLight:Yu},d(4983,null)"
+    },
+    {
+      "id": "editor.findMatchHighlightBorder",
+      "offset": 939685,
+      "code": "ue(\"editor.findMatchHighlightBorder\",{light:null,dark:null,hcDark:va,hcLight:va},d(4954,null)),Zsn=ue(\"editor.findRangeHighlightBorder\",{dark:null,light:null,hcDark:Li(va,.4),hcLight:Li(va,.4)},d(4957,null),!0),bXt=ue(\"editor.hoverHighlightBackground\",{light:\"#ADD6FF26\",dark:\"#264f7840\",hcDark:\"#ADD6FF26\",hcLight:null},d(4962,null),!0),uq=ue(\"editorHoverWidget.background\",Yu,d(4959,null)),Aue=ue(\"editorHoverWidget.foreground\",bD,d(4961,null)),iQ=ue(\"editorHoverWidget.border\",e_,d(4960,null)),YAa=ue(\"editorHoverWidget.statusBarBackground\",{dark:Hb(uq,.2),light:lh(uq,.05),hcDark:Yu,hcLight:Yu},d(4983,null)),SXt=ue(\"editorInlayHint.foreground\",{dark:\"#969696\",light:\"#969696\",hcDark:nt.white,hcL"
+    },
+    {
+      "id": "editorOverviewRuler.findMatchForeground",
+      "offset": 945091,
+      "code": "ue(\"editorOverviewRuler.findMatchForeground\",{dark:\"#d186167e\",light:\"#d186167e\",hcDark:\"#AB5A00\",hcLight:\"#AB5A00\"},d(4973,null),!0),qze=ue(\"editorOverviewRuler.selectionHighlightForeground\",\"#A0A0A0CC\",d(4975,null),!0),lan=ue(\"problemsErrorIcon.foreground\",BI,d(4976,null)),dan=ue(\"problemsWarningIcon.foreground\",Wb,d(4978,null)),uan=ue(\"problemsInfoIcon.foreground\",Bg,d(4977,null));var Kze=ue(\"charts.foreground\",Ko,d(4883,null)),CXt=ue(\"charts.lines\",Li(Ko,.5),d(4885,null)),ute=ue(\"charts.red\",BI,d(4888,null)),pte=ue(\"charts.blue\",Bg,d(4882,null)),DEe=ue(\"charts.yellow\",Wb,d(4889,null)),pan=ue(\"charts.orange\",{dark:\"#D18616\",light:\"#D18616\",hcDark:\"#AB5A00\",hcLight:\"#0F4A85\"},d(4886,null))"
+    },
+    {
+      "id": "list.focusBackground",
+      "offset": 946269,
+      "code": "ue(\"list.focusBackground\",null,d(5058,null)),$ze=ue(\"list.focusForeground\",null,d(5059,null)),Owt=ue(\"list.focusOutline\",{dark:Td,light:Td,hcDark:va,hcLight:va},d(5061,null)),han=ue(\"list.focusAndSelectionOutline\",null,d(5057,null)),AE=ue(\"list.activeSelectionBackground\",{dark:\"#04395E\",light:\"#0060C0\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5044,null)),JN=ue(\"list.activeSelectionForeground\",{dark:nt.white,light:nt.white,hcDark:null,hcLight:null},d(5045,null)),kXt=ue(\"list.activeSelectionIconForeground\",null,d(5046,null)),Vb=ue(\"list.inactiveSelectionBackground\",{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5066,null)),jze=u"
+    },
+    {
+      "id": "list.focusForeground",
+      "offset": 946318,
+      "code": "ue(\"list.focusForeground\",null,d(5059,null)),Owt=ue(\"list.focusOutline\",{dark:Td,light:Td,hcDark:va,hcLight:va},d(5061,null)),han=ue(\"list.focusAndSelectionOutline\",null,d(5057,null)),AE=ue(\"list.activeSelectionBackground\",{dark:\"#04395E\",light:\"#0060C0\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5044,null)),JN=ue(\"list.activeSelectionForeground\",{dark:nt.white,light:nt.white,hcDark:null,hcLight:null},d(5045,null)),kXt=ue(\"list.activeSelectionIconForeground\",null,d(5046,null)),Vb=ue(\"list.inactiveSelectionBackground\",{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5066,null)),jze=ue(\"list.inactiveSelectionForeground\",null,d(5067,"
+    },
+    {
+      "id": "list.activeSelectionBackground",
+      "offset": 946505,
+      "code": "ue(\"list.activeSelectionBackground\",{dark:\"#04395E\",light:\"#0060C0\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5044,null)),JN=ue(\"list.activeSelectionForeground\",{dark:nt.white,light:nt.white,hcDark:null,hcLight:null},d(5045,null)),kXt=ue(\"list.activeSelectionIconForeground\",null,d(5046,null)),Vb=ue(\"list.inactiveSelectionBackground\",{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5066,null)),jze=ue(\"list.inactiveSelectionForeground\",null,d(5067,null)),man=ue(\"list.inactiveSelectionIconForeground\",null,d(5068,null)),xXt=ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=u"
+    },
+    {
+      "id": "list.activeSelectionForeground",
+      "offset": 946649,
+      "code": "ue(\"list.activeSelectionForeground\",{dark:nt.white,light:nt.white,hcDark:null,hcLight:null},d(5045,null)),kXt=ue(\"list.activeSelectionIconForeground\",null,d(5046,null)),Vb=ue(\"list.inactiveSelectionBackground\",{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5066,null)),jze=ue(\"list.inactiveSelectionForeground\",null,d(5067,null)),man=ue(\"list.inactiveSelectionIconForeground\",null,d(5068,null)),xXt=ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,n"
+    },
+    {
+      "id": "list.activeSelectionIconForeground",
+      "offset": 946759,
+      "code": "ue(\"list.activeSelectionIconForeground\",null,d(5046,null)),Vb=ue(\"list.inactiveSelectionBackground\",{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5066,null)),jze=ue(\"list.inactiveSelectionForeground\",null,d(5067,null)),man=ue(\"list.inactiveSelectionIconForeground\",null,d(5068,null)),xXt=ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,null)),Lue=ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6"
+    },
+    {
+      "id": "list.inactiveSelectionBackground",
+      "offset": 946821,
+      "code": "ue(\"list.inactiveSelectionBackground\",{dark:\"#37373D\",light:\"#E4E6F1\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5066,null)),jze=ue(\"list.inactiveSelectionForeground\",null,d(5067,null)),man=ue(\"list.inactiveSelectionIconForeground\",null,d(5068,null)),xXt=ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,null)),Lue=ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dro"
+    },
+    {
+      "id": "list.inactiveSelectionForeground",
+      "offset": 946968,
+      "code": "ue(\"list.inactiveSelectionForeground\",null,d(5067,null)),man=ue(\"list.inactiveSelectionIconForeground\",null,d(5068,null)),xXt=ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,null)),Lue=ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcD"
+    },
+    {
+      "id": "list.inactiveSelectionIconForeground",
+      "offset": 947029,
+      "code": "ue(\"list.inactiveSelectionIconForeground\",null,d(5068,null)),xXt=ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,null)),Lue=ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightF"
+    },
+    {
+      "id": "list.inactiveFocusBackground",
+      "offset": 947094,
+      "code": "ue(\"list.inactiveFocusBackground\",null,d(5064,null)),gan=ue(\"list.inactiveFocusOutline\",null,d(5065,null)),t_=ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,null)),Lue=ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLig"
+    },
+    {
+      "id": "list.hoverBackground",
+      "offset": 947204,
+      "code": "ue(\"list.hoverBackground\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:nt.white.transparent(.1),hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(5062,null)),Lue=ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLight:Mue},d(5060,null)),van=ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcL"
+    },
+    {
+      "id": "list.hoverForeground",
+      "offset": 947359,
+      "code": "ue(\"list.hoverForeground\",null,d(5063,null)),_Xt=ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLight:Mue},d(5060,null)),van=ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcLight:\"#B5200D\"},d(5043,null)),lA=ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeg"
+    },
+    {
+      "id": "list.dropBackground",
+      "offset": 947408,
+      "code": "ue(\"list.dropBackground\",{dark:\"#062F4A\",light:\"#D6EBFF\",hcDark:null,hcLight:null},d(5048,null)),fan=ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLight:Mue},d(5060,null)),van=ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcLight:\"#B5200D\"},d(5043,null)),lA=ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:nul"
+    },
+    {
+      "id": "list.dropBetweenBackground",
+      "offset": 947509,
+      "code": "ue(\"list.dropBetweenBackground\",{dark:Z$,light:Z$,hcDark:null,hcLight:null},d(5049,null)),Mue=ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLight:Mue},d(5060,null)),van=ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcLight:\"#B5200D\"},d(5043,null)),lA=ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:null,hcLight:null},d(5069,null)),ban=ue(\"listFilterWidget.background\",{light:lh(Yu,0),dark:Hb(Yu,0),hcDa"
+    },
+    {
+      "id": "list.highlightForeground",
+      "offset": 947603,
+      "code": "ue(\"list.highlightForeground\",{dark:\"#2AAAFF\",light:\"#0066BF\",hcDark:Td,hcLight:Td},d(5042,null)),Fwt=ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLight:Mue},d(5060,null)),van=ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcLight:\"#B5200D\"},d(5043,null)),lA=ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:null,hcLight:null},d(5069,null)),ban=ue(\"listFilterWidget.background\",{light:lh(Yu,0),dark:Hb(Yu,0),hcDark:Yu,hcLight:Yu},d(5053,null)),San=ue(\"listFilterWidget.outline\",{dark:nt.transparent,light:n"
+    },
+    {
+      "id": "list.focusHighlightForeground",
+      "offset": 947705,
+      "code": "ue(\"list.focusHighlightForeground\",{dark:Mue,light:_Ee(AE,Mue,\"#BBE7FF\"),hcDark:Mue,hcLight:Mue},d(5060,null)),van=ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcLight:\"#B5200D\"},d(5043,null)),lA=ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:null,hcLight:null},d(5069,null)),ban=ue(\"listFilterWidget.background\",{light:lh(Yu,0),dark:Hb(Yu,0),hcDark:Yu,hcLight:Yu},d(5053,null)),San=ue(\"listFilterWidget.outline\",{dark:nt.transparent,light:nt.transparent,hcDark:\"#f38518\",hcLight:\"#007ACC\"},d(5055,null)),yan=ue(\"listFilterWidget.noMatchesOutl"
+    },
+    {
+      "id": "list.invalidItemForeground",
+      "offset": 947820,
+      "code": "ue(\"list.invalidItemForeground\",{dark:\"#B89500\",light:\"#B89500\",hcDark:\"#B89500\",hcLight:\"#B5200D\"},d(5043,null)),lA=ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:null,hcLight:null},d(5069,null)),ban=ue(\"listFilterWidget.background\",{light:lh(Yu,0),dark:Hb(Yu,0),hcDark:Yu,hcLight:Yu},d(5053,null)),San=ue(\"listFilterWidget.outline\",{dark:nt.transparent,light:nt.transparent,hcDark:\"#f38518\",hcLight:\"#007ACC\"},d(5055,null)),yan=ue(\"listFilterWidget.noMatchesOutline\",{dark:\"#BE1100\",light:\"#BE1100\",hcDark:ho,hcLight:ho},d(5054,null)),Ian=ue(\"listFilterWidget.shadow\",U0,d(5056"
+    },
+    {
+      "id": "list.errorForeground",
+      "offset": 947937,
+      "code": "ue(\"list.errorForeground\",{dark:\"#F88070\",light:\"#B01011\",hcDark:null,hcLight:null},d(5050,null)),oQ=ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:null,hcLight:null},d(5069,null)),ban=ue(\"listFilterWidget.background\",{light:lh(Yu,0),dark:Hb(Yu,0),hcDark:Yu,hcLight:Yu},d(5053,null)),San=ue(\"listFilterWidget.outline\",{dark:nt.transparent,light:nt.transparent,hcDark:\"#f38518\",hcLight:\"#007ACC\"},d(5055,null)),yan=ue(\"listFilterWidget.noMatchesOutline\",{dark:\"#BE1100\",light:\"#BE1100\",hcDark:ho,hcLight:ho},d(5054,null)),Ian=ue(\"listFilterWidget.shadow\",U0,d(5056,null)),wan=ue(\"list.filterMatchBackground\",{dark:Vw,light:Vw,hcDark:null,hcLight:null},d(5051,null)),Can=ue(\"list.fi"
+    },
+    {
+      "id": "list.warningForeground",
+      "offset": 948038,
+      "code": "ue(\"list.warningForeground\",{dark:\"#CCA700\",light:\"#855F00\",hcDark:null,hcLight:null},d(5069,null)),ban=ue(\"listFilterWidget.background\",{light:lh(Yu,0),dark:Hb(Yu,0),hcDark:Yu,hcLight:Yu},d(5053,null)),San=ue(\"listFilterWidget.outline\",{dark:nt.transparent,light:nt.transparent,hcDark:\"#f38518\",hcLight:\"#007ACC\"},d(5055,null)),yan=ue(\"listFilterWidget.noMatchesOutline\",{dark:\"#BE1100\",light:\"#BE1100\",hcDark:ho,hcLight:ho},d(5054,null)),Ian=ue(\"listFilterWidget.shadow\",U0,d(5056,null)),wan=ue(\"list.filterMatchBackground\",{dark:Vw,light:Vw,hcDark:null,hcLight:null},d(5051,null)),Can=ue(\"list.filterMatchBorder\",{dark:QN,light:QN,hcDark:ho,hcLight:va},d(5052,null)),EXt=ue(\"list.deemphasizedForeg"
+    },
+    {
+      "id": "list.filterMatchBackground",
+      "offset": 948532,
+      "code": "ue(\"list.filterMatchBackground\",{dark:Vw,light:Vw,hcDark:null,hcLight:null},d(5051,null)),Can=ue(\"list.filterMatchBorder\",{dark:QN,light:QN,hcDark:ho,hcLight:va},d(5052,null)),EXt=ue(\"list.deemphasizedForeground\",{dark:\"#8C8C8C\",light:\"#8E8E90\",hcDark:\"#A7A8A9\",hcLight:\"#666666\"},d(5047,null)),Qze=ue(\"tree.indentGuidesStroke\",{dark:\"#585858\",light:\"#a9a9a9\",hcDark:\"#a9a9a9\",hcLight:\"#a5a5a5\"},d(5073,null)),kan=ue(\"tree.inactiveIndentGuidesStroke\",Li(Qze,.4),d(5072,null)),xan=ue(\"tree.tableColumnsBorder\",{dark:\"#CCCCCC20\",light:\"#61616120\",hcDark:null,hcLight:null},d(5070,null)),Hwt=ue(\"tree.tableOddRowsBackground\",{dark:Li(Ko,.04),light:Li(Ko,.04),hcDark:null,hcLight:null},d(5071,null)),HMa="
+    },
+    {
+      "id": "list.deemphasizedForeground",
+      "offset": 948712,
+      "code": "ue(\"list.deemphasizedForeground\",{dark:\"#8C8C8C\",light:\"#8E8E90\",hcDark:\"#A7A8A9\",hcLight:\"#666666\"},d(5047,null)),Qze=ue(\"tree.indentGuidesStroke\",{dark:\"#585858\",light:\"#a9a9a9\",hcDark:\"#a9a9a9\",hcLight:\"#a5a5a5\"},d(5073,null)),kan=ue(\"tree.inactiveIndentGuidesStroke\",Li(Qze,.4),d(5072,null)),xan=ue(\"tree.tableColumnsBorder\",{dark:\"#CCCCCC20\",light:\"#61616120\",hcDark:null,hcLight:null},d(5070,null)),Hwt=ue(\"tree.tableOddRowsBackground\",{dark:Li(Ko,.04),light:Li(Ko,.04),hcDark:null,hcLight:null},d(5071,null)),HMa=ue(\"editorActionList.background\",Yu,d(5038,null)),_an=ue(\"editorActionList.foreground\",bD,d(5041,null)),WMa=ue(\"editorActionList.focusForeground\",JN,d(5040,null)),BMa=ue(\"editorAct"
+    },
+    {
+      "id": "editorActionList.background",
+      "offset": 949232,
+      "code": "ue(\"editorActionList.background\",Yu,d(5038,null)),_an=ue(\"editorActionList.foreground\",bD,d(5041,null)),WMa=ue(\"editorActionList.focusForeground\",JN,d(5040,null)),BMa=ue(\"editorActionList.focusBackground\",AE,d(5039,null));var vv=ue(\"input.background\",{dark:\"#3C3C3C\",light:nt.white,hcDark:nt.black,hcLight:nt.white},d(5011,null)),TP=ue(\"input.foreground\",Ko,d(5013,null)),Ok=ue(\"input.border\",{dark:null,light:null,hcDark:ho,hcLight:ho},d(5012,null)),tj=ue(\"inputOption.activeBorder\",{dark:\"#007ACC\",light:\"#007ACC\",hcDark:ho,hcLight:ho},d(5010,null)),VNr=ue(\"inputOption.hoverBackground\",{dark:\"#5a5d5e80\",light:\"#b8b8b850\",hcDark:null,hcLight:null},d(5016,null)),ij=ue(\"inputOption.activeBackground"
+    },
+    {
+      "id": "editorActionList.foreground",
+      "offset": 949286,
+      "code": "ue(\"editorActionList.foreground\",bD,d(5041,null)),WMa=ue(\"editorActionList.focusForeground\",JN,d(5040,null)),BMa=ue(\"editorActionList.focusBackground\",AE,d(5039,null));var vv=ue(\"input.background\",{dark:\"#3C3C3C\",light:nt.white,hcDark:nt.black,hcLight:nt.white},d(5011,null)),TP=ue(\"input.foreground\",Ko,d(5013,null)),Ok=ue(\"input.border\",{dark:null,light:null,hcDark:ho,hcLight:ho},d(5012,null)),tj=ue(\"inputOption.activeBorder\",{dark:\"#007ACC\",light:\"#007ACC\",hcDark:ho,hcLight:ho},d(5010,null)),VNr=ue(\"inputOption.hoverBackground\",{dark:\"#5a5d5e80\",light:\"#b8b8b850\",hcDark:null,hcLight:null},d(5016,null)),ij=ue(\"inputOption.activeBackground\",{dark:Li(Td,.4),light:Li(Td,.2),hcDark:nt.transparen"
+    },
+    {
+      "id": "editorActionList.focusForeground",
+      "offset": 949340,
+      "code": "ue(\"editorActionList.focusForeground\",JN,d(5040,null)),BMa=ue(\"editorActionList.focusBackground\",AE,d(5039,null));var vv=ue(\"input.background\",{dark:\"#3C3C3C\",light:nt.white,hcDark:nt.black,hcLight:nt.white},d(5011,null)),TP=ue(\"input.foreground\",Ko,d(5013,null)),Ok=ue(\"input.border\",{dark:null,light:null,hcDark:ho,hcLight:ho},d(5012,null)),tj=ue(\"inputOption.activeBorder\",{dark:\"#007ACC\",light:\"#007ACC\",hcDark:ho,hcLight:ho},d(5010,null)),VNr=ue(\"inputOption.hoverBackground\",{dark:\"#5a5d5e80\",light:\"#b8b8b850\",hcDark:null,hcLight:null},d(5016,null)),ij=ue(\"inputOption.activeBackground\",{dark:Li(Td,.4),light:Li(Td,.2),hcDark:nt.transparent,hcLight:nt.transparent},d(5014,null)),hte=ue(\"inputO"
+    },
+    {
+      "id": "editorActionList.focusBackground",
+      "offset": 949399,
+      "code": "ue(\"editorActionList.focusBackground\",AE,d(5039,null));var vv=ue(\"input.background\",{dark:\"#3C3C3C\",light:nt.white,hcDark:nt.black,hcLight:nt.white},d(5011,null)),TP=ue(\"input.foreground\",Ko,d(5013,null)),Ok=ue(\"input.border\",{dark:null,light:null,hcDark:ho,hcLight:ho},d(5012,null)),tj=ue(\"inputOption.activeBorder\",{dark:\"#007ACC\",light:\"#007ACC\",hcDark:ho,hcLight:ho},d(5010,null)),VNr=ue(\"inputOption.hoverBackground\",{dark:\"#5a5d5e80\",light:\"#b8b8b850\",hcDark:null,hcLight:null},d(5016,null)),ij=ue(\"inputOption.activeBackground\",{dark:Li(Td,.4),light:Li(Td,.2),hcDark:nt.transparent,hcLight:nt.transparent},d(5014,null)),hte=ue(\"inputOption.activeForeground\",{dark:nt.white,light:nt.black,hcDar"
+    },
+    {
+      "id": "minimap.findMatchHighlight",
+      "offset": 954363,
+      "code": "ue(\"minimap.findMatchHighlight\",{dark:tJi(XN,.8),light:tJi(XN,.8),hcDark:QN,hcLight:QN},d(5083,null),!0),Uwt=ue(\"minimap.selectionOccurrenceHighlight\",zze,d(5087,null),!0),uJi=ue(\"minimap.selectionHighlight\",ay,d(5086,null),!0),Yan=ue(\"minimap.infoHighlight\",{dark:Bg,light:Bg,hcDark:Rue,hcLight:Rue},d(5085,null)),Xan=ue(\"minimap.warningHighlight\",{dark:Wb,light:Wb,hcDark:Due,hcLight:Due},d(5091,null)),Jan=ue(\"minimap.errorHighlight\",{dark:new nt(new _i(255,18,18,.7)),light:new nt(new _i(255,18,18,.7)),hcDark:new nt(new _i(255,50,50,1)),hcLight:\"#B5200D\"},d(5082,null)),Zan=ue(\"minimap.background\",null,d(5081,null)),ecn=ue(\"minimap.foregroundOpacity\",nt.fromHex(\"#000f\"),d(5084,null)),cPa=ue(\"m"
+    },
+    {
+      "id": "quickInput.list.focusBackground",
+      "offset": 955722,
+      "code": "ue(\"quickInput.list.focusBackground\",null,\"\",void 0,d(5113,null)),oj=ue(\"quickInputList.focusForeground\",JN,d(5115,null)),AEe=ue(\"quickInputList.focusIconForeground\",kXt,d(5117,null)),nj=ue(\"quickInputList.focusBackground\",{dark:V0(tcn,AE),light:V0(tcn,AE),hcDark:null,hcLight:null},d(5114,null)),fPa=ue(\"quickInputList.focusHighlightForeground\",Fwt,d(5116,null));var IPa=ue(\"search.resultsInfoForeground\",{light:Ko,dark:Li(Ko,.65),hcDark:Ko,hcLight:Ko},d(5118,null)),wPa=ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=clas"
+    },
+    {
+      "id": "quickInputList.focusForeground",
+      "offset": 955791,
+      "code": "ue(\"quickInputList.focusForeground\",JN,d(5115,null)),AEe=ue(\"quickInputList.focusIconForeground\",kXt,d(5117,null)),nj=ue(\"quickInputList.focusBackground\",{dark:V0(tcn,AE),light:V0(tcn,AE),hcDark:null,hcLight:null},d(5114,null)),fPa=ue(\"quickInputList.focusHighlightForeground\",Fwt,d(5116,null));var IPa=ue(\"search.resultsInfoForeground\",{light:Ko,dark:Li(Ko,.65),hcDark:Ko,hcLight:Ko},d(5118,null)),wPa=ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void "
+    },
+    {
+      "id": "quickInputList.focusIconForeground",
+      "offset": 955848,
+      "code": "ue(\"quickInputList.focusIconForeground\",kXt,d(5117,null)),nj=ue(\"quickInputList.focusBackground\",{dark:V0(tcn,AE),light:V0(tcn,AE),hcDark:null,hcLight:null},d(5114,null)),fPa=ue(\"quickInputList.focusHighlightForeground\",Fwt,d(5116,null));var IPa=ue(\"search.resultsInfoForeground\",{light:Ko,dark:Li(Ko,.65),hcDark:Ko,hcLight:Ko},d(5118,null)),wPa=ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void 0}toClientCoordinates(o){return new zwt(this.x-o.scrollX,"
+    },
+    {
+      "id": "quickInputList.focusBackground",
+      "offset": 955909,
+      "code": "ue(\"quickInputList.focusBackground\",{dark:V0(tcn,AE),light:V0(tcn,AE),hcDark:null,hcLight:null},d(5114,null)),fPa=ue(\"quickInputList.focusHighlightForeground\",Fwt,d(5116,null));var IPa=ue(\"search.resultsInfoForeground\",{light:Ko,dark:Li(Ko,.65),hcDark:Ko,hcLight:Ko},d(5118,null)),wPa=ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void 0}toClientCoordinates(o){return new zwt(this.x-o.scrollX,this.y-o.scrollY)}},zwt=class{constructor(o,e){this.clientX=o"
+    },
+    {
+      "id": "quickInputList.focusHighlightForeground",
+      "offset": 956023,
+      "code": "ue(\"quickInputList.focusHighlightForeground\",Fwt,d(5116,null));var IPa=ue(\"search.resultsInfoForeground\",{light:Ko,dark:Li(Ko,.65),hcDark:Ko,hcLight:Ko},d(5118,null)),wPa=ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void 0}toClientCoordinates(o){return new zwt(this.x-o.scrollX,this.y-o.scrollY)}},zwt=class{constructor(o,e){this.clientX=o;this.clientY=e;this._clientCoordinatesBrand=void 0}toPageCoordinates(o){return new Nue(this.clientX+o.scrollX,thi"
+    },
+    {
+      "id": "search.resultsInfoForeground",
+      "offset": 956094,
+      "code": "ue(\"search.resultsInfoForeground\",{light:Ko,dark:Li(Ko,.65),hcDark:Ko,hcLight:Ko},d(5118,null)),wPa=ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void 0}toClientCoordinates(o){return new zwt(this.x-o.scrollX,this.y-o.scrollY)}},zwt=class{constructor(o,e){this.clientX=o;this.clientY=e;this._clientCoordinatesBrand=void 0}toPageCoordinates(o){return new Nue(this.clientX+o.scrollX,this.clientY+o.scrollY)}},hJi=class{constructor(o,e,t,i){this.x=o;this.y=e"
+    },
+    {
+      "id": "searchEditor.findMatchBackground",
+      "offset": 956194,
+      "code": "ue(\"searchEditor.findMatchBackground\",{light:Li(Vw,.66),dark:Li(Vw,.66),hcDark:Vw,hcLight:Vw},d(5120,null)),CPa=ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void 0}toClientCoordinates(o){return new zwt(this.x-o.scrollX,this.y-o.scrollY)}},zwt=class{constructor(o,e){this.clientX=o;this.clientY=e;this._clientCoordinatesBrand=void 0}toPageCoordinates(o){return new Nue(this.clientX+o.scrollX,this.clientY+o.scrollY)}},hJi=class{constructor(o,e,t,i){this.x=o;this.y=e;this.width=t;this.height=i;this._editorPagePositionBrand=void 0}},mJi=class{constructor(o,e){this.x"
+    },
+    {
+      "id": "searchEditor.findMatchBorder",
+      "offset": 956306,
+      "code": "ue(\"searchEditor.findMatchBorder\",{light:Li(QN,.66),dark:Li(QN,.66),hcDark:QN,hcLight:QN},d(5119,null));var Nue=class{constructor(o,e){this.x=o;this.y=e;this._pageCoordinatesBrand=void 0}toClientCoordinates(o){return new zwt(this.x-o.scrollX,this.y-o.scrollY)}},zwt=class{constructor(o,e){this.clientX=o;this.clientY=e;this._clientCoordinatesBrand=void 0}toPageCoordinates(o){return new Nue(this.clientX+o.scrollX,this.clientY+o.scrollY)}},hJi=class{constructor(o,e,t,i){this.x=o;this.y=e;this.width=t;this.height=i;this._editorPagePositionBrand=void 0}},mJi=class{constructor(o,e){this.x=o;this.y=e;this._positionRelativeToEditorBrand=void 0}};function qwt(s){let o=Ys(s);return new hJi(o.left,o.top"
+    },
+    {
+      "id": "terminal.findMatchBackground",
+      "offset": 4948251,
+      "code": "ue(\"terminal.findMatchBackground\",{dark:TEe,light:TEe,hcDark:null,hcLight:\"#0F4A85\"},d(28332,null),!0),Y6d=ue(\"terminal.hoverHighlightBackground\",Li(bXt,.5),d(28337,null)),JEn=ue(\"terminal.findMatchBorder\",{dark:null,light:null,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28333,null)),ZEn=ue(\"terminal.findMatchHighlightBackground\",{dark:Vw,light:Vw,hcDark:null,hcLight:null},d(28334,null),!0),eTn=ue(\"terminal.findMatchHighlightBorder\",{dark:null,light:null,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28335,null)),tTn=ue(\"terminalOverviewRuler.findMatchForeground\",{dark:XN,light:XN,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28350,null)),X6d=ue(\"terminal.dropBackground\",gL,d(28331,null),!0),J6d=ue(\"terminal.tab.a"
+    },
+    {
+      "id": "terminal.findMatchBorder",
+      "offset": 4948427,
+      "code": "ue(\"terminal.findMatchBorder\",{dark:null,light:null,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28333,null)),ZEn=ue(\"terminal.findMatchHighlightBackground\",{dark:Vw,light:Vw,hcDark:null,hcLight:null},d(28334,null),!0),eTn=ue(\"terminal.findMatchHighlightBorder\",{dark:null,light:null,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28335,null)),tTn=ue(\"terminalOverviewRuler.findMatchForeground\",{dark:XN,light:XN,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28350,null)),X6d=ue(\"terminal.dropBackground\",gL,d(28331,null),!0),J6d=ue(\"terminal.tab.activeBorder\",Xie,d(28341,null)),Z6d=ue(\"terminal.initialHintForeground\",{dark:\"#ffffff56\",light:\"#0007\",hcDark:null,hcLight:null},d(28347,null)),pgi={\"terminal.ansiBlack\":{inde"
+    },
+    {
+      "id": "terminal.findMatchHighlightBackground",
+      "offset": 4948534,
+      "code": "ue(\"terminal.findMatchHighlightBackground\",{dark:Vw,light:Vw,hcDark:null,hcLight:null},d(28334,null),!0),eTn=ue(\"terminal.findMatchHighlightBorder\",{dark:null,light:null,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28335,null)),tTn=ue(\"terminalOverviewRuler.findMatchForeground\",{dark:XN,light:XN,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28350,null)),X6d=ue(\"terminal.dropBackground\",gL,d(28331,null),!0),J6d=ue(\"terminal.tab.activeBorder\",Xie,d(28341,null)),Z6d=ue(\"terminal.initialHintForeground\",{dark:\"#ffffff56\",light:\"#0007\",hcDark:null,hcLight:null},d(28347,null)),pgi={\"terminal.ansiBlack\":{index:0,defaults:{light:\"#000000\",dark:\"#000000\",hcDark:\"#000000\",hcLight:\"#292929\"}},\"terminal.ansiRed\":{index"
+    },
+    {
+      "id": "terminal.findMatchHighlightBorder",
+      "offset": 4948643,
+      "code": "ue(\"terminal.findMatchHighlightBorder\",{dark:null,light:null,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28335,null)),tTn=ue(\"terminalOverviewRuler.findMatchForeground\",{dark:XN,light:XN,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28350,null)),X6d=ue(\"terminal.dropBackground\",gL,d(28331,null),!0),J6d=ue(\"terminal.tab.activeBorder\",Xie,d(28341,null)),Z6d=ue(\"terminal.initialHintForeground\",{dark:\"#ffffff56\",light:\"#0007\",hcDark:null,hcLight:null},d(28347,null)),pgi={\"terminal.ansiBlack\":{index:0,defaults:{light:\"#000000\",dark:\"#000000\",hcDark:\"#000000\",hcLight:\"#292929\"}},\"terminal.ansiRed\":{index:1,defaults:{light:\"#cd3131\",dark:\"#cd3131\",hcDark:\"#cd0000\",hcLight:\"#cd3131\"}},\"terminal.ansiGreen\":{index:"
+    },
+    {
+      "id": "terminalOverviewRuler.findMatchForeground",
+      "offset": 4948759,
+      "code": "ue(\"terminalOverviewRuler.findMatchForeground\",{dark:XN,light:XN,hcDark:\"#f38518\",hcLight:\"#0F4A85\"},d(28350,null)),X6d=ue(\"terminal.dropBackground\",gL,d(28331,null),!0),J6d=ue(\"terminal.tab.activeBorder\",Xie,d(28341,null)),Z6d=ue(\"terminal.initialHintForeground\",{dark:\"#ffffff56\",light:\"#0007\",hcDark:null,hcLight:null},d(28347,null)),pgi={\"terminal.ansiBlack\":{index:0,defaults:{light:\"#000000\",dark:\"#000000\",hcDark:\"#000000\",hcLight:\"#292929\"}},\"terminal.ansiRed\":{index:1,defaults:{light:\"#cd3131\",dark:\"#cd3131\",hcDark:\"#cd0000\",hcLight:\"#cd3131\"}},\"terminal.ansiGreen\":{index:2,defaults:{light:\"#107C10\",dark:\"#0DBC79\",hcDark:\"#00cd00\",hcLight:\"#136C13\"}},\"terminal.ansiYellow\":{index:3,defau"
+    },
+    {
+      "id": "chat.findMatchHighlightBackground",
+      "offset": 10229426,
+      "code": "ue(\"chat.findMatchHighlightBackground\",{dark:Vw,light:Vw,hcDark:\"#EA5C0055\",hcLight:\"#EA5C0055\"},d(19368,null),!0),gZg=ue(\"chat.findMatchBackground\",{dark:Li(djn,2),light:Li(djn,2),hcDark:\"#EA5C00AA\",hcLight:\"#EA5C00AA\"},d(19367,null),!0),fZg=ue(\"chat.thinkingShimmer\",{dark:\"#ffffff\",light:\"#000000\",hcDark:\"#ffffff\",hcLight:\"#000000\"},d(19387,null)),lMi=ue(\"chat.workingProgressStableIconForeground\",{dark:\"#007ACC\",light:\"#007ACC\",hcDark:va,hcLight:va},d(19393,null)),dMi=ue(\"chat.workingProgressInsidersIconForeground\",{dark:\"#24BFA5\",light:\"#24BFA5\",hcDark:va,hcLight:va},d(19392,null)),vZg=ue(\"chat.inputWorkingBorderColor1\",{dark:Wf,light:Wf,hcDark:\"#FFFFFF\",hcLight:\"#000000\"},d(19369,null)),"
+    },
+    {
+      "id": "chat.findMatchBackground",
+      "offset": 10229545,
+      "code": "ue(\"chat.findMatchBackground\",{dark:Li(djn,2),light:Li(djn,2),hcDark:\"#EA5C00AA\",hcLight:\"#EA5C00AA\"},d(19367,null),!0),fZg=ue(\"chat.thinkingShimmer\",{dark:\"#ffffff\",light:\"#000000\",hcDark:\"#ffffff\",hcLight:\"#000000\"},d(19387,null)),lMi=ue(\"chat.workingProgressStableIconForeground\",{dark:\"#007ACC\",light:\"#007ACC\",hcDark:va,hcLight:va},d(19393,null)),dMi=ue(\"chat.workingProgressInsidersIconForeground\",{dark:\"#24BFA5\",light:\"#24BFA5\",hcDark:va,hcLight:va},d(19392,null)),vZg=ue(\"chat.inputWorkingBorderColor1\",{dark:Wf,light:Wf,hcDark:\"#FFFFFF\",hcLight:\"#000000\"},d(19369,null)),bZg=ue(\"chat.inputWorkingBorderColor2\",{dark:lh(Wf,.5),light:lh(Wf,.3),hcDark:\"#A0A0A0\",hcLight:\"#555555\"},d(19370,null"
+    },
+    {
+      "id": "searchEditor.textInputBorder",
+      "offset": 17810297,
+      "code": "ue(\"searchEditor.textInputBorder\",Ok,d(25563,null));function o3s(s,o){for(let e of s)if(Le.isBefore(o,e.getStartPosition()))return e;return s[0]}function n3s(s,o){for(let e=s.length-1;e>=0;e--){let t=s[e];if(Le.isBefore(t.getStartPosition(),o))return t}return s[s.length-1]}var r3s=\"search.action.openInEditor\",s3s=\"search.action.openNewEditorToSide\",a3s=\"search.action.focusQueryEditorWidget\",c3s=\"search.action.focusFilesToInclude\",l3s=\"search.action.focusFilesToExclude\",d3s=\"toggleSearchEditorCaseSensitive\",u3s=\"toggleSearchEditorWholeWord\",p3s=\"toggleSearchEditorRegex\",h3s=\"increaseSearchEditorContextLines\",m3s=\"decreaseSearchEditorContextLines\",g3s=\"rerunSearchEditorSearch\",f3s=\"cleanSearch"
+    }
+  ],
+  "css": [
+    {
+      "offset": 1303124,
+      "code": "cused .filematch .monaco-count-badge,.pane-body:not(.wide) .search-view>.results>.monaco-list .monaco-list-row.focused .foldermatch .monaco-count-badge,.pane-body:not(.wide) .search-view>.results>.monaco-list .monaco-list-row.focused .linematch .monaco-count-badge{display:none}.search-view .replace.findInFileMatch{text-decoration:line-through;background-color:var(--vscode-diffEditor-removedTextBackground);border:1px solid var(--vscode-diffEditor-removedTextBackground)}.monaco-workbench.hc-light .search-view .replace.findInFileMatch,.monaco-workbench.hc-black .search-view .replace.findInFileMatch{border:1px dashed var(--vscode-diffEditor-removedTextBackground)}.search-view .findInFileMatch,.search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vsco"
+    },
+    {
+      "offset": 1303346,
+      "code": "row.focused .linematch .monaco-count-badge{display:none}.search-view .replace.findInFileMatch{text-decoration:line-through;background-color:var(--vscode-diffEditor-removedTextBackground);border:1px solid var(--vscode-diffEditor-removedTextBackground)}.monaco-workbench.hc-light .search-view .replace.findInFileMatch,.monaco-workbench.hc-black .search-view .replace.findInFileMatch{border:1px dashed var(--vscode-diffEditor-removedTextBackground)}.search-view .findInFileMatch,.search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vscode-editor-findMatchHighlightBorder)}.monaco-workbench.hc-light .search-view .findInFileMatch,.monaco-workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-"
+    },
+    {
+      "offset": 1303411,
+      "code": "iew .replace.findInFileMatch{text-decoration:line-through;background-color:var(--vscode-diffEditor-removedTextBackground);border:1px solid var(--vscode-diffEditor-removedTextBackground)}.monaco-workbench.hc-light .search-view .replace.findInFileMatch,.monaco-workbench.hc-black .search-view .replace.findInFileMatch{border:1px dashed var(--vscode-diffEditor-removedTextBackground)}.search-view .findInFileMatch,.search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vscode-editor-findMatchHighlightBorder)}.monaco-workbench.hc-light .search-view .findInFileMatch,.monaco-workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-inser"
+    },
+    {
+      "offset": 1303506,
+      "code": "tor-removedTextBackground);border:1px solid var(--vscode-diffEditor-removedTextBackground)}.monaco-workbench.hc-light .search-view .replace.findInFileMatch,.monaco-workbench.hc-black .search-view .replace.findInFileMatch{border:1px dashed var(--vscode-diffEditor-removedTextBackground)}.search-view .findInFileMatch,.search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vscode-editor-findMatchHighlightBorder)}.monaco-workbench.hc-light .search-view .findInFileMatch,.monaco-workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-insertedTextBackground)}.monaco-workbench.hc-black .search-view .replaceMatch,.monaco-workbench.hc-b"
+    },
+    {
+      "offset": 1303579,
+      "code": "edTextBackground)}.monaco-workbench.hc-light .search-view .replace.findInFileMatch,.monaco-workbench.hc-black .search-view .replace.findInFileMatch{border:1px dashed var(--vscode-diffEditor-removedTextBackground)}.search-view .findInFileMatch,.search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vscode-editor-findMatchHighlightBorder)}.monaco-workbench.hc-light .search-view .findInFileMatch,.monaco-workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-insertedTextBackground)}.monaco-workbench.hc-black .search-view .replaceMatch,.monaco-workbench.hc-black .search-view .findInFileMatch,.monaco-workbench.hc-light .search-vie"
+    },
+    {
+      "offset": 1303766,
+      "code": "or-removedTextBackground)}.search-view .findInFileMatch,.search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vscode-editor-findMatchHighlightBorder)}.monaco-workbench.hc-light .search-view .findInFileMatch,.monaco-workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-insertedTextBackground)}.monaco-workbench.hc-black .search-view .replaceMatch,.monaco-workbench.hc-black .search-view .findInFileMatch,.monaco-workbench.hc-light .search-view .replaceMatch,.monaco-workbench.hc-light .search-view .findInFileMatch{background:none!important;box-sizing:border-box}.search-view .replaceMatch:not(:empty){border:1px solid var(--vsco"
+    },
+    {
+      "offset": 1303823,
+      "code": "search-view .replaceMatch{white-space:pre}.search-view .findInFileMatch{background-color:var(--vscode-editor-findMatchHighlightBackground);border:1px solid var(--vscode-editor-findMatchHighlightBorder)}.monaco-workbench.hc-light .search-view .findInFileMatch,.monaco-workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-insertedTextBackground)}.monaco-workbench.hc-black .search-view .replaceMatch,.monaco-workbench.hc-black .search-view .findInFileMatch,.monaco-workbench.hc-light .search-view .replaceMatch,.monaco-workbench.hc-light .search-view .findInFileMatch{background:none!important;box-sizing:border-box}.search-view .replaceMatch:not(:empty){border:1px solid var(--vscode-diffEditor-insertedLineBackground)}.monaco-workbench.h"
+    },
+    {
+      "offset": 1304090,
+      "code": "workbench.hc-black .search-view .findInFileMatch{border:1px dashed var(--vscode-editor-findMatchHighlightBorder)}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-insertedTextBackground)}.monaco-workbench.hc-black .search-view .replaceMatch,.monaco-workbench.hc-black .search-view .findInFileMatch,.monaco-workbench.hc-light .search-view .replaceMatch,.monaco-workbench.hc-light .search-view .findInFileMatch{background:none!important;box-sizing:border-box}.search-view .replaceMatch:not(:empty){border:1px solid var(--vscode-diffEditor-insertedLineBackground)}.monaco-workbench.hc-light .search-view .replaceMatch:not(:empty),.monaco-workbench.hc-black .search-view .replaceMatch:not(:empty){border:1px dashed var(--vscode-diffEditor-insertedLineBackground)}.monaco-workbench.hc-black .search-view .foldermatch,.monaco-workbench.hc-black .search-"
+    },
+    {
+      "offset": 1304201,
+      "code": ")}.search-view .replaceMatch{background-color:var(--vscode-diffEditor-insertedTextBackground)}.monaco-workbench.hc-black .search-view .replaceMatch,.monaco-workbench.hc-black .search-view .findInFileMatch,.monaco-workbench.hc-light .search-view .replaceMatch,.monaco-workbench.hc-light .search-view .findInFileMatch{background:none!important;box-sizing:border-box}.search-view .replaceMatch:not(:empty){border:1px solid var(--vscode-diffEditor-insertedLineBackground)}.monaco-workbench.hc-light .search-view .replaceMatch:not(:empty),.monaco-workbench.hc-black .search-view .replaceMatch:not(:empty){border:1px dashed var(--vscode-diffEditor-insertedLineBackground)}.monaco-workbench.hc-black .search-view .foldermatch,.monaco-workbench.hc-black .search-view .filematch,.monaco-workbench.hc-black .search-view .linematch,.monaco-workbench.hc-light .search-view .fol"
+    }
+  ],
+  "js": [
+    {
+      "offset": 15561281,
+      "code": "s.templateId=Rce.TEMPLATE_ID}static{this.TEMPLATE_ID=\"match\"}renderCompressedElements(e,t,i){throw new Error(\"Should never happen since node is incompressible.\")}renderTemplate(e){e.classList.add(\"linematch\");let t=_(e,E(\"span.matchLineNum\")),i=_(e,E(\"a.plain.match\")),n=_(i,E(\"span\")),r=_(i,E(\"span.findInFileMatch\")),a=_(i,E(\"span.replaceMatch\")),c=_(i,E(\"span\")),l=_(e,E(\"span.actionBarContainer\")),u=new L,p=u.add(this.contextKeyService.createScoped(e));wo.AIResultsTitle.bindTo(p).set(!1),wo.MatchFocusKey.bindTo(p).set(!0),wo.FileFocusKey.bindTo(p).set(!1),wo.FolderFocusKey.bindTo(p).set(!1);let h=u.add(this.instantiationService.createChild(new yn([ae,p]))),g=u.add(h.createInstance(rs,l,O.SearchActionMenu,{menuOptions:{shouldForwardArgs:!0},hiddenItemStrategy:0,toolbarOptions:{primaryGroup:b=>/^inline/.test(b)}})),f=u.add(this.hoverService.setupManagedH"
+    }
+  ],
+  "chat": [
+    {
+      "offset": 955089,
+      "code": "-top:6px}.chat-used-context.chat-hook-outcome-warning,.chat-used-context.chat-hook-outcome-blocked{.chat-used-context-label .monaco-button{gap:4px}}::highlight(chat-find-current-match){background-color:var(--vscode-chat-findMatchBackground);color:var(--vscode-editor-findMatchForeground)}::highlight(chat-find-other-match){background-color:var(--vscode-chat-findMatchHighlightBackground);color:var(--vscode-editor-findMatchHighlightForeground)}.monaco-editor .chat-find-current-match{background-color:var(--vscode-chat-findMatchBackground)}.monaco-editor .chat-find-other-match{background-color:var(--vscode-chat-findMatchHighlightBackground)}.chat-customization-migration-notice-container.chat-input-stack-standalone{margin-bottom:var(--vscode-spacing-size160)}.chat-customization-migration-notice{display:flex;align-items:center;gap:var(--vscode-spacing-size80);box-siz"
+    },
+    {
+      "offset": 955345,
+      "code": "ode-editor-findMatchForeground)}::highlight(chat-find-other-match){background-color:var(--vscode-chat-findMatchHighlightBackground);color:var(--vscode-editor-findMatchHighlightForeground)}.monaco-editor .chat-find-current-match{background-color:var(--vscode-chat-findMatchBackground)}.monaco-editor .chat-find-other-match{background-color:var(--vscode-chat-findMatchHighlightBackground)}.chat-customization-migration-notice-container.chat-input-stack-standalone{margin-bottom:var(--vscode-spacing-size160)}.chat-customization-migration-notice{display:flex;align-items:center;gap:var(--vscode-spacing-size80);box-sizing:border-box;width:100%;padding:var(--vscode-spacing-size60) var(--vscode-spacing-size120);border:var(--vscode-strokeThickness) solid var(--vscode-contrastBorder, color-mix(in srgb, var(--vscode-foreground) 10%, transparent));border-radius:var(--vscode-c"
+    }
+  ]
+}
