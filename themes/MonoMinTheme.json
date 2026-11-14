@@ -2,10 +2,17 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
+		"button.secondaryBackground": "#101010",
+		"button.secondaryForeground": "#939293",
+		"button.secondaryHoverBackground": "#1f1f1f",
+		"editorIndentGuide.background1": "#3D3D3D",
+		"editorIndentGuide.activeBackground1": "#505050",
+		"agentsPanel.border": "#1f1f1f",
 		"activityBar.background": "#101010",
 		"activityBar.border": "#151515",
 		"activityBar.foreground": "#888888",
-		"activityBar.inactiveforeground": "#888888",
+		// Pending visual approval; invalid spelling retained for audit only.
+		// "activityBar.inactiveforeground": "#888888",
 		"activityBarBadge.background": "#F8C66B",
 		"activityBarBadge.foreground": "#1f1f1f",
 		"badge.background": "#F8C66B",
@@ -99,11 +106,13 @@
 		"editorMarkerNavigationWarning.background": "#ffab70",
 		"editorOverviewRuler.addedForeground": "#50fa7b",
 		"editorOverviewRuler.border": "#1f1f1f",
-		"editorOverviewRuler.currentContentforeground": "#888888",
+		// Pending visual approval; invalid spelling retained for audit only.
+		// "editorOverviewRuler.currentContentforeground": "#888888",
 		"editorOverviewRuler.deletedForeground": "#f97583",
 		"editorOverviewRuler.errorForeground": "#f97583",
 		"editorOverviewRuler.findMatchForeground": "#EAEAEA26",
-		"editorOverviewRuler.incomingContentforeground": "#888888",
+		// Pending visual approval; invalid spelling retained for audit only.
+		// "editorOverviewRuler.incomingContentforeground": "#888888",
 		"editorOverviewRuler.infoForeground": "#79b8ff",
 		"editorOverviewRuler.modifiedForeground": "#ffab70",
 		"editorOverviewRuler.rangeHighlightForeground": "#EAEAEA26",
@@ -339,8 +348,10 @@
 		"titleBar.inactiveBackground": "#151515",
 		"titleBar.inactiveForeground": "#EAEAEA50",
 		"walkThrough.embeddedEditorBackground": "#151515",
-		"welcomePage.buttonBackground": "#151515",
-		"welcomePage.buttonHoverBackground": "#1f1f1f",
+		// Not registered or consumed in VS Code 1.146.0; no proven replacement.
+		// "welcomePage.buttonBackground": "#151515",
+		// Not registered or consumed in VS Code 1.146.0; no proven replacement.
+		// "welcomePage.buttonHoverBackground": "#1f1f1f",
 		"widget.shadow": "#121319",
 		//"activityBar.activeBorder": "#c1c0c0",
 		//"activityBar.dropBorder": "#c1c0c0",

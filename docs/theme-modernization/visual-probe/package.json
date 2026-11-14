@@ -1,0 +1,15 @@
+{
+  "name": "theme-visual-probe",
+  "publisher": "local-audit",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.146.0" },
+  "main": "./extension.cjs",
+  "activationEvents": ["onStartupFinished", "onCommand:themeAudit.capture", "onCommand:themeAudit.secondary"],
+  "contributes": { "commands": [
+    { "command": "themeAudit.visualComments", "title": "Theme Audit: Visual Comments" },
+    { "command": "themeAudit.visualDracula", "title": "Theme Audit: Visual MonoDracula" },
+    { "command": "themeAudit.visualMin", "title": "Theme Audit: Visual MonoMin" },
+    { "command": "themeAudit.capture", "title": "Theme Audit: Capture Active Document" },
+    { "command": "themeAudit.secondary", "title": "Theme Audit: Open Native Secondary Button Fixture" }
+  ] }
+}

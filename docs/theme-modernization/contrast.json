@@ -1,0 +1,3391 @@
+{
+  "method": "WCAG 2.2 sRGB; alpha composited in sRGB, then relative luminance; unrounded ratios; context assumptions explicit",
+  "rows": [
+    {
+      "theme": "MonoMin",
+      "property": "editor.foreground",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "descriptionForeground",
+      "color": "#939293",
+      "background": "#151515",
+      "ratio": 5.890081209640535,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "input.placeholderForeground",
+      "color": "#888888",
+      "background": "#151515",
+      "ratio": 5.151414140070385,
+      "threshold": 4.5,
+      "context": "input.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "editorLineNumber.foreground",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "editorLineNumber.activeForeground",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "breadcrumb.foreground",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tab.activeForeground",
+      "color": "#EAEAEA",
+      "background": "#303030",
+      "ratio": 10.970594299834262,
+      "threshold": 4.5,
+      "context": "editorGroupHeader.tabsBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tab.inactiveForeground",
+      "color": "#888888",
+      "background": "#1a1a1a",
+      "ratio": 4.909699910148519,
+      "threshold": 4.5,
+      "context": "editorGroupHeader.tabsBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tab.unfocusedInactiveForeground",
+      "color": "#939293",
+      "background": "#1a1a1a",
+      "ratio": 5.6137073043295445,
+      "threshold": 4.5,
+      "context": "editorGroupHeader.tabsBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "sideBar.foreground",
+      "color": "#888888",
+      "background": "#151515",
+      "ratio": 5.151414140070385,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "statusBar.foreground",
+      "color": "#888888",
+      "background": "#151515",
+      "ratio": 5.151414140070385,
+      "threshold": 4.5,
+      "context": "statusBar.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "statusBar.debuggingForeground",
+      "color": "#EAEAEA",
+      "background": "#888888",
+      "ratio": 2.946596371113403,
+      "threshold": 4.5,
+      "context": "statusBar.debuggingBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "panelTitle.activeForeground",
+      "color": "#F8C66B",
+      "background": "#191919",
+      "ratio": 11.119358465695688,
+      "threshold": 4.5,
+      "context": "panel.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "panelTitle.inactiveForeground",
+      "color": "#939293",
+      "background": "#191919",
+      "ratio": 5.670915353153031,
+      "threshold": 4.5,
+      "context": "panel.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "activityBar.foreground",
+      "color": "#888888",
+      "background": "#101010",
+      "ratio": 5.367763418059213,
+      "threshold": 3,
+      "context": "activityBar.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "button.foreground",
+      "color": "#939293",
+      "background": "#101010",
+      "ratio": 6.1374530540218695,
+      "threshold": 4.5,
+      "context": "button.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "button.secondaryForeground",
+      "color": "#939293",
+      "background": "#101010",
+      "ratio": 6.1374530540218695,
+      "threshold": 4.5,
+      "context": "button.secondaryBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "list.activeSelectionForeground",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "list.inactiveSelectionForeground",
+      "color": "#F8C66B",
+      "background": "#1d1d1d",
+      "ratio": 10.661407327801388,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "editorSuggestWidget.foreground",
+      "color": "#c1c0c0",
+      "background": "#151515",
+      "ratio": 10.059734797597057,
+      "threshold": 4.5,
+      "context": "editorSuggestWidget.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "notifications.foreground",
+      "color": "#c1c0c0",
+      "background": "#151515",
+      "ratio": 10.059734797597057,
+      "threshold": 4.5,
+      "context": "notifications.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "terminal.foreground",
+      "color": "#EAEAEA",
+      "background": "#191919",
+      "ratio": 14.614332955006944,
+      "threshold": 4.5,
+      "context": "terminal.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "titleBar.inactiveForeground",
+      "color": "#EAEAEA50",
+      "background": "#151515",
+      "ratio": 2.5667796812807278,
+      "threshold": 4.5,
+      "context": "titleBar.inactiveBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "focusBorder",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 3,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "editorCursor.foreground",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 3,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "editorIndentGuide.background1",
+      "color": "#3D3D3D",
+      "background": "#1f1f1f",
+      "ratio": 1.5174556578490546,
+      "threshold": 0,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "editorIndentGuide.activeBackground1",
+      "color": "#505050",
+      "background": "#1f1f1f",
+      "ratio": 2.044200347699756,
+      "threshold": 0,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[0] [\"comment\",\"comment keyword\",\"comment markup.underline.link\",\"comment string\",\"comment punctuation.definition\",\"comment punctuation\",\"comment text\"]",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[1] \"comment storage.type\"",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[2] \"comment entity.name.type\"",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[3] [\"comment variable\",\"comment variable.other\"]",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[4] \"comment keyword.codetag.notation\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[5] \"comment.git-status.header.remote\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[6] \"comment.git-status.header.local\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[7] \"comment.other.git-status.head\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[8] \"constant\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[9] \"constant.other\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[10] \"constant.other.php\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[11] \"constant.other.property\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[12] \"constant.other.citation.latex\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[13] \"constant.other.color\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[14] \"constant.other.character-class.escape\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[15] \"constant.other.key\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[16] \"constant.other.symbol\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[17] \"constant.other.elm\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[18] \"constant.numeric\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[19] \"constant.language\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[20] \"constant.character.escape\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[21] \"constant.numeric.line-number.find-in-files\"",
+      "color": "#1f1f1f",
+      "background": "#1f1f1f",
+      "ratio": 1,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[22] \"constant.numeric.line-number.match.find-in-files\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[23] \"entity.name.section\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[24] [\"entity.name.function\",\"entity.name.function.templated\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[25] \"entity.name.function.member.static\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[26] [\"entity.name.type.class.templated\",\"entity.name.type.class.generic\",\"entity.name.type.namespace\"]",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[27] \"entity.name.label\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[28] \"entity.name.function.preprocessor\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[29] \"entity.name\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[30] \"entity.name.class\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[31] \"entity.name.constant\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[32] \"entity.name.namespace\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[33] \"entity.other.inherited-class\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[34] \"entity.name.function\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[35] [\"entity.name.tag\",\"entity.name.tag.js.jsx support.class.component.js.jsx\",\"entity.name.tag support.class.component\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[36] \"entity.name.function.operator\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[37] [\"entity.name.type\",\"entity.name.type.class.reference\",\"entity.name.type.class.value\"]",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[38] \"entity.other.attribute-name\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[39] [\"entity.other.attribute-name.class.css\",\"entity.other.attribute-name.parent-selector-suffix.css\",\"entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css\",\"entity.other.attribute-name.css\",\"entity.other.animation-name.css\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[40] \"entity.other.attribute-name.id.css\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[41] [\"entity.other.attribute-name.pseudo-class.css\",\"entity.other.pseudo-class.css\",\"entity.other.pseudo-element.css\"]",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[42] [\"entity.name.function\",\"support.function\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[43] \"entity.other.git-status.hex\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[44] \"entity.other.jinja2.delimiter\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[45] \"entity.name.operator.custom-literal\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[46] \"entity.name.operator.custom-literal.string\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[47] \"entity.name.operator.custom-literal.number\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[48] \"entity.name.type.rust\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[49] \"entity.name.lifetime.rust\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[51] \"keyword\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[52] \"keyword.control\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[53] \"keyword.control.directive\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[54] [\"keyword.operator\",\"keyword.operator.member\",\"keyword.operator.new\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[55] \"keyword.other.substitution\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[56] [\"keyword.other.template.begin\",\"keyword.other.template.end\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[57] [\"keyword.operator.heading.restructu#ffab70text\",\"keyword.operator.table.row.restructu#ffab70text keyword.operator.table.data.restructu#ffab70text\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[58] \"keyword.other.parenthesis.elm\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[59] [\"keyword.other.fn.rust\",\"keyword.other.rust\",\"keyword.other.unsafe.rust\",\"keyword.other.where.rust\"]",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[60] [\"keyword.control.rust\",\"keyword.operator.misc.rust\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[63] \"markup.heading\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[64] \"markup.raw\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[66] \"markup.underline.link\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[67] [\"markup.inserted\",\"markup.inserted punctuation.definition.inserted\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[68] [\"markup.deleted\",\"markup.deleted punctuation.definition.deleted\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[69] [\"markup.changed\",\"markup.changed punctuation.definition.changed\"]",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[70] [\"markup.igno#ffab70\",\"markup.igno#ffab70 punctuation.definition.igno#ffab70\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[71] \"markup.untracked\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[73] [\"meta.brace.round\",\"meta.brace.square\",\"meta.brace.curly\",\"meta.delimiter.comma.js\",\"meta.function-call.without-arguments.js\",\"meta.function-call.method.without-arguments.js\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[74] [\"meta.function-call.generic.python\",\"support.function.builtin.python\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[75] \"meta.function-call.python meta.function-call.arguments.python\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[76] \"meta.instance.constructor\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[77] [\"meta.attribute-with-value.class string\",\"meta.attribute.class.html string\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[78] [\"meta.attribute-with-value.id string\",\"meta.attribute.id.html string\"]",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[79] [\"source.json meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\"]",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[80] [\"source.json meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\"]",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[81] \"meta.object.member\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[82] \"meta.property-list.css variable.other\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[83] [\"entity.name.constant.preprocessor\",\"meta.preprocessor\"]",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[84] \"meta.diff.git-diff.header\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[85] \"meta.type_params.rust\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[86] [\"meta.attribute.rust\",\"meta.annotation.rust\",\"variable.language.rust\",\"variable.annotation.rust\",\"meta.annotation.rust string\",\"meta.annotation.rust keyword\",\"meta.annotation.rust keyword.operator\",\"meta.attribute.rust string\"]",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[87] \"punctuation\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[88] [\"punctuation.definition.tag\",\"punctuation.definition.tag source\",\"punctuation.definition.group.begin.ruby\",\"punctuation.definition.group.end.ruby\",\"punctuation.definition.group.begin.css\",\"punctuation.definition.group.end.css\",\"punctuation.definition.string.end.html source.css\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[89] \"punctuation.definition.group\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[90] \"punctuation.definition.comment\"",
+      "color": "#888888",
+      "background": "#1f1f1f",
+      "ratio": 4.649790282178815,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[91] [\"punctuation.definition.variable\",\"punctuation.definition.keyword.scss\",\"punctuation.definition.entity.css\"]",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[92] [\"punctuation.section.embedded\",\"punctuation.section.embedded entity.name.tag\",\"punctuation.section.embedded constant.other\",\"punctuation.section.embedded source\"]",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[93] [\"punctuation.template-string.element.begin\",\"punctuation.template-string.element.end\",\"punctuation.definition.string.template.begin\",\"punctuation.definition.string.template.end\",\"string.quoted.template punctuation.definition.string.begin\",\"string.quoted.template punctuation.definition.string.end\",\"punctuation.definition.template-expression.begin\",\"punctuation.definition.template-expression.end\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[95] \"region.#ffab70ish\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[96] \"region.orangish\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[97] \"region.yellowish\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[98] \"region.greenish\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[99] \"region.bluish\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[100] \"region.purplish\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[101] \"region.pinkish\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[102] \"region.whitish\"",
+      "color": "#FFFFFF",
+      "background": "#1f1f1f",
+      "ratio": 16.48297747532879,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[103] \"source\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[104] [\"source.scss\",\"source.sass\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[105] [\"source.sass variable.other\",\"source.sass variable.sass\",\"source.scss variable.other\",\"source.scss variable.scss\",\"source.scss variable.sass\",\"source.css variable.other\",\"source.css variable.scss\",\"source.less variable.other\",\"source.less variable.other.less\",\"source.less variable.declaration.less\"]",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[106] \"source.git-show.commit.sha\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[107] [\"source.git-show.author\",\"source.git-show.date\",\"source.git-diff.command\",\"source.git-diff.command meta.diff.git-diff.header.from-file\",\"source.git-diff.command meta.diff.git-diff.header.to-file\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[108] [\"source.git-show meta.diff.git-diff.header.extended.index.from-sha\",\"source.git-show meta.diff.git-diff.header.extended.index.to-sha\"]",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[109] \"source.git-show meta.diff.range.unified\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[110] [\"source.git-show meta.diff.header.from-file\",\"source.git-show meta.diff.header.to-file\"]",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[111] \"storage\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[112] \"storage.type\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[113] \"storage.type.extends\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[114] \"storage.type.function.arrow\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[115] [\"storage.modifier\",\"storage.type.modifier\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[116] \"storage.class.restructu#ffab70text.ref\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[117] [\"storage.modifier.visibility.rust\",\"storage.modifier.lifetime.rust\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[118] [\"storage.modifier.const.rust\",\"storage.modifier.dyn.rust\",\"storage.modifier.mut.rust\",\"storage.modifier.static.rust\",\"storage.type.rust\",\"storage.type.core.rust\",\"storage.class.std.rust\"]",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[119] [\"storage.type.rust\",\"storage.modifier.const.rust\",\"storage.modifier.dyn.rust\",\"storage.modifier.mut.rust\",\"storage.modifier.static.rust\",\"keyword.other.rust\",\"keyword.other.where.rust\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[120] \"string\"",
+      "color": "#F8C66B",
+      "background": "#1f1f1f",
+      "ratio": 10.424488362467956,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[121] \"string.unquoted.label\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[122] \"string source\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[123] \"string source punctuation.section.embedded\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[124] [\"string.other.link.title\",\"string.other.link.description\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[125] \"string.other.link.description.title\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[126] [\"string.regexp punctuation.definition.string.begin\",\"string.regexp punctuation.definition.string.end\"]",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[127] [\"string.other.ref\",\"string.other.restructu#ffab70text.ref\"]",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[128] \"string.other.git-status.help.key\"",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[129] \"string.other.git-status.remote\"",
+      "color": "#f97583",
+      "background": "#1f1f1f",
+      "ratio": 6.200897709972222,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[130] \"support.constant\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[131] \"support.constant.handlebars\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[132] \"support.type.vendor-prefix.css\"",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[133] \"support.function\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[134] \"support.function.delimiter.elm\"",
+      "color": "#939293",
+      "background": "#1f1f1f",
+      "ratio": 5.316528942372395,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[135] [\"support.type\",\"entity.name.type.object.console\"]",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[136] \"support.variable\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[137] \"support.type.property-name\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[138] \"support.class\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[139] \"support.constant.core.rust\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[140] \"text\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[141] \"text.find-in-files\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[142] [\"variable\",\"variable.other\"]",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[143] [\"variable.parameter\",\"parameters variable.function\"]",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[144] [\"variable.language\",\"variable.parameter.function.language.special.self.python\",\"variable.parameter.function.language.special.cls.python\"]",
+      "color": "#C1C0C0",
+      "background": "#1f1f1f",
+      "ratio": 9.08015854118919,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[145] \"variable.language.arguments\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[146] \"variable.other.class\"",
+      "color": "#79b8ff",
+      "background": "#1f1f1f",
+      "ratio": 7.937876573502686,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[147] \"variable.other.constant\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[148] \"variable.other.readwrite\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[149] \"variable.other.member\"",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[150] \"variable.other.enummember\"",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[151] [\"variable.other.property\",\"variable.other.property.static\",\"variable.other.event\"]",
+      "color": "#EAEAEA",
+      "background": "#1f1f1f",
+      "ratio": 13.701055171906463,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[152] \"variable.function\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[153] \"variable.other.substitution\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[154] [\"source.ruby variable.other.readwrite.instance.ruby\",\"source.ruby variable.other.readwrite.class.ruby\"]",
+      "color": "#b392f0",
+      "background": "#1f1f1f",
+      "ratio": 6.504142890779128,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[155] \"source.jinja2 variable.other.jinja2.block\"",
+      "color": "#50fa7b",
+      "background": "#1f1f1f",
+      "ratio": 12.010085766693381,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[156] \"source.jinja2 variable.other.jinja2\"",
+      "color": "#ffab70",
+      "background": "#1f1f1f",
+      "ratio": 8.878151128173013,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[157] \"token.info-token\"",
+      "color": "#6796E6",
+      "background": "#1f1f1f",
+      "ratio": 5.558598200574239,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[158] \"token.warn-token\"",
+      "color": "#CD9731",
+      "background": "#1f1f1f",
+      "ratio": 6.331677447516641,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[159] \"token.error-token\"",
+      "color": "#F44747",
+      "background": "#1f1f1f",
+      "ratio": 4.582974992496481,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoMin",
+      "property": "tokenColors[160] \"token.debug-token\"",
+      "color": "#B267E6",
+      "background": "#1f1f1f",
+      "ratio": 4.69037162244385,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editor.foreground",
+      "color": "#fcfcfa",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "descriptionForeground",
+      "color": "#939293",
+      "background": "#1d1f28",
+      "ratio": 5.296427559999587,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "input.placeholderForeground",
+      "color": "#6272a4",
+      "background": "#21222c",
+      "ratio": 3.355517889104359,
+      "threshold": 4.5,
+      "context": "input.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorLineNumber.foreground",
+      "color": "#5e627e",
+      "background": "#282a36",
+      "ratio": 2.3898660447074844,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorLineNumber.activeForeground",
+      "color": "#797fa5",
+      "background": "#282a36",
+      "ratio": 3.6564342843158366,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "breadcrumb.foreground",
+      "color": "#5e627e",
+      "background": "#282a36",
+      "ratio": 2.3898660447074844,
+      "threshold": 4.5,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tab.activeForeground",
+      "color": "#bd93f9",
+      "background": "#303442",
+      "ratio": 5.134147394381316,
+      "threshold": 4.5,
+      "context": "editorGroupHeader.tabsBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tab.inactiveForeground",
+      "color": "#6272a4",
+      "background": "#282a36",
+      "ratio": 3.0259682062338786,
+      "threshold": 4.5,
+      "context": "editorGroupHeader.tabsBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tab.unfocusedInactiveForeground",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "editorGroupHeader.tabsBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "sideBar.foreground",
+      "color": "#5e6886",
+      "background": "#1d1f28",
+      "ratio": 2.971598218503888,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "statusBar.foreground",
+      "color": "#8197d8",
+      "background": "#1d1f28",
+      "ratio": 5.748514118962616,
+      "threshold": 4.5,
+      "context": "statusBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "statusBar.debuggingForeground",
+      "color": "#fcfcfa",
+      "background": "#6272a4",
+      "ratio": 4.581393829371443,
+      "threshold": 4.5,
+      "context": "statusBar.debuggingBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "panelTitle.activeForeground",
+      "color": "#f1fa8c",
+      "background": "#21222c",
+      "ratio": 14.131762110257101,
+      "threshold": 4.5,
+      "context": "panel.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "panelTitle.inactiveForeground",
+      "color": "#939293",
+      "background": "#21222c",
+      "ratio": 5.09342599664476,
+      "threshold": 4.5,
+      "context": "panel.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "activityBar.foreground",
+      "color": "#6272a4",
+      "background": "#14141b",
+      "ratio": 3.8950745687804837,
+      "threshold": 3,
+      "context": "activityBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "activityBar.inactiveForeground",
+      "color": "#3a3d4e",
+      "background": "#14141b",
+      "ratio": 1.708589792538568,
+      "threshold": 3,
+      "context": "activityBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "button.foreground",
+      "color": "#939293",
+      "background": "#21222c",
+      "ratio": 5.09342599664476,
+      "threshold": 4.5,
+      "context": "button.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "button.secondaryForeground",
+      "color": "#939293",
+      "background": "#21222c",
+      "ratio": 5.09342599664476,
+      "threshold": 4.5,
+      "context": "button.secondaryBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "list.activeSelectionForeground",
+      "color": "#bd93f9",
+      "background": "#272932",
+      "ratio": 6.005630113865406,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "list.inactiveSelectionForeground",
+      "color": "#bd93f9",
+      "background": "#25272f",
+      "ratio": 6.174233520766167,
+      "threshold": 4.5,
+      "context": "sideBar.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorSuggestWidget.foreground",
+      "color": "#c1c0c0",
+      "background": "#21222c",
+      "ratio": 8.699118554353479,
+      "threshold": 4.5,
+      "context": "editorSuggestWidget.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "notifications.foreground",
+      "color": "#c1c0c0",
+      "background": "#21222c",
+      "ratio": 8.699118554353479,
+      "threshold": 4.5,
+      "context": "notifications.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "terminal.foreground",
+      "color": "#fcfcfa",
+      "background": "#21222c",
+      "ratio": 15.372948951488198,
+      "threshold": 4.5,
+      "context": "terminal.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "titleBar.inactiveForeground",
+      "color": "#5b595c",
+      "background": "#1d1f28",
+      "ratio": 2.3679541275907297,
+      "threshold": 4.5,
+      "context": "titleBar.inactiveBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "focusBorder",
+      "color": "#6272a4",
+      "background": "#282a36",
+      "ratio": 3.0259682062338786,
+      "threshold": 3,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorCursor.foreground",
+      "color": "#fcfcfa",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 3,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorIndentGuide.background1",
+      "color": "#37394a",
+      "background": "#282a36",
+      "ratio": 1.2521915007042053,
+      "threshold": 0,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorIndentGuide.activeBackground1",
+      "color": "#4b4f66",
+      "background": "#282a36",
+      "ratio": 1.7694893514965058,
+      "threshold": 0,
+      "context": "editor.background"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[0] [\"comment\",\"comment keyword\",\"comment markup.underline.link\",\"comment string\",\"comment punctuation.definition\",\"comment punctuation\",\"comment text\"]",
+      "color": "#6272a4",
+      "background": "#282a36",
+      "ratio": 3.0259682062338786,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[1] \"comment storage.type\"",
+      "color": "#6272a4",
+      "background": "#282a36",
+      "ratio": 3.0259682062338786,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[2] \"comment entity.name.type\"",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[3] [\"comment variable\",\"comment variable.other\"]",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[4] \"comment keyword.codetag.notation\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[5] \"comment.git-status.header.remote\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[6] \"comment.git-status.header.local\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[7] \"comment.other.git-status.head\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[8] \"constant\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[9] \"constant.other\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[10] \"constant.other.php\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[11] \"constant.other.property\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[12] \"constant.other.citation.latex\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[13] \"constant.other.color\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[14] \"constant.other.character-class.escape\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[15] \"constant.other.key\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[16] \"constant.other.symbol\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[17] \"constant.other.elm\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[18] \"constant.numeric\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[19] \"constant.language\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[20] \"constant.character.escape\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[21] \"constant.numeric.line-number.find-in-files\"",
+      "color": "#5B595C",
+      "background": "#282a36",
+      "ratio": 2.0535489091047157,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[22] \"constant.numeric.line-number.match.find-in-files\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[23] \"entity.name.section\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[24] [\"entity.name.function\",\"entity.name.function.templated\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[25] \"entity.name.function.member.static\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[26] [\"entity.name.type.class.templated\",\"entity.name.type.class.generic\",\"entity.name.type.namespace\"]",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[27] \"entity.name.label\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[28] \"entity.name.function.preprocessor\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[29] \"entity.name\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[30] \"entity.name.class\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[31] \"entity.name.constant\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[32] \"entity.name.namespace\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[33] \"entity.other.inherited-class\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[34] \"entity.name.function\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[35] [\"entity.name.tag\",\"entity.name.tag.js.jsx support.class.component.js.jsx\",\"entity.name.tag support.class.component\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[36] \"entity.name.function.operator\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[37] [\"entity.name.type\",\"entity.name.type.class.reference\",\"entity.name.type.class.value\"]",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[38] \"entity.other.attribute-name\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[39] [\"entity.other.attribute-name.class.css\",\"entity.other.attribute-name.parent-selector-suffix.css\",\"entity.other.attribute-name.parent-selector-suffix.css punctuation.definition.entity.css\",\"entity.other.attribute-name.css\",\"entity.other.animation-name.css\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[40] \"entity.other.attribute-name.id.css\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[41] [\"entity.other.attribute-name.pseudo-class.css\",\"entity.other.pseudo-class.css\",\"entity.other.pseudo-element.css\"]",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[42] [\"entity.name.function\",\"support.function\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[43] \"entity.other.git-status.hex\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[44] \"entity.other.jinja2.delimiter\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[45] \"entity.name.operator.custom-literal\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[46] \"entity.name.operator.custom-literal.string\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[47] \"entity.name.operator.custom-literal.number\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[48] \"entity.name.type.rust\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[49] \"entity.name.lifetime.rust\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[51] \"keyword\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[52] \"keyword.control\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[53] \"keyword.control.directive\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[54] [\"keyword.operator\",\"keyword.operator.member\",\"keyword.operator.new\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[55] \"keyword.other.substitution\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[56] [\"keyword.other.template.begin\",\"keyword.other.template.end\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[57] [\"keyword.operator.heading.restructuredtext\",\"keyword.operator.table.row.restructuredtext keyword.operator.table.data.restructuredtext\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[58] \"keyword.other.parenthesis.elm\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[59] [\"keyword.other.fn.rust\",\"keyword.other.rust\",\"keyword.other.unsafe.rust\",\"keyword.other.where.rust\"]",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[60] [\"keyword.control.rust\",\"keyword.operator.misc.rust\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[63] \"markup.heading\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[64] \"markup.raw\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[66] \"markup.underline.link\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[67] [\"markup.inserted\",\"markup.inserted punctuation.definition.inserted\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[68] [\"markup.deleted\",\"markup.deleted punctuation.definition.deleted\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[69] [\"markup.changed\",\"markup.changed punctuation.definition.changed\"]",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[70] [\"markup.ignored\",\"markup.ignored punctuation.definition.ignored\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[71] \"markup.untracked\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[73] [\"meta.brace.round\",\"meta.brace.square\",\"meta.brace.curly\",\"meta.delimiter.comma.js\",\"meta.function-call.without-arguments.js\",\"meta.function-call.method.without-arguments.js\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[74] [\"meta.function-call.generic.python\",\"support.function.builtin.python\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[75] \"meta.function-call.python meta.function-call.arguments.python\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[76] \"meta.instance.constructor\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[77] [\"meta.attribute-with-value.class string\",\"meta.attribute.class.html string\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[78] [\"meta.attribute-with-value.id string\",\"meta.attribute.id.html string\"]",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[79] [\"source.json meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary\",\"source.json meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\",\"source.json meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary string\"]",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[80] [\"source.json meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\",\"source.json meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value meta.structure.dictionary meta.structure.dictionary.value string\"]",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[81] \"meta.object.member\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[82] \"meta.property-list.css variable.other\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[83] [\"entity.name.constant.preprocessor\",\"meta.preprocessor\"]",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[84] \"meta.diff.git-diff.header\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[85] \"meta.type_params.rust\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[86] [\"meta.attribute.rust\",\"meta.annotation.rust\",\"variable.language.rust\",\"variable.annotation.rust\",\"meta.annotation.rust string\",\"meta.annotation.rust keyword\",\"meta.annotation.rust keyword.operator\",\"meta.attribute.rust string\"]",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[87] \"punctuation\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[88] [\"punctuation.definition.tag\",\"punctuation.definition.tag source\",\"punctuation.definition.group.begin.ruby\",\"punctuation.definition.group.end.ruby\",\"punctuation.definition.group.begin.css\",\"punctuation.definition.group.end.css\",\"punctuation.definition.string.end.html source.css\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[89] \"punctuation.definition.group\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[90] \"punctuation.definition.comment\"",
+      "color": "#6272a4",
+      "background": "#282a36",
+      "ratio": 3.0259682062338786,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[91] [\"punctuation.definition.variable\",\"punctuation.definition.keyword.scss\",\"punctuation.definition.entity.css\"]",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[92] [\"punctuation.section.embedded\",\"punctuation.section.embedded entity.name.tag\",\"punctuation.section.embedded constant.other\",\"punctuation.section.embedded source\"]",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[93] [\"punctuation.template-string.element.begin\",\"punctuation.template-string.element.end\",\"punctuation.definition.string.template.begin\",\"punctuation.definition.string.template.end\",\"string.quoted.template punctuation.definition.string.begin\",\"string.quoted.template punctuation.definition.string.end\",\"punctuation.definition.template-expression.begin\",\"punctuation.definition.template-expression.end\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[95] \"region.redish\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[96] \"region.orangish\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[97] \"region.yellowish\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[98] \"region.greenish\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[99] \"region.bluish\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[100] \"region.purplish\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[101] \"region.pinkish\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[102] \"region.whitish\"",
+      "color": "#FFFFFF",
+      "background": "#282a36",
+      "ratio": 14.240403179767634,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[103] \"source\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[104] [\"source.scss\",\"source.sass\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[105] [\"source.sass variable.other\",\"source.sass variable.sass\",\"source.scss variable.other\",\"source.scss variable.scss\",\"source.scss variable.sass\",\"source.css variable.other\",\"source.css variable.scss\",\"source.less variable.other\",\"source.less variable.other.less\",\"source.less variable.declaration.less\"]",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[106] \"source.git-show.commit.sha\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[107] [\"source.git-show.author\",\"source.git-show.date\",\"source.git-diff.command\",\"source.git-diff.command meta.diff.git-diff.header.from-file\",\"source.git-diff.command meta.diff.git-diff.header.to-file\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[108] [\"source.git-show meta.diff.git-diff.header.extended.index.from-sha\",\"source.git-show meta.diff.git-diff.header.extended.index.to-sha\"]",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[109] \"source.git-show meta.diff.range.unified\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[110] [\"source.git-show meta.diff.header.from-file\",\"source.git-show meta.diff.header.to-file\"]",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[111] \"storage\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[112] \"storage.type\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[113] \"storage.type.extends\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[114] \"storage.type.function.arrow\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[115] [\"storage.modifier\",\"storage.type.modifier\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[116] \"storage.class.restructuredtext.ref\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[117] [\"storage.modifier.visibility.rust\",\"storage.modifier.lifetime.rust\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[118] [\"storage.modifier.const.rust\",\"storage.modifier.dyn.rust\",\"storage.modifier.mut.rust\",\"storage.modifier.static.rust\",\"storage.type.rust\",\"storage.type.core.rust\",\"storage.class.std.rust\"]",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[119] [\"storage.type.rust\",\"storage.modifier.const.rust\",\"storage.modifier.dyn.rust\",\"storage.modifier.mut.rust\",\"storage.modifier.static.rust\",\"keyword.other.rust\",\"keyword.other.where.rust\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[120] \"string\"",
+      "color": "#f1fa8c",
+      "background": "#282a36",
+      "ratio": 12.743863766171874,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[121] \"string.unquoted.label\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[122] \"string source\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[123] \"string source punctuation.section.embedded\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[124] [\"string.other.link.title\",\"string.other.link.description\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[125] \"string.other.link.description.title\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[126] [\"string.regexp punctuation.definition.string.begin\",\"string.regexp punctuation.definition.string.end\"]",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[127] [\"string.other.ref\",\"string.other.restructuredtext.ref\"]",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[128] \"string.other.git-status.help.key\"",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[129] \"string.other.git-status.remote\"",
+      "color": "#ff74ab",
+      "background": "#282a36",
+      "ratio": 5.654261481288292,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[130] \"support.constant\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[131] \"support.constant.handlebars\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[132] \"support.type.vendor-prefix.css\"",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[133] \"support.function\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[134] \"support.function.delimiter.elm\"",
+      "color": "#939293",
+      "background": "#282a36",
+      "ratio": 4.593194146482706,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[135] [\"support.type\",\"entity.name.type.object.console\"]",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[136] \"support.variable\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[137] \"support.type.property-name\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[138] \"support.class\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[139] \"support.constant.core.rust\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[140] \"text\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[141] \"text.find-in-files\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[142] [\"variable\",\"variable.other\"]",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[143] [\"variable.parameter\",\"parameters variable.function\"]",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[144] [\"variable.language\",\"variable.parameter.function.language.special.self.python\",\"variable.parameter.function.language.special.cls.python\"]",
+      "color": "#C1C0C0",
+      "background": "#282a36",
+      "ratio": 7.8447670486891505,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[145] \"variable.language.arguments\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[146] \"variable.other.class\"",
+      "color": "#8be9fd",
+      "background": "#282a36",
+      "ratio": 10.288168236715233,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[147] \"variable.other.constant\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[148] \"variable.other.readwrite\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[149] \"variable.other.member\"",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[150] \"variable.other.enummember\"",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[151] [\"variable.other.property\",\"variable.other.property.static\",\"variable.other.event\"]",
+      "color": "#FCFCFA",
+      "background": "#282a36",
+      "ratio": 13.863152067914063,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[152] \"variable.function\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[153] \"variable.other.substitution\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[154] [\"source.ruby variable.other.readwrite.instance.ruby\",\"source.ruby variable.other.readwrite.class.ruby\"]",
+      "color": "#bd93f9",
+      "background": "#282a36",
+      "ratio": 5.903095616330085,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[155] \"source.jinja2 variable.other.jinja2.block\"",
+      "color": "#50fa7b",
+      "background": "#282a36",
+      "ratio": 10.37606608376991,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[156] \"source.jinja2 variable.other.jinja2\"",
+      "color": "#ffb86c",
+      "background": "#282a36",
+      "ratio": 8.357582660158178,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[157] \"token.info-token\"",
+      "color": "#6796E6",
+      "background": "#282a36",
+      "ratio": 4.802328924430511,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[158] \"token.warn-token\"",
+      "color": "#CD9731",
+      "background": "#282a36",
+      "ratio": 5.470227681366192,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[159] \"token.error-token\"",
+      "color": "#F44747",
+      "background": "#282a36",
+      "ratio": 3.9594431135774273,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tokenColors[160] \"token.debug-token\"",
+      "color": "#B267E6",
+      "background": "#282a36",
+      "ratio": 4.052228007137342,
+      "threshold": 4.5,
+      "context": "Editor sem overlays; estilos TextMate individuais, não prova de token aplicado"
+    }
+  ],
+  "proposals": [
+    {
+      "theme": "MonoMin",
+      "property": "statusBar.debuggingForeground",
+      "color": "#EAEAEA",
+      "background": "#888888",
+      "current": 2.946596371113403,
+      "proposed": "#1f1f1f",
+      "proposedRatio": 4.649790282178815,
+      "impact": "baixo",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoMin",
+      "property": "titleBar.inactiveForeground",
+      "color": "#EAEAEA50",
+      "background": "#151515",
+      "current": 2.5667796812807278,
+      "proposed": "#888888",
+      "proposedRatio": 5.151414140070385,
+      "impact": "médio",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "input.placeholderForeground",
+      "color": "#6272a4",
+      "background": "#21222c",
+      "current": 3.355517889104359,
+      "proposed": "#939293",
+      "proposedRatio": 5.09342599664476,
+      "impact": "médio",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorLineNumber.foreground",
+      "color": "#5e627e",
+      "background": "#282a36",
+      "current": 2.3898660447074844,
+      "proposed": "#939293",
+      "proposedRatio": 4.593194146482706,
+      "impact": "baixo",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "editorLineNumber.activeForeground",
+      "color": "#797fa5",
+      "background": "#282a36",
+      "current": 3.6564342843158366,
+      "proposed": "#c1c0c0",
+      "proposedRatio": 7.8447670486891505,
+      "impact": "baixo",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "breadcrumb.foreground",
+      "color": "#5e627e",
+      "background": "#282a36",
+      "current": 2.3898660447074844,
+      "proposed": "#939293",
+      "proposedRatio": 4.593194146482706,
+      "impact": "baixo",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "tab.inactiveForeground",
+      "color": "#6272a4",
+      "background": "#282a36",
+      "current": 3.0259682062338786,
+      "proposed": "#939293",
+      "proposedRatio": 4.593194146482706,
+      "impact": "médio",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "sideBar.foreground",
+      "color": "#5e6886",
+      "background": "#1d1f28",
+      "current": 2.971598218503888,
+      "proposed": "#939293",
+      "proposedRatio": 5.296427559999587,
+      "impact": "baixo",
+      "reason": "Abaixo da referência 4.5:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    },
+    {
+      "theme": "MonoDracula",
+      "property": "activityBar.inactiveForeground",
+      "color": "#3a3d4e",
+      "background": "#14141b",
+      "current": 1.708589792538568,
+      "proposed": "#5e627e",
+      "proposedRatio": 3.0762737144279995,
+      "impact": "médio",
+      "reason": "Abaixo da referência 3:1; avaliar legibilidade no contexto, sem equiparar inativo a desabilitado."
+    }
+  ]
+}

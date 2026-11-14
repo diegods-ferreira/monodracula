@@ -1,0 +1,21 @@
+{
+  "changedCharacters": 235,
+  "unchangedCharacters": 159,
+  "changedLines": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10
+  ],
+  "onlyAuthorizedForegroundChange": true,
+  "italicsPreserved": true,
+  "nonCommentTokensUnchanged": true,
+  "semanticEnabled": true,
+  "semanticProviderDataEqual": true,
+  "fontAndSettingsEqual": true,
+  "intentionallyDifferentCommentColorPreserved": "JSDoc value remains #C1C0C0"
+}

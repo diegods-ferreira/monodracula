@@ -2,6 +2,12 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
+		"button.secondaryBackground": "#21222c",
+		"button.secondaryForeground": "#939293",
+		"button.secondaryHoverBackground": "#282a36",
+		"editorIndentGuide.background1": "#37394a",
+		"editorIndentGuide.activeBackground1": "#4b4f66",
+		"agentsPanel.border": "#282a36",
 		"activityBar.background": "#14141b",
 		"activityBar.border": "#21222c",
 		"activityBar.foreground": "#6272a4",
@@ -339,8 +345,10 @@
 		"titleBar.inactiveBackground": "#1d1f28",
 		"titleBar.inactiveForeground": "#5b595c",
 		"walkThrough.embeddedEditorBackground": "#1d1f28",
-		"welcomePage.buttonBackground": "#21222c",
-		"welcomePage.buttonHoverBackground": "#5b595c",
+		// Not registered or consumed in VS Code 1.146.0; no proven replacement.
+		// "welcomePage.buttonBackground": "#21222c",
+		// Not registered or consumed in VS Code 1.146.0; no proven replacement.
+		// "welcomePage.buttonHoverBackground": "#5b595c",
 		"widget.shadow": "#121319",
 		//"activityBar.activeBorder": "#c1c0c0",
 		//"activityBar.dropBorder": "#c1c0c0",
@@ -453,14 +461,14 @@
 				"comment text"
 			],
 			"settings": {
-				"foreground": "#6272a4",
+				"foreground": "#797fa5",
 				"fontStyle": "italic"
 			}
 		},
 		{
 			"scope": "comment storage.type",
 			"settings": {
-				"foreground": "#6272a4"
+				"foreground": "#797fa5"
 			}
 		},
 		{
@@ -1144,7 +1152,7 @@
 		{
 			"scope": "punctuation.definition.comment",
 			"settings": {
-				"foreground": "#6272a4"
+				"foreground": "#797fa5"
 			}
 		},
 		{

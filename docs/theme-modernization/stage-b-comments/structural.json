@@ -1,0 +1,36 @@
+{
+  "rules": [
+    {
+      "index": 0,
+      "scope": [
+        "comment",
+        "comment keyword",
+        "comment markup.underline.link",
+        "comment string",
+        "comment punctuation.definition",
+        "comment punctuation",
+        "comment text"
+      ],
+      "from": "#6272a4",
+      "to": "#797fa5"
+    },
+    {
+      "index": 1,
+      "scope": "comment storage.type",
+      "from": "#6272a4",
+      "to": "#797fa5"
+    },
+    {
+      "index": 90,
+      "scope": "punctuation.definition.comment",
+      "from": "#6272a4",
+      "to": "#797fa5"
+    }
+  ],
+  "ruleCount": 161,
+  "exactTextDelta": true,
+  "colorsUnchanged": true,
+  "semanticConfigurationUnchanged": true,
+  "monoMinBytesUnchanged": true,
+  "manifestBytesUnchanged": true
+}
