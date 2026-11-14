@@ -1,0 +1,45 @@
+diff --git "a/D:\\Dev\\diegods-ferreira\\monodracula\\docs\\theme-modernization\\yellow-highlights/baseline/MonoMinTheme.json" b/themes/MonoMinTheme.json
+index ca02625..2dc763e 100644
+--- "a/D:\\Dev\\diegods-ferreira\\monodracula\\docs\\theme-modernization\\yellow-highlights/baseline/MonoMinTheme.json"
++++ b/themes/MonoMinTheme.json
+@@ -2,6 +2,8 @@
+ 	"$schema": "vscode://schemas/color-theme",
+ 	"type": "dark",
+ 	"colors": {
++		"editor.findMatchForeground": "#F8C66B",
++		"editor.findMatchHighlightForeground": "#F8C66B",
+ 		"button.secondaryBackground": "#101010",
+ 		"button.secondaryForeground": "#939293",
+ 		"button.secondaryHoverBackground": "#1f1f1f",
+@@ -164,7 +166,7 @@
+ 		"list.errorForeground": "#f97583",
+ 		"list.focusBackground": "#1f1f1f",
+ 		"list.focusForeground": "#EAEAEA",
+-		"list.highlightForeground": "#EAEAEA",
++		"list.highlightForeground": "#F8C66B",
+ 		"list.hoverBackground": "#EAEAEA0c",
+ 		"list.hoverForeground": "#EAEAEA",
+ 		"list.inactiveFocusBackground": "#1f1f1f",
+
+diff --git "a/D:\\Dev\\diegods-ferreira\\monodracula\\docs\\theme-modernization\\yellow-highlights/baseline/MonoDraculaTheme.json" b/themes/MonoDraculaTheme.json
+index a366841..7a19be2 100644
+--- "a/D:\\Dev\\diegods-ferreira\\monodracula\\docs\\theme-modernization\\yellow-highlights/baseline/MonoDraculaTheme.json"
++++ b/themes/MonoDraculaTheme.json
+@@ -2,6 +2,8 @@
+ 	"$schema": "vscode://schemas/color-theme",
+ 	"type": "dark",
+ 	"colors": {
++		"editor.findMatchForeground": "#f1fa8c",
++		"editor.findMatchHighlightForeground": "#f1fa8c",
+ 		"button.secondaryBackground": "#21222c",
+ 		"button.secondaryForeground": "#939293",
+ 		"button.secondaryHoverBackground": "#282a36",
+@@ -161,7 +163,7 @@
+ 		"list.errorForeground": "#ff74ab",
+ 		"list.focusBackground": "#282a36",
+ 		"list.focusForeground": "#fcfcfa",
+-		"list.highlightForeground": "#fcfcfa",
++		"list.highlightForeground": "#f1fa8c",
+ 		"list.hoverBackground": "#fcfcfa0c",
+ 		"list.hoverForeground": "#fcfcfa",
+ 		"list.inactiveFocusBackground": "#282a36",

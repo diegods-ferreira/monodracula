@@ -1,0 +1,61 @@
+{
+  "vscode": "1.146.0",
+  "antigravity": "1.12.0",
+  "webview": [
+    {
+      "type": "webview",
+      "id": "antigravity.panel",
+      "name": "Antigravity",
+      "icon": "img/logo.svg"
+    }
+  ],
+  "registeredAntigravityColors": [],
+  "extensionSettings": [
+    "antigravity.serverPort",
+    "antigravity.serverStartupTimeoutMs",
+    "antigravity.heartbeatIntervalMs",
+    "antigravity.enableTelemetry",
+    "antigravity.enableInlineDiff",
+    "antigravity.autoAcceptOnChat",
+    "antigravity.autoOpenFiles",
+    "antigravity.enableComments",
+    "antigravity.caCertificates",
+    "antigravity.releaseBaseUrl",
+    "antigravity.serverArgs",
+    "antigravity.channel"
+  ],
+  "bridgeForwardsListHighlight": false,
+  "recognized": {
+    "list.highlightForeground": true,
+    "list.focusHighlightForeground": true,
+    "quickInputList.focusHighlightForeground": true,
+    "list.filterMatchBackground": true,
+    "list.filterMatchBorder": true,
+    "editor.findMatchForeground": true,
+    "editor.findMatchHighlightForeground": true,
+    "editor.findMatchBackground": true,
+    "editor.findMatchHighlightBackground": true,
+    "editor.findMatchBorder": true,
+    "editor.findMatchHighlightBorder": true
+  },
+  "cssConsumers": {
+    "--vscode-list-highlightForeground": "-meta{opacity:1}.quick-input-list .monaco-list .monaco-list-row .monaco-highlighted-label .highlight{font-weight:700;background-color:unset;color:var(--vscode-list-highlightForeground)!important}.quick-input-list .monaco-list .monaco-list-row.focused .monaco-highlighted-label .hi",
+    "--vscode-list-filterMatchBackground": "t .monaco-highlighted-label .highlight,.pane-body .monaco-tl-contents .monaco-highlighted-label .highlight{color:unset!important;background-color:var(--vscode-list-filterMatchBackground);outline:1px dotted var(--vscode-list-filterMatchBorder);outline-offset:-1px}.monaco-workbench",
+    "--vscode-editorSuggestWidget-highlightForeground": "highlight{font-weight:700}.monaco-editor .suggest-widget .monaco-list .monaco-list-row>.contents>.main .monaco-highlighted-label .highlight{color:var(--vscode-editorSuggestWidget-highlightForeground)}.monaco-editor .suggest-widget .monaco-list .monaco-list-row.focused>.contents>.",
+    "--vscode-editor-findMatchForeground": "hat-used-context-label .monaco-button{gap:4px}}::highlight(chat-find-current-match){background-color:var(--vscode-chat-findMatchBackground);color:var(--vscode-editor-findMatchForeground)}::highlight(chat-find-other-match){background-color:var(--vscode-chat-findMatchHighlightBackg"
+  },
+  "localAssets": {
+    "main.js": {
+      "length": 12153193,
+      "sha256": "de9b50dfa3694b6400c6b9e3ba1721201ae6e1a039d03b9283301744854cbf81"
+    },
+    "compiled_tailwind.css": {
+      "length": 339141,
+      "sha256": "9f0535c4cbdaec0ebd39d54316772e842d94337db4915a94b22297827d61bb89"
+    },
+    "jetbox.css": {
+      "length": 95543,
+      "sha256": "c1938159348c6986ab39baf0784812a973d28f321ec11a2445e780404118df20"
+    }
+  }
+}

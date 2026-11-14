@@ -1,0 +1,15 @@
+{
+  "name": "Dark Modern",
+  "bodyColor": "rgb(204, 204, 204)",
+  "variables": {
+    "--vscode-foreground": "#cccccc",
+    "--vscode-editor-foreground": "#cccccc",
+    "--vscode-editor-background": "#1f1f1f",
+    "--vscode-sideBar-foreground": "#cccccc",
+    "--vscode-sideBar-background": "#181818",
+    "--vscode-descriptionForeground": "#9d9d9d",
+    "--vscode-input-border": "#3c3c3c",
+    "--vscode-agy-foreground": "#cccccc",
+    "--vscode-agy-background": "#181818"
+  }
+}

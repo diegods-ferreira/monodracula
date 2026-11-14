@@ -1,0 +1,1 @@
+(()=>{const s=getComputedStyle(document.querySelector('.monaco-workbench'));return Object.fromEntries(['quickInput.background','editor.background','editor.findMatchBackground','editor.findMatchHighlightBackground'].map(k=>[k,s.getPropertyValue('--vscode-'+k.replaceAll('.','-'))]));})()

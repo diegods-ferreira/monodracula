@@ -2,6 +2,8 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
+		"editor.findMatchForeground": "#f1fa8c",
+		"editor.findMatchHighlightForeground": "#f1fa8c",
 		"button.secondaryBackground": "#21222c",
 		"button.secondaryForeground": "#939293",
 		"button.secondaryHoverBackground": "#282a36",
@@ -161,7 +163,7 @@
 		"list.errorForeground": "#ff74ab",
 		"list.focusBackground": "#282a36",
 		"list.focusForeground": "#fcfcfa",
-		"list.highlightForeground": "#fcfcfa",
+		"list.highlightForeground": "#f1fa8c",
 		"list.hoverBackground": "#fcfcfa0c",
 		"list.hoverForeground": "#fcfcfa",
 		"list.inactiveFocusBackground": "#282a36",

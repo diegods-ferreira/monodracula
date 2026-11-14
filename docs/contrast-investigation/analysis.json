@@ -1,0 +1,1011 @@
+{
+  "measuredNominalAntigravity": [
+    {
+      "theme": "MonoMin",
+      "component": "Greeting",
+      "color": "rgb(136, 136, 136)",
+      "opacity": "1",
+      "effectiveForeground": "#888888",
+      "background": "#151515",
+      "contrast": 5.151414140070385,
+      "selector": "home-greeting-title text-3xl font-normal tracking-tight text-center text-foreground",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Workspace label",
+      "color": "color(srgb 0.307843 0.307843 0.307843)",
+      "opacity": "1",
+      "effectiveForeground": "#4e4e4e",
+      "background": "#151515",
+      "contrast": 2.211907582522784,
+      "selector": "truncate flex-1 min-w-0",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Input placeholder",
+      "color": "rgb(136, 136, 136)",
+      "opacity": "0.6",
+      "effectiveForeground": "#5c5c5c",
+      "background": "#1b1b1b",
+      "contrast": 2.5945733582172577,
+      "selector": "pointer-events-none absolute left-2 right-2 top-2 z-0 select-none overflow-hidden text-ellipsis whitespace-nowrap leading-6 text-foreground opacity-60",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Customization label",
+      "color": "color(srgb 0.420588 0.420588 0.420588)",
+      "opacity": "1",
+      "effectiveForeground": "#6b6b6b",
+      "background": "#151515",
+      "contrast": 3.4393110376218505,
+      "selector": "truncate",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Input boundary",
+      "color": "color(srgb 0.126324 0.126324 0.126324)",
+      "background": "#1b1b1b",
+      "contrast": 1.0625655116527815,
+      "outsideContrast": 1.1235754958472175,
+      "selector": "surface-composer relative flex flex-col p-px rounded-2xl bg-card-border",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Greeting",
+      "color": "rgb(94, 104, 134)",
+      "opacity": "1",
+      "effectiveForeground": "#5e6886",
+      "background": "#1d1f28",
+      "contrast": 2.971598218503888,
+      "selector": "home-greeting-title text-3xl font-normal tracking-tight text-center text-foreground",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Workspace label",
+      "color": "color(srgb 0.241176 0.264706 0.341176)",
+      "opacity": "1",
+      "effectiveForeground": "#3d4457",
+      "background": "#1d1f28",
+      "contrast": 1.6843182596244648,
+      "selector": "truncate flex-1 min-w-0",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Input placeholder",
+      "color": "rgb(94, 104, 134)",
+      "opacity": "0.6",
+      "effectiveForeground": "#454c62",
+      "background": "#20232d",
+      "contrast": 1.8515663326831566,
+      "selector": "pointer-events-none absolute left-2 right-2 top-2 z-0 select-none overflow-hidden text-ellipsis whitespace-nowrap leading-6 text-foreground opacity-60",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Customization label",
+      "color": "color(srgb 0.304902 0.336275 0.433333)",
+      "opacity": "1",
+      "effectiveForeground": "#4e566e",
+      "background": "#1d1f28",
+      "contrast": 2.245972852062869,
+      "selector": "truncate",
+      "modalPresent": true
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Input boundary",
+      "color": "color(srgb 0.138578 0.14948 0.192804)",
+      "background": "#20232d",
+      "contrast": 1.0449605893033829,
+      "outsideContrast": 1.0916058659413663,
+      "selector": "surface-composer relative flex flex-col p-px rounded-2xl bg-card-border",
+      "modalPresent": true
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Greeting",
+      "color": "rgb(204, 204, 204)",
+      "opacity": "1",
+      "effectiveForeground": "#cccccc",
+      "background": "#181818",
+      "contrast": 11.056696482610674,
+      "selector": "home-greeting-title text-3xl font-normal tracking-tight text-center text-foreground",
+      "modalPresent": true
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Workspace label",
+      "color": "color(srgb 0.447059 0.447059 0.447059)",
+      "opacity": "1",
+      "effectiveForeground": "#727272",
+      "background": "#181818",
+      "contrast": 3.6910969233219646,
+      "selector": "truncate flex-1 min-w-0",
+      "modalPresent": true
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Input placeholder",
+      "color": "rgb(204, 204, 204)",
+      "opacity": "0.6",
+      "effectiveForeground": "#888888",
+      "background": "#212121",
+      "contrast": 4.518255421171709,
+      "selector": "pointer-events-none absolute left-2 right-2 top-2 z-0 select-none overflow-hidden text-ellipsis whitespace-nowrap leading-6 text-foreground opacity-60",
+      "modalPresent": true
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Customization label",
+      "color": "color(srgb 0.623529 0.623529 0.623529)",
+      "opacity": "1",
+      "effectiveForeground": "#9f9f9f",
+      "background": "#181818",
+      "contrast": 6.708545973485735,
+      "selector": "truncate",
+      "modalPresent": true
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Input boundary",
+      "color": "color(srgb 0.162941 0.162941 0.162941)",
+      "background": "#212121",
+      "contrast": 1.1150299559109333,
+      "outsideContrast": 1.2295705805825525,
+      "selector": "surface-composer relative flex flex-col p-px rounded-2xl bg-card-border",
+      "modalPresent": true
+    }
+  ],
+  "sourcePredictions": [
+    {
+      "theme": "MonoMin",
+      "component": "Recently opened filename",
+      "color": "#888888",
+      "background": "#1b1b1b",
+      "contrast": 4.871693109818025,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Recently opened path (opacity .5)",
+      "color": "#515151",
+      "background": "#1b1b1b",
+      "contrast": 2.1756848966043036,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Recently opened header (muted 50%)",
+      "color": "#4f4f4f",
+      "background": "#1b1b1b",
+      "contrast": 2.1083287725771807,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Antigravity fuzzy match (text-primary)",
+      "color": "#101010",
+      "background": "#1b1b1b",
+      "contrast": 1.1018270849699967,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Recently opened filename",
+      "color": "#5e6886",
+      "background": "#20232d",
+      "contrast": 2.844619218771673,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Recently opened path (opacity .5)",
+      "color": "#3f4559",
+      "background": "#20232d",
+      "contrast": 1.6518820783635337,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Recently opened header (muted 50%)",
+      "color": "#3e4457",
+      "background": "#20232d",
+      "contrast": 1.6237710038044604,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Antigravity fuzzy match (text-primary)",
+      "color": "#21222c",
+      "background": "#20232d",
+      "contrast": 1.0045993972924456,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Recently opened filename",
+      "color": "#cccccc",
+      "background": "#212121",
+      "contrast": 10.026710126461278,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Recently opened path (opacity .5)",
+      "color": "#777777",
+      "background": "#212121",
+      "contrast": 3.595770109392285,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Recently opened header (muted 50%)",
+      "color": "#727272",
+      "background": "#212121",
+      "contrast": 3.347250680906175,
+      "evidence": "Source-based prediction, not an opened menu"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "Antigravity fuzzy match (text-primary)",
+      "color": "#0078d4",
+      "background": "#212121",
+      "contrast": 3.555730637525378,
+      "evidence": "Source-based prediction, not an opened menu"
+    }
+  ],
+  "native": [
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#353535",
+      "contrast": 3.462819831893073,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(234, 234, 234)",
+      "effectiveBackground": "#202020",
+      "contrast": 13.598684438668494,
+      "classes": "highlight"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(234, 234, 234)",
+      "effectiveBackground": "#151515",
+      "contrast": 15.179138211233667,
+      "classes": "highlight"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(179, 146, 240)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 4.2565121002138735,
+      "classes": "mtk5 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(248, 198, 107)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 6.822107324285472,
+      "classes": "mtk9 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 3.0429664495240125,
+      "classes": "mtk3 mtki findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(234, 234, 234)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 8.966393897587292,
+      "classes": "mtk1 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(94, 104, 134)",
+      "effectiveBackground": "#3e4048",
+      "contrast": 1.8658498807537565,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(252, 252, 250)",
+      "effectiveBackground": "#282a33",
+      "contrast": 13.91060310927172,
+      "classes": "highlight"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(252, 252, 250)",
+      "effectiveBackground": "#1d1f28",
+      "contrast": 15.9856470985864,
+      "classes": "highlight"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(189, 147, 249)",
+      "effectiveBackground": "#484a53",
+      "contrast": 3.6787041871918666,
+      "classes": "mtk5 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(241, 250, 140)",
+      "effectiveBackground": "#484a53",
+      "contrast": 7.941749218482882,
+      "classes": "mtk10 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(121, 127, 165)",
+      "effectiveBackground": "#484a53",
+      "contrast": 2.2786248074136606,
+      "classes": "mtk3 mtki findMatchInline findMatchInline"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(252, 252, 250)",
+      "effectiveBackground": "#484a53",
+      "contrast": 8.639269778865353,
+      "classes": "mtk1 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "search",
+      "text": "contrast",
+      "foreground": "rgb(204, 204, 204)",
+      "effectiveBackground": "#5d2e10",
+      "contrast": 6.978598328500718,
+      "classes": "findInFileMatch"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(42, 170, 255)",
+      "effectiveBackground": "#04395e",
+      "contrast": 4.732951497221087,
+      "classes": "highlight"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(42, 170, 255)",
+      "effectiveBackground": "#181818",
+      "contrast": 7.01147397768389,
+      "classes": "highlight"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(79, 193, 255)",
+      "effectiveBackground": "#623315",
+      "contrast": 5.187467787982321,
+      "classes": "mtk19 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(206, 145, 120)",
+      "effectiveBackground": "#623315",
+      "contrast": 3.9616020018956464,
+      "classes": "mtk13 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(106, 153, 85)",
+      "effectiveBackground": "#623315",
+      "contrast": 3.1413184887166836,
+      "classes": "mtk5 findMatchInline findMatchInline"
+    },
+    {
+      "theme": "Dark Modern",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(79, 193, 255)",
+      "effectiveBackground": "#623315",
+      "contrast": 5.187467787982321,
+      "classes": "mtk19 findMatchInline findMatchInline"
+    }
+  ],
+  "yellow": [
+    {
+      "theme": "MonoMin",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(234, 234, 234)",
+      "effectiveBackground": "#202020",
+      "contrast": 13.598684438668494,
+      "classes": "highlight",
+      "alternativeA": "#F8C66B",
+      "contrastA": 10.34659928721741,
+      "alternativeB": "#F8C66B",
+      "textB": "#1f1f1f",
+      "contrastB": 10.424488362467956,
+      "supportB": "Quick Input explicitly clears highlight background; not supported by list.filterMatchBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(234, 234, 234)",
+      "effectiveBackground": "#151515",
+      "contrast": 15.179138211233667,
+      "classes": "highlight",
+      "alternativeA": "#F8C66B",
+      "contrastA": 11.549092215886619,
+      "alternativeB": "#F8C66B",
+      "textB": "#1f1f1f",
+      "contrastB": 10.424488362467956,
+      "supportB": "Quick Input explicitly clears highlight background; not supported by list.filterMatchBackground"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(179, 146, 240)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 4.2565121002138735,
+      "classes": "mtk5 findMatchInline findMatchInline",
+      "alternativeA": "#F8C66B",
+      "contrastA": 6.822107324285472,
+      "alternativeB": "#F8C66B",
+      "textB": "#1f1f1f",
+      "contrastB": 10.424488362467956,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(248, 198, 107)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 6.822107324285472,
+      "classes": "mtk9 findMatchInline findMatchInline",
+      "alternativeA": "#F8C66B",
+      "contrastA": 6.822107324285472,
+      "alternativeB": "#F8C66B",
+      "textB": "#1f1f1f",
+      "contrastB": 10.424488362467956,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(136, 136, 136)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 3.0429664495240125,
+      "classes": "mtk3 mtki findMatchInline findMatchInline",
+      "alternativeA": "#F8C66B",
+      "contrastA": 6.822107324285472,
+      "alternativeB": "#F8C66B",
+      "textB": "#1f1f1f",
+      "contrastB": 10.424488362467956,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(234, 234, 234)",
+      "effectiveBackground": "#3d3d3d",
+      "contrast": 8.966393897587292,
+      "classes": "mtk1 findMatchInline findMatchInline",
+      "alternativeA": "#F8C66B",
+      "contrastA": 6.822107324285472,
+      "alternativeB": "#F8C66B",
+      "textB": "#1f1f1f",
+      "contrastB": 10.424488362467956,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoMin",
+      "component": "editor and Search background proposal",
+      "yellow": "#F8C66B",
+      "darkText": "#1f1f1f",
+      "contrastDarkOnYellow": 10.424488362467956,
+      "searchInheritedForeground": "rgb(136, 136, 136)",
+      "contrastInheritedOnYellow": 2.2419265665425265,
+      "warning": "Search matches do not consume editor.findMatchHighlightForeground; dark foreground would need a separate supported mechanism."
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(252, 252, 250)",
+      "effectiveBackground": "#282a33",
+      "contrast": 13.91060310927172,
+      "classes": "highlight",
+      "alternativeA": "#f1fa8c",
+      "contrastA": 12.787483687793058,
+      "alternativeB": "#f1fa8c",
+      "textB": "#282a36",
+      "contrastB": 12.743863766171874,
+      "supportB": "Quick Input explicitly clears highlight background; not supported by list.filterMatchBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "quick-open",
+      "text": "contrast",
+      "foreground": "rgb(252, 252, 250)",
+      "effectiveBackground": "#1d1f28",
+      "contrast": 15.9856470985864,
+      "classes": "highlight",
+      "alternativeA": "#f1fa8c",
+      "contrastA": 14.694992007624899,
+      "alternativeB": "#f1fa8c",
+      "textB": "#282a36",
+      "contrastB": 12.743863766171874,
+      "supportB": "Quick Input explicitly clears highlight background; not supported by list.filterMatchBackground"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(189, 147, 249)",
+      "effectiveBackground": "#484a53",
+      "contrast": 3.6787041871918666,
+      "classes": "mtk5 findMatchInline findMatchInline",
+      "alternativeA": "#f1fa8c",
+      "contrastA": 7.941749218482882,
+      "alternativeB": "#f1fa8c",
+      "textB": "#282a36",
+      "contrastB": 12.743863766171874,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(241, 250, 140)",
+      "effectiveBackground": "#484a53",
+      "contrast": 7.941749218482882,
+      "classes": "mtk10 findMatchInline findMatchInline",
+      "alternativeA": "#f1fa8c",
+      "contrastA": 7.941749218482882,
+      "alternativeB": "#f1fa8c",
+      "textB": "#282a36",
+      "contrastB": 12.743863766171874,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(121, 127, 165)",
+      "effectiveBackground": "#484a53",
+      "contrast": 2.2786248074136606,
+      "classes": "mtk3 mtki findMatchInline findMatchInline",
+      "alternativeA": "#f1fa8c",
+      "contrastA": 7.941749218482882,
+      "alternativeB": "#f1fa8c",
+      "textB": "#282a36",
+      "contrastB": 12.743863766171874,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor-find",
+      "text": "contrast",
+      "foreground": "rgb(252, 252, 250)",
+      "effectiveBackground": "#484a53",
+      "contrast": 8.639269778865353,
+      "classes": "mtk1 findMatchInline findMatchInline",
+      "alternativeA": "#f1fa8c",
+      "contrastA": 7.941749218482882,
+      "alternativeB": "#f1fa8c",
+      "textB": "#282a36",
+      "contrastB": 12.743863766171874,
+      "supportB": "Supported in editor with a dark foreground; shared highlight background also affects Search results"
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "editor and Search background proposal",
+      "yellow": "#f1fa8c",
+      "darkText": "#282a36",
+      "contrastDarkOnYellow": 12.743863766171874,
+      "searchInheritedForeground": "rgb(94, 104, 134)",
+      "contrastInheritedOnYellow": 4.945147670408618,
+      "warning": "Search matches do not consume editor.findMatchHighlightForeground; dark foreground would need a separate supported mechanism."
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Antigravity conditional fuzzy match",
+      "yellow": "#F8C66B",
+      "background": "#1b1b1b",
+      "foregroundContrast": 10.92197820694321,
+      "darkOnYellow": 10.424488362467956,
+      "pathForegroundWithParentOpacity": 3.688314890396709,
+      "pathBackgroundWithParentOpacity": 3.6052694605025972,
+      "sourceOnly": true
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Antigravity conditional fuzzy match",
+      "yellow": "#f1fa8c",
+      "background": "#20232d",
+      "foregroundContrast": 14.067062102908322,
+      "darkOnYellow": 12.743863766171874,
+      "pathForegroundWithParentOpacity": 4.567251797575637,
+      "pathBackgroundWithParentOpacity": 4.352663314886058,
+      "sourceOnly": true
+    }
+  ],
+  "integrity": {
+    "themes/MonoMinTheme.json": true,
+    "themes/MonoDraculaTheme.json": true,
+    "package.json": true,
+    "originalSettingsUnchanged": true,
+    "antigravitySourceEqualsFrozenCopy": true
+  },
+  "limitations": [
+    "Antigravity onboarding remained open. Computed colors below describe the underlying page before modal occlusion, not unobstructed Recently opened rows.",
+    "Yellow candidates were calculated, never applied."
+  ],
+  "componentCandidates": [
+    {
+      "theme": "MonoMin",
+      "component": "Recently opened filename",
+      "color": "#888888",
+      "background": "#1b1b1b",
+      "contrast": 4.871693109818025,
+      "evidence": "Source-based prediction, not an opened menu",
+      "proposed": "#C1C0C0",
+      "contrastProposed": 9.513492677445774,
+      "impact": "m?dio",
+      "route": "Upstream component change only; remove forced opacity for functional text. No supported theme-only mapping."
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Recently opened path (opacity .5)",
+      "color": "#515151",
+      "background": "#1b1b1b",
+      "contrast": 2.1756848966043036,
+      "evidence": "Source-based prediction, not an opened menu",
+      "proposed": "#939293",
+      "contrastProposed": 5.57025066613696,
+      "impact": "m?dio",
+      "route": "Upstream component change only; remove forced opacity for functional text. No supported theme-only mapping."
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Recently opened header (muted 50%)",
+      "color": "#4f4f4f",
+      "background": "#1b1b1b",
+      "contrast": 2.1083287725771807,
+      "evidence": "Source-based prediction, not an opened menu",
+      "proposed": "#939293",
+      "contrastProposed": 5.57025066613696,
+      "impact": "m?dio",
+      "route": "Upstream component change only; remove forced opacity for functional text. No supported theme-only mapping."
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Input placeholder",
+      "color": "rgb(136, 136, 136)",
+      "opacity": "0.6",
+      "effectiveForeground": "#5c5c5c",
+      "background": "#1b1b1b",
+      "contrast": 2.5945733582172577,
+      "selector": "pointer-events-none absolute left-2 right-2 top-2 z-0 select-none overflow-hidden text-ellipsis whitespace-nowrap leading-6 text-foreground opacity-60",
+      "modalPresent": true,
+      "proposed": "#888888",
+      "contrastProposed": 4.871693109818025,
+      "impact": "m?dio",
+      "route": "Upstream component change only; pending unobstructed validation."
+    },
+    {
+      "theme": "MonoMin",
+      "component": "Input boundary",
+      "color": "color(srgb 0.126324 0.126324 0.126324)",
+      "background": "#1b1b1b",
+      "contrast": 1.0625655116527815,
+      "outsideContrast": 1.1235754958472175,
+      "selector": "surface-composer relative flex flex-col p-px rounded-2xl bg-card-border",
+      "modalPresent": true,
+      "proposed": "#888888",
+      "contrastProposed": 4.871693109818025,
+      "impact": "m?dio",
+      "route": "Upstream component change only; pending unobstructed validation."
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Recently opened filename",
+      "color": "#5e6886",
+      "background": "#20232d",
+      "contrast": 2.844619218771673,
+      "evidence": "Source-based prediction, not an opened menu",
+      "proposed": "#C1C0C0",
+      "contrastProposed": 8.659291034614377,
+      "impact": "m?dio",
+      "route": "Upstream component change only; remove forced opacity for functional text. No supported theme-only mapping."
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Recently opened path (opacity .5)",
+      "color": "#3f4559",
+      "background": "#20232d",
+      "contrast": 1.6518820783635337,
+      "evidence": "Source-based prediction, not an opened menu",
+      "proposed": "#939293",
+      "contrastProposed": 5.070106562249937,
+      "impact": "m?dio",
+      "route": "Upstream component change only; remove forced opacity for functional text. No supported theme-only mapping."
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Recently opened header (muted 50%)",
+      "color": "#3e4457",
+      "background": "#20232d",
+      "contrast": 1.6237710038044604,
+      "evidence": "Source-based prediction, not an opened menu",
+      "proposed": "#939293",
+      "contrastProposed": 5.070106562249937,
+      "impact": "m?dio",
+      "route": "Upstream component change only; remove forced opacity for functional text. No supported theme-only mapping."
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Input placeholder",
+      "color": "rgb(94, 104, 134)",
+      "opacity": "0.6",
+      "effectiveForeground": "#454c62",
+      "background": "#20232d",
+      "contrast": 1.8515663326831566,
+      "selector": "pointer-events-none absolute left-2 right-2 top-2 z-0 select-none overflow-hidden text-ellipsis whitespace-nowrap leading-6 text-foreground opacity-60",
+      "modalPresent": true,
+      "proposed": "#939293",
+      "contrastProposed": 5.070106562249937,
+      "impact": "m?dio",
+      "route": "Upstream component change only; pending unobstructed validation."
+    },
+    {
+      "theme": "MonoDracula",
+      "component": "Input boundary",
+      "color": "color(srgb 0.138578 0.14948 0.192804)",
+      "background": "#20232d",
+      "contrast": 1.0449605893033829,
+      "outsideContrast": 1.0916058659413663,
+      "selector": "surface-composer relative flex flex-col p-px rounded-2xl bg-card-border",
+      "modalPresent": true,
+      "proposed": "#6272a4",
+      "contrastProposed": 3.340155188374601,
+      "impact": "m?dio",
+      "route": "Upstream component change only; pending unobstructed validation."
+    }
+  ]
+}

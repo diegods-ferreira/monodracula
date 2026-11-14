@@ -1,0 +1,6 @@
+{
+  "quickInput.background": "#151515",
+  "editor.background": "#1f1f1f",
+  "editor.findMatchBackground": "rgba(234, 234, 234, 0.15)",
+  "editor.findMatchHighlightBackground": "rgba(234, 234, 234, 0.15)"
+}

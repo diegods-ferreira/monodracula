@@ -1,0 +1,118 @@
+[
+  {
+    "theme": "monomin",
+    "yellow": "#F8C66B",
+    "quick": [
+      {
+        "focused": true,
+        "background": [
+          31.65,
+          31.65,
+          31.65,
+          1
+        ],
+        "ratio": 10.34659928721741
+      },
+      {
+        "focused": false,
+        "background": [
+          21,
+          21,
+          21,
+          1
+        ],
+        "ratio": 11.549092215886619
+      },
+      {
+        "focused": false,
+        "background": [
+          21,
+          21,
+          21,
+          1
+        ],
+        "ratio": 11.549092215886619
+      }
+    ],
+    "editor": [
+      {
+        "kind": "editor.findMatchBackground",
+        "background": [
+          61.45,
+          61.45,
+          61.45,
+          1
+        ],
+        "ratio": 6.822107324285472
+      },
+      {
+        "kind": "editor.findMatchHighlightBackground",
+        "background": [
+          61.45,
+          61.45,
+          61.45,
+          1
+        ],
+        "ratio": 6.822107324285472
+      }
+    ]
+  },
+  {
+    "theme": "monodracula",
+    "yellow": "#f1fa8c",
+    "quick": [
+      {
+        "focused": true,
+        "background": [
+          43.95,
+          44.9,
+          54.3,
+          1
+        ],
+        "ratio": 12.24674651019689
+      },
+      {
+        "focused": false,
+        "background": [
+          33,
+          34,
+          44,
+          1
+        ],
+        "ratio": 14.131762110257101
+      },
+      {
+        "focused": false,
+        "background": [
+          33,
+          34,
+          44,
+          1
+        ],
+        "ratio": 14.131762110257101
+      }
+    ],
+    "editor": [
+      {
+        "kind": "editor.findMatchBackground",
+        "background": [
+          71.8,
+          73.5,
+          83.4,
+          1
+        ],
+        "ratio": 7.941749218482882
+      },
+      {
+        "kind": "editor.findMatchHighlightBackground",
+        "background": [
+          71.8,
+          73.5,
+          83.4,
+          1
+        ],
+        "ratio": 7.941749218482882
+      }
+    ]
+  }
+]

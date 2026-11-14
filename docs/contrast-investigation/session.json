@@ -1,0 +1,13 @@
+{
+  "root": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-contrast-ufoJSZ",
+  "app": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app",
+  "extensions": "C:/Users/diego/AppData/Local/Temp/monodracula-visual-d4JSyW/extensions",
+  "port": 9361,
+  "version": "1.146.0",
+  "originalSettingsSha256": "4267e7041da6fa6e3a488d16a76093d3817bd912d125b7746dbf20d1f9f22fe7",
+  "files": {
+    "themes/MonoMinTheme.json": "7247b6ba7df3e4a66040655dc12b9ea908b2258fd908cb75d309cea6e3fb6465",
+    "themes/MonoDraculaTheme.json": "ad611d83944b2b2ed0ab55122ce1fbce8bf28eeb8f40efb005749c800b738eda",
+    "package.json": "b86de17e81470200f7f7c101fe30240940e45492e5557acb10976361671ff067"
+  }
+}

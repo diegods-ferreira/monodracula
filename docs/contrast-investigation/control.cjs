@@ -1,0 +1,2 @@
+const fs=require('fs'),path=require('path');const {root}=require('./session.json');
+(async()=>{const id=Date.now()+'';fs.writeFileSync(root+'/request.json',JSON.stringify({id,action:process.argv[2],theme:process.argv[3]}));for(let i=0;i<120;i++){await new Promise(r=>setTimeout(r,250));const p=root+'/response.json';if(fs.existsSync(p)){const r=JSON.parse(fs.readFileSync(p));if(r.id===id){if(r.error)throw Error(r.error);console.log(r);return;}}}throw Error('Control timed out');})().catch(e=>{console.error(e);process.exit(1);});

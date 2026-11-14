@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector('[aria-label="Close Modal Editor (Escape)"]');if(e){e.click();return {closed:true};}return {closed:false};})()

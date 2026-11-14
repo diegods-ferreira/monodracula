@@ -1,0 +1,15 @@
+{
+  "name": null,
+  "bodyColor": "rgb(0, 0, 0)",
+  "variables": {
+    "--vscode-foreground": "#eaeaea",
+    "--vscode-editor-foreground": "#eaeaea",
+    "--vscode-editor-background": "#1f1f1f",
+    "--vscode-sideBar-foreground": "#888888",
+    "--vscode-sideBar-background": "#151515",
+    "--vscode-descriptionForeground": "#939293",
+    "--vscode-input-border": "#151515",
+    "--vscode-agy-foreground": "",
+    "--vscode-agy-background": ""
+  }
+}

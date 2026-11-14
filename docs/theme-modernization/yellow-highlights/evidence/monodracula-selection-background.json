@@ -1,0 +1,71 @@
+{
+  "dpr": 1,
+  "regions": [
+    {
+      "text": "contrast",
+      "classes": "mtk5 findMatchInline findMatchInline",
+      "color": "rgb(241, 250, 140)",
+      "rect": {
+        "x": 536.4375,
+        "y": 146,
+        "width": 62.40625,
+        "height": 17
+      }
+    },
+    {
+      "text": "contrast",
+      "classes": "mtk10 findMatchInline findMatchInline",
+      "color": "rgb(241, 250, 140)",
+      "rect": {
+        "x": 669.09375,
+        "y": 146,
+        "width": 62.40625,
+        "height": 17
+      }
+    },
+    {
+      "text": "contrast",
+      "classes": "mtk10 findMatchInline findMatchInline",
+      "color": "rgb(241, 250, 140)",
+      "rect": {
+        "x": 739.3125,
+        "y": 146,
+        "width": 62.40625,
+        "height": 17
+      }
+    },
+    {
+      "text": "contrast",
+      "classes": "mtk3 mtki findMatchInline findMatchInline",
+      "color": "rgb(241, 250, 140)",
+      "rect": {
+        "x": 458.40625,
+        "y": 166,
+        "width": 62.40625,
+        "height": 17
+      }
+    },
+    {
+      "text": "contrast",
+      "classes": "mtk5 currentFindMatchInline findMatchInline",
+      "color": "rgb(241, 250, 140)",
+      "rect": {
+        "x": 528.640625,
+        "y": 186,
+        "width": 62.40625,
+        "height": 17
+      }
+    },
+    {
+      "text": "contrast",
+      "classes": "mtk10 findMatchInline findMatchInline",
+      "color": "rgb(241, 250, 140)",
+      "rect": {
+        "x": 653.484375,
+        "y": 186,
+        "width": 62.40625,
+        "height": 17
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "classes": "mtk5 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "87,87,87",
+    "pixels": 545,
+    "contrast": 4.570044738842956
+  },
+  {
+    "classes": "mtk9 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "87,87,87",
+    "pixels": 171,
+    "contrast": 4.570044738842956
+  },
+  {
+    "classes": "mtk9 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "87,87,87",
+    "pixels": 171,
+    "contrast": 4.570044738842956
+  },
+  {
+    "classes": "mtk3 mtki findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "95,95,95",
+    "pixels": 488,
+    "contrast": 4.0384353313794525
+  },
+  {
+    "classes": "mtk5 currentFindMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "80,80,80",
+    "pixels": 546,
+    "contrast": 5.099543385851661
+  },
+  {
+    "classes": "mtk9 findMatchInline findMatchInline",
+    "foreground": "rgb(248, 198, 107)",
+    "backgroundMode": "80,80,80",
+    "pixels": 537,
+    "contrast": 5.099543385851661
+  }
+]
