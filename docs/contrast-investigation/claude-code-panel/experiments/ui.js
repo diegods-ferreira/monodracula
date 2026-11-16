@@ -1,0 +1,1 @@
+(()=>({buttons:[...document.querySelectorAll('button')].filter(e=>e.checkVisibility()).map(e=>({text:e.textContent,aria:e.getAttribute('aria-label'),title:e.title,classes:e.className,mode:e.getAttribute('data-permission-mode')})),menus:[...document.querySelectorAll('[role=menu],[role=menuitem],[role=option]')].map(e=>({text:e.textContent,role:e.role}))}))()

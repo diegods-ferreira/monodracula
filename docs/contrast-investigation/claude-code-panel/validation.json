@@ -1,0 +1,92 @@
+{
+  "investigationChecksPassed": true,
+  "rows": [
+    {
+      "case": "monomin",
+      "result": "states reproduced",
+      "enabledIconContrast": 3.8460982215636537
+    },
+    {
+      "case": "monomin-auto",
+      "result": "states reproduced",
+      "enabledIconContrast": 1.1663432621520151
+    },
+    {
+      "case": "monodracula",
+      "result": "states reproduced",
+      "enabledIconContrast": 3.8460982215636537
+    },
+    {
+      "case": "monodracula-auto",
+      "result": "states reproduced",
+      "enabledIconContrast": 1.2310085968428115
+    },
+    {
+      "case": "dark-modern",
+      "result": "states reproduced",
+      "enabledIconContrast": 3.8460982215636537
+    },
+    {
+      "case": "dark-modern-auto",
+      "result": "states reproduced",
+      "enabledIconContrast": 3.3522381389977385
+    }
+  ],
+  "controls": [
+    {
+      "theme": "monomin",
+      "promptCandidate": {
+        "inside": 5.151414140070385,
+        "outside": 5.151414140070385,
+        "nativeSearchInputUnchanged": true,
+        "globalInputBorderChangesNativeSearch": true
+      },
+      "iconPreview": {
+        "iconContrast": 6.200897709972222,
+        "nativeButtonBaseline": 5.316528942372395,
+        "nativeButtonWithGlobalDarkForeground": 1,
+        "globalChangeRejected": true
+      },
+      "codeCandidate": {
+        "plainInlineUnchanged": true,
+        "linkedInlineAffected": true,
+        "syntaxColorsUnchanged": true,
+        "baselineMinimumSyntaxContrast": 4.609137154147217,
+        "candidateMinimumSyntaxContrast": 3.3312150589036746,
+        "rejectedUnderIsolationAndContrastCriteria": true
+      }
+    },
+    {
+      "theme": "monodracula",
+      "promptCandidate": {
+        "inside": 3.355517889104359,
+        "outside": 3.4892540772421645,
+        "nativeSearchInputUnchanged": true,
+        "globalInputBorderChangesNativeSearch": true
+      },
+      "iconPreview": {
+        "iconContrast": 5.654261481288292,
+        "nativeButtonBaseline": 4.593194146482706,
+        "nativeButtonWithGlobalDarkForeground": 1,
+        "globalChangeRejected": true
+      },
+      "codeCandidate": {
+        "plainInlineUnchanged": true,
+        "linkedInlineAffected": true,
+        "syntaxColorsUnchanged": true,
+        "baselineMinimumSyntaxContrast": 3.9857343502514144,
+        "candidateMinimumSyntaxContrast": 3.5942903065774505,
+        "rejectedUnderIsolationAndContrastCriteria": true
+      }
+    }
+  ],
+  "themesManifestSettingsAndBundlesUnchanged": true,
+  "searchForegroundReversionPreserved": true,
+  "upstreamPatchesNotImplemented": true,
+  "limits": [
+    "Active click and Stop/busy were not triggered; no model request was sent.",
+    "Native inline chat and all extension consumers were not visually tested.",
+    "Copy controls were verified visually on hover; clipboard was not modified.",
+    "Proposed isolated upstream borders and icons have not been implemented or certified."
+  ]
+}

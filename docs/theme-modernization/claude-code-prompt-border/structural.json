@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-16T23:28:56.658Z",
+  "baseline": "0cb60ab0dc54c5d25a23d1398bfeef6e608f061e",
+  "checks": [
+    {
+      "test": "MonoMin: exact authorized text and functional delta",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: all color names registered and formats valid",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: all 161 TextMate rules and semantic configuration preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: search reversal, other colors and Antigravity preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: exact authorized text and functional delta",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: all color names registered and formats valid",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: all 161 TextMate rules and semantic configuration preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: search reversal, other colors and Antigravity preserved",
+      "status": "passed"
+    },
+    {
+      "test": "Manifest 2.3.5 and theme registration unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "Original installed bundles and personal settings unchanged",
+      "status": "passed"
+    }
+  ]
+}

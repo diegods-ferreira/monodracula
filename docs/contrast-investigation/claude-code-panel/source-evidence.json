@@ -1,0 +1,1308 @@
+{
+  "extension": "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64",
+  "version": "2.1.325",
+  "views": {
+    "claude-sidebar": [
+      {
+        "type": "webview",
+        "id": "claudeVSCodeSidebar",
+        "name": "Claude Code",
+        "when": "claude-code:doesNotSupportSecondarySidebar"
+      }
+    ],
+    "claude-sidebar-secondary": [
+      {
+        "type": "webview",
+        "id": "claudeVSCodeSidebarSecondary",
+        "name": "Claude Code",
+        "when": "!claude-code:doesNotSupportSecondarySidebar"
+      }
+    ],
+    "claude-sessions-sidebar": [
+      {
+        "type": "webview",
+        "id": "claudeVSCodeSessionsList",
+        "name": "",
+        "when": "claude-vscode.sessionsListEnabled"
+      }
+    ]
+  },
+  "registeredColors": [],
+  "configuration": {
+    "title": "Claude Code",
+    "properties": {
+      "claudeCode.environmentVariables": {
+        "type": "array",
+        "scope": "machine",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Environment variable name"
+            },
+            "value": {
+              "type": "string",
+              "description": "Environment variable value"
+            }
+          },
+          "required": [
+            "name",
+            "value"
+          ]
+        },
+        "default": [],
+        "description": "Environment variables to set when launching Claude.\n\nPrefer setting environment variables in Claude's settings.json.\nSee documentation: https://code.claude.com/docs/en/settings"
+      },
+      "claudeCode.useTerminal": {
+        "type": "boolean",
+        "default": false,
+        "description": "Launch Claude in the terminal instead of the native UI."
+      },
+      "claudeCode.allowDangerouslySkipPermissions": {
+        "type": "boolean",
+        "scope": "machine",
+        "description": "Allow bypass permissions mode. Recommended only for sandboxes with no internet access."
+      },
+      "claudeCode.claudeProcessWrapper": {
+        "type": "string",
+        "scope": "machine",
+        "description": "Executable path used to launch the Claude process."
+      },
+      "claudeCode.respectGitIgnore": {
+        "type": "boolean",
+        "default": true,
+        "description": "Respect .gitignore files when performing file searches. Tip: You can still filter by other exclusion patterns in .ignore when this is disabled."
+      },
+      "claudeCode.initialPermissionMode": {
+        "type": "string",
+        "scope": "machine",
+        "enum": [
+          "default",
+          "manual",
+          "acceptEdits",
+          "plan",
+          "bypassPermissions"
+        ],
+        "description": "Initial permission mode for new conversations. Unset defers to the Claude Code CLI's resolved default for the session. 'manual' is an alias for 'default', the mode labeled Manual in the UI; set either to always start in Manual."
+      },
+      "claudeCode.disableLoginPrompt": {
+        "type": "boolean",
+        "default": false,
+        "description": "When true, never prompt for login/authentication in the extension. Used when authentication is handled externally."
+      },
+      "claudeCode.autosave": {
+        "type": "boolean",
+        "default": true,
+        "description": "Automatically save files before Claude reads or writes them."
+      },
+      "claudeCode.focusView": {
+        "type": "boolean",
+        "default": false,
+        "scope": "application",
+        "description": "Focus view: hide tool calls and other in-progress activity in the chat, showing only your prompts and Claude's responses. Folded activity stays one click away, and a live indicator names the tool currently running. Usually toggled from the chat input's command menu, the Claude Code: Toggle Focus view command, or its ctrl+alt+f keybinding."
+      },
+      "claudeCode.useCtrlEnterToSend": {
+        "type": "boolean",
+        "default": false,
+        "description": "When enabled, use Ctrl/Cmd+Enter to send prompts instead of just Enter. This allows Enter to create new lines."
+      },
+      "claudeCode.preferredLocation": {
+        "type": "string",
+        "enum": [
+          "sidebar",
+          "panel"
+        ],
+        "enumDescriptions": [
+          "Sidebar (Right)",
+          "Panel (New Tab)"
+        ],
+        "default": "panel",
+        "description": "Where Claude opens by default. This setting updates automatically when you open Claude in a new location."
+      },
+      "claudeCode.lockEditorGroups": {
+        "type": "boolean",
+        "default": true,
+        "description": "Lock the editor groups Claude starts for its tabs, so files you open while a Claude tab is focused go to another group instead of next to it. When off, Claude never locks an editor group. Groups that are already locked stay locked until you unlock them."
+      },
+      "claudeCode.enableNewConversationShortcut": {
+        "type": "boolean",
+        "default": false,
+        "description": "Use the Cmd/Ctrl+N keyboard shortcut to start a new conversation when Claude is focused."
+      },
+      "claudeCode.enableReopenClosedSessionShortcut": {
+        "type": "boolean",
+        "default": true,
+        "description": "Use Cmd/Ctrl+Shift+T to reopen the most recently closed Claude session tab. Only intercepts the shortcut when a Claude tab was the last thing closed; otherwise falls through to VS Code's normal reopen-closed-editor behavior."
+      },
+      "claudeCode.hideOnboarding": {
+        "type": "boolean",
+        "default": false,
+        "description": "Hide the onboarding checklist in Claude Code."
+      },
+      "claudeCode.attachOpenFile": {
+        "type": "boolean",
+        "default": true,
+        "scope": "application",
+        "description": "Add the file that is open in the editor to your messages, and show it in the message box. When off, the file is only added along with text you select."
+      },
+      "claudeCode.attachSelection": {
+        "type": "boolean",
+        "default": true,
+        "scope": "application",
+        "description": "Add the text you select in the editor to your messages, and show it in the message box. When off, you can still add a selection from the editor as an @-mention."
+      },
+      "claudeCode.continueAfterReload": {
+        "type": "boolean",
+        "default": true,
+        "scope": "application",
+        "description": "After the window reloads or the editor restarts its extensions, a restored session continues the step that was interrupted. A step in plan mode continues only if the session comes back in plan mode."
+      },
+      "claudeCode.scrollToBottomOnSend": {
+        "type": "boolean",
+        "default": true,
+        "scope": "application",
+        "description": "Scroll the conversation to the bottom when you send a message. When off, the conversation stays where you left it."
+      },
+      "claudeCode.showMessageTimestamps": {
+        "type": "boolean",
+        "default": true,
+        "scope": "application",
+        "description": "Show when each message was sent. A date line marks where the day changes."
+      },
+      "claudeCode.spinnerVerbs": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "type": "string",
+            "enum": [
+              "append",
+              "replace"
+            ],
+            "enumDescriptions": [
+              "Add your verbs to the built-in verbs",
+              "Show only your verbs"
+            ],
+            "description": "How your verbs combine with the built-in verbs."
+          },
+          "verbs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Verbs to show while Claude works."
+          }
+        },
+        "additionalProperties": false,
+        "default": {
+          "mode": "append",
+          "verbs": []
+        },
+        "description": "Customize the verbs shown while Claude works. Mode \"append\" adds your verbs to the built-in verbs. Mode \"replace\" shows only your verbs. With no verbs listed, Claude shows the built-in verbs."
+      },
+      "claudeCode.archiveInactiveSessions": {
+        "type": "number",
+        "enum": [
+          0,
+          1,
+          2,
+          7,
+          14
+        ],
+        "enumItemLabels": [
+          "Never",
+          "1 day",
+          "2 days",
+          "7 days",
+          "14 days"
+        ],
+        "default": 14,
+        "scope": "application",
+        "description": "Archive a session after this long with no activity. Sessions that are open, running, waiting for input, or unread are never archived automatically."
+      },
+      "claudeCode.usePythonEnvironment": {
+        "type": "boolean",
+        "default": true,
+        "markdownDescription": "Automatically activate the workspace's Python environment when running Claude. Requires the [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension."
+      }
+    }
+  },
+  "commands": [
+    {
+      "command": "claude-vscode.editor.open",
+      "title": "Claude Code: Open in New Tab",
+      "icon": {
+        "light": "resources/claude-logo.svg",
+        "dark": "resources/claude-logo.svg"
+      }
+    },
+    {
+      "command": "claude-vscode.editor.openLast",
+      "title": "Claude Code: Open",
+      "icon": {
+        "light": "resources/claude-logo.svg",
+        "dark": "resources/claude-logo.svg"
+      }
+    },
+    {
+      "command": "claude-vscode.primaryEditor.open",
+      "title": "Claude Code: Open in Primary Editor",
+      "icon": {
+        "light": "resources/claude-logo.svg",
+        "dark": "resources/claude-logo.svg"
+      }
+    },
+    {
+      "command": "claude-vscode.window.open",
+      "title": "Claude Code: Open in New Window"
+    },
+    {
+      "command": "claude-vscode.sidebar.open",
+      "title": "Claude Code: Open in Side Bar",
+      "icon": {
+        "light": "resources/claude-logo.svg",
+        "dark": "resources/claude-logo.svg"
+      }
+    },
+    {
+      "command": "claude-vscode.newConversation",
+      "title": "Claude Code: New Conversation"
+    },
+    {
+      "command": "claude-vscode.reopenClosedSession",
+      "title": "Claude Code: Reopen Closed Session"
+    },
+    {
+      "command": "claude-vscode.update",
+      "title": "Claude Code: Update extension"
+    },
+    {
+      "command": "claude-vscode.focus",
+      "title": "Claude Code: Focus input"
+    },
+    {
+      "command": "claude-vscode.focusLastMessage",
+      "title": "Claude Code: Focus last message"
+    },
+    {
+      "command": "claude-vscode.blur",
+      "title": "Claude Code: Blur input"
+    },
+    {
+      "command": "claude-vscode.logout",
+      "title": "Claude Code: Logout"
+    },
+    {
+      "command": "claude-vscode.terminal.open",
+      "title": "Claude Code: Open in Terminal",
+      "icon": {
+        "light": "resources/claude-logo.svg",
+        "dark": "resources/claude-logo.svg"
+      }
+    },
+    {
+      "command": "claude-vscode.acceptProposedDiff",
+      "title": "Claude Code: Accept Proposed Changes",
+      "enablement": "claude-vscode.viewingProposedDiff",
+      "icon": "$(check)"
+    },
+    {
+      "command": "claude-vscode.rejectProposedDiff",
+      "title": "Claude Code: Reject Proposed Changes",
+      "enablement": "claude-vscode.viewingProposedDiff",
+      "icon": "$(discard)"
+    },
+    {
+      "command": "claude-vscode.acceptProposedHunk",
+      "title": "Claude Code: Accept Change at Cursor",
+      "enablement": "claude-vscode.viewingProposedDiff",
+      "icon": "$(check)"
+    },
+    {
+      "command": "claude-vscode.rejectProposedHunk",
+      "title": "Claude Code: Reject Change at Cursor",
+      "enablement": "claude-vscode.viewingProposedDiff",
+      "icon": "$(discard)"
+    },
+    {
+      "command": "claude-vscode.acceptProposedHunkFromBar",
+      "title": "Accept this change",
+      "icon": "$(check)"
+    },
+    {
+      "command": "claude-vscode.rejectProposedHunkFromBar",
+      "title": "Reject this change",
+      "icon": "$(discard)"
+    },
+    {
+      "command": "claude-vscode.insertAtMention",
+      "title": "Claude Code: Insert @-Mention Reference"
+    },
+    {
+      "command": "claude-vscode.installPlugin",
+      "title": "Claude Code: Install Plugin"
+    },
+    {
+      "command": "claude-code.acceptProposedDiff",
+      "title": "Claude Code: Accept Proposed Changes",
+      "enablement": "claude-code.viewingProposedDiff",
+      "icon": "$(check)"
+    },
+    {
+      "command": "claude-code.rejectProposedDiff",
+      "title": "Claude Code: Reject Proposed Changes",
+      "enablement": "claude-code.viewingProposedDiff",
+      "icon": "$(discard)"
+    },
+    {
+      "command": "claude-code.insertAtMentioned",
+      "title": "Claude Code: Insert At-Mentioned"
+    },
+    {
+      "command": "claude-vscode.showLogs",
+      "title": "Claude Code: Show Logs"
+    },
+    {
+      "command": "claude-vscode.toggleFocusView",
+      "title": "Claude Code: Toggle Focus view"
+    },
+    {
+      "command": "claude-vscode.openWalkthrough",
+      "title": "Claude Code: Open Walkthrough"
+    },
+    {
+      "command": "claude-vscode.markSessionUnread",
+      "title": "Claude Code: Mark Session as Unread"
+    },
+    {
+      "command": "claude-vscode.renameSessionTab",
+      "title": "Claude Code: Rename Session Tab"
+    },
+    {
+      "command": "claude-vscode.addSessionTabToGroup",
+      "title": "Claude Code: Add Session Tab to Group"
+    }
+  ],
+  "files": {
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/package.json": "ddaa17e03671922b1824fdb0fe867facb7ba282c15184d12ac399c49eb940fae",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/extension.js": "1f94855dd66098c4ef63cc54b20f14fc08483c7a766249cb16500a3f5bbff12f",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/webview/index.js": "5bf0e85aeded6204050df563ab0f3f76dde93405d37df606a599d0fbc0f17b6c",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/webview/index.css": "52680e08cd88b669d0c02a458701d52771794650279ae335b5d813bca4b269fe"
+  },
+  "rules": [
+    {
+      "offset": 233720,
+      "selector": ".monaco-editor div.inline-edits-widget .promptEditor .monaco-editor",
+      "declarations": "--vscode-editor-placeholder-foreground:var(--vscode-editorGhostText-foreground)"
+    },
+    {
+      "offset": 233961,
+      "selector": ".monaco-editor div.inline-edits-widget .promptEditor",
+      "declarations": "opacity:0;transition:opacity .2s ease-in-out"
+    },
+    {
+      "offset": 234123,
+      "selector": ".monaco-editor div.inline-edits-widget:hover .promptEditor",
+      "declarations": "opacity:1"
+    },
+    {
+      "offset": 234258,
+      "selector": ".monaco-editor div.inline-edits-widget.focused .promptEditor",
+      "declarations": "opacity:1"
+    },
+    {
+      "offset": 282305,
+      "selector": ".permissionRequestContainer_qlaBag:focus-within",
+      "declarations": "border-color:color-mix(in srgb,var(--app-input-active-border)65%,transparent)"
+    },
+    {
+      "offset": 282431,
+      "selector": ".permissionRequestContainer_qlaBag:not(:focus-within)",
+      "declarations": "border-color:var(--app-input-border)"
+    },
+    {
+      "offset": 289785,
+      "selector": ".otherInput_hONcXw:focus-within",
+      "declarations": "border-color:var(--app-input-active-border)"
+    },
+    {
+      "offset": 297606,
+      "selector": ".titleGroup_aqhumA:focus-within",
+      "declarations": "background:var(--app-ghost-button-hover-background)"
+    },
+    {
+      "offset": 302523,
+      "selector": ".dialog_f3sAzg:focus-within",
+      "declarations": "border-color:color-mix(in srgb,var(--app-input-active-border)65%,transparent)"
+    },
+    {
+      "offset": 322055,
+      "selector": ".inputContainer_07S1Yg",
+      "declarations": "position:absolute;display:flex;z-index:20;flex-direction:column;max-width:680px;margin:0 auto;bottom:16px;left:16px;right:16px"
+    },
+    {
+      "offset": 327558,
+      "selector": ".abovePrompt_mLbNFw",
+      "declarations": "position:relative;display:flex;gap:var(--app-spacing-small);overflow-y:auto;isolation:isolate;flex-direction:column;max-height:50vh"
+    },
+    {
+      "offset": 327710,
+      "selector": ".abovePrompt_mLbNFw>*",
+      "declarations": "flex-shrink:0"
+    },
+    {
+      "offset": 327810,
+      "selector": ".abovePrompt_mLbNFw>:last-child",
+      "declarations": "margin-bottom:var(--app-spacing-small)"
+    },
+    {
+      "offset": 333663,
+      "selector": ".edited_mLbNFw,.promptLabel_mLbNFw",
+      "declarations": "color:var(--app-secondary-foreground);overflow-wrap:anywhere;margin-bottom:2px;font-size:.9em"
+    },
+    {
+      "offset": 340618,
+      "selector": ".prompt_iHnHpw",
+      "declarations": "white-space:pre-wrap;word-break:break-word;font-family:var(--app-monospace-font-family);border:.5px solid var(--app-input-border);background:var(--app-tool-background);border-radius:5px;margin:8px 0 0;padding:8px;font-size:.85em"
+    },
+    {
+      "offset": 346423,
+      "selector": ".callbackUrlSubmit_IHCQeQ",
+      "declarations": "border:1px solid var(--app-input-border);background-color:var(--app-input-secondary-background);color:var(--app-primary-foreground);font-size:calc(var(--vscode-chat-font-size,13px) - 1px);cursor:pointer;border-radius:4px;flex-shrink:0;padding:6px 12px"
+    },
+    {
+      "offset": 346701,
+      "selector": ".callbackUrlSubmit_IHCQeQ:hover",
+      "declarations": "background-color:var(--app-list-hover-background)"
+    },
+    {
+      "offset": 355627,
+      "selector": ".inputContainer_UCAeZQ",
+      "declarations": "display:flex;margin:var(--app-spacing-medium);border:1px solid var(--app-input-border);border-radius:var(--corner-radius-large);background:linear-gradient(var(--app-input-background),var(--app-input-background)),var(--app-input-secondary-background);flex-direction:column;flex:none;box-shadow:0 1px 2px #0000001a"
+    },
+    {
+      "offset": 355963,
+      "selector": ".inputContainer_UCAeZQ:focus-within",
+      "declarations": "--focus-ring-color:var(--app-claude-orange);border-color:var(--focus-ring-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus-ring-color)12%,transparent),0 1px 2px color-mix(in srgb,var(--focus-ring-color),transparent 80%)"
+    },
+    {
+      "offset": 356565,
+      "selector": ".sendButton_UCAeZQ",
+      "declarations": "display:flex;cursor:pointer;color:var(--app-claude-ivory);background-color:var(--app-claude-clay-button-orange);border:none;border-radius:5px;justify-content:center;align-items: center;width:26px;height:26px"
+    },
+    {
+      "offset": 356792,
+      "selector": ".sendButton_UCAeZQ:disabled",
+      "declarations": "cursor:not-allowed;opacity:.4"
+    },
+    {
+      "offset": 356850,
+      "selector": ".sendButton_UCAeZQ:hover:not(:disabled)",
+      "declarations": "filter:brightness(1.1)"
+    },
+    {
+      "offset": 356913,
+      "selector": ".sendButton_UCAeZQ:active:not(:disabled)",
+      "declarations": "filter:brightness(.9)"
+    },
+    {
+      "offset": 382346,
+      "selector": ".container_FISVxg:focus-within,.container_FISVxg.rated_FISVxg",
+      "declarations": "opacity:1"
+    },
+    {
+      "offset": 383231,
+      "selector": ".noticeRated_FISVxg .noticePrompt_FISVxg",
+      "declarations": "opacity:0;pointer-events:none;transform:translateY(-100%)"
+    },
+    {
+      "offset": 411943,
+      "selector": ".sendButton_gGYT1w,.menuButton_gGYT1w",
+      "declarations": "cursor:pointer;display:flex;color:var(--app-secondary-foreground);background-color:#0000;border:none;justify-content:center;align-items: center;width:26px;height:26px"
+    },
+    {
+      "offset": 412148,
+      "selector": ".sendButton_gGYT1w",
+      "declarations": "border-radius:5px;margin-left:2px"
+    },
+    {
+      "offset": 412273,
+      "selector": ".sendButton_gGYT1w:disabled,.menuButton_gGYT1w:disabled",
+      "declarations": "cursor:not-allowed;opacity:.4"
+    },
+    {
+      "offset": 412478,
+      "selector": ".sendButton_gGYT1w",
+      "declarations": "color:var(--app-claude-ivory);background-color:var(--app-claude-clay-button-orange)"
+    },
+    {
+      "offset": 412581,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=acceptEdits]",
+      "declarations": "color:var(--app-primary-background);background-color:var(--app-primary-foreground)"
+    },
+    {
+      "offset": 412717,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=plan]",
+      "declarations": "color:var(--app-button-foreground);background-color:var(--app-plan-mode-color)"
+    },
+    {
+      "offset": 412842,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=bypassPermissions],.sendButton_gGYT1w[data-permission-mode=auto]",
+      "declarations": "color:var(--app-button-foreground);background-color:var(--app-error-foreground)"
+    },
+    {
+      "offset": 413027,
+      "selector": ".sendButton_gGYT1w:hover:not(:disabled)",
+      "declarations": "filter:brightness(1.1)"
+    },
+    {
+      "offset": 413090,
+      "selector": ".sendButton_gGYT1w:active:not(:disabled)",
+      "declarations": "filter:brightness(.9)"
+    },
+    {
+      "offset": 413266,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=acceptEdits] .sendIcon_gGYT1w",
+      "declarations": "color:var(--app-tool-background)"
+    },
+    {
+      "offset": 413369,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=plan] .sendIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=bypassPermissions] .sendIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=auto] .sendIcon_gGYT1w",
+      "declarations": "color:var(--app-button-foreground)"
+    },
+    {
+      "offset": 413690,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=acceptEdits] .stopIcon_gGYT1w",
+      "declarations": "color:var(--app-tool-background)"
+    },
+    {
+      "offset": 413793,
+      "selector": ".sendButton_gGYT1w[data-permission-mode=plan] .stopIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=bypassPermissions] .stopIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=auto] .stopIcon_gGYT1w",
+      "declarations": "color:var(--app-button-foreground)"
+    },
+    {
+      "offset": 425943,
+      "selector": ".inputContainer_cKsPxg",
+      "declarations": "background:var(--app-input-secondary-background);border:1px solid var(--app-input-border);border-radius:var(--corner-radius-large);color:var(--app-input-foreground);display:flex;position:relative;flex-direction:column;min-width:0;margin:0;padding:0;box-shadow:0 1px 2px #0000001a"
+    },
+    {
+      "offset": 426246,
+      "selector": ".inputContainerBackground_cKsPxg",
+      "declarations": "background:var(--app-input-background);position:absolute;border-radius:var(--corner-radius-large);inset:0"
+    },
+    {
+      "offset": 426385,
+      "selector": ".inputContainer_cKsPxg:focus-within",
+      "declarations": "--focus-ring-color:var(--app-claude-orange);border-color:var(--focus-ring-color);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus-ring-color)12%,transparent),0 1px 2px color-mix(in srgb,var(--focus-ring-color),transparent 80%)"
+    },
+    {
+      "offset": 426650,
+      "selector": ".inputContainer_cKsPxg[data-permission-mode=acceptEdits]:focus-within",
+      "declarations": "--focus-ring-color:var(--app-primary-foreground)"
+    },
+    {
+      "offset": 426769,
+      "selector": ".inputContainer_cKsPxg[data-permission-mode=plan]:focus-within",
+      "declarations": "--focus-ring-color:var(--vscode-focusBorder,var(--app-button-background))"
+    },
+    {
+      "offset": 426906,
+      "selector": ".inputContainer_cKsPxg[data-permission-mode=bypassPermissions]:focus-within,.inputContainer_cKsPxg[data-permission-mode=auto]:focus-within",
+      "declarations": "--focus-ring-color:var(--app-error-foreground)"
+    },
+    {
+      "offset": 427401,
+      "selector": ".inputContainer_cKsPxg:focus-within .sparkLegend_cKsPxg",
+      "declarations": "display:flex"
+    },
+    {
+      "offset": 427622,
+      "selector": ".messageInputContainer_cKsPxg",
+      "declarations": "position:relative;display:flex"
+    },
+    {
+      "offset": 428400,
+      "selector": ".inputContainer_cKsPxg[data-recording=true] .messageInput_cKsPxg,.inputContainer_cKsPxg[data-recording=true] .mentionMirror_cKsPxg",
+      "declarations": "padding-right:64px"
+    },
+    {
+      "offset": 428550,
+      "selector": ".inputContainer_cKsPxg[data-recording=true] .messageInput_cKsPxg:empty:before",
+      "declarations": "right:64px"
+    },
+    {
+      "offset": 432893,
+      "selector": ".inputContainer_cKsPxg:has(.attachedFilesContainerAbove_cKsPxg) .messageInput_cKsPxg",
+      "declarations": "border-top-left-radius:0;border-top-right-radius:0"
+    },
+    {
+      "offset": 436357,
+      "selector": ".dialogContainer_Krs1lQ:focus-within",
+      "declarations": "border-color:color-mix(in srgb,var(--app-input-active-border)65%,transparent)"
+    },
+    {
+      "offset": 436472,
+      "selector": ".dialogContainer_Krs1lQ:not(:focus-within)",
+      "declarations": "border-color:var(--app-input-border)"
+    },
+    {
+      "offset": 438980,
+      "selector": ".dialog_yumWmQ:focus-within",
+      "declarations": "border-color:color-mix(in srgb,var(--app-input-active-border)65%,transparent)"
+    }
+  ],
+  "variables": [
+    "--vscode-chat-font-size",
+    "--vscode-chat-font-family",
+    "--app-claude-orange",
+    "--app-claude-clay-button-orange",
+    "--app-claude-ivory",
+    "--vscode-editor-font-family",
+    "--vscode-editor-font-size",
+    "--vscode-foreground",
+    "--app-primary-background",
+    "--vscode-sideBar-background",
+    "--app-primary-border-color",
+    "--vscode-sideBarActivityBarTop-border",
+    "--vscode-descriptionForeground",
+    "--vscode-textLink-foreground",
+    "--app-secondary-background",
+    "--vscode-editor-background",
+    "--vscode-input-foreground",
+    "--app-input-background",
+    "--vscode-input-background",
+    "--app-input-border",
+    "--vscode-inlineChatInput-border",
+    "--vscode-input-border",
+    "--vscode-widget-border",
+    "--app-input-active-border",
+    "--vscode-inputOption-activeBorder",
+    "--vscode-input-placeholderForeground",
+    "--app-input-secondary-background",
+    "--vscode-menu-background",
+    "--app-tool-background",
+    "--app-code-background",
+    "--vscode-textCodeBlock-background",
+    "--vscode-textPreformat-foreground",
+    "--app-inline-code-background",
+    "--vscode-textPreformat-background",
+    "--app-list-border-radius",
+    "--app-list-hover-background",
+    "--vscode-list-hoverBackground",
+    "--app-list-active-background",
+    "--vscode-list-activeSelectionBackground",
+    "--vscode-list-activeSelectionForeground",
+    "--app-list-drop-background",
+    "--vscode-list-dropBackground",
+    "--app-menu-background",
+    "--app-menu-border",
+    "--vscode-menu-border",
+    "--vscode-menu-foreground",
+    "--app-menu-selection-background",
+    "--vscode-menu-selectionBackground",
+    "--vscode-menu-selectionForeground",
+    "--app-warning-background",
+    "--app-warning-accent",
+    "--vscode-badge-foreground",
+    "--app-badge-background",
+    "--vscode-badge-background",
+    "--app-header-background",
+    "--app-splitter-hover-background",
+    "--vscode-sash-hoverBorder",
+    "--app-progressbar-background",
+    "--vscode-progressBar-background",
+    "--app-widget-border",
+    "--vscode-editorWidget-border",
+    "--app-ghost-button-hover-background",
+    "--vscode-toolbar-hoverBackground",
+    "--app-button-foreground",
+    "--vscode-button-foreground",
+    "--app-button-background",
+    "--vscode-button-background",
+    "--app-button-hover-background",
+    "--vscode-button-hoverBackground",
+    "--app-accent-color",
+    "--app-transparent-inner-border",
+    "--vscode-disabledForeground",
+    "--vscode-errorForeground",
+    "--vscode-gitDecoration-addedResourceForeground",
+    "--app-recording-background",
+    "--vscode-editorMarkerNavigationInfo-headerBackground",
+    "--vscode-charts-blue",
+    "--vscode-charts-orange",
+    "--vscode-charts-green",
+    "--vscode-charts-yellow",
+    "--vscode-charts-purple",
+    "--vscode-charts-red",
+    "--vscode-terminal-ansiCyan",
+    "--vscode-charts-foreground",
+    "--vscode-terminal-ansiBlack",
+    "--vscode-terminal-ansiRed",
+    "--vscode-terminal-ansiGreen",
+    "--vscode-terminal-ansiYellow",
+    "--vscode-terminal-ansiBlue",
+    "--vscode-terminal-ansiMagenta",
+    "--vscode-terminal-ansiWhite",
+    "--vscode-terminal-ansiBrightBlack",
+    "--app-modal-background",
+    "--vscode-gitDecoration-deletedResourceForeground",
+    "--app-diff-editor-background",
+    "--app-mention-chip-background",
+    "--vscode-chat-slashCommandBackground",
+    "--vscode-chat-slashCommandForeground",
+    "--app-pill-background",
+    "--app-pill-hover-background",
+    "--vscode-focusBorder",
+    "--vscode-editorHoverWidget-background",
+    "--vscode-editorHoverWidget-border",
+    "--vscode-editorHoverWidget-foreground",
+    "--vscode-widget-shadow",
+    "--vscode-textLink-activeForeground",
+    "--vscode-editorHoverWidget-statusBarBackground",
+    "--vscode-scrollbar-shadow",
+    "--vscode-scrollbarSlider-background",
+    "--vscode-scrollbarSlider-hoverBackground",
+    "--vscode-scrollbarSlider-activeBackground",
+    "--vscode-hover-whiteSpace",
+    "--vscode-hover-maxWidth",
+    "--vscode-hover-sourceWhiteSpace",
+    "--text-link-decoration",
+    "--vscode-keybindingLabel-background",
+    "--vscode-keybindingLabel-foreground",
+    "--vscode-keybindingLabel-border",
+    "--vscode-keybindingLabel-bottomBorder",
+    "--vscode-inputOption-hoverBackground",
+    "--vscode-list-highlightForeground",
+    "--vscode-list-focusHighlightForeground",
+    "--vscode-button-border",
+    "--vscode-button-secondaryForeground",
+    "--vscode-button-secondaryBackground",
+    "--vscode-button-secondaryHoverBackground",
+    "--vscode-button-separator",
+    "--vscode-sash-size",
+    "--vscode-sash-hover-size",
+    "--separator-border",
+    "--vscode-editor-foreground",
+    "--vscode-editor-rangeHighlightBackground",
+    "--vscode-editor-rangeHighlightBorder",
+    "--vscode-editor-symbolHighlightBackground",
+    "--vscode-editor-symbolHighlightBorder",
+    "--vscode-editorError-border",
+    "--vscode-editorError-background",
+    "--vscode-editorWarning-border",
+    "--vscode-editorWarning-background",
+    "--vscode-editorInfo-border",
+    "--vscode-editorInfo-background",
+    "--vscode-editorHint-border",
+    "--vscode-editorUnnecessaryCode-border",
+    "--vscode-editorCursor-foreground",
+    "--vscode-editorLineNumber-foreground",
+    "--vscode-editorLineNumber-activeForeground",
+    "--vscode-editorGutter-background",
+    "--vscode-contrastBorder",
+    "--vscode-editorWhitespace-foreground",
+    "--vscode-minimapSlider-background",
+    "--vscode-minimapSlider-hoverBackground",
+    "--vscode-minimapSlider-activeBackground",
+    "--vscode-editorRuler-foreground",
+    "--vscode-editor-selectionBackground",
+    "--vscode-editor-inactiveSelectionBackground",
+    "--vscode-diffEditor-unchangedCodeBackground",
+    "--vscode-diffEditor-unchangedRegionBackground",
+    "--vscode-diffEditor-unchangedRegionForeground",
+    "--vscode-diffEditor-unchangedRegionShadow",
+    "--vscode-editorLink-activeForeground",
+    "--vscode-diffEditor-move-border",
+    "--vscode-diffEditor-moveActive-border",
+    "--vscode-diffEditor-removedTextBackground",
+    "--vscode-diffEditor-insertedTextBackground",
+    "--vscode-diffEditor-insertedLineBackground",
+    "--vscode-diffEditor-insertedTextBorder",
+    "--vscode-diffEditor-removedTextBorder",
+    "--vscode-diffEditorGutter-insertedLineBackground",
+    "--vscode-diffEditor-removedLineBackground",
+    "--vscode-diffEditorGutter-removedLineBackground",
+    "--vscode-diffEditor-border",
+    "--vscode-diffEditor-diagonalFill",
+    "--vscode-editorGutter-commentRangeForeground",
+    "--vscode-editorCodeLens-foreground",
+    "--vscode-multiDiffEditor-background",
+    "--vscode-multiDiffEditor-border",
+    "--vscode-sideBarSectionHeader-border",
+    "--vscode-multiDiffEditor-headerBackground",
+    "--vscode-editorBracketMatch-background",
+    "--vscode-editorBracketMatch-border",
+    "--vscode-icon-x-content",
+    "--vscode-icon-x-font-family",
+    "--vscode-inputValidation-infoBorder",
+    "--vscode-editorWidget-background",
+    "--vscode-symbolIcon-arrayForeground",
+    "--vscode-symbolIcon-booleanForeground",
+    "--vscode-symbolIcon-classForeground",
+    "--vscode-symbolIcon-methodForeground",
+    "--vscode-symbolIcon-colorForeground",
+    "--vscode-symbolIcon-constantForeground",
+    "--vscode-symbolIcon-constructorForeground",
+    "--vscode-symbolIcon-enumeratorForeground",
+    "--vscode-symbolIcon-enumeratorMemberForeground",
+    "--vscode-symbolIcon-eventForeground",
+    "--vscode-symbolIcon-fieldForeground",
+    "--vscode-symbolIcon-fileForeground",
+    "--vscode-symbolIcon-folderForeground",
+    "--vscode-symbolIcon-functionForeground",
+    "--vscode-symbolIcon-interfaceForeground",
+    "--vscode-symbolIcon-keyForeground",
+    "--vscode-symbolIcon-keywordForeground",
+    "--vscode-symbolIcon-moduleForeground",
+    "--vscode-symbolIcon-namespaceForeground",
+    "--vscode-symbolIcon-nullForeground",
+    "--vscode-symbolIcon-numberForeground",
+    "--vscode-symbolIcon-objectForeground",
+    "--vscode-symbolIcon-operatorForeground",
+    "--vscode-symbolIcon-packageForeground",
+    "--vscode-symbolIcon-propertyForeground",
+    "--vscode-symbolIcon-referenceForeground",
+    "--vscode-symbolIcon-snippetForeground",
+    "--vscode-symbolIcon-stringForeground",
+    "--vscode-symbolIcon-structForeground",
+    "--vscode-symbolIcon-textForeground",
+    "--vscode-symbolIcon-typeParameterForeground",
+    "--vscode-symbolIcon-unitForeground",
+    "--vscode-symbolIcon-variableForeground",
+    "--vscode-editorLightBulb-foreground",
+    "--vscode-editorLightBulbAutoFix-foreground",
+    "--vscode-editorLightBulbAi-foreground",
+    "--vscode-icon-foreground",
+    "--vscode-editorActionList-background",
+    "--vscode-editorActionList-foreground",
+    "--vscode-editorActionList-focusForeground",
+    "--vscode-menu-selectionBorder",
+    "--vscode-editorActionList-focusBackground",
+    "--vscode-actionBar-toggledBackground",
+    "--vscode-editorCodeLens-lineHeight",
+    "--vscode-editorCodeLens-fontSize",
+    "--vscode-editorCodeLens-fontFeatureSettings",
+    "--vscode-editorCodeLens-fontFamily",
+    "--vscode-editorCodeLens-fontFamilyDefault",
+    "--vscode-peekViewResult-background",
+    "--vscode-peekViewResult-lineForeground",
+    "--vscode-peekViewResult-fileForeground",
+    "--vscode-peekViewResult-selectionBackground",
+    "--vscode-peekViewResult-selectionForeground",
+    "--vscode-peekViewResult-matchHighlightBackground",
+    "--vscode-peekViewEditor-matchHighlightBackground",
+    "--vscode-peekViewEditor-matchHighlightBorder",
+    "--vscode-peekViewEditor-background",
+    "--vscode-peekViewEditorGutter-background",
+    "--vscode-contrastActiveBorder",
+    "--vscode-editor-hoverHighlightBackground",
+    "--vscode-editorWidget-foreground",
+    "--vscode-editor-findMatchHighlightBackground",
+    "--vscode-editor-findMatchBackground",
+    "--vscode-editor-findMatchBorder",
+    "--vscode-editor-findRangeHighlightBackground",
+    "--vscode-editorWidget-resizeBorder",
+    "--vscode-editor-foldPlaceholderForeground",
+    "--vscode-editor-foldBackground",
+    "--vscode-editorGutter-foldingControlForeground",
+    "--vscode-editorGhostText-background",
+    "--vscode-editorGhostText-border",
+    "--vscode-editorGhostText-foreground",
+    "--vscode-editor-snippetTabstopHighlightBackground",
+    "--vscode-editor-snippetTabstopHighlightBorder",
+    "--vscode-editor-snippetFinalTabstopHighlightBackground",
+    "--vscode-editor-snippetFinalTabstopHighlightBorder",
+    "--vscode-editorSuggestWidget-border",
+    "--vscode-editorSuggestWidget-background",
+    "--vscode-editorSuggestWidgetStatus-foreground",
+    "--vscode-editorSuggestWidget-selectedForeground",
+    "--vscode-editorSuggestWidget-selectedIconForeground",
+    "--vscode-editorSuggestWidget-foreground",
+    "--vscode-editorSuggestWidget-highlightForeground",
+    "--vscode-editorSuggestWidget-focusHighlightForeground",
+    "--vscode-problemsErrorIcon-foreground",
+    "--vscode-problemsWarningIcon-foreground",
+    "--vscode-problemsInfoIcon-foreground",
+    "--vscode-editor-linkedEditingBackground",
+    "--vscode-editor-selectionHighlightBackground",
+    "--vscode-editor-selectionHighlightBorder",
+    "--vscode-editor-wordHighlightBackground",
+    "--vscode-editor-wordHighlightBorder",
+    "--vscode-editor-wordHighlightStrongBackground",
+    "--vscode-editor-wordHighlightStrongBorder",
+    "--vscode-editor-wordHighlightTextBackground",
+    "--vscode-editor-wordHighlightTextBorder",
+    "--vscode-notifications-background",
+    "--vscode-editor-placeholder-foreground",
+    "--vscode-parameterHintsWidget-editorFontFamily",
+    "--vscode-parameterHintsWidget-editorFontFamilyDefault",
+    "--vscode-editorHoverWidget-highlightForeground",
+    "--vscode-editorStickyScroll-scrollableWidth",
+    "--vscode-editorStickyScroll-foldingOpacityTransition",
+    "--vscode-editorStickyScroll-border",
+    "--vscode-editorStickyScrollHover-background",
+    "--vscode-editorStickyScroll-shadow",
+    "--vscode-editorStickyScroll-background",
+    "--vscode-peekViewEditorStickyScroll-background",
+    "--vscode-editorUnicodeHighlight-border",
+    "--vscode-editorUnicodeHighlight-background",
+    "--vscode-banner-background",
+    "--vscode-banner-foreground",
+    "--vscode-banner-iconForeground",
+    "--app-root-background",
+    "--vscode-panel-border"
+  ],
+  "cssInputs": [
+    {
+      "offset": 1319,
+      "code": "-background);--app-input-foreground:var(--vscode-input-foreground);--app-input-background:var(--vscode-input-background);--app-input-border:var(--vscode-inlineChatInput-border,var(--vscode-input-border,var(--vscode-widget-border,#7f7f7f66)));--app-input-active-border:var(--vscode-inputOption-activeBorder);--app-input-placeholder-foreground:var(--vscode-input-placeholderForeground);--app-input-secondary-foreground:var(--vscode-input-foreground);--app-input-secondary-background:var(--vscode-menu-background);--app-tool-background:var(--vscode-editor-background);--app-code-background:var(--vscode-textCodeBlock-background,#7f7f7f26);--app-inline-co"
+    }
+  ],
+  "cssFocus": [
+    {
+      "offset": 6199,
+      "code": "ient(90deg,#c8322d,#cd5f1e,#a57800,#2d823c,#2864b9,#5a41aa,#a53c82);--app-ultrathink-shine:#ffffff73}.vscode-high-contrast{--app-diff-editor-background:#000;--app-accent-color:var(--vscode-focusBorder);--app-plan-mode-color:var(--vscode-focusBorder)}.vscode-high-contrast-light{--app-diff-editor-background:#fff;--app-ultrathink-rainbow:linear-gradient(90deg,#c8322d,#cd5f1e,#a57800,#2d823c,#2864b9,#5a41aa,#a53c82);--app-ultrathink-shine:#ffffff73;--app-accent-color:var(--vscode-focusBorder);--app-plan-mode-color:var(--vscode-focusBorder)}.monaco-editor{--monaco-monospace-font:\"SF Mono\",Monaco,Menlo,Consolas,\"Ubuntu Mono\",\"Liberation Mono\",\"Deja"
+    },
+    {
+      "offset": 6247,
+      "code": "b9,#5a41aa,#a53c82);--app-ultrathink-shine:#ffffff73}.vscode-high-contrast{--app-diff-editor-background:#000;--app-accent-color:var(--vscode-focusBorder);--app-plan-mode-color:var(--vscode-focusBorder)}.vscode-high-contrast-light{--app-diff-editor-background:#fff;--app-ultrathink-rainbow:linear-gradient(90deg,#c8322d,#cd5f1e,#a57800,#2d823c,#2864b9,#5a41aa,#a53c82);--app-ultrathink-shine:#ffffff73;--app-accent-color:var(--vscode-focusBorder);--app-plan-mode-color:var(--vscode-focusBorder)}.monaco-editor{--monaco-monospace-font:\"SF Mono\",Monaco,Menlo,Consolas,\"Ubuntu Mono\",\"Liberation Mono\",\"DejaVu Sans Mono\",\"Courier New\",monospace;font-famil"
+    },
+    {
+      "offset": 6491,
+      "code": "tor-background:#fff;--app-ultrathink-rainbow:linear-gradient(90deg,#c8322d,#cd5f1e,#a57800,#2d823c,#2864b9,#5a41aa,#a53c82);--app-ultrathink-shine:#ffffff73;--app-accent-color:var(--vscode-focusBorder);--app-plan-mode-color:var(--vscode-focusBorder)}.monaco-editor{--monaco-monospace-font:\"SF Mono\",Monaco,Menlo,Consolas,\"Ubuntu Mono\",\"Liberation Mono\",\"DejaVu Sans Mono\",\"Courier New\",monospace;font-family:-apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,system-ui,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,Droid Sans,sans-serif}.monaco-menu .monaco-action-bar.vertical .action-item .action-menu-item:focus .action-lab"
+    },
+    {
+      "offset": 6539,
+      "code": "ear-gradient(90deg,#c8322d,#cd5f1e,#a57800,#2d823c,#2864b9,#5a41aa,#a53c82);--app-ultrathink-shine:#ffffff73;--app-accent-color:var(--vscode-focusBorder);--app-plan-mode-color:var(--vscode-focusBorder)}.monaco-editor{--monaco-monospace-font:\"SF Mono\",Monaco,Menlo,Consolas,\"Ubuntu Mono\",\"Liberation Mono\",\"DejaVu Sans Mono\",\"Courier New\",monospace;font-family:-apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,system-ui,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue,Droid Sans,sans-serif}.monaco-menu .monaco-action-bar.vertical .action-item .action-menu-item:focus .action-label,.monaco-editor.vs-dark .monaco-menu .monaco-a"
+    },
+    {
+      "offset": 8107,
+      "code": "focus,.monaco-editor,.monaco-diff-editor select:focus,.monaco-editor,.monaco-diff-editor textarea:focus{outline-width:1px;outline-style:solid;outline-offset:-1px;outline-color:var(--vscode-focusBorder);opacity:1}.monaco-workbench .workbench-hover{position:relative;z-index:40;overflow:hidden;background:var(--vscode-editorHoverWidget-background);border:1px solid var(--vscode-editorHoverWidget-border);color:var(--vscode-editorHoverWidget-foreground);box-shadow:0 2px 8px var(--vscode-widget-shadow);border-radius:3px;max-width:700px;font-size:13px;line-height:19px}.monaco-workbench .workbench-hover hr{border-bottom:none}.monaco-workbench .workbenc"
+    },
+    {
+      "offset": 9034,
+      "code": "r(--vscode-editorHoverWidget-border)}.monaco-workbench .workbench-hover-container.locked .workbench-hover:focus,.monaco-workbench .workbench-hover-lock:focus{outline:1px solid var(--vscode-focusBorder)}.monaco-workbench .workbench-hover-container.locked .workbench-hover-lock:hover{background:var(--vscode-toolbar-hoverBackground)}.monaco-workbench .workbench-hover-pointer{position:absolute;z-index:41;pointer-events:none}.monaco-workbench .workbench-hover-pointer:after{content:\"\";position:absolute;background-color:var(--vscode-editorHoverWidget-background);border-right:1px solid var(--vscode-editorHoverWidget-border);border-bottom:1px solid var"
+    },
+    {
+      "offset": 10439,
+      "code": "kbench-hover a{color:var(--vscode-textLink-foreground)}.monaco-workbench .workbench-hover a:focus{outline:1px solid;outline-offset:-1px;text-decoration:underline;outline-color:var(--vscode-focusBorder)}.monaco-workbench .workbench-hover a:hover,.monaco-workbench .workbench-hover a:active{color:var(--vscode-textLink-activeForeground)}.monaco-workbench .workbench-hover code{background:var(--vscode-textCodeBlock-background)}.monaco-workbench .workbench-hover .hover-row .actions{background:var(--vscode-editorHoverWidget-statusBarBackground)}.monaco-workbench .workbench-hover.right-aligned{left:1px}.monaco-workbench .workbench-hover.right-aligned "
+    },
+    {
+      "offset": 26398,
+      "code": "co-custom-toggle:hover{background-color:var(--vscode-inputOption-hoverBackground)}.hc-black .monaco-custom-toggle:hover,.hc-light .monaco-custom-toggle:hover{border:1px dashed var(--vscode-focusBorder)}.hc-black .monaco-custom-toggle,.hc-light .monaco-custom-toggle,.hc-black .monaco-custom-toggle:hover,.hc-light .monaco-custom-toggle:hover{background:0 0}.monaco-custom-toggle.monaco-checkbox{opacity:1;border:1px solid #0000;border-radius:3px;width:18px;height:18px;margin-left:0;margin-right:9px;padding:0;background-size:16px!important}.monaco-action-bar .checkbox-action-item{display:flex;border-radius:2px;align-items: center;padding-right:2px"
+    }
+  ],
+  "hostWebview": [
+    {
+      "offset": 3576655,
+      "code": "ions.push(Pe.window.registerWebviewViewProvider(\"claudeVSCodeSidebar\",c,{webviewOptions:{retainContextWhenHidden:!0}})),e.subscriptions.push(Pe.window.registerWebviewViewProvider(\"claudeVSCodeSidebarSecondary\",c,{webviewOptions:{retainContextWhenHidden:!0}})),e.subscriptions.push(Pe.window.registerWebviewViewProvider(\"claudeVSCodeSessionsList\",{resolveWebviewView(b,C,A){c.resolveSessionListView(b,C,A)}},{webviewOptions:{retainContextWhenHidden:!0}})),e.subscriptions.push(Pe.window.registerWebviewPanelSerializer(\"claudeVSCodePanel\",{async deserializeWebviewPanel(b,C){c.notePanelRevived();let A=C,w=c.restoredTabSetup(A??{},b.title),T=w.fullEditor,O=bC("
+    },
+    {
+      "offset": 3578065,
+      "code": "redLocation(),sessionAlreadyOpenInPanel:c.hasPanelForSession(b),fullEditor:T===!0});if(x.target===\"sidebar\"){let N=c.activateInSidebar(b,C);try{await Pe.commands.executeCommand(f?\"claudeVSCodeSidebarSecondary.focus\":\"claudeVSCodeSidebar.focus\")}catch(M){throw c.clearPendingSidebarActivation(N),M}return}let{startedInNewColumn:R,shownInSidebar:P}=await c.createPanel(b,C,A,w,T,x.focusInput);if(R)await MS();if(x.updatePreferredLocationToPanel&&P!==!0)n.setPreferredLocation(\"panel\")})),e.subscriptions.push(Up(\"claude-vscode.primaryEditor.open\",async(b,C)=>{await c.createPanel(b,C,xse(),void 0,!0)})),e.subscriptions.push(Up(\"claude-vscode.editor.openLast\","
+    },
+    {
+      "offset": 3580858,
+      "code": "VSCode. Please update your VSCode to use. Opening in Activity Bar instead.\"),await Pe.commands.executeCommand(\"claudeVSCodeSidebar.focus\");return}await Pe.commands.executeCommand(\"claudeVSCodeSidebarSecondary.focus\")})),e.subscriptions.push(Pe.commands.registerCommand(\"claude-vscode.window.open\",async()=>{let b=new Set(Pe.window.tabGroups.all);await c.createPanel(void 0,void 0),await Pe.commands.executeCommand(\"workbench.action.moveEditorToNewWindow\");let C=Pe.window.tabGroups.activeTabGroup;if(!b.has(C)&&eit(C))await MS()})),e.subscriptions.push(Up(\"claude-vscode.logout\",async()=>{let b=await c.logout();if(b===null)b=await new kl(al(t),yo()).logout("
+    }
+  ],
+  "jsSend": [
+    {
+      "offset": 5780056,
+      "code": ".push(Jn),()=>{for(let Nn of pt)Nn.disconnect()}},[C]);let[S,E]=B(),I=null,L;if(e.busy.value&&!o)I=m($7e,{className:na.stopIcon}),L=\"Stop\";else I=m(Kae,{className:na.sendIcon}),L=\"Send message\";let R,D,U,j,O=!1,z=!1,se,ne=N0(e.drawnClaudeConfig.value),he=e.modelSelection.value,Q=Hm(ne,he);if(Q?.supportsEffort)R=e.effortLevel.value,D=Q.supportedEffortLevels??[\"low\",\"medium\",\"high\"],U=(st)=>{e.setEffortLevel(st)},j=e.effortAutoControl.value,O=e.ultracodeAvailable.value,z=e.ultracodeActive.value,se=(st)=>{e.setUltracode(st)};let F=PNt(Q?.supportsEffort===!0,R,j),G=c$(Q?.value??he,e.lastServedModel.value,ne),ce=Q!==void 0&&Q.value!==\"defa"
+    }
+  ],
+  "jsAppearance": [
+    {
+      "offset": 717284,
+      "code": "e(t,1)})}getThemingParticipants(){return this.themingParticipants}}function Na(e){return xet.onColorThemeChange(e)}var Eo,b0e,xet,v0e;var Ho=A(()=>{vt();ge();Tt();Aa();x1();Eo=Mt(\"themeService\");b0e={ThemingContribution:\"base.contributions.theming\"};xet=new yet;Li.add(b0e.ThemingContribution,xet);v0e=class v0e extends W{constructor(e){super();this.themeService=e,this.theme=e.getColorTheme(),this._register(this.themeService.onDidColorThemeChange((t)=>this.onThemeChange(t)))}onThemeChange(e){this.theme=e,this.updateStyles()}updateStyles(){}}});var Pon=function(e,t,n,i){var o=arguments.length,r=o<3?t:i===null?i=Object.getOwnProper"
+    },
+    {
+      "offset": 717454,
+      "code": "();Eo=Mt(\"themeService\");b0e={ThemingContribution:\"base.contributions.theming\"};xet=new yet;Li.add(b0e.ThemingContribution,xet);v0e=class v0e extends W{constructor(e){super();this.themeService=e,this.theme=e.getColorTheme(),this._register(this.themeService.onDidColorThemeChange((t)=>this.onThemeChange(t)))}onThemeChange(e){this.theme=e,this.updateStyles()}updateStyles(){}}});var Pon=function(e,t,n,i){var o=arguments.length,r=o<3?t:i===null?i=Object.getOwnPropertyDescriptor(t,n):i,s;if(typeof Reflect===\"object\"&&typeof Reflect.decorate===\"function\")r=Reflect.decorate(e,t,n,i);else for(var a=e.length-1;a>=0;a--)if(s=e[a])r=(o<3?s"
+    },
+    {
+      "offset": 717474,
+      "code": "ce\");b0e={ThemingContribution:\"base.contributions.theming\"};xet=new yet;Li.add(b0e.ThemingContribution,xet);v0e=class v0e extends W{constructor(e){super();this.themeService=e,this.theme=e.getColorTheme(),this._register(this.themeService.onDidColorThemeChange((t)=>this.onThemeChange(t)))}onThemeChange(e){this.theme=e,this.updateStyles()}updateStyles(){}}});var Pon=function(e,t,n,i){var o=arguments.length,r=o<3?t:i===null?i=Object.getOwnPropertyDescriptor(t,n):i,s;if(typeof Reflect===\"object\"&&typeof Reflect.decorate===\"function\")r=Reflect.decorate(e,t,n,i);else for(var a=e.length-1;a>=0;a--)if(s=e[a])r=(o<3?s(r):o>3?s(t,n,r):s(t"
+    },
+    {
+      "offset": 717518,
+      "code": "tions.theming\"};xet=new yet;Li.add(b0e.ThemingContribution,xet);v0e=class v0e extends W{constructor(e){super();this.themeService=e,this.theme=e.getColorTheme(),this._register(this.themeService.onDidColorThemeChange((t)=>this.onThemeChange(t)))}onThemeChange(e){this.theme=e,this.updateStyles()}updateStyles(){}}});var Pon=function(e,t,n,i){var o=arguments.length,r=o<3?t:i===null?i=Object.getOwnPropertyDescriptor(t,n):i,s;if(typeof Reflect===\"object\"&&typeof Reflect.decorate===\"function\")r=Reflect.decorate(e,t,n,i);else for(var a=e.length-1;a>=0;a--)if(s=e[a])r=(o<3?s(r):o>3?s(t,n,r):s(t,n))||r;return o>3&&r&&Object.defineProperty"
+    }
+  ],
+  "codeRules": [
+    {
+      "selector": ".copyButton_CEmTFw",
+      "declarations": "background:var(--app-secondary-background);border:1px solid var(--app-input-border);cursor:pointer;opacity:0;display:flex;border-radius:4px;justify-content:center;align-items: center;padding:4px;transition:opacity .15s,background .15s"
+    },
+    {
+      "selector": ".copyButton_CEmTFw:hover",
+      "declarations": "background:var(--app-ghost-button-hover-background)"
+    },
+    {
+      "selector": ".copyButton_CEmTFw:active",
+      "declarations": "opacity:.7"
+    },
+    {
+      "selector": ".root_-a7MRw",
+      "declarations": "text-wrap:auto;overflow-x:hidden;width:100%"
+    },
+    {
+      "selector": ".root_-a7MRw p",
+      "declarations": "white-space:pre-wrap;margin-top:.1em;margin-bottom:.2em"
+    },
+    {
+      "selector": ".root_-a7MRw :-webkit-any(p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th)",
+      "declarations": "unicode-bidi:plaintext"
+    },
+    {
+      "selector": ".root_-a7MRw :-moz-any(p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th)",
+      "declarations": "unicode-bidi:plaintext"
+    },
+    {
+      "selector": ".root_-a7MRw :is(p,li,h1,h2,h3,h4,h5,h6,blockquote,td,th)",
+      "declarations": "unicode-bidi:plaintext"
+    },
+    {
+      "selector": ".root_-a7MRw .katex",
+      "declarations": "direction:ltr;unicode-bidi:isolate"
+    },
+    {
+      "selector": ".root_-a7MRw:has(.katex)",
+      "declarations": "display:block;box-sizing:border-box;overflow-x:auto;overflow-y:hidden;padding-block-start:2px;padding-block-end:2px;counter-reset:katexEqnNo mmlEqnNo;margin-block-start:-2px;margin-block-end:-2px;padding-right:2px"
+    },
+    {
+      "selector": ".root_-a7MRw:focus-visible",
+      "declarations": "outline:1px solid var(--app-accent-color);outline-offset:-1px"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-mathml",
+      "declarations": "user-select:none"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-display",
+      "declarations": "direction:ltr;overflow:auto hidden;white-space:normal"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-display>.katex",
+      "declarations": "overflow-y:clip;padding-block-start:2px;padding-block-end:2px"
+    },
+    {
+      "selector": ".root_-a7MRw :not(.katex-display)>.katex .base",
+      "declarations": "overflow:clip;overflow-clip-margin:1em;clip-path:inset(-.3em -1em)"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-display .tag",
+      "declarations": "padding-right:2px"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-display:has(.katex:focus-visible)",
+      "declarations": "outline:1px solid var(--app-accent-color);outline-offset:-1px"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-display .katex:focus-visible",
+      "declarations": "outline:none"
+    },
+    {
+      "selector": ".vscode-high-contrast .root_-a7MRw .katex [style*=color]:not([style*=transparent])",
+      "declarations": "color:inherit!important;background-color:#0000!important;border-color:currentColor!important"
+    },
+    {
+      "selector": ".vscode-high-contrast .root_-a7MRw .katex .colorbox",
+      "declarations": "outline:.04em solid;outline-offset:-.04em"
+    },
+    {
+      "selector": ".root_-a7MRw .katex",
+      "declarations": "forced-color-adjust:none;color:canvastext"
+    },
+    {
+      "selector": ".root_-a7MRw a .katex",
+      "declarations": "color:linktext"
+    },
+    {
+      "selector": ".root_-a7MRw .katex ::selection",
+      "declarations": "color:highlighttext;background-color:highlight"
+    },
+    {
+      "selector": ".root_-a7MRw .katex [style*=color]:not([style*=transparent])",
+      "declarations": "color:inherit!important;background-color:#0000!important;border-color:currentColor!important"
+    },
+    {
+      "selector": ".root_-a7MRw .katex .colorbox",
+      "declarations": "outline:.04em solid;outline-offset:-.04em"
+    },
+    {
+      "selector": ".root_-a7MRw .katex-display::-webkit-scrollbar-thumb",
+      "declarations": "background-color:canvastext"
+    },
+    {
+      "selector": ".codeBlockWrapper_-a7MRw",
+      "declarations": "position:relative;margin:8px 0"
+    },
+    {
+      "selector": ".codeBlockWrapper_-a7MRw pre",
+      "declarations": "overflow-x:auto;white-space:pre;color:var(--app-primary-foreground);background:var(--app-code-background);box-sizing:border-box;border-radius:4px;max-width:100%;margin:0;padding:8px"
+    },
+    {
+      "selector": ".copyButton_-a7MRw",
+      "declarations": "position:absolute;top:4px;right:4px"
+    },
+    {
+      "selector": ".codeBlockWrapper_-a7MRw:hover .copyButton_-a7MRw",
+      "declarations": "opacity:1"
+    },
+    {
+      "selector": ".root_-a7MRw code",
+      "declarations": "font-family:var(--app-monospace-font-family);color:var(--app-inline-code-foreground);background:var(--app-inline-code-background);word-break:break-word;border-radius:3px;padding:2px 4px;font-size:.9em"
+    },
+    {
+      "selector": ".root_-a7MRw a code",
+      "declarations": "color:inherit;background:var(--app-code-background)"
+    },
+    {
+      "selector": ".root_-a7MRw pre code",
+      "declarations": "color:inherit;background:0 0;padding:0"
+    },
+    {
+      "selector": ".root_-a7MRw .insightHeader_-a7MRw,.root_-a7MRw .insightFooter_-a7MRw",
+      "declarations": "color:var(--app-primary-foreground);background:0 0"
+    },
+    {
+      "selector": ".root_-a7MRw ol,.root_-a7MRw ul",
+      "declarations": "padding-inline-start:2em"
+    },
+    {
+      "selector": ".root_-a7MRw>:first-child,.root_-a7MRw>[data-redrawn]:first-child>*,.root_-a7MRw h1:first-child,.root_-a7MRw h2:first-child,.root_-a7MRw h3:first-child,.root_-a7MRw h4:first-child,.root_-a7MRw h5:first-child,.root_-a7MRw h6:first-child",
+      "declarations": "margin-top:0"
+    },
+    {
+      "selector": ".root_-a7MRw input[type=checkbox]",
+      "declarations": "appearance:none;-webkit-appearance:none;border:1px solid var(--app-input-border);position:relative;pointer-events:none;vertical-align:middle;border-radius:2px;width:1em;height:1em;margin:2px 4px 2px 2px"
+    },
+    {
+      "selector": ".root_-a7MRw input[type=checkbox]:checked:after",
+      "declarations": "content:\"✓\";position:absolute;font-size:.9em;top:50%;left:50%;transform:translate(-50%,-50%)"
+    },
+    {
+      "selector": ".root_-a7MRw table",
+      "declarations": "border-collapse:collapse;border:1px solid var(--app-input-border)"
+    },
+    {
+      "selector": ".root_-a7MRw th,.root_-a7MRw td",
+      "declarations": "border:1px solid var(--app-input-border);padding:2px"
+    },
+    {
+      "selector": ".insightHeader_-a7MRw",
+      "declarations": "display:block;width:-moz-fit-content;width:fit-content;margin-top:12px;margin-bottom:4px"
+    },
+    {
+      "selector": ".insightFooter_-a7MRw",
+      "declarations": "display:block;width:-moz-fit-content;width:fit-content;margin-top:4px;margin-bottom:12px"
+    },
+    {
+      "selector": ".textLink_-a7MRw",
+      "declarations": "text-decoration:underline dotted"
+    },
+    {
+      "selector": ".textLinkHref_-a7MRw",
+      "declarations": "color:var(--app-secondary-foreground);text-decoration:none;word-break:break-all"
+    }
+  ],
+  "codeRender": [
+    {
+      "offset": 5192306,
+      "code": "l\":\"katex-mathml_-a7MRw\",\"katex-display\":\"katex-display_-a7MRw\",base:\"base_-a7MRw\",tag:\"tag_-a7MRw\",\"vscode-high-contrast\":\"vscode-high-contrast_-a7MRw\",colorbox:\"colorbox_-a7MRw\",codeBlockWrapper:\"codeBlockWrapper_-a7MRw\",copyButton:\"copyButton_-a7MRw\",insightHeader:\"insightHeader_-a7MRw\",insightFooter:\"insightFooter_-a7MRw\",textLink:\"textLink_-a7MRw\",textLinkHref:\"textLinkHref_-a7MRw\"};var Q9n=[B7],J9n=[B7,R7t];function e8n(e,t){return e===\"live\"&&t===\"windows\"?{remarkPlugins:J9n,urlTransform:d8n}:{remarkPlugins:Q9n,urlTransform:void 0}}function t8n(e,t){return e===\"live\"&&t?.host===\"vscode\"&&t.mathRenderingEnabled}function n8n(e){retur"
+    },
+    {
+      "offset": 5192324,
+      "code": "a7MRw\",\"katex-display\":\"katex-display_-a7MRw\",base:\"base_-a7MRw\",tag:\"tag_-a7MRw\",\"vscode-high-contrast\":\"vscode-high-contrast_-a7MRw\",colorbox:\"colorbox_-a7MRw\",codeBlockWrapper:\"codeBlockWrapper_-a7MRw\",copyButton:\"copyButton_-a7MRw\",insightHeader:\"insightHeader_-a7MRw\",insightFooter:\"insightFooter_-a7MRw\",textLink:\"textLink_-a7MRw\",textLinkHref:\"textLinkHref_-a7MRw\"};var Q9n=[B7],J9n=[B7,R7t];function e8n(e,t){return e===\"live\"&&t===\"windows\"?{remarkPlugins:J9n,urlTransform:d8n}:{remarkPlugins:Q9n,urlTransform:void 0}}function t8n(e,t){return e===\"live\"&&t?.host===\"vscode\"&&t.mathRenderingEnabled}function n8n(e){return e?.host===\"vscod"
+    },
+    {
+      "offset": 5196535,
+      "code": "t r=pEe(o.filePath);if(r===null)return;n?.open(r,{startLine:o.startLine,endLine:o.endLine,heading:o.heading})}function p8n({children:e}){let t=K(null);return k(\"div\",{className:vy.codeBlockWrapper,children:[m(q5,{getText:()=>t.current?.textContent??\"\",className:vy.copyButton}),m(\"pre\",{ref:t,children:e})]})}var f8n=new TextDecoder(\"utf-8\",{ignoreBOM:!0});function SIe(e,t){let n=0,i=1;for(let o=0;o<10;o++){let r=t+o;if(r>=e.length)return;let s=e[r];if(n+=(s&127)*i,(s&128)===0)return{value:n,next:r+1};i*=128}return}function m8n(e,t){let n=0;while(n<e.length){let i=SIe(e,n);if(i===void 0)return!1;let o=i.value&7,r=Math.floor(i.value/8);switc"
+    }
+  ],
+  "protocol": {
+    "claude-vscode.editor.open": [
+      {
+        "offset": 3379517,
+        "code": "lection()};else if(e.request.type===\"new_conversation_tab\"){if(e.request.sessionId!==void 0&&!SC(e.request.sessionId))return{type:\"new_conversation_tab_response\"};return await tl(\"claude-vscode.editor.open\",e.request.sessionId,e.request.initialPrompt,this.panelTab?.viewColumn,void 0,void 0,{programmatic:yIe(e.request)}),{type:\"new_conversation_tab_response\"}}else if(e.request.type===\"open_in_editor\"){if(e.request.sessionId!==void 0&&!SC(e.request.sessionId))return{type:\"open_in_editor_response\"};if(await tl(\"claude-vscode.editor.open\",e.request.sessionId,void 0,void 0,e.request.newSessionGroupId,!0,{programmatic:e.request.newSessionGroupId&&!e.req"
+      },
+      {
+        "offset": 3379851,
+        "code": "onversation_tab_response\"}}else if(e.request.type===\"open_in_editor\"){if(e.request.sessionId!==void 0&&!SC(e.request.sessionId))return{type:\"open_in_editor_response\"};if(await tl(\"claude-vscode.editor.open\",e.request.sessionId,void 0,void 0,e.request.newSessionGroupId,!0,{programmatic:e.request.newSessionGroupId&&!e.request.sessionId?\"pin-to-panel\":\"honor-preferred-location\"}),e.request.sessionId!==void 0){let n=JYe(e.request.usage);if(n!==void 0&&this.mayRelayEvent(\"session_list_row_clicked\"))this.onSessionListRowOpened?.(e.request.sessionId,n)}return{type:\"open_in_editor_response\"}}else if(e.request.type===\"rename_tab\"){if(this.panelTab&&typeof "
+      },
+      {
+        "offset": 3477214,
+        "code": "udeTabs(),t=e.find((n)=>n.isActive)??e.at(-1);if(t){await this.bringTabToFront(t);let n=this.pickOneChatSurface(await this.waitForChatSurfaces(HTr));if(n)return n}return await tl(\"claude-vscode.editor.openLast\"),this.pickOneChatSurface(await this.waitForChatSurfaces())}});async doOpenAccountUsageInChat(){let e=Date.now(),t=await this.pickOrOpenOneChatSurface();if(!t){this.output.error(\"Account & Usage link: no Claude Code tab or sidebar opened in time, so the Account & usage dialog was not shown. Try the link again.\");return}t.reveal(),t.comms.notifyOpenAccountUsageDialog(e)}async openPluginsDialogInChat(e,t){let n=nst(e,t);if(n!==void 0){Fe.windo"
+      }
+    ],
+    "CLAUDE_CONFIG_DIR": [
+      {
+        "offset": 109910,
+        "code": "test(t);for(let r=e.indexOf(t);r!==-1;r=e.indexOf(t,r+1))if(!n||!/^\\d{3}/.test(e.slice(r+t.length)))return!0;return!1}var rG=()=>{};var gle=()=>{};function kw(){return process.env.CLAUDE_CONFIG_DIR}function Nm(e){let t=e===\"CLAUDE_CONFIG_DIR\"?kw():process.env[e];if(t===void 0)return;let n=String(t).trim();return n?n:void 0}function yle(e,t){let n=gr(new Map,(o)=>o.clear());function r(){let o=t(),s=n.get(o);if(s)return s.value;let i=e();return n.set(o,{value:i}),i}return Object.assign(r,{cache:n})}function Ele(){return G0()?null:Bi()}function Sle(){return process.env.CLAUDE_CODE_PROJECT_DIR_NAME}function Ilt(e){if(!e||!Olt.test(e)||klt.test"
+      },
+      {
+        "offset": 109954,
+        "code": "dexOf(t,r+1))if(!n||!/^\\d{3}/.test(e.slice(r+t.length)))return!0;return!1}var rG=()=>{};var gle=()=>{};function kw(){return process.env.CLAUDE_CONFIG_DIR}function Nm(e){let t=e===\"CLAUDE_CONFIG_DIR\"?kw():process.env[e];if(t===void 0)return;let n=String(t).trim();return n?n:void 0}function yle(e,t){let n=gr(new Map,(o)=>o.clear());function r(){let o=t(),s=n.get(o);if(s)return s.value;let i=e();return n.set(o,{value:i}),i}return Object.assign(r,{cache:n})}function Ele(){return G0()?null:Bi()}function Sle(){return process.env.CLAUDE_CODE_PROJECT_DIR_NAME}function Ilt(e){if(!e||!Olt.test(e)||klt.test(e))return;return e}function Dlt(){return`${"
+      },
+      {
+        "offset": 452881,
+        "code": "ction Lwt(e){let t=vn();return(t===\"linux\"||t===\"wsl\")&&e.isFile()&&e.size===0&&(e.mode&146)===0&&e.nlink===1}function cbe(){let e=`.claude${MI()}.json`;return Yi.join(process.env.CLAUDE_CONFIG_DIR||pbe.homedir(),e)}async function Nwt(){return null}async function wE(e){try{return!!await obe(e)}catch{return!1}}async function Mwt(){let e=[];if(await wE(\"npm\"))e.push(\"npm\");if(await wE(\"yarn\"))e.push(\"yarn\");if(await wE(\"pnpm\"))e.push(\"pnpm\");return e}async function Uwt(){let e=[];if(await wE(\"bun\"))e.push(\"bun\");if(await wE(\"deno\"))e.push(\"deno\");if(await wE(\"node\"))e.push(\"node\");return e}async function $wt(e){try{return/appinstaller/i.test"
+      }
+    ],
+    "persist_session_permission_mode": [
+      {
+        "offset": 3066342,
+        "code": "eturn await this.openURL(e.request.url),{type:\"open_url_response\"};case\"set_permission_mode\":return this.setPermissionMode(e.channelId,e.request.mode,e.request.userInitiated);case\"persist_session_permission_mode\":return this.persistSessionPermissionMode(e.request.sessionId,e.request.mode,e.request.previousSessionId,e.request.carriedFromStore);case\"get_session_bookmarks\":return{type:\"get_session_bookmarks_response\",bookmarks:await this.bookmarkStore(e.request.sessionId).list()};case\"update_session_bookmark\":{let{sessionId:n,uuid:r,bookmark:o}=e.request;return{type:\"update_session_bookmark_response\",bookmarks:await this.bookmarkStore(n).update(r,o)}}case\""
+      },
+      {
+        "offset": 3103375,
+        "code": "kmarkOrder(e){let t=this.bookmarkRequests.then(e,e);return this.bookmarkRequests=t.catch(()=>{return}),t}async persistSessionPermissionMode(e,t,n,r){let o=cn(e);if(!o)return{type:\"persist_session_permission_mode_response\"};let s=n?cn(n):null,a=t===\"bypassPermissions\"&&!(r===!0&&s!==null&&s!==o)&&!this.bypassPersistGateOpen();if(a&&!(s&&s!==o))return{type:\"persist_session_permission_mode_response\"};if(s&&s!==o){if(r)return await this.settings.moveSessionPermissionMode(s,o,{bypassBarredByHost:!this.bypassPersistGateOpen()}),{type:\"persist_session_permission_mode_response\"};if(await this.settings.clearSessionPermissionMode(s),a)return{type:\"persist_session"
+      },
+      {
+        "offset": 3103553,
+        "code": ":\"persist_session_permission_mode_response\"};let s=n?cn(n):null,a=t===\"bypassPermissions\"&&!(r===!0&&s!==null&&s!==o)&&!this.bypassPersistGateOpen();if(a&&!(s&&s!==o))return{type:\"persist_session_permission_mode_response\"};if(s&&s!==o){if(r)return await this.settings.moveSessionPermissionMode(s,o,{bypassBarredByHost:!this.bypassPersistGateOpen()}),{type:\"persist_session_permission_mode_response\"};if(await this.settings.clearSessionPermissionMode(s),a)return{type:\"persist_session_permission_mode_response\"};if(Vw(t))await this.settings.setSessionPermissionMode(o,t);else await this.settings.clearSessionPermissionMode(o);return{type:\"persist_session_permiss"
+      }
+    ],
+    "get_session_messages": []
+  },
+  "permission": [
+    {
+      "offset": 3457786,
+      "code": "rn(await this.sendRequest({type:\"accept_diff\",channelId:e,filePath:t,diffToken:n})).found}async openFileDiffs(e){await this.sendRequest({type:\"open_file_diffs\",fileDiffs:e})}async setPermissionMode(e,t,n){return(await this.sendRequest({type:\"set_permission_mode\",mode:t,userInitiated:n},e)).success}async persistSessionPermissionMode(e,t,n,i){await this.sendRequest({type:\"persist_session_permission_mode\",sessionId:e,mode:t,previousSessionId:n,carriedFromStore:i})}async getSessionBookmarks(e){return(await this.sendRequest({type:\"get_session_bookmarks\",sessionId:e})).bookmarks}async updateSessionBookmark(e,t,n){return(await this.sendRequest({t"
+    },
+    {
+      "offset": 3826647,
+      "code": "await this.getConnection()).openTerminal(e,t,n,i)}adoptPersistedSessionMode(e){this.permissionMode.value=e,this.modePersist.seedMirror(e),this.permissionModeIsRestoreSeed=!0}async setPermissionModeFromPermissionRequest(e,t){return this.modePersist.permissionRequestCycle(e,this.permissionMode.value),this.flushSessionModePersist(),this.setPermissionMode(e,t,!1)}adoptHeuristicSessionId(e){this.sessionIdHeuristic.value=!0,this.sessionId.value=e}get sessionIdIsHeuristic(){return this.sessionIdHeuristic.value}get authStatus(){return this.context.authStatus}reconcilePersistedSessionMode(e,t){if(this.claudeChannelId!==void 0||this.modePersist.hasP"
+    },
+    {
+      "offset": 3826803,
+      "code": "eIsRestoreSeed=!0}async setPermissionModeFromPermissionRequest(e,t){return this.modePersist.permissionRequestCycle(e,this.permissionMode.value),this.flushSessionModePersist(),this.setPermissionMode(e,t,!1)}adoptHeuristicSessionId(e){this.sessionIdHeuristic.value=!0,this.sessionId.value=e}get sessionIdIsHeuristic(){return this.sessionIdHeuristic.value}get authStatus(){return this.context.authStatus}reconcilePersistedSessionMode(e,t){if(this.claudeChannelId!==void 0||this.modePersist.hasPendingDeliberateChoice())return;if(e===void 0&&this.modePersist.mirror===\"bypassPermissions\"&&t?.bypassGateDecidablyOpen!==!0)return;if(this.modePersist.mir"
+    },
+    {
+      "offset": 3828497,
+      "code": "void 0))return;if(n!==void 0&&n!==e&&!this.modePersist.hasStaleEntryDebt()&&this.signalReflectsStoredMode(this.modePersist.mirror))this.modePersist.moveCommittedEntry(i,e,n)}async setPermissionMode(e,t,n=!0,i){if(i?.requireVerdict){let p=this.connection.value;if(!Boolean(this.claudeChannelId&&p&&(p.state?.value??\"connected\")===\"connected\"))return\"noPush\"}let o=this.permissionMode.value,r=o===\"dontAsk\",s=i?.kickOut===!0&&!n,a=this.kickOutDisplacement;this.kickOutDisplacement=s&&o!==void 0?o===e&&a?.landing===e?a:{displaced:o,landing:e,landed:!1}:void 0;let l=s&&i?.confirmFirst===!0,c=this.claudeChannelId;this.modePushesInFlight++;let d=!0,u"
+    },
+    {
+      "offset": 3829644,
+      "code": "dePersist.deliberateCycle(e,{exitingMode:o,pushDeliverable:x});this.flushSessionModePersist()}if(!c||!this.connection.value||!t)return h(),\"noPush\";let g=this.connection.value,y=g.setPermissionMode(c,e,n&&!r),b=y.then((_)=>{try{if(g===this.connection.value&&c===this.claudeChannelId){if(this.kickOutGaveUp.auto=void 0,this.kickOutGaveUp.bypassPermissions=void 0,_)this.cliConfirmedPermissionMode.value=e}}catch(x){throw h(),x}return u(),_},(_)=>{if(u(),n&&p===this.permissionModeSetGeneration){let x=this.cliConfirmedPermissionMode.peek();hr(()=>{if(g===this.connection.value&&c===this.claudeChannelId&&ha(()=>this.gateClosedFor(x)))this.permissio"
+    },
+    {
+      "offset": 3831627,
+      "code": "tor(e)){if(i===e&&this.modePushesInFlight===0)this.permissionMode.value=i;return}let s=this.pushDeliverable(o);ha(()=>{if(i===void 0){if(!s){if(this.permissionMode.peek()===e)this.setPermissionMode(\"default\",!1,!1,{kickOut:!0});return}let a=this.kickOutGaveUp[e];if(this.kickOutLoopActive[e]===void 0&&(a===void 0||a.conn!==o||a.epoch!==r))this.enforceKickOut(e,t);return}if(i===e){if(s)this.enforceKickOut(e,t)}else if(this.permissionMode.peek()===e&&this.modePushesInFlight===0)this.permissionMode.value=i})})}forgetKickOutLoops(){this.kickOutGaveUp.auto=void 0,this.kickOutGaveUp.bypassPermissions=void 0,this.kickOutLoopActive.auto=void 0,this"
+    },
+    {
+      "offset": 3833969,
+      "code": ")===void 0&&this.kickOutOwnsIndicator(e))this.kickOutEpoch.value++}async kickOutAttempts(e,t,n){for(let i=0;i<Fen;i++){if(!this.kickOutLoopDue(e,t,n))return\"stopped\";if(await this.setPermissionMode(\"default\",!0,!1,{kickOut:!0,confirmFirst:this.cliConfirmedPermissionMode.peek()!==void 0}).then((r)=>r,()=>\"rejected\")===\"accepted\")return\"accepted\"}if(!this.kickOutLoopDue(e,t,n))return\"stopped\";if(this.cliConfirmedPermissionMode.peek()===void 0&&this.permissionMode.peek()===\"default\")this.kickOutGaveUp[e]={conn:n.conn,epoch:n.epoch},this.permissionMode.value=e;return\"exhausted\"}async setModel(e){let t=this.modelSelection.value,n=this.modelSele"
+    },
+    {
+      "offset": 3836048,
+      "code": "aced===i)&&this.modePersist.currentToken===o&&(i!==\"bypassPermissions\"||this.bypassConfigVerdict()===\"allowed\")&&(i!==\"auto\"||this.autoModeAvailability.value!==\"unavailable\"))this.setPermissionMode(i,!0,!1)}return this.showNotification(`Failed to set model: ${d instanceof Error?d.message:String(d)}`,\"error\"),!1}}async setThinkingLevel(e){this.thinkingLevelOverride.value=e,await(await this.getConnection()).setThinkingLevel(this.claudeChannelId,e)}async applySettings(e,t){let n=await this.getConnection(),i=await this.launchClaude();await n.applySettings(i,e,t)}settingsApplyChain=Promise.resolve();settingsWritesPending=0;queueSettingsApply(e,"
+    }
+  ],
+  "syntaxColorSource": {
+    "offset": 1681215,
+    "code": "nd:\"74B0DF\"},{token:\"variable.predefined\",foreground:\"4864AA\"},{token:\"variable.parameter\",foreground:\"9CDCFE\"},{token:\"constant\",foreground:\"569CD6\"},{token:\"comment\",foreground:\"608B4E\"},{token:\"number\",foreground:\"B5CEA8\"},{token:\"number.hex\",foreground:\"5BB498\"},{token:\"regexp\",foreground:\"B46695\"},{token:\"annotation\",foreground:\"cc6666\"},{token:\"type\",foreground:\"3DC9B0\"},{token:\"delimiter\",foreground:\"DCDCDC\"},{token:\"delimiter.html\",foreground:\"808080\"},{token:\"delimiter.xml\",foreground:\"808080\"},{token:\"tag\",foreground:\"569CD6\"},{token:\"tag.id.pug\",foreground:\"4F76A"
+  }
+}

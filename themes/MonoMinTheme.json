@@ -2,6 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
+		"inlineChatInput.border": "#888888ad",
 		"button.secondaryBackground": "#101010",
 		"button.secondaryForeground": "#939293",
 		"button.secondaryHoverBackground": "#1f1f1f",

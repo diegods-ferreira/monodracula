@@ -1,0 +1,1 @@
+(()=>{const tabs=[...document.querySelectorAll('.tab')];const e=tabs.find(e=>e.getAttribute('aria-label')?.includes('example.ts')||e.textContent.includes('example.ts'));if(!e)throw Error('Fixture editor tab unavailable');e.click();return tabs.map(e=>({text:e.textContent,aria:e.getAttribute('aria-label')}));})()

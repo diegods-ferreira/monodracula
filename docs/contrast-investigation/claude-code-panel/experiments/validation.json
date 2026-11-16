@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-16T22:39:15.109Z",
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "projectVersion": "2.3.5",
+  "checks": [
+    {
+      "test": "monomin: prompt states and inactive hierarchy",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: sampled native Search unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: real native Inline Chat 2 sampled styles unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: shared Claude input-border effects accounted for",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: Auto icon token does not control SVG; dark error token harms focus",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: code borders do not consume tested official border roles",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: dark code preserves syntax paint but changes linked inline",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: raised code preserves syntax paint but changes linked inline",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: prompt states and inactive hierarchy",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: sampled native Search unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: real native Inline Chat 2 sampled styles unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: shared Claude input-border effects accounted for",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: Auto icon token does not control SVG; dark error token harms focus",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: code borders do not consume tested official border roles",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: dark code preserves syntax paint but changes linked inline",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: raised code preserves syntax paint but changes linked inline",
+      "status": "passed"
+    },
+    {
+      "test": "Protected files and personal settings unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "No Git diff in definitive themes or manifest",
+      "status": "passed"
+    },
+    {
+      "test": "Every experimental capture has paired computed-style JSON",
+      "status": "passed"
+    }
+  ],
+  "screenshots": 89,
+  "limitations": [
+    "No isolated upstream CSS patch rendered; installed and copied bundles unchanged.",
+    "Native notebook cell chat, permission dialogs, busy/Stop/active states not exercised.",
+    "Copy affordance inspected, clipboard action not triggered.",
+    "No global accessibility certification; approval limited to sampled states."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "visible": [
+    {
+      "tag": "TEXTAREA",
+      "classes": "ime-text-area",
+      "text": "",
+      "style": {
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(0, 0, 0, 0)",
+        "width": "0px",
+        "shadow": "none",
+        "padding": "0px",
+        "outline": "rgba(0, 0, 0, 0) none 3px"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "zone-widget inline-chat-widget inline-chat-2",
+      "text": ".monaco-list.list_id_10 .monaco-list-rows { background: var(--vscode-inlineChat-background); }\n.monaco-list.list_id_10:focus .monaco-list-row.focused { background-color: var(--vsco",
+      "style": {
+        "color": "rgb(204, 204, 204)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(204, 204, 204)",
+        "width": "0px",
+        "shadow": "none",
+        "padding": "0px",
+        "outline": "rgb(204, 204, 204) none 3px"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "inline-chat in-zone-widget",
+      "text": ".monaco-list.list_id_10 .monaco-list-rows { background: var(--vscode-inlineChat-background); }\n.monaco-list.list_id_10:focus .monaco-list-row.focused { background-color: var(--vsco",
+      "style": {
+        "color": "rgb(204, 204, 204)",
+        "background": "rgb(31, 31, 31)",
+        "border": "rgb(204, 204, 204)",
+        "width": "0px",
+        "shadow": "none",
+        "padding": "3px 0px 0px",
+        "outline": "rgb(204, 204, 204) none 3px"
+      }
+    },
+    {
+      "tag": "TEXTAREA",
+      "classes": "ime-text-area",
+      "text": "",
+      "style": {
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(0, 0, 0, 0)",
+        "width": "0px",
+        "shadow": "none",
+        "padding": "0px",
+        "outline": "rgba(0, 0, 0, 0) none 3px"
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "inline-chat-overflow monaco-editor hideSuggestTextIcons",
+      "text": "",
+      "style": {
+        "color": "rgb(204, 204, 204)",
+        "background": "rgb(31, 31, 31)",
+        "border": "rgb(204, 204, 204)",
+        "width": "0px",
+        "shadow": "none",
+        "padding": "0px",
+        "outline": "rgb(204, 204, 204) none 3px"
+      }
+    }
+  ],
+  "active": "native-edit-context",
+  "bodyText": "File\nEdit\nSelection\nView\nGo\nRun\nTerminal\nHelp\n[Extension Development Host] fixtures - Visual Studio Code\nOpen in Agents\nSign In\nLocal visual contrast fi…\nexample.ts\nexample.ts\n…\n1\n2\n3\n// Local visual fixture\nexport const title = \"Panel contrast\";\nGenerate code\nModels\n 0 \n 0\n✻ Claude Code\nTypeScript\nLF\nUTF-8\nSpaces: 2\nLn 1, Col 1\nPrimary Side Bar hidden\nSearch returned 1 results in 1 files"
+}

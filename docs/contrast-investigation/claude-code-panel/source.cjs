@@ -1,0 +1,13 @@
+const fs=require('fs'),crypto=require('crypto');
+const extension='C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64',pkg=JSON.parse(fs.readFileSync(extension+'/package.json')),css=fs.readFileSync(extension+'/webview/index.css','utf8'),js=fs.readFileSync(extension+'/webview/index.js','utf8'),host=fs.readFileSync(extension+'/extension.js','utf8');
+const excerpts=(s,key,max=8)=>{let p=-1;const out=[];while((p=s.indexOf(key,p+1))!==-1&&out.length<max)out.push({offset:p,code:s.slice(Math.max(0,p-180),p+key.length+450)});return out;};
+const rules=[...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter(m=>/prompt|submit|send[Bb]|inputContainer|input-container|composer|textInput|focus-within/i.test(m[0])).map(m=>({offset:m.index,selector:m[1],declarations:m[2]}));
+const variables=[...new Set(css.match(/--[\w-]+/g))].filter(s=>/vscode|claude|border|accent|button|text|background/.test(s));
+const files={};for(const f of ['package.json','extension.js','webview/index.js','webview/index.css'])files[extension+'/'+f]=crypto.createHash('sha256').update(fs.readFileSync(extension+'/'+f)).digest('hex');
+const result={extension,version:pkg.version,views:pkg.contributes.views,registeredColors:pkg.contributes.colors||[],configuration:pkg.contributes.configuration,commands:pkg.contributes.commands,files,rules,variables,cssInputs:excerpts(css,'--vscode-input-border'),cssFocus:excerpts(css,'--vscode-focusBorder'),hostWebview:excerpts(host,'claudeVSCodeSidebarSecondary'),jsSend:excerpts(js,'Send message'),jsAppearance:excerpts(js,'theme',4)};
+result.codeRules=[...css.matchAll(/([^{}]+)\{([^{}]*)\}/g)].filter(m=>/-a7MRw|copyButton_CEmTFw/.test(m[1])).map(m=>({selector:m[1],declarations:m[2]}));
+result.codeRender=excerpts(js,'codeBlockWrapper',5);
+result.protocol=Object.fromEntries(['claude-vscode.editor.open','CLAUDE_CONFIG_DIR','persist_session_permission_mode','get_session_messages'].map(k=>[k,excerpts(host,k,3)]));
+result.permission=excerpts(js,'setPermissionMode',8);
+const highlight=js.toLowerCase().indexOf('608b4e');result.syntaxColorSource=highlight<0?null:{offset:highlight,code:js.slice(highlight-180,highlight+400)};
+fs.writeFileSync(__dirname+'/source-evidence.json',JSON.stringify(result,null,2));console.log(JSON.stringify({protocol:result.protocol,codeRender:result.codeRender,permission:result.permission},null,2));

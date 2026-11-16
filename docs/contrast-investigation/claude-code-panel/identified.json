@@ -1,0 +1,114 @@
+{
+  "url": "vscode-webview://183rvo9rp5422e99vqfga4qpuqfpoogqok6uqmp1pi1qfscdafcv/index.html?id=72201de6-6378-4ccf-beb7-b03c15dd9b2e&parentId=1&origin=2ee49ce3-eb83-44e2-a907-315936dfa4ed&swVersion=6&extensionId=Anthropic.claude-code&platform=electron&vscode-resource-base-authority=vscode-resource.vscode-cdn.net&parentOrigin=vscode-file%3A%2F%2Fvscode-app&mountId=223288c3-a1dc-4578-81c3-f840eecd1481&purpose=webviewView",
+  "theme": "vscode-dark",
+  "rootClasses": "vscode-dark",
+  "text": "Untitled\nWhat to do first? Ask about this codebase or we can start writing code.\nPrefer the Terminal experience? Switch back in Settings.\nexample.ts\nOpus 5.5\nMedium",
+  "editables": [
+    {
+      "tag": "DIV",
+      "role": "textbox",
+      "aria": "Message input",
+      "placeholder": null,
+      "classes": "messageInput_cKsPxg",
+      "parent": "messageInputContainer_cKsPxg"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Untitled",
+      "aria": null,
+      "title": "Untitled",
+      "disabled": true,
+      "classes": "titleText_aqhumA",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "Bookmarks",
+      "title": "Bookmarks",
+      "disabled": false,
+      "classes": "iconButton_YKLzCw iconButton20_YKLzCw",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "Session history",
+      "title": "Session history",
+      "disabled": false,
+      "classes": "iconButton_YKLzCw iconButton20_YKLzCw",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "New session",
+      "title": "New session",
+      "disabled": false,
+      "classes": "iconButton_YKLzCw iconButton20_YKLzCw",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "Close banner",
+      "title": null,
+      "disabled": false,
+      "classes": "closeButton_Z3DrKA",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "Voice dictation",
+      "title": null,
+      "disabled": false,
+      "classes": "micButton_cKsPxg ",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": null,
+      "title": "Add",
+      "disabled": false,
+      "classes": "addButton_Lu5mZA addButtonSquare_Lu5mZA",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": null,
+      "title": "Show command menu (/)",
+      "disabled": false,
+      "classes": "menuButton_gGYT1w",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "Remove from message",
+      "title": "Remove from message",
+      "disabled": false,
+      "classes": "iconButton_YKLzCw iconButton16_YKLzCw",
+      "mode": null
+    },
+    {
+      "text": "Manual",
+      "aria": null,
+      "title": "Claude will ask for approval before making each edit. Click to change, or press Shift+Tab to cycle.",
+      "disabled": false,
+      "classes": "footerButton_gGYT1w footerButtonPrimary_gGYT1w",
+      "mode": null
+    },
+    {
+      "text": "",
+      "aria": "Send message",
+      "title": null,
+      "disabled": true,
+      "classes": "sendButton_gGYT1w",
+      "mode": "default"
+    },
+    {
+      "text": "Opus 5.5 Medium",
+      "aria": null,
+      "title": "Switch model (Opus 5.5)",
+      "disabled": false,
+      "classes": "modelPill_gGYT1w",
+      "mode": null
+    }
+  ]
+}

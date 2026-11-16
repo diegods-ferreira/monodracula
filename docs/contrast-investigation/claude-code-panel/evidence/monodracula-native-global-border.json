@@ -1,0 +1,25 @@
+{
+  "inputs": [
+    {
+      "tag": "DIV",
+      "text": "Panel",
+      "aria": null,
+      "classes": "monaco-inputbox idle",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgb(33, 34, 44)",
+        "border": "rgb(98, 114, 164)",
+        "borderWidth": "1px",
+        "opacity": "1"
+      }
+    }
+  ],
+  "buttons": [],
+  "variables": {
+    "input.border": "#6272a4",
+    "inlineChatInput.border": "#21222c",
+    "button.foreground": "#939293",
+    "button.background": "#21222c",
+    "textCodeBlock.background": "#21222c"
+  }
+}

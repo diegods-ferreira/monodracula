@@ -1,0 +1,86 @@
+[
+  {
+    "selector": ".copyButton_CEmTFw",
+    "tag": "BUTTON",
+    "classes": "copyButton_CEmTFw copyButton_-a7MRw",
+    "text": "",
+    "border": "rgb(21, 21, 21)",
+    "width": "1px",
+    "style": "solid",
+    "background": "rgba(90, 93, 94, 0.31)",
+    "opacity": "1",
+    "shadow": "none"
+  },
+  {
+    "selector": ".copyButton_CEmTFw",
+    "tag": "BUTTON",
+    "classes": "copyButton_CEmTFw copyButton_-a7MRw",
+    "text": "",
+    "border": "rgb(21, 21, 21)",
+    "width": "1px",
+    "style": "solid",
+    "background": "rgb(31, 31, 31)",
+    "opacity": "0",
+    "shadow": "none"
+  },
+  {
+    "selector": ".copyButton_CEmTFw",
+    "tag": "BUTTON",
+    "classes": "copyButton_CEmTFw copyButton_-a7MRw",
+    "text": "",
+    "border": "rgb(21, 21, 21)",
+    "width": "1px",
+    "style": "solid",
+    "background": "rgb(31, 31, 31)",
+    "opacity": "0",
+    "shadow": "none"
+  },
+  {
+    "selector": ".copyButton_CEmTFw",
+    "tag": "BUTTON",
+    "classes": "copyButton_CEmTFw copyResponseButton_07S1Yg",
+    "text": "",
+    "border": "rgb(147, 146, 147)",
+    "width": "0px",
+    "style": "none",
+    "background": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "shadow": "none"
+  },
+  {
+    "selector": ".userMessage_07S1Yg",
+    "tag": "DIV",
+    "classes": "userMessage_07S1Yg",
+    "text": "Display the local visual fixture.",
+    "border": "rgb(21, 21, 21)",
+    "width": "1px",
+    "style": "solid",
+    "background": "rgb(21, 21, 21)",
+    "opacity": "1",
+    "shadow": "none"
+  },
+  {
+    "selector": ".inputFooter_gGYT1w",
+    "tag": "DIV",
+    "classes": "inputFooter_gGYT1w inputFooterV2_gGYT1w",
+    "text": "Opus 5.5 MediumManual",
+    "border": "rgb(21, 21, 21) rgb(147, 146, 147) rgb(147, 146, 147)",
+    "width": "1px 0px 0px",
+    "style": "solid none none",
+    "background": "rgba(0, 0, 0, 0)",
+    "opacity": "1",
+    "shadow": "none"
+  },
+  {
+    "selector": ".inputContainer_cKsPxg",
+    "tag": "FIELDSET",
+    "classes": "inputContainer_cKsPxg",
+    "text": "Opus 5.5 MediumManual",
+    "border": "rgb(21, 21, 21)",
+    "width": "1px",
+    "style": "solid",
+    "background": "rgb(31, 31, 31)",
+    "opacity": "1",
+    "shadow": "rgba(0, 0, 0, 0.1) 0px 1px 2px 0px"
+  }
+]
