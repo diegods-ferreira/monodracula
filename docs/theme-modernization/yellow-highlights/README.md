@@ -1,5 +1,7 @@
 # Etapa B — caracteres encontrados em amarelo
 
+**Registro histórico:** os seis foregrounds descritos abaixo foram posteriormente revertidos a pedido do usuário. O estado restaurado e suas validações estão no [relatório de reversão](../yellow-revert/README.md). Os baselines e resultados históricos deste diretório permanecem preservados.
+
 Implementados os três foregrounds autorizados nos dois temas. Fundos, bordas, seleções, TextMate, configurações semânticas, manifesto e versão permanecem iguais ao baseline desta tarefa. A exceção de contraste do MonoMin foi explicitamente autorizada pelo usuário: **“Autorizar a exceção de 4,04:1”**. Isso autoriza manter o amarelo nessa sobreposição; não transforma o resultado em conformidade com 4,5:1.
 
 ## Alterações efetivas

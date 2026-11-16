@@ -1,0 +1,144 @@
+{
+  "reports": [
+    {
+      "theme": "MonoMin",
+      "cases": [
+        {
+          "case": "quick",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "quick-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "ts-clean",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "ts-find",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "ts-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "js-clean",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "js-find",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "js-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "html-clean",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "html-find",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "html-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "search",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "chat",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "chat-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "semantic-inspector",
+          "result": "same scopes, variable declaration readonly, resolved foreground and background"
+        },
+        {
+          "case": "activity-tabs-explorer",
+          "result": "same visible styles, active/inactive Activity Bar and tabs, focused Explorer"
+        }
+      ]
+    },
+    {
+      "theme": "MonoDracula",
+      "cases": [
+        {
+          "case": "quick",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "quick-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "ts-clean",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "ts-find",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "ts-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "js-clean",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "js-find",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "js-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "html-clean",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "html-find",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "html-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "search",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "chat",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "chat-next",
+          "result": "identical to pre-yellow baseline in tested styles"
+        },
+        {
+          "case": "semantic-inspector",
+          "result": "same scopes, variable declaration readonly, resolved foreground and background"
+        },
+        {
+          "case": "activity-tabs-explorer",
+          "result": "same visible styles, active/inactive Activity Bar and tabs, focused Explorer"
+        }
+      ]
+    }
+  ],
+  "personalSettingsUnchanged": true,
+  "scope": "Real rendering comparisons against pre-yellow baseline, not an exhaustive certification of all components and extensions"
+}

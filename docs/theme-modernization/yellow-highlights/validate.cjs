@@ -1,3 +1,7 @@
+if(process.argv.includes('--restored')){
+ if(process.argv.some(a=>a==='--apply'||a.startsWith('--apply-')))throw Error('Restoration verification cannot apply yellow changes');
+ require('../yellow-revert/validate.cjs');
+}else{
 const fs=require('fs'),path=require('path'),assert=require('assert'),cp=require('child_process'),crypto=require('crypto');
 const app='C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app',ts=require(app+'/extensions/node_modules/typescript/lib/typescript.js');
 const out=__dirname,stateFile=out+'/applied.json';
@@ -31,3 +35,4 @@ for(const name of ['MonoMin','MonoDracula']){
 }
 assert(fs.readFileSync('package.json').equals(fs.readFileSync(out+'/baseline/package.json')),'Manifest changed');
 fs.writeFileSync(stateFile,JSON.stringify({keys},null,2)+'\n');fs.writeFileSync(out+'/structural.json',JSON.stringify({reports,manifestUnchanged:true},null,2)+'\n');fs.writeFileSync(out+'/changes.diff',diffs.join('\n'));console.log(reports);
+}

@@ -1,0 +1,62 @@
+{
+  "reports": [
+    {
+      "theme": "MonoMin",
+      "changes": [
+        {
+          "property": "list.highlightForeground",
+          "before": "#F8C66B",
+          "after": "#EAEAEA"
+        },
+        {
+          "property": "editor.findMatchForeground",
+          "before": "#F8C66B",
+          "after": null
+        },
+        {
+          "property": "editor.findMatchHighlightForeground",
+          "before": "#F8C66B",
+          "after": null
+        }
+      ],
+      "exactAuthorizedTextDelta": true,
+      "historicalDeepEquality": true,
+      "historicalByteEquality": true,
+      "tokenColorsBytesUnchanged": true,
+      "semanticConfigurationUnchanged": true,
+      "beforeSha256": "7f54792d40e039655f525c6255002e9555816ee92cb4bc912bbd53ebe06acda3",
+      "restoredSha256": "7247b6ba7df3e4a66040655dc12b9ea908b2258fd908cb75d309cea6e3fb6465",
+      "historicalSha256": "7247b6ba7df3e4a66040655dc12b9ea908b2258fd908cb75d309cea6e3fb6465"
+    },
+    {
+      "theme": "MonoDracula",
+      "changes": [
+        {
+          "property": "list.highlightForeground",
+          "before": "#f1fa8c",
+          "after": "#fcfcfa"
+        },
+        {
+          "property": "editor.findMatchForeground",
+          "before": "#f1fa8c",
+          "after": null
+        },
+        {
+          "property": "editor.findMatchHighlightForeground",
+          "before": "#f1fa8c",
+          "after": null
+        }
+      ],
+      "exactAuthorizedTextDelta": true,
+      "historicalDeepEquality": true,
+      "historicalByteEquality": true,
+      "tokenColorsBytesUnchanged": true,
+      "semanticConfigurationUnchanged": true,
+      "beforeSha256": "969e025808d2da2eb6534da77257f2c6b15aa89e1c54baa04a7659dcef757620",
+      "restoredSha256": "ad611d83944b2b2ed0ab55122ce1fbce8bf28eeb8f40efb005749c800b738eda",
+      "historicalSha256": "ad611d83944b2b2ed0ab55122ce1fbce8bf28eeb8f40efb005749c800b738eda"
+    }
+  ],
+  "manifestUnchanged": true,
+  "version": "2.3.4"
+}

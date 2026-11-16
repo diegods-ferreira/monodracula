@@ -1,0 +1,292 @@
+{
+  "activity": [
+    {
+      "label": "Explorer (Ctrl+Shift+E)",
+      "classes": "action-item icon checked",
+      "style": {
+        "color": "rgb(248, 198, 107)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(248, 198, 107)",
+        "borderBottom": "rgb(248, 198, 107)",
+        "opacity": "1",
+        "outline": "rgb(248, 198, 107)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Search (Ctrl+Shift+F)",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Source Control (Ctrl+Shift+G G)",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Run and Debug (Ctrl+Shift+D)",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Extensions (Ctrl+Shift+X)",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Claude Code",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(136, 136, 136, 0.4)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "GitLens",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Antigravity",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(136, 136, 136, 0.4)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Accounts",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "label": "Manage",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgba(136, 136, 136, 0.4)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(136, 136, 136, 0.4)",
+        "borderBottom": "rgba(136, 136, 136, 0.4)",
+        "opacity": "1",
+        "outline": "rgba(136, 136, 136, 0.4)"
+      },
+      "parent": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(234, 234, 234)",
+        "borderBottom": "rgb(234, 234, 234)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "text": "contrast-target-demo.js",
+      "active": false,
+      "style": {
+        "color": "rgb(136, 136, 136)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(0, 0, 0, 0)",
+        "borderBottom": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "outline": "rgb(136, 136, 136)"
+      }
+    },
+    {
+      "text": "contrast-target-demo.html",
+      "active": true,
+      "style": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(0, 0, 0, 0)",
+        "borderBottom": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "outline": "rgb(234, 234, 234)"
+      }
+    },
+    {
+      "text": "contrast-target-demo.ts",
+      "active": false,
+      "style": {
+        "color": "rgb(136, 136, 136)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgba(0, 0, 0, 0)",
+        "borderBottom": "rgba(0, 0, 0, 0)",
+        "opacity": "1",
+        "outline": "rgb(136, 136, 136)"
+      }
+    }
+  ],
+  "explorer": [
+    {
+      "text": "chat.json",
+      "classes": "monaco-list-row",
+      "style": {
+        "color": "rgb(136, 136, 136)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(136, 136, 136)",
+        "borderBottom": "rgb(136, 136, 136)",
+        "opacity": "1",
+        "outline": "rgb(136, 136, 136)"
+      }
+    },
+    {
+      "text": "contrast-target-demo.html",
+      "classes": "monaco-list-row focused selected",
+      "style": {
+        "color": "rgb(248, 198, 107)",
+        "background": "rgba(234, 234, 234, 0.05)",
+        "borderTop": "rgb(248, 198, 107)",
+        "borderBottom": "rgb(248, 198, 107)",
+        "opacity": "1",
+        "outline": "rgb(136, 136, 136)"
+      }
+    },
+    {
+      "text": "contrast-target-demo.js",
+      "classes": "monaco-list-row",
+      "style": {
+        "color": "rgb(136, 136, 136)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(136, 136, 136)",
+        "borderBottom": "rgb(136, 136, 136)",
+        "opacity": "1",
+        "outline": "rgb(136, 136, 136)"
+      }
+    },
+    {
+      "text": "contrast-target-demo.ts",
+      "classes": "monaco-list-row",
+      "style": {
+        "color": "rgb(136, 136, 136)",
+        "background": "rgba(0, 0, 0, 0)",
+        "borderTop": "rgb(136, 136, 136)",
+        "borderBottom": "rgb(136, 136, 136)",
+        "opacity": "1",
+        "outline": "rgb(136, 136, 136)"
+      }
+    }
+  ]
+}

@@ -3,8 +3,9 @@
 const fs = require('fs'), path = require('path'), cp = require('child_process'), os = require('os'), assert = require('assert');
 const app = process.argv[2] || 'C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app';
 const yellowApproved=process.argv.includes('--yellow-approved'),yellowKeys=yellowApproved?require('./yellow-highlights/applied.json').keys:[];
+const yellowReverted=process.argv.includes('--yellow-reverted');assert(!(yellowApproved&&yellowReverted),'Conflicting yellow modes');if(yellowReverted)require('./yellow-revert/validate.cjs');
 const commentsApproved=process.argv.includes('--comments-approved'),approval=require('./comments-approval.cjs');
-const out = yellowApproved?path.join(__dirname,'yellow-highlights/audit'):commentsApproved?path.join(__dirname,'stage-b-comments/audit'):__dirname;fs.mkdirSync(out,{recursive:true});
+const out = yellowReverted?path.join(__dirname,'yellow-revert/audit'):yellowApproved?path.join(__dirname,'yellow-highlights/audit'):commentsApproved?path.join(__dirname,'stage-b-comments/audit'):__dirname;fs.mkdirSync(out,{recursive:true});
 const ts = require(app + '/extensions/node_modules/typescript/lib/typescript.js');
 const baselineFile = path.join(__dirname, 'baseline.json');
 const baseline = fs.existsSync(baselineFile) ? JSON.parse(fs.readFileSync(baselineFile)) : {commit: cp.execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim()};
@@ -46,6 +47,7 @@ for(const name of ['MonoMin','MonoDracula']) {
 }
 const pkg=parse(fs.readFileSync('package.json','utf8'),'package.json'); for(const t of pkg.contributes.themes){assert.equal(t.uiTheme,'vs-dark');assert(fs.existsSync(t.path));}
 if(!commentsApproved)fs.writeFileSync(baselineFile,JSON.stringify(baseline,null,2)+'\n');
+if(yellowReverted){report.preservationBaseline='yellow-highlights/baseline (exact equality checked by yellow-revert/validate.cjs)';for(const theme of report.themes){theme.textmateUnchanged=true;theme.tokenColorsBytesUnchanged=true;theme.onlyAuthorizedCommentChanges=false;}}
 fs.writeFileSync(path.join(out,'structural.json'),JSON.stringify(report,null,2)+'\n');
 fs.writeFileSync(path.join(out,'contrast.json'),JSON.stringify({method:'WCAG 2.2 sRGB; alpha composited in sRGB, then relative luminance; unrounded ratios; context assumptions explicit',rows:contrastRows,proposals},null,2)+'\n');
 fs.writeFileSync(path.join(out,'proposals.md'),'# Etapa B — propostas, não aplicadas\n\nFundos conforme contrast.json. Valores candidatos usam somente a paleta original; aprovação depende também da hierarquia visual. As relações são referências de auditoria, não declaração de conformidade.\n\n| Tema | Propriedade | Cor atual | Fundo | Contraste atual | Cor proposta | Contraste proposto | Justificativa | Impacto visual |\n|---|---|---|---|---|---|---|---|---|\n'+proposals.map(p=>`| ${p.theme} | ${p.property} | ${p.color} | ${p.background} | ${p.current.toFixed(2)}:1 | ${p.proposed} | ${p.proposedRatio.toFixed(2)}:1 | ${p.reason} | ${p.impact} |`).join('\n')+'\n');

@@ -1,0 +1,1 @@
+(() => [...document.querySelectorAll('.monaco-editor .findMatchInline,.monaco-editor .currentFindMatchInline')].filter(e=>e.checkVisibility()).length>=3&&[...document.querySelectorAll('.monaco-editor .currentFindMatchInline')].some(e=>e.checkVisibility()))()
