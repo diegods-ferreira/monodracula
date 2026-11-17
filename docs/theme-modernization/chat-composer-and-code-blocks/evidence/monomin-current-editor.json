@@ -1,0 +1,132 @@
+{
+  "lines": [
+    {
+      "text": "// Local visual fixture",
+      "tokens": [
+        {
+          "text": "// Local visual fixture",
+          "color": "rgb(136, 136, 136)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        }
+      ]
+    },
+    {
+      "text": "export const title = \"Panel contrast\";",
+      "tokens": [
+        {
+          "text": "export",
+          "color": "rgb(249, 117, 131)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": " ",
+          "color": "rgb(234, 234, 234)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": "const",
+          "color": "rgb(121, 184, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": " ",
+          "color": "rgb(234, 234, 234)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": "title",
+          "color": "rgb(179, 146, 240)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": " ",
+          "color": "rgb(234, 234, 234)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": "=",
+          "color": "rgb(249, 117, 131)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": " ",
+          "color": "rgb(234, 234, 234)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": "\"",
+          "color": "rgb(147, 146, 147)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": "Panel contrast",
+          "color": "rgb(248, 198, 107)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": "\"",
+          "color": "rgb(147, 146, 147)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        },
+        {
+          "text": ";",
+          "color": "rgb(147, 146, 147)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        }
+      ]
+    },
+    {
+      "text": "",
+      "tokens": [
+        {
+          "text": "",
+          "color": "rgb(234, 234, 234)",
+          "background": "rgba(0, 0, 0, 0)",
+          "fontStyle": "normal",
+          "fontWeight": "400",
+          "textDecoration": "none"
+        }
+      ]
+    }
+  ],
+  "semanticClass": "monaco-editor no-user-select  showUnused showDeprecated vs-dark focused"
+}

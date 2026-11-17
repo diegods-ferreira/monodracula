@@ -1,0 +1,17 @@
+{
+  "direction": "Shift+Tab",
+  "start": {
+    "tag": "A",
+    "classes": "monaco-button secondary monaco-text-button"
+  },
+  "target": {
+    "tag": "A",
+    "classes": "monaco-button monaco-text-button"
+  },
+  "result": {
+    "focused": true,
+    "focusVisible": true,
+    "activeTag": "A",
+    "activeClasses": "monaco-button monaco-text-button"
+  }
+}

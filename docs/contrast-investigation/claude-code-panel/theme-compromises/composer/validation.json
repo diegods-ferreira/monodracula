@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-17T12:36:53.155Z",
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "checks": [
+    {
+      "test": "MonoMin: real empty/filled and focused/blur states",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: real empty/filled and focused/blur states",
+      "status": "passed"
+    },
+    {
+      "test": "Dark Modern: real empty/filled and focused/blur states",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: only input.border differs in temporary JSONs",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: native composer focuses with original focusBorder; Clear exceeds 3:1",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: Claude approved border fully preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: native Search shares input border, Settings number has explicit independent border",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: only input.border differs in temporary JSONs",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: native composer focuses with original focusBorder; Clear exceeds 3:1",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: Claude approved border fully preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: native Search shares input border, Settings number has explicit independent border",
+      "status": "passed"
+    },
+    {
+      "test": "Registered agents roles are not consumed by this standard composer",
+      "status": "passed"
+    },
+    {
+      "test": "Themes, manifest 2.3.5, settings and installed bundles unchanged",
+      "status": "passed"
+    }
+  ],
+  "screenshots": 28,
+  "limitations": [
+    "Native chat rendered unauthenticated with onboarding notice; no account or model request.",
+    "Working/streaming borders and authenticated layout without notice not exercised.",
+    "Chromium native EditContext buffer not used as document value; visible editor lines prove the states."
+  ]
+}

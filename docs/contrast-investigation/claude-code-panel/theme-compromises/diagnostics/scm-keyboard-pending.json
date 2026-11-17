@@ -1,0 +1,17 @@
+{
+  "direction": "Shift+Tab",
+  "start": {
+    "tag": "A",
+    "classes": "label-name"
+  },
+  "target": {
+    "tag": "A",
+    "classes": "monaco-button monaco-text-button"
+  },
+  "result": {
+    "focused": false,
+    "focusVisible": false,
+    "activeTag": "IFRAME",
+    "activeClasses": "webview ready"
+  }
+}

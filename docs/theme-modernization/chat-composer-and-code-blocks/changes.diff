@@ -1,0 +1,44 @@
+diff --git a/themes/MonoDraculaTheme.json b/themes/MonoDraculaTheme.json
+index 46421e5..5cb11f9 100644
+--- a/themes/MonoDraculaTheme.json
++++ b/themes/MonoDraculaTheme.json
+@@ -142,7 +142,7 @@
+ 		"gitDecoration.modifiedResourceForeground": "#50fa7b",
+ 		"gitDecoration.untrackedResourceForeground": "#ffb86c",
+ 		"input.background": "#21222c",
+-		"input.border": "#21222c",
++		"input.border": "#939293ad",
+ 		"input.foreground": "#fcfcfa",
+ 		"input.placeholderForeground": "#6272a4",
+ 		"inputOption.activeBackground": "#5b595c",
+@@ -335,7 +335,7 @@
+ 		"terminalCursor.foreground": "#fcfcfa",
+ 		"textBlockQuote.background": "#21222c",
+ 		"textBlockQuote.border": "#21222c",
+-		"textCodeBlock.background": "#21222c",
++		"textCodeBlock.background": "#14141b",
+ 		"textLink.activeForeground": "#fcfcfa",
+ 		"textLink.foreground": "#f1fa8c",
+ 		"textPreformat.foreground": "#fcfcfa",
+diff --git a/themes/MonoMinTheme.json b/themes/MonoMinTheme.json
+index 839734b..254ff8c 100644
+--- a/themes/MonoMinTheme.json
++++ b/themes/MonoMinTheme.json
+@@ -145,7 +145,7 @@
+ 		"gitDecoration.modifiedResourceForeground": "#50fa7b",
+ 		"gitDecoration.untrackedResourceForeground": "#ffab70",
+ 		"input.background": "#151515",
+-		"input.border": "#151515",
++		"input.border": "#888888ad",
+ 		"input.foreground": "#EAEAEA",
+ 		"input.placeholderForeground": "#888888",
+ 		"inputOption.activeBackground": "#1f1f1f",
+@@ -338,7 +338,7 @@
+ 		"terminalCursor.foreground": "#EAEAEA",
+ 		"textBlockQuote.background": "#151515",
+ 		"textBlockQuote.border": "#151515",
+-		"textCodeBlock.background": "#151515",
++		"textCodeBlock.background": "#00000099",
+ 		"textLink.activeForeground": "#EAEAEA",
+ 		"textLink.foreground": "#F8C66B",
+ 		"textPreformat.foreground": "#EAEAEA",

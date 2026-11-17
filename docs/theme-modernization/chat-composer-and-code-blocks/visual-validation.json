@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-17T14:03:48.795Z",
+  "checks": [
+    {
+      "test": "monomin: composer real states and focus hierarchy with both changes installed",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: Claude focused/blurred styles, borders, buttons/error and layout unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: short/long/TypeScript blocks preserve token colors, fonts and improve all contrasts",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: copy hover and inline code/link behavior match approved candidate",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: Search border changes deliberately and focus outline preserved; Settings number unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: real editor token styles preserved",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: semantic highlighting ON, same provider tokens and computed editor styles",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: native Sidebar/editor and active/inactive chrome styles preserved",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: composer real states and focus hierarchy with both changes installed",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: Claude focused/blurred styles, borders, buttons/error and layout unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: short/long/TypeScript blocks preserve token colors, fonts and improve all contrasts",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: copy hover and inline code/link behavior match approved candidate",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: Search border changes deliberately and focus outline preserved; Settings number unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: real editor token styles preserved",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: semantic highlighting ON, same provider tokens and computed editor styles",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: native Sidebar/editor and active/inactive chrome styles preserved",
+      "status": "passed"
+    }
+  ],
+  "screenshots": 52,
+  "limitations": [
+    "Unauthenticated native chat with onboarding; no messages sent, streaming/disabled not tested.",
+    "Copy hover tested, clipboard not written.",
+    "Semantic ON provider and computed styles tested on the TS editor fixture, not every language/extension."
+  ]
+}

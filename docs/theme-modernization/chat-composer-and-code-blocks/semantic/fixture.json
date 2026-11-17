@@ -1,0 +1,9 @@
+{
+  "id": "651961fe-9722-4372-ad8b-8d6ab6a66ad5",
+  "config": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-claude-qHweXf\\claude-config",
+  "cwd": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-claude-qHweXf\\fixtures",
+  "project": "C--Users-diego-AppData-Local-Temp-monodracula-claude-qHweXf-fixtures",
+  "transcript": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-claude-qHweXf\\claude-config\\projects\\C--Users-diego-AppData-Local-Temp-monodracula-claude-qHweXf-fixtures\\651961fe-9722-4372-ad8b-8d6ab6a66ad5.jsonl",
+  "markdown": "Local visual fixture. Inline example: `git status`. Inline linked example: [`git diff`](https://example.invalid/visual-fixture).\n\nShort commit message:\n\n```text\nfix(themes): restore search foregrounds\n```\n\nLong commit message:\n\n```text\nfix(themes): preserve the original visual hierarchy\n\nRestore the original Quick Open foregrounds.\nPreserve comments, syntax rules and semantic settings.\nKeep the editor and chat backgrounds unchanged.\nDocument the controlled validation results.\n```\n\nTypeScript sample:\n\n```typescript\n// Local syntax sample\nexport const count: number = 42;\nfunction greet(name: string) { return `Hello ${name}`; }\n```\n\nEnd of local fixture; no model request was made.",
+  "synthetic": true
+}

@@ -1,0 +1,126 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 1,
+    "scale": 1
+  },
+  "sidebar": [
+    {
+      "color": "rgb(94, 104, 134)",
+      "background": "rgb(29, 31, 40)",
+      "border": "rgb(62, 64, 71) rgb(62, 64, 71) rgb(62, 64, 71) rgba(0, 0, 0, 0)",
+      "opacity": "1"
+    }
+  ],
+  "editor": [
+    {
+      "color": "rgb(252, 252, 250)",
+      "background": "rgb(40, 42, 54)",
+      "border": "rgb(252, 252, 250)",
+      "opacity": "1"
+    }
+  ],
+  "activity": [
+    {
+      "label": "",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "",
+      "classes": "action-item icon checked",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "Accounts",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    },
+    {
+      "label": "Manage",
+      "classes": "action-item icon",
+      "style": {
+        "color": "rgb(252, 252, 250)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgb(252, 252, 250)",
+        "opacity": "1"
+      }
+    }
+  ],
+  "tabs": [
+    {
+      "label": "example.ts",
+      "classes": "tab tab-actions-right sizing-fit has-icon active selected tab-border-bottom tab-border-top last-tab connected-tab-last connected-tab-top-row connected-tab-left-edge",
+      "style": {
+        "color": "rgb(189, 147, 249)",
+        "background": "rgba(0, 0, 0, 0)",
+        "border": "rgba(0, 0, 0, 0) rgb(189, 147, 249)",
+        "opacity": "1"
+      }
+    }
+  ],
+  "variables": {
+    "activityBar.foreground": "#6272a4",
+    "activityBar.inactiveForeground": "#3a3d4e",
+    "tab.activeForeground": "#bd93f9",
+    "tab.inactiveForeground": "#6272a4",
+    "sideBar.background": "#1d1f28",
+    "editor.background": "#282a36"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "sourceFiles": [
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/webview/index.css",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/webview/index.js",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/package.json"
+  ],
+  "rules": [
+    ".codeBlockWrapper_-a7MRw{position:relative;margin:8px 0}",
+    ".codeBlockWrapper_-a7MRw pre{overflow-x:auto;white-space:pre;color:var(--app-primary-foreground);background:var(--app-code-background);box-sizing:border-box;border-radius:4px;max-width:100%;margin:0;padding:8px}",
+    ".codeBlockWrapper_-a7MRw:hover .copyButton_-a7MRw{opacity:1}",
+    ".root_-a7MRw a code{color:inherit;background:var(--app-code-background)}",
+    ".sendButton_UCAeZQ{display:flex;cursor:pointer;color:var(--app-claude-ivory);background-color:var(--app-claude-clay-button-orange);border:none;border-radius:5px;justify-content:center;align-items: center;width:26px;height:26px}",
+    ".sendButton_UCAeZQ:disabled{cursor:not-allowed;opacity:.4}",
+    ".sendButton_UCAeZQ:hover:not(:disabled){filter:brightness(1.1)}",
+    ".sendButton_UCAeZQ:active:not(:disabled){filter:brightness(.9)}",
+    ".sendIcon_UCAeZQ{display:block;color:var(--app-claude-ivory);flex-shrink:0;width:20px;height:20px}",
+    ".inputFooterV2_gGYT1w .footerButton_gGYT1w.footerButtonPrimary_gGYT1w{padding:0}",
+    ".inputFooterV2_gGYT1w .footerButton_gGYT1w.footerButtonPrimary_gGYT1w svg{display:block}",
+    ".footerButtonPrimary_gGYT1w span{display:none}",
+    ".footerButtonPrimary_gGYT1w{color:var(--app-primary-foreground)}",
+    ".sendButton_gGYT1w,.menuButton_gGYT1w{cursor:pointer;display:flex;color:var(--app-secondary-foreground);background-color:#0000;border:none;justify-content:center;align-items: center;width:26px;height:26px}",
+    ".sendButton_gGYT1w{border-radius:5px;margin-left:2px}",
+    ".sendButton_gGYT1w:disabled,.menuButton_gGYT1w:disabled{cursor:not-allowed;opacity:.4}",
+    ".sendButton_gGYT1w{color:var(--app-claude-ivory);background-color:var(--app-claude-clay-button-orange)}",
+    ".sendButton_gGYT1w[data-permission-mode=acceptEdits]{color:var(--app-primary-background);background-color:var(--app-primary-foreground)}",
+    ".sendButton_gGYT1w[data-permission-mode=plan]{color:var(--app-button-foreground);background-color:var(--app-plan-mode-color)}",
+    ".sendButton_gGYT1w[data-permission-mode=bypassPermissions],.sendButton_gGYT1w[data-permission-mode=auto]{color:var(--app-button-foreground);background-color:var(--app-error-foreground)}",
+    ".sendButton_gGYT1w:hover:not(:disabled){filter:brightness(1.1)}",
+    ".sendButton_gGYT1w:active:not(:disabled){filter:brightness(.9)}",
+    ".sendIcon_gGYT1w{color:var(--app-claude-ivory);display:block;flex-shrink:0;width:20px;height:20px;transform:none}",
+    ".sendButton_gGYT1w[data-permission-mode=acceptEdits] .sendIcon_gGYT1w{color:var(--app-tool-background)}",
+    ".sendButton_gGYT1w[data-permission-mode=plan] .sendIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=bypassPermissions] .sendIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=auto] .sendIcon_gGYT1w{color:var(--app-button-foreground)}",
+    ".stopIcon_gGYT1w{color:var(--app-claude-ivory);display:block;width:16px;height:16px}",
+    ".sendButton_gGYT1w[data-permission-mode=acceptEdits] .stopIcon_gGYT1w{color:var(--app-tool-background)}",
+    ".sendButton_gGYT1w[data-permission-mode=plan] .stopIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=bypassPermissions] .stopIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=auto] .stopIcon_gGYT1w{color:var(--app-button-foreground)}"
+  ],
+  "variables": {
+    "--app-button-foreground": "--app-button-foreground:var(--vscode-button-foreground)",
+    "--app-error-foreground": "--app-error-foreground:var(--vscode-errorForeground)",
+    "--app-tool-background": "--app-tool-background:var(--vscode-editor-background)",
+    "--app-code-background": "--app-code-background:var(--vscode-textCodeBlock-background,#7f7f7f26)",
+    "--app-secondary-foreground": "--app-secondary-foreground:var(--vscode-descriptionForeground)",
+    "--app-inline-code-background": "--app-inline-code-background:var(--vscode-textPreformat-background,#7f7f7f26)"
+  },
+  "configuration": {
+    "claudeCode.environmentVariables": {
+      "type": "array",
+      "scope": "machine",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Environment variable name"
+          },
+          "value": {
+            "type": "string",
+            "description": "Environment variable value"
+          }
+        },
+        "required": [
+          "name",
+          "value"
+        ]
+      },
+      "default": [],
+      "description": "Environment variables to set when launching Claude.\n\nPrefer setting environment variables in Claude's settings.json.\nSee documentation: https://code.claude.com/docs/en/settings"
+    },
+    "claudeCode.useTerminal": {
+      "type": "boolean",
+      "default": false,
+      "description": "Launch Claude in the terminal instead of the native UI."
+    },
+    "claudeCode.allowDangerouslySkipPermissions": {
+      "type": "boolean",
+      "scope": "machine",
+      "description": "Allow bypass permissions mode. Recommended only for sandboxes with no internet access."
+    },
+    "claudeCode.claudeProcessWrapper": {
+      "type": "string",
+      "scope": "machine",
+      "description": "Executable path used to launch the Claude process."
+    },
+    "claudeCode.respectGitIgnore": {
+      "type": "boolean",
+      "default": true,
+      "description": "Respect .gitignore files when performing file searches. Tip: You can still filter by other exclusion patterns in .ignore when this is disabled."
+    },
+    "claudeCode.initialPermissionMode": {
+      "type": "string",
+      "scope": "machine",
+      "enum": [
+        "default",
+        "manual",
+        "acceptEdits",
+        "plan",
+        "bypassPermissions"
+      ],
+      "description": "Initial permission mode for new conversations. Unset defers to the Claude Code CLI's resolved default for the session. 'manual' is an alias for 'default', the mode labeled Manual in the UI; set either to always start in Manual."
+    },
+    "claudeCode.disableLoginPrompt": {
+      "type": "boolean",
+      "default": false,
+      "description": "When true, never prompt for login/authentication in the extension. Used when authentication is handled externally."
+    },
+    "claudeCode.autosave": {
+      "type": "boolean",
+      "default": true,
+      "description": "Automatically save files before Claude reads or writes them."
+    },
+    "claudeCode.focusView": {
+      "type": "boolean",
+      "default": false,
+      "scope": "application",
+      "description": "Focus view: hide tool calls and other in-progress activity in the chat, showing only your prompts and Claude's responses. Folded activity stays one click away, and a live indicator names the tool currently running. Usually toggled from the chat input's command menu, the Claude Code: Toggle Focus view command, or its ctrl+alt+f keybinding."
+    },
+    "claudeCode.useCtrlEnterToSend": {
+      "type": "boolean",
+      "default": false,
+      "description": "When enabled, use Ctrl/Cmd+Enter to send prompts instead of just Enter. This allows Enter to create new lines."
+    },
+    "claudeCode.preferredLocation": {
+      "type": "string",
+      "enum": [
+        "sidebar",
+        "panel"
+      ],
+      "enumDescriptions": [
+        "Sidebar (Right)",
+        "Panel (New Tab)"
+      ],
+      "default": "panel",
+      "description": "Where Claude opens by default. This setting updates automatically when you open Claude in a new location."
+    },
+    "claudeCode.lockEditorGroups": {
+      "type": "boolean",
+      "default": true,
+      "description": "Lock the editor groups Claude starts for its tabs, so files you open while a Claude tab is focused go to another group instead of next to it. When off, Claude never locks an editor group. Groups that are already locked stay locked until you unlock them."
+    },
+    "claudeCode.enableNewConversationShortcut": {
+      "type": "boolean",
+      "default": false,
+      "description": "Use the Cmd/Ctrl+N keyboard shortcut to start a new conversation when Claude is focused."
+    },
+    "claudeCode.enableReopenClosedSessionShortcut": {
+      "type": "boolean",
+      "default": true,
+      "description": "Use Cmd/Ctrl+Shift+T to reopen the most recently closed Claude session tab. Only intercepts the shortcut when a Claude tab was the last thing closed; otherwise falls through to VS Code's normal reopen-closed-editor behavior."
+    },
+    "claudeCode.hideOnboarding": {
+      "type": "boolean",
+      "default": false,
+      "description": "Hide the onboarding checklist in Claude Code."
+    },
+    "claudeCode.attachOpenFile": {
+      "type": "boolean",
+      "default": true,
+      "scope": "application",
+      "description": "Add the file that is open in the editor to your messages, and show it in the message box. When off, the file is only added along with text you select."
+    },
+    "claudeCode.attachSelection": {
+      "type": "boolean",
+      "default": true,
+      "scope": "application",
+      "description": "Add the text you select in the editor to your messages, and show it in the message box. When off, you can still add a selection from the editor as an @-mention."
+    },
+    "claudeCode.continueAfterReload": {
+      "type": "boolean",
+      "default": true,
+      "scope": "application",
+      "description": "After the window reloads or the editor restarts its extensions, a restored session continues the step that was interrupted. A step in plan mode continues only if the session comes back in plan mode."
+    },
+    "claudeCode.scrollToBottomOnSend": {
+      "type": "boolean",
+      "default": true,
+      "scope": "application",
+      "description": "Scroll the conversation to the bottom when you send a message. When off, the conversation stays where you left it."
+    },
+    "claudeCode.showMessageTimestamps": {
+      "type": "boolean",
+      "default": true,
+      "scope": "application",
+      "description": "Show when each message was sent. A date line marks where the day changes."
+    },
+    "claudeCode.spinnerVerbs": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "append",
+            "replace"
+          ],
+          "enumDescriptions": [
+            "Add your verbs to the built-in verbs",
+            "Show only your verbs"
+          ],
+          "description": "How your verbs combine with the built-in verbs."
+        },
+        "verbs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Verbs to show while Claude works."
+        }
+      },
+      "additionalProperties": false,
+      "default": {
+        "mode": "append",
+        "verbs": []
+      },
+      "description": "Customize the verbs shown while Claude works. Mode \"append\" adds your verbs to the built-in verbs. Mode \"replace\" shows only your verbs. With no verbs listed, Claude shows the built-in verbs."
+    },
+    "claudeCode.archiveInactiveSessions": {
+      "type": "number",
+      "enum": [
+        0,
+        1,
+        2,
+        7,
+        14
+      ],
+      "enumItemLabels": [
+        "Never",
+        "1 day",
+        "2 days",
+        "7 days",
+        "14 days"
+      ],
+      "default": 14,
+      "scope": "application",
+      "description": "Archive a session after this long with no activity. Sessions that are open, running, waiting for input, or unread are never archived automatically."
+    },
+    "claudeCode.usePythonEnvironment": {
+      "type": "boolean",
+      "default": true,
+      "markdownDescription": "Automatically activate the workspace's Python environment when running Claude. Requires the [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension."
+    }
+  },
+  "officialRoles": {
+    "button.foreground": true,
+    "button.background": true,
+    "errorForeground": true,
+    "editor.background": true,
+    "descriptionForeground": true,
+    "textCodeBlock.background": true,
+    "textPreformat.background": true
+  },
+  "diffScope": "Extracted representative CSS rules; not a patch against installed bundles or a known upstream source filename."
+}

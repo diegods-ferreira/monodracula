@@ -1,0 +1,39 @@
+{
+  "sidebars": [
+    {
+      "classes": "part sidebar left pane-composite-part floating-part-outer-top floating-part-outer-bottom",
+      "style": {
+        "color": "rgb(136, 136, 136)",
+        "background": "rgb(21, 21, 21)",
+        "border": "rgb(52, 52, 52) rgb(52, 52, 52) rgb(52, 52, 52) rgba(0, 0, 0, 0)",
+        "borderWidth": "1px"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Local Action",
+      "classes": "monaco-button monaco-text-button",
+      "focus": true,
+      "hover": false,
+      "style": {
+        "color": "rgb(31, 31, 31)",
+        "background": "rgb(147, 146, 147)",
+        "border": "rgb(31, 31, 31)",
+        "borderWidth": "0px"
+      }
+    },
+    {
+      "text": "Cancel",
+      "classes": "monaco-button secondary monaco-text-button",
+      "focus": false,
+      "hover": false,
+      "style": {
+        "color": "rgb(147, 146, 147)",
+        "background": "rgb(16, 16, 16)",
+        "border": "rgba(234, 234, 234, 0.15)",
+        "borderWidth": "1px"
+      }
+    }
+  ]
+}

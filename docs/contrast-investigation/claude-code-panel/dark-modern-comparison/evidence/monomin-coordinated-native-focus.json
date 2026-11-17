@@ -1,0 +1,52 @@
+{
+  "inputs": [
+    {
+      "tag": "DIV",
+      "text": "Panel",
+      "aria": null,
+      "classes": "monaco-inputbox idle",
+      "style": {
+        "color": "rgb(234, 234, 234)",
+        "background": "rgb(21, 21, 21)",
+        "border": "rgb(21, 21, 21)",
+        "borderWidth": "1px",
+        "opacity": "1"
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "A",
+      "text": "Local Action",
+      "aria": null,
+      "classes": "monaco-button monaco-text-button",
+      "style": {
+        "color": "rgb(31, 31, 31)",
+        "background": "rgb(147, 146, 147)",
+        "border": "rgb(31, 31, 31)",
+        "borderWidth": "0px",
+        "opacity": "1"
+      }
+    },
+    {
+      "tag": "A",
+      "text": "Cancel",
+      "aria": null,
+      "classes": "monaco-button secondary monaco-text-button",
+      "style": {
+        "color": "rgb(147, 146, 147)",
+        "background": "rgb(16, 16, 16)",
+        "border": "rgba(234, 234, 234, 0.15)",
+        "borderWidth": "1px",
+        "opacity": "1"
+      }
+    }
+  ],
+  "variables": {
+    "input.border": "#151515",
+    "inlineChatInput.border": "rgba(136, 136, 136, 0.68)",
+    "button.foreground": "#1f1f1f",
+    "button.background": "#888888",
+    "textCodeBlock.background": "#151515"
+  }
+}

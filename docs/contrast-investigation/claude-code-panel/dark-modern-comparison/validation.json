@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-17T00:10:36.488Z",
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "checks": [
+    {
+      "test": "Baseline runtime, scale, fonts, conversation and enabled draft identical",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: all six JSON copies contain only their declared deltas",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: same Dark Modern arrow paints reproduced using two official JSON properties",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: brighter palette foreground alone insufficient; fixed-native contradiction documented",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: coordinated JSON roles pass sampled arrow/native contrast while native appearance changes",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: reference code pair reproduces Dark Modern surfaces without a CSS-specific privilege",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: palette-derived code background reveals linked-inline and token contrast side effects",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: conversation-only change preserves code but changes native sidebar and inline composition",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: all six JSON copies contain only their declared deltas",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: same Dark Modern arrow paints reproduced using two official JSON properties",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: brighter palette foreground alone insufficient; fixed-native contradiction documented",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: coordinated JSON roles pass sampled arrow/native contrast while native appearance changes",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: reference code pair reproduces Dark Modern surfaces without a CSS-specific privilege",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: palette-derived code background reveals linked-inline and token contrast side effects",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: conversation-only change preserves code but changes native sidebar and inline composition",
+      "status": "passed"
+    },
+    {
+      "test": "Protected originals, installed/copied bundles, settings, version and approved prompt borders unchanged",
+      "status": "passed"
+    }
+  ],
+  "screenshots": 64,
+  "scope": "Validation of causal comparisons, including expected adverse effects. Not approval of global redesign candidates.",
+  "limitations": [
+    "Stop/busy/disabled controls not generated; no model turn or clipboard action.",
+    "Coordinated primary styles changed; wider native button inventory not approved.",
+    "Reference color transfer changes error roles; error text contrast against editor calculated, not rendered."
+  ]
+}

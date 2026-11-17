@@ -1,0 +1,19 @@
+{
+  "mode": {
+    "text": "Auto",
+    "color": "rgb(234, 234, 234)",
+    "background": "rgba(0, 0, 0, 0)"
+  },
+  "stop": false,
+  "errorFocus": {
+    "property": "#f97583",
+    "borders": [
+      {
+        "focused": true,
+        "color": "rgb(249, 117, 131)",
+        "shadow": "color(srgb 0.976471 0.458824 0.513726 / 0.12) 0px 0px 0px 3px, color(srgb 0.976471 0.458824 0.513726 / 0.2) 0px 1px 2px 0px",
+        "width": "1px"
+      }
+    ]
+  }
+}

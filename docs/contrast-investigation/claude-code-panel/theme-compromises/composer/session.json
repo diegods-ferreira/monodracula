@@ -1,0 +1,27 @@
+{
+  "root": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-claude-TTG1fi",
+  "app": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app",
+  "originalExtension": "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64",
+  "extension": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-claude-TTG1fi/extensions/anthropic.claude-code-2.1.325-win32-x64",
+  "port": 9407,
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "projectVersion": "2.3.5",
+  "originalSettingsSha256": "4267e7041da6fa6e3a488d16a76093d3817bd912d125b7746dbf20d1f9f22fe7",
+  "files": {
+    "themes/MonoMinTheme.json": "f032af7f47b6eaae2b46e5da39b632cc33381b91fb1eb2a4e648b4e862b8fe41",
+    "themes/MonoDraculaTheme.json": "156bb8455f576636a1696e6430223fa6cd0ff7ff15811d60d55932fea46be3af",
+    "package.json": "b9e1c26ff8f62737c0de7f81d11d6cb8d8fd0a1cc3b2d37f102bebb646b1ecc6",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/package.json": "ddaa17e03671922b1824fdb0fe867facb7ba282c15184d12ac399c49eb940fae",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/extension.js": "1f94855dd66098c4ef63cc54b20f14fc08483c7a766249cb16500a3f5bbff12f",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/webview/index.js": "5bf0e85aeded6204050df563ab0f3f76dde93405d37df606a599d0fbc0f17b6c",
+    "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64/webview/index.css": "52680e08cd88b669d0c02a458701d52771794650279ae335b5d813bca4b269fe",
+    "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/out/vs/workbench/workbench.desktop.main.js": "de23a500f770ad8d236af33eb2b0080c7fba7f2e0e2c5e4a27ce5ec75d147e9a",
+    "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/out/vs/workbench/workbench.desktop.main.css": "3715919409d1ac177f8d52c8f35afad0c07ff88092708fc21e155567d4076140"
+  },
+  "fixture": {
+    "id": "0f38deb1-8a00-48a5-9ac9-c271ec9e15bc",
+    "config": "C:\\Users\\diego\\AppData\\Local\\Temp\\monodracula-claude-TTG1fi\\claude-config"
+  },
+  "relevantSettings": []
+}

@@ -1,0 +1,14 @@
+{
+  "sidebars": [
+    {
+      "classes": "part sidebar left pane-composite-part floating-part-outer-top floating-part-outer-bottom",
+      "style": {
+        "color": "rgb(94, 104, 134)",
+        "background": "rgb(24, 24, 24)",
+        "border": "rgb(58, 58, 57) rgb(58, 58, 57) rgb(58, 58, 57) rgba(0, 0, 0, 0)",
+        "borderWidth": "1px"
+      }
+    }
+  ],
+  "buttons": []
+}

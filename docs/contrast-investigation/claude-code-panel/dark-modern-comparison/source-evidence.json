@@ -1,0 +1,273 @@
+{
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "installedDarkModernChain": [
+    "C:\\Users\\diego\\AppData\\Local\\Programs\\Microsoft VS Code\\69047191fc\\resources\\app\\extensions\\theme-defaults\\themes\\dark_vs.json",
+    "C:\\Users\\diego\\AppData\\Local\\Programs\\Microsoft VS Code\\69047191fc\\resources\\app\\extensions\\theme-defaults\\themes\\dark_plus.json",
+    "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+  ],
+  "themes": {
+    "DarkModern": {
+      "button.foreground": {
+        "explicit": true,
+        "resolved": "#FFFFFF",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "button.background": {
+        "explicit": true,
+        "resolved": "#0078D4",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "button.hoverBackground": {
+        "explicit": true,
+        "resolved": "#026EC1",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "errorForeground": {
+        "explicit": true,
+        "resolved": "#F85149",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "sideBar.background": {
+        "explicit": true,
+        "resolved": "#181818",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "editor.background": {
+        "explicit": true,
+        "resolved": "#1F1F1F",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "editor.foreground": {
+        "explicit": true,
+        "resolved": "#CCCCCC",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "foreground": {
+        "explicit": true,
+        "resolved": "#CCCCCC",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "textCodeBlock.background": {
+        "explicit": true,
+        "resolved": "#2B2B2B",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "textPreformat.background": {
+        "explicit": true,
+        "resolved": "#3C3C3C",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      },
+      "textPreformat.foreground": {
+        "explicit": true,
+        "resolved": "#D0D0D0",
+        "origin": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app/extensions/theme-defaults/themes/dark_modern.json"
+      }
+    },
+    "MonoMin": {
+      "button.foreground": {
+        "explicit": true,
+        "resolved": "#939293"
+      },
+      "button.background": {
+        "explicit": true,
+        "resolved": "#101010"
+      },
+      "button.hoverBackground": {
+        "explicit": true,
+        "resolved": "#1f1f1f"
+      },
+      "errorForeground": {
+        "explicit": true,
+        "resolved": "#f97583"
+      },
+      "sideBar.background": {
+        "explicit": true,
+        "resolved": "#151515"
+      },
+      "editor.background": {
+        "explicit": true,
+        "resolved": "#1f1f1f"
+      },
+      "editor.foreground": {
+        "explicit": true,
+        "resolved": "#EAEAEA"
+      },
+      "foreground": {
+        "explicit": true,
+        "resolved": "#EAEAEA"
+      },
+      "textCodeBlock.background": {
+        "explicit": true,
+        "resolved": "#151515"
+      },
+      "textPreformat.background": {
+        "explicit": false,
+        "resolved": null
+      },
+      "textPreformat.foreground": {
+        "explicit": true,
+        "resolved": "#EAEAEA"
+      }
+    },
+    "MonoDracula": {
+      "button.foreground": {
+        "explicit": true,
+        "resolved": "#939293"
+      },
+      "button.background": {
+        "explicit": true,
+        "resolved": "#21222c"
+      },
+      "button.hoverBackground": {
+        "explicit": true,
+        "resolved": "#282a36"
+      },
+      "errorForeground": {
+        "explicit": true,
+        "resolved": "#ff74ab"
+      },
+      "sideBar.background": {
+        "explicit": true,
+        "resolved": "#1d1f28"
+      },
+      "editor.background": {
+        "explicit": true,
+        "resolved": "#282a36"
+      },
+      "editor.foreground": {
+        "explicit": true,
+        "resolved": "#fcfcfa"
+      },
+      "foreground": {
+        "explicit": true,
+        "resolved": "#fcfcfa"
+      },
+      "textCodeBlock.background": {
+        "explicit": true,
+        "resolved": "#21222c"
+      },
+      "textPreformat.background": {
+        "explicit": false,
+        "resolved": null
+      },
+      "textPreformat.foreground": {
+        "explicit": true,
+        "resolved": "#fcfcfa"
+      }
+    }
+  },
+  "aliases": {
+    "--app-button-foreground": "--app-button-foreground:var(--vscode-button-foreground)",
+    "--app-button-background": "--app-button-background:var(--vscode-button-background)",
+    "--app-error-foreground": "--app-error-foreground:var(--vscode-errorForeground)",
+    "--app-primary-background": "--app-primary-background:var(--vscode-sideBar-background)",
+    "--app-primary-foreground": "--app-primary-foreground:var(--vscode-foreground)",
+    "--app-code-background": "--app-code-background:var(--vscode-textCodeBlock-background,#7f7f7f26)",
+    "--app-inline-code-background": "--app-inline-code-background:var(--vscode-textPreformat-background,#7f7f7f26)"
+  },
+  "rules": [
+    ".codeBlockWrapper_-a7MRw{position:relative;margin:8px 0}",
+    ".codeBlockWrapper_-a7MRw pre{overflow-x:auto;white-space:pre;color:var(--app-primary-foreground);background:var(--app-code-background);box-sizing:border-box;border-radius:4px;max-width:100%;margin:0;padding:8px}",
+    ".codeBlockWrapper_-a7MRw:hover .copyButton_-a7MRw{opacity:1}",
+    ".root_-a7MRw a code{color:inherit;background:var(--app-code-background)}",
+    ".sendButton_UCAeZQ{display:flex;cursor:pointer;color:var(--app-claude-ivory);background-color:var(--app-claude-clay-button-orange);border:none;border-radius:5px;justify-content:center;align-items: center;width:26px;height:26px}",
+    ".sendButton_UCAeZQ:disabled{cursor:not-allowed;opacity:.4}",
+    ".sendButton_UCAeZQ:hover:not(:disabled){filter:brightness(1.1)}",
+    ".sendButton_UCAeZQ:active:not(:disabled){filter:brightness(.9)}",
+    ".sendIcon_UCAeZQ{display:block;color:var(--app-claude-ivory);flex-shrink:0;width:20px;height:20px}",
+    ".sendButton_gGYT1w,.menuButton_gGYT1w{cursor:pointer;display:flex;color:var(--app-secondary-foreground);background-color:#0000;border:none;justify-content:center;align-items: center;width:26px;height:26px}",
+    ".sendButton_gGYT1w{border-radius:5px;margin-left:2px}",
+    ".sendButton_gGYT1w:disabled,.menuButton_gGYT1w:disabled{cursor:not-allowed;opacity:.4}",
+    ".sendButton_gGYT1w{color:var(--app-claude-ivory);background-color:var(--app-claude-clay-button-orange)}",
+    ".sendButton_gGYT1w[data-permission-mode=acceptEdits]{color:var(--app-primary-background);background-color:var(--app-primary-foreground)}",
+    ".sendButton_gGYT1w[data-permission-mode=plan]{color:var(--app-button-foreground);background-color:var(--app-plan-mode-color)}",
+    ".sendButton_gGYT1w[data-permission-mode=bypassPermissions],.sendButton_gGYT1w[data-permission-mode=auto]{color:var(--app-button-foreground);background-color:var(--app-error-foreground)}",
+    ".sendButton_gGYT1w:hover:not(:disabled){filter:brightness(1.1)}",
+    ".sendButton_gGYT1w:active:not(:disabled){filter:brightness(.9)}",
+    ".sendIcon_gGYT1w{color:var(--app-claude-ivory);display:block;flex-shrink:0;width:20px;height:20px;transform:none}",
+    ".sendButton_gGYT1w[data-permission-mode=acceptEdits] .sendIcon_gGYT1w{color:var(--app-tool-background)}",
+    ".sendButton_gGYT1w[data-permission-mode=plan] .sendIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=bypassPermissions] .sendIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=auto] .sendIcon_gGYT1w{color:var(--app-button-foreground)}",
+    ".stopIcon_gGYT1w{color:var(--app-claude-ivory);display:block;width:16px;height:16px}",
+    ".sendButton_gGYT1w[data-permission-mode=acceptEdits] .stopIcon_gGYT1w{color:var(--app-tool-background)}",
+    ".sendButton_gGYT1w[data-permission-mode=plan] .stopIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=bypassPermissions] .stopIcon_gGYT1w,.sendButton_gGYT1w[data-permission-mode=auto] .stopIcon_gGYT1w{color:var(--app-button-foreground)}"
+  ],
+  "registrations": {
+    "button.foreground": {
+      "recognized": true,
+      "source": "ue(\"button.foreground\",nt.white,d(4992,null)),MXt=ue(\"button.separator\",{dark:Li(SD,.4),light:Li(SD,.4),hcDark:ho,hcLight:ho},d(4998,null)),Wf=ue(\"button.background\",{dark:\"#0E639C\",light:\"#007ACC\",hcDark:nt.black,hcLight:\"#0F4A85\"},d(4990,null)),mte=ue(\"button.hoverBackground\",{dark:Hb(Wf,.2),light:lh(Wf,.2),hcDark:Wf,hcLight:Wf},d(4993,null)),Pan=ue(\"button.border\",ho,d(4991,null)),Wwt=ue(\"button.secondaryForeground\",{dark:Ko,light:Ko,hcDark:nt.white,hcLight:Ko},d(4996,null)),gte=ue(\"button.se"
+    },
+    "button.background": {
+      "recognized": true,
+      "source": "ue(\"button.background\",{dark:\"#0E639C\",light:\"#007ACC\",hcDark:nt.black,hcLight:\"#0F4A85\"},d(4990,null)),mte=ue(\"button.hoverBackground\",{dark:Hb(Wf,.2),light:lh(Wf,.2),hcDark:Wf,hcLight:Wf},d(4993,null)),Pan=ue(\"button.border\",ho,d(4991,null)),Wwt=ue(\"button.secondaryForeground\",{dark:Ko,light:Ko,hcDark:nt.white,hcLight:Ko},d(4996,null)),gte=ue(\"button.secondaryBackground\",{dark:t_,light:t_,hcDark:null,hcLight:nt.white},d(4994,null)),fte=ue(\"button.secondaryBorder\",{dark:Li(Ko,.15),light:Li(Ko,."
+    },
+    "button.hoverBackground": {
+      "recognized": true,
+      "source": "ue(\"button.hoverBackground\",{dark:Hb(Wf,.2),light:lh(Wf,.2),hcDark:Wf,hcLight:Wf},d(4993,null)),Pan=ue(\"button.border\",ho,d(4991,null)),Wwt=ue(\"button.secondaryForeground\",{dark:Ko,light:Ko,hcDark:nt.white,hcLight:Ko},d(4996,null)),gte=ue(\"button.secondaryBackground\",{dark:t_,light:t_,hcDark:null,hcLight:nt.white},d(4994,null)),fte=ue(\"button.secondaryBorder\",{dark:Li(Ko,.15),light:Li(Ko,.15),hcDark:ho,hcLight:ho},d(4995,null)),Bwt=ue(\"button.secondaryHoverBackground\",{dark:Hb(t_,.2),light:Hb(t_"
+    },
+    "errorForeground": {
+      "recognized": true,
+      "source": "ue(\"errorForeground\",{dark:\"#F48771\",light:\"#A1260D\",hcDark:\"#F48771\",hcLight:\"#B5200D\"},d(4867,null)),dte=ue(\"descriptionForeground\",{light:\"#717171\",dark:Li(Ko,.7),hcDark:Li(Ko,.7),hcLight:Li(Ko,.7)},d(4865,null)),Z$=ue(\"icon.foreground\",{dark:\"#C5C5C5\",light:\"#424242\",hcDark:\"#FFFFFF\",hcLight:\"#292929\"},d(4870,null)),Td=ue(\"focusBorder\",{dark:\"#007FD4\",light:\"#0090F1\",hcDark:\"#F38518\",hcLight:\"#006BBD\"},d(4868,null)),ho=ue(\"contrastBorder\",{light:null,dark:null,hcDark:\"#6FC3DF\",hcLight:\"#0F4A"
+    },
+    "sideBar.background": {
+      "recognized": true,
+      "source": "ue(\"sideBar.background\",{dark:\"#252526\",light:\"#F3F3F3\",hcDark:\"#000000\",hcLight:\"#FFFFFF\"},d(10155,null)),rK=ue(\"sideBar.foreground\",null,d(10158,null)),z9=ue(\"sideBar.border\",{dark:null,light:null,hcDark:ho,hcLight:ho},d(10156,null)),s6l=ue(\"sideBarTitle.background\",Ig,d(10165,null)),Tbn=ue(\"sideBarTitle.foreground\",rK,d(10167,null)),cli=ue(\"sideBarTitle.border\",{dark:null,light:null,hcDark:z9,hcLight:z9},d(10166,null)),eoe=ue(\"sideBar.dropBackground\",gL,d(10157,null)),Dbn=ue(\"sideBarSectionHe"
+    },
+    "editor.background": {
+      "recognized": true,
+      "source": "ue(\"editor.background\",{light:\"#ffffff\",dark:\"#1E1E1E\",hcDark:nt.black,hcLight:nt.white},d(4916,null)),dh=ue(\"editor.foreground\",{light:\"#333333\",dark:\"#BBBBBB\",hcDark:nt.white,hcLight:Ko},d(4923,null)),HAa=ue(\"editorStickyScroll.background\",Hn,d(4941,null)),WAa=ue(\"editorStickyScrollGutter.background\",Hn,d(4943,null)),BAa=ue(\"editorStickyScrollHover.background\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(4944,null)),VAa=ue(\"editorStickyScroll.bor"
+    },
+    "editor.foreground": {
+      "recognized": true,
+      "source": "ue(\"editor.foreground\",{light:\"#333333\",dark:\"#BBBBBB\",hcDark:nt.white,hcLight:Ko},d(4923,null)),HAa=ue(\"editorStickyScroll.background\",Hn,d(4941,null)),WAa=ue(\"editorStickyScrollGutter.background\",Hn,d(4943,null)),BAa=ue(\"editorStickyScrollHover.background\",{dark:\"#2A2D2E\",light:\"#F0F0F0\",hcDark:null,hcLight:nt.fromHex(\"#0F4A85\").transparent(.1)},d(4944,null)),VAa=ue(\"editorStickyScroll.border\",{dark:null,light:null,hcDark:ho,hcLight:ho},d(4942,null)),UAa=ue(\"editorStickyScroll.shadow\",Z6,d(494"
+    },
+    "foreground": {
+      "recognized": true,
+      "source": "ue(\"foreground\",{dark:\"#CCCCCC\",light:\"#616161\",hcDark:\"#FFFFFF\",hcLight:\"#292929\"},d(4869,null)),SAa=ue(\"strongForeground\",{dark:\"#FFFFFF\",light:\"#000000\",hcDark:\"#FFFFFF\",hcLight:\"#000000\"},d(4872,null)),oJi=ue(\"disabledForeground\",{dark:\"#CCCCCC80\",light:\"#61616180\",hcDark:\"#A5A5A5\",hcLight:\"#7F7F7F\"},d(4866,null)),J6=ue(\"errorForeground\",{dark:\"#F48771\",light:\"#A1260D\",hcDark:\"#F48771\",hcLight:\"#B5200D\"},d(4867,null)),dte=ue(\"descriptionForeground\",{light:\"#717171\",dark:Li(Ko,.7),hcDark:Li(K"
+    },
+    "textCodeBlock.background": {
+      "recognized": true,
+      "source": "ue(\"textCodeBlock.background\",{light:\"#dcdcdc66\",dark:\"#0a0a0a66\",hcDark:nt.black,hcLight:\"#F2F2F2\"},d(4875,null));var AAa=ue(\"sash.hoverBorder\",Td,d(5102,null)),WI=ue(\"badge.background\",{dark:\"#4D4D4D\",light:\"#C4C4C4\",hcDark:nt.black,hcLight:\"#0F4A85\"},d(5096,null)),vD=ue(\"badge.foreground\",{dark:nt.white,light:\"#333\",hcDark:nt.white,hcLight:nt.white},d(5097,null)),Fsn=ue(\"activityWarningBadge.foreground\",{dark:nt.white,light:nt.white,hcDark:nt.white,hcLight:nt.white},d(5095,null)),Hsn=ue(\"acti"
+    },
+    "textPreformat.background": {
+      "recognized": true,
+      "source": "ue(\"textPreformat.background\",{light:\"#0000001A\",dark:\"#FFFFFF1A\",hcDark:null,hcLight:\"#09345f\"},d(4878,null)),CAa=ue(\"textPreformat.border\",{light:null,dark:null,hcDark:ho,hcLight:null},d(4879,null)),kAa=ue(\"textBlockQuote.background\",{light:\"#f2f2f2\",dark:\"#222222\",hcDark:null,hcLight:\"#F2F2F2\"},d(4873,null)),xAa=ue(\"textBlockQuote.border\",{light:\"#007acc80\",dark:\"#007acc80\",hcDark:nt.white,hcLight:\"#292929\"},d(4874,null)),_Aa=ue(\"textCodeBlock.background\",{light:\"#dcdcdc66\",dark:\"#0a0a0a66\",h"
+    },
+    "textPreformat.foreground": {
+      "recognized": true,
+      "source": "ue(\"textPreformat.foreground\",{light:\"#A31515\",dark:\"#D7BA7D\",hcDark:\"#FFFFFF\",hcLight:\"#FFFFFF\"},d(4880,null)),wAa=ue(\"textPreformat.background\",{light:\"#0000001A\",dark:\"#FFFFFF1A\",hcDark:null,hcLight:\"#09345f\"},d(4878,null)),CAa=ue(\"textPreformat.border\",{light:null,dark:null,hcDark:ho,hcLight:null},d(4879,null)),kAa=ue(\"textBlockQuote.background\",{light:\"#f2f2f2\",dark:\"#222222\",hcDark:null,hcLight:\"#F2F2F2\"},d(4873,null)),xAa=ue(\"textBlockQuote.border\",{light:\"#007acc80\",dark:\"#007acc80\",hcDa"
+    }
+  },
+  "impossibility": [
+    {
+      "theme": "MonoMin",
+      "foregroundOnly": {
+        "minimumForegroundLuminanceForNativeNormalAndHover": 0.2366593737128036,
+        "maximumDarkForegroundLuminanceForArrow": 0.0816700336294663,
+        "minimumLightForegroundLuminanceForArrow": 1.1350303026651967,
+        "disjoint": true
+      },
+      "referenceErrorOnEditor": {
+        "foreground": "#f85149",
+        "background": "#1f1f1f",
+        "contrast": 4.917006725619117,
+        "renderedErrorText": false
+      }
+    },
+    {
+      "theme": "MonoDracula",
+      "foregroundOnly": {
+        "minimumForegroundLuminanceForNativeNormalAndHover": 0.2818024033696706,
+        "maximumDarkForegroundLuminanceForArrow": 0.08897018879792658,
+        "minimumLightForegroundLuminanceForArrow": 1.2007316991813393,
+        "disjoint": true
+      },
+      "referenceErrorOnEditor": {
+        "foreground": "#f85149",
+        "background": "#282a36",
+        "contrast": 4.24802850791062,
+        "renderedErrorText": false
+      }
+    }
+  ]
+}

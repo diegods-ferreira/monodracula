@@ -1,0 +1,55 @@
+{
+  "applied": false,
+  "patchCheck": true,
+  "reports": [
+    {
+      "theme": "MonoMin",
+      "buttonClass": "B — visual approval and Stop verification pending",
+      "blockClass": "A — recommended in sampled fixture",
+      "changes": [
+        {
+          "property": "button.foreground",
+          "before": "#939293",
+          "proposed": "#EAEAEA"
+        },
+        {
+          "property": "errorForeground",
+          "before": "#f97583",
+          "proposed": "#d3636f"
+        },
+        {
+          "property": "textCodeBlock.background",
+          "before": "#151515",
+          "proposed": "#00000099"
+        }
+      ]
+    },
+    {
+      "theme": "MonoDracula",
+      "buttonClass": "B — visual approval and Stop verification pending",
+      "blockClass": "A — recommended in sampled fixture",
+      "changes": [
+        {
+          "property": "button.foreground",
+          "before": "#939293",
+          "proposed": "#14141b"
+        },
+        {
+          "property": "button.background",
+          "before": "#21222c",
+          "proposed": "#797fa5"
+        },
+        {
+          "property": "button.hoverBackground",
+          "before": "#282a36",
+          "proposed": "#898eaf"
+        },
+        {
+          "property": "textCodeBlock.background",
+          "before": "#21222c",
+          "proposed": "#14141b"
+        }
+      ]
+    }
+  ]
+}

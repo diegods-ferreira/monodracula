@@ -1,0 +1,1558 @@
+{
+  "method": "Quantitative prescreen only. Runtime validation and visual judgment still required.",
+  "themes": {
+    "MonoMin": {
+      "mutedButton": {
+        "foreground": "#101010",
+        "background": "#808080",
+        "hoverBackground": "#888888",
+        "errorForeground": "#f97583",
+        "send": 7.1583770163327145,
+        "sendHover": 7.857344076511801,
+        "native": 4.817926653738263,
+        "nativeHover": 5.367763418059213,
+        "errorOnEditor": 6.200897709972222
+      },
+      "errorSearchCount": 33,
+      "bestErrorCandidate": {
+        "foreground": "#EAEAEA",
+        "background": "#101010",
+        "hoverBackground": "#1f1f1f",
+        "errorForeground": "#d4636f",
+        "send": 3.0025215238572835,
+        "sendHover": 3.027603594532639,
+        "native": 15.816632208648553,
+        "nativeHover": 13.701055171906463,
+        "errorOnEditor": 4.563182999036414,
+        "factor": 0.8500000000000001
+      },
+      "code": [
+        {
+          "value": "#151515",
+          "effective": "#151515",
+          "surface": 1,
+          "text": 15.179138211233667,
+          "minimum": 4.609137154147217,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": 0,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.609137154147217
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.193218521672314
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.193218521672314
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.193218521672314
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 10.746880677887672
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.193218521672314
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.193218521672314
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.193218521672314
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.909451167584664
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.909451167584664
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.316632877069194
+            }
+          ]
+        },
+        {
+          "value": "#171717",
+          "effective": "#171717",
+          "surface": 1.0185932447356578,
+          "text": 14.902060552318812,
+          "minimum": 4.525002672036536,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": -0.018253846500310367,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.525002672036536
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.080168461434829
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.080168461434829
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.080168461434829
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 10.550708767636358
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.080168461434829
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.080168461434829
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.080168461434829
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.783327106570184
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.783327106570184
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.073553104630186
+            }
+          ]
+        },
+        {
+          "value": "#191919",
+          "effective": "#191919",
+          "surface": 1.0386473510604681,
+          "text": 14.614332955006944,
+          "minimum": 4.437634341859388,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": -0.037209309801838786,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.437634341859388
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.962773135028923
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.962773135028923
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.962773135028923
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 10.346996665340754
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.962773135028923
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.962773135028923
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.962773135028923
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.6523552585293295
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.6523552585293295
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.821130158828973
+            }
+          ]
+        },
+        {
+          "value": "#1b1b1b",
+          "effective": "#1b1b1b",
+          "surface": 1.060193395267248,
+          "text": 14.317329535341417,
+          "minimum": 4.347449413213304,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": -0.05677586328678719,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.347449413213304
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.841593193580649
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.841593193580649
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.841593193580649
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 10.136717249760506
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.841593193580649
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.841593193580649
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.841593193580649
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.517161112707146
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.517161112707146
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.560569549400379
+            }
+          ]
+        },
+        {
+          "value": "#1f1f1f",
+          "effective": "#1f1f1f",
+          "surface": 1.1078809639682323,
+          "text": 13.701055171906463,
+          "minimum": 4.160318034202979,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": -0.0973759523602804,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.160318034202979
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.590147969949143
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.590147969949143
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.590147969949143
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 9.700392936976062
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.590147969949143
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.590147969949143
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.590147969949143
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.236636779854255
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.236636779854255
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 12.01991306843236
+            }
+          ]
+        },
+        {
+          "value": "#00000066",
+          "effective": "#0d0d0d",
+          "surface": 1.0671044698254626,
+          "text": 16.19772623330592,
+          "minimum": 4.918430859229107,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": 0.06710446982546259,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.918430859229107
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.6088111670823695
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.6088111670823695
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.6088111670823695
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 11.468044408054832
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.6088111670823695
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.6088111670823695
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.6088111670823695
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 7.373106224970356
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 7.373106224970356
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.210238466145245
+            }
+          ]
+        },
+        {
+          "value": "#00000099",
+          "effective": "#080808",
+          "surface": 1.0941853576480849,
+          "text": 16.608790772448423,
+          "minimum": 5.0432503854596495,
+          "baselineMinimum": 4.609137154147217,
+          "relativeMinimumChange": 0.09418535764808489,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 5.0432503854596495
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.776529023128765
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.776529023128765
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.776529023128765
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 11.759079478135815
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.776529023128765
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.776529023128765
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.776529023128765
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 7.560220296955603
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 7.560220296955603
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 14.570864707264201
+            }
+          ]
+        }
+      ]
+    },
+    "MonoDracula": {
+      "mutedButton": {
+        "foreground": "#14141b",
+        "background": "#797fa5",
+        "hoverBackground": "#898eaf",
+        "errorForeground": "#ff74ab",
+        "send": 7.278255619351628,
+        "sendHover": 7.7492584776949,
+        "native": 4.706620566572769,
+        "nativeHover": 5.719022864708385,
+        "errorOnEditor": 5.654261481288292
+      },
+      "errorSearchCount": 0,
+      "bestErrorCandidate": null,
+      "code": [
+        {
+          "value": "#21222c",
+          "effective": "#21222c",
+          "surface": 1.039855602788487,
+          "text": 15.372948951488198,
+          "minimum": 3.9857343502514144,
+          "baselineMinimum": 3.9857343502514144,
+          "relativeMinimumChange": 0,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 3.9857343502514144
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.355562868905288
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.355562868905288
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.355562868905288
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 9.293325419350705
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.355562868905288
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.355562868905288
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.355562868905288
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.9749224071684734
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.9749224071684734
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.515509153392124
+            }
+          ]
+        },
+        {
+          "value": "#232430",
+          "effective": "#232430",
+          "surface": 1.0685121028547047,
+          "text": 14.960660769193098,
+          "minimum": 3.8788406647547733,
+          "baselineMinimum": 3.9857343502514144,
+          "relativeMinimumChange": -0.026819069236237114,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 3.8788406647547733
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.2119316575250965
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.2119316575250965
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.2119316575250965
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 9.044087081494256
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.2119316575250965
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.2119316575250965
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.2119316575250965
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.814680549449477
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.814680549449477
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 11.20667391611678
+            }
+          ]
+        },
+        {
+          "value": "#252633",
+          "effective": "#252633",
+          "surface": 1.0976126047366035,
+          "text": 14.564015600406218,
+          "minimum": 3.776002733068147,
+          "baselineMinimum": 3.9857343502514144,
+          "relativeMinimumChange": -0.052620570954518775,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 3.776002733068147
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.073750092960672
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.073750092960672
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.073750092960672
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 8.804305329718328
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.073750092960672
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.073750092960672
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 5.073750092960672
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.660518578694321
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.660518578694321
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.909556486908643
+            }
+          ]
+        },
+        {
+          "value": "#282a36",
+          "effective": "#282a36",
+          "surface": 1.1531033505421036,
+          "text": 13.863152067914063,
+          "minimum": 3.5942903065774505,
+          "baselineMinimum": 3.9857343502514144,
+          "relativeMinimumChange": -0.09821127282335618,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 3.5942903065774505
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 4.829586222864595
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 4.829586222864595
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 4.829586222864595
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 8.380616101154622
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 4.829586222864595
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 4.829586222864595
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 4.829586222864595
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.388117672539667
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 5.388117672539667
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 10.384556342228475
+            }
+          ]
+        },
+        {
+          "value": "#14141b",
+          "effective": "#14141b",
+          "surface": 1.1163058013416642,
+          "text": 17.84487059435254,
+          "minimum": 4.626627846625156,
+          "baselineMinimum": 3.9857343502514144,
+          "relativeMinimumChange": 0.1607968419504211,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.626627846625156
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.216720465092196
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.216720465092196
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.216720465092196
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 10.787662797999872
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.216720465092196
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.216720465092196
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.216720465092196
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.935671061139973
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.935671061139973
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.367166658708747
+            }
+          ]
+        },
+        {
+          "value": "#00000040",
+          "effective": "#16171e",
+          "surface": 1.0870154557319875,
+          "text": 17.376645466040618,
+          "minimum": 4.505231425973994,
+          "baselineMinimum": 3.9857343502514144,
+          "relativeMinimumChange": 0.13033911196058767,
+          "tokens": [
+            {
+              "text": "// Local syntax sample",
+              "foreground": "rgb(96, 139, 78)",
+              "contrast": 4.505231425973994
+            },
+            {
+              "text": "export",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.053602177287501
+            },
+            {
+              "text": "const",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.053602177287501
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "number",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.053602177287501
+            },
+            {
+              "text": "=",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "42",
+              "foreground": "rgb(181, 206, 168)",
+              "contrast": 10.504609201669632
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "function",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.053602177287501
+            },
+            {
+              "text": "(",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": ":",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "string",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.053602177287501
+            },
+            {
+              "text": ")",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "{",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "return",
+              "foreground": "rgb(86, 156, 214)",
+              "contrast": 6.053602177287501
+            },
+            {
+              "text": "`Hello ",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.753688487752229
+            },
+            {
+              "text": "${",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "`",
+              "foreground": "rgb(206, 145, 120)",
+              "contrast": 6.753688487752229
+            },
+            {
+              "text": ";",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            },
+            {
+              "text": "}",
+              "foreground": "rgb(220, 220, 220)",
+              "contrast": 13.016430390219274
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

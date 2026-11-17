@@ -1,0 +1,26 @@
+diff --git a/themes/MonoMinTheme.json b/themes/MonoMinTheme.json
+index 839734b..b64b6f9 100644
+--- a/themes/MonoMinTheme.json
++++ b/themes/MonoMinTheme.json
+@@ -145,7 +145,7 @@
+ 		"gitDecoration.modifiedResourceForeground": "#50fa7b",
+ 		"gitDecoration.untrackedResourceForeground": "#ffab70",
+ 		"input.background": "#151515",
+-		"input.border": "#151515",
++		"input.border": "#888888ad",
+ 		"input.foreground": "#EAEAEA",
+ 		"input.placeholderForeground": "#888888",
+ 		"inputOption.activeBackground": "#1f1f1f",
+diff --git a/themes/MonoDraculaTheme.json b/themes/MonoDraculaTheme.json
+index 46421e5..928083e 100644
+--- a/themes/MonoDraculaTheme.json
++++ b/themes/MonoDraculaTheme.json
+@@ -142,7 +142,7 @@
+ 		"gitDecoration.modifiedResourceForeground": "#50fa7b",
+ 		"gitDecoration.untrackedResourceForeground": "#ffb86c",
+ 		"input.background": "#21222c",
+-		"input.border": "#21222c",
++		"input.border": "#939293ad",
+ 		"input.foreground": "#fcfcfa",
+ 		"input.placeholderForeground": "#6272a4",
+ 		"inputOption.activeBackground": "#5b595c",

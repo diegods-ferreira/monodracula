@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-17T14:03:48.330Z",
+  "baseline": "0b09812d9614456f97980f902d730cd440fe4e23",
+  "checks": [
+    {
+      "test": "MonoMin: JSONC, no duplicate keys, exact four authorized substitutions across both themes",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: colors registered and valid",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: 161 TextMate rules, scopes, fonts, and semantic configuration preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: buttons/error, Claude borders, search reversal and previous modernizations preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoMin: test baseline and installed current theme exactly match files",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: JSONC, no duplicate keys, exact four authorized substitutions across both themes",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: colors registered and valid",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: 161 TextMate rules, scopes, fonts, and semantic configuration preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: buttons/error, Claude borders, search reversal and previous modernizations preserved",
+      "status": "passed"
+    },
+    {
+      "test": "MonoDracula: test baseline and installed current theme exactly match files",
+      "status": "passed"
+    },
+    {
+      "test": "Manifest 2.3.5, registration, personal settings and installed bundles preserved",
+      "status": "passed"
+    },
+    {
+      "test": "Semantic-ON profile has exact baseline/current copies and preserves installed originals",
+      "status": "passed"
+    }
+  ]
+}

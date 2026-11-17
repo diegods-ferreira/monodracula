@@ -1,0 +1,42 @@
+{
+    "name": "monodracula",
+    "displayName": "MonoDracula",
+    "description": "A Monokai Pro syntax highlighting based color theme, but with Dracula's colors",
+    "version": "2.3.5",
+    "publisher": "diego-ferreira",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "contributors": [
+        "Diego Ferreira",
+        "Danilo Ferreira"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MonoMin",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MonoMinTheme.json"
+            },
+            {
+                "label": "MonoDracula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MonoDraculaTheme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/diegods-ferreira/monodracula.git"
+    },
+    "keywords": [
+        "dracula",
+        "dark",
+        "theme",
+        "color-theme"
+    ],
+    "icon": "monodracula-icon.png"
+}

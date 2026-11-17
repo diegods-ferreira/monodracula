@@ -1,0 +1,22 @@
+{
+  "commit": "0b09812d9614456f97980f902d730cd440fe4e23",
+  "date": "2026-11-17T12:54:19.484Z",
+  "status": " M docs/contrast-investigation/claude-code-panel/README.md\n?? docs/contrast-investigation/claude-code-panel/dark-modern-comparison/\n?? docs/contrast-investigation/claude-code-panel/final-investigation/\n?? docs/contrast-investigation/claude-code-panel/theme-compromises/\n?? docs/theme-modernization/chat-composer-and-code-blocks/\n",
+  "app": "C:/Users/diego/AppData/Local/Programs/Microsoft VS Code/69047191fc/resources/app",
+  "originalExtension": "C:/Users/diego/.vscode/extensions/anthropic.claude-code-2.1.325-win32-x64",
+  "files": {
+    "themes/MonoMinTheme.json": "f032af7f47b6eaae2b46e5da39b632cc33381b91fb1eb2a4e648b4e862b8fe41",
+    "themes/MonoDraculaTheme.json": "156bb8455f576636a1696e6430223fa6cd0ff7ff15811d60d55932fea46be3af",
+    "package.json": "b9e1c26ff8f62737c0de7f81d11d6cb8d8fd0a1cc3b2d37f102bebb646b1ecc6"
+  },
+  "deltas": {
+    "MonoMin": {
+      "input.border": "#888888ad",
+      "textCodeBlock.background": "#00000099"
+    },
+    "MonoDracula": {
+      "input.border": "#939293ad",
+      "textCodeBlock.background": "#14141b"
+    }
+  }
+}

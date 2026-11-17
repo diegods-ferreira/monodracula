@@ -1,0 +1,18 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Claude Code — envio e código copiável</title>
+<style>body{background:#181818;color:#eee;font:16px system-ui;margin:24px}select{font:inherit;margin:8px;padding:5px}main{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0}img{width:100%;border:1px solid #555}figcaption{padding:8px}a{color:#abd8ff}p{max-width:100ch}@media(max-width:800px){main{grid-template-columns:1fr}}</style>
+<h1>Envio e blocos: protótipos transitórios na webview real</h1><p>As capturas não foram reconstruídas ou retocadas. O segundo quadro mostra CSS de teste apenas na memória da instância descartável. Não é uma configuração suportada ou uma correção aplicada permanentemente.</p>
+<label>Tema <select id="theme"><option value="monomin">MonoMin</option><option value="monodracula">MonoDracula</option><option value="dark-modern">Dark Modern</option></select></label><label>Teste <select id="test"></select></label><p id="note"></p><main id="images"></main><p><a href="README.md">Relatório, medições e limitações</a></p>
+<script>
+const ui=Object.fromEntries(['theme','test','note','images'].map(id=>[id,document.getElementById(id)])),cases=[
+['Envio habilitado normal','send-baseline-normal','send-candidate-normal','Apenas o SVG da seta muda. Auto é o seletor separado de modo.'],
+['Envio habilitado em hover','send-baseline-hover','send-candidate-hover','O brilho se aplica ao botão e ao SVG.'],
+['Envio com foco de teclado','send-baseline-focus','send-candidate-focus','O botão está focado sem hover; não foi acionado.'],
+['Controle Manual','manual-baseline','manual-candidate','O seletor do protótipo exige data-permission-mode=auto; envio Manual permanece igual.'],
+['Blocos: moldura de 1 px','code-baseline','code-frame','Background, padding, dimensões, tokens e código inline permanecem iguais.'],
+['Blocos: copiar em hover','code-baseline-copy','code-frame-copy','Aparecimento do controle confirmado; clipboard não foi acionado.'],
+['Blocos: copiar TypeScript','code-baseline-syntax-copy','code-frame-syntax-copy','As 21 partes de tokens mantêm seus estilos e contrastes.'],
+['Blocos: delimitador lateral de 2 px','code-baseline','code-lateral','Alternativa avaliada; a moldura completa identifica melhor o container na amostra.'],
+['Botões nativos','native-baseline','native-candidate','CSS temporário da webview não alterou os estilos dos dois controles nativos.'],
+['Remoção dos protótipos','code-baseline','restored','A sombra extra desapareceu; não resta folha transitória.']];
+for(const [i,c]of cases.entries())ui.test.add(new Option(c[0],i));function update(){const c=cases[Number(ui.test.value)];ui.note.textContent=c[3];ui.images.replaceChildren();for(const [suffix,label]of [[c[1],'Baseline'],[c[2],'Protótipo / restauração']]){const f=document.createElement('figure'),caption=document.createElement('figcaption'),a=document.createElement('a'),img=document.createElement('img');caption.textContent=label;img.src=a.href='evidence/'+ui.theme.value+'-'+suffix+'.png';img.alt=label;a.append(img);f.append(caption,a);ui.images.append(f);}}ui.theme.addEventListener('input',update);ui.test.addEventListener('input',update);update();
+</script></html>

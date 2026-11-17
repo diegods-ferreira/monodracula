@@ -1,0 +1,4 @@
+const fs=require('fs'),path=require('path'),src=path.resolve(__dirname,'../../dark-modern-comparison');
+for(const f of ['control.cjs','cdp.cjs','snapshot.js','code-snapshot.js','color.cjs','fixture.cjs'])fs.copyFileSync(src+'/'+f,__dirname+'/'+f);fs.cpSync(src+'/probe',__dirname+'/probe',{recursive:true});
+let probe=fs.readFileSync(__dirname+'/probe/extension.cjs','utf8').replace("else if(r.action==='open')","else if(r.action==='chat')await vscode.commands.executeCommand('workbench.action.chat.open');\n  else if(r.action==='open')");fs.writeFileSync(__dirname+'/probe/extension.cjs',probe);
+let prep=fs.readFileSync(src+'/prepare.cjs','utf8').replaceAll('9405','9407').replace("require('../../../../package.json')","require('../../../../../package.json')").replace("'window.dialogStyle':'custom'","'window.dialogStyle':'custom','claudeCode.lockEditorGroups':false");fs.writeFileSync(__dirname+'/prepare.cjs',prep);console.log('Native-chat JSON-only profile ready.');

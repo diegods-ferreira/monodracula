@@ -293,3 +293,15 @@ As três investigações encerram-se aqui. Qualquer alteração de cor, configur
 ## Complemento experimental — 16/11/2026
 
 A etapa posterior autorizada está em [experiments/README.md](experiments/README.md), com 89 novas capturas reais, 19 verificações automatizadas, [comparador visual](experiments/compare.html) e [diff de borda proposto, não aplicado](experiments/proposed-theme.diff). Ela refina a candidata do prompt e testa alternativas oficiais para Auto e blocos. Os resultados anteriores acima permanecem como registro histórico; a aprovação permanente continua pendente.
+
+## Investigação final — envio habilitado e blocos copiáveis
+
+A borda do prompt foi posteriormente implementada e validada em [claude-code-prompt-border](../../theme-modernization/claude-code-prompt-border/README.md), preservando `#888888ad` / `#939293a6`. A [investigação final](final-investigation/README.md) trata somente dos problemas restantes e distingue a seta de **Send** do seletor **Auto** e do **Stop**. Ela acrescenta 60 capturas reais e 19 verificações de protótipos isolados: foreground somente da seta, moldura e delimitador lateral somente do bloco. Nesta rodada autorizou-se CSS **transitório em memória na webview descartável**, removido ao final; os relatos anteriores sem injeção permanecem históricos. [Comparador](final-investigation/compare.html) e [diff representativo upstream](final-investigation/upstream-proposal.diff). Nenhum tema ou bundle foi alterado nesta investigação; a integração das correções isoladas depende da extensão/upstream.
+
+## Comparação causal com Dark Modern
+
+A [comparação Dark Modern](dark-modern-comparison/README.md) acrescenta 64 capturas e 16 verificações usando **somente cópias JSON**, sem CSS injetado. Ela qualifica a conclusão anterior: as cores da seta e as superfícies do Dark Modern **podem ser reproduzidas pelo tema**. A limitação é preservar os demais consumidores dos tokens compartilhados. Uma combinação coordenada da paleta também passa contraste na seta e nos botões nativos, mas altera a aparência dos primários e deixa Stop/outros estados pendentes. [Comparador](dark-modern-comparison/compare.html), controles de referência exatos e efeitos colaterais documentados. Nenhuma alteração permanente foi aplicada.
+
+## Compromissos pelos temas e composer nativo — 17/11/2026
+
+A [nova rodada experimental](theme-compromises/README.md) acrescenta **63 capturas reais e 39 verificações automatizadas**, com candidatos intermediários para Send, fundos escuros que melhoram o contraste dos tokens nos blocos e bordas para o composer do chat nativo. Os experimentos usam somente JSONs temporários, sem injeção de CSS. O composer consome `input.border` / `focusBorder`, independentemente da borda Claude já aprovada. Há propostas separadas, classificações A/B/C, efeitos compartilhados e pendências explícitas, incluindo Stop. [Comparador lado a lado](theme-compromises/compare.html). Nenhuma proposta foi aplicada aos temas definitivos.

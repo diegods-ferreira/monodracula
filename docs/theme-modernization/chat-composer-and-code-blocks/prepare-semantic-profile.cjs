@@ -1,0 +1,6 @@
+// Fresh disposable profile: avoid a live language-settings edit during provider startup.
+const fs=require('fs'),dir=__dirname+'/semantic';fs.mkdirSync(dir+'/before',{recursive:true});
+for(const n of ['MonoMin','MonoDracula'])fs.copyFileSync(__dirname+'/before/'+n+'Theme.json',dir+'/before/'+n+'Theme.json');
+for(const f of ['cdp.cjs','control.cjs','fixture.cjs','editor-snapshot.js','ui-snapshot.js'])fs.copyFileSync(__dirname+'/'+f,dir+'/'+f);
+fs.cpSync(__dirname+'/probe',dir+'/probe',{recursive:true});let probe=fs.readFileSync(dir+'/probe/extension.cjs','utf8');probe=probe.replace("const cfg=vscode.workspace.getConfiguration(),prev=cfg.get('[typescript]')||{};\n await cfg.update('[typescript]',{...prev,'editor.semanticHighlighting.enabled':true},vscode.ConfigurationTarget.Global);",'// Semantic highlighting is enabled in this disposable profile before launch.');fs.writeFileSync(dir+'/probe/extension.cjs',probe);
+let prepare=fs.readFileSync(__dirname+'/prepare.cjs','utf8').replaceAll('9408','9409').replace("require('../../../package.json')","require('../../../../package.json')").replace("{...settings,'workbench.colorTheme'","{...settings,'[typescript]':{...(settings['[typescript]']||{}),'editor.semanticHighlighting.enabled':true},'workbench.colorTheme'");fs.writeFileSync(dir+'/prepare.cjs',prepare);

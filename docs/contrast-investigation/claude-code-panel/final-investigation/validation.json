@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-16T23:41:31.216Z",
+  "vscode": "1.146.0",
+  "claude": "2.1.325",
+  "checks": [
+    {
+      "test": "monomin: enabled Send arrow separated from Stop and Auto selector",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: Manual unaffected by Auto-only SVG selector",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: frame preserves blocks, inline, geometry, syntax and copy",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: lateral preserves blocks, inline, geometry, syntax and copy",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: native primary and secondary action styles unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monomin: all temporary CSS removed and original code paint restored",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: enabled Send arrow separated from Stop and Auto selector",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: Manual unaffected by Auto-only SVG selector",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: frame preserves blocks, inline, geometry, syntax and copy",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: lateral preserves blocks, inline, geometry, syntax and copy",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: native primary and secondary action styles unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "monodracula: all temporary CSS removed and original code paint restored",
+      "status": "passed"
+    },
+    {
+      "test": "dark-modern: enabled Send arrow separated from Stop and Auto selector",
+      "status": "passed"
+    },
+    {
+      "test": "dark-modern: Manual unaffected by Auto-only SVG selector",
+      "status": "passed"
+    },
+    {
+      "test": "dark-modern: frame preserves blocks, inline, geometry, syntax and copy",
+      "status": "passed"
+    },
+    {
+      "test": "dark-modern: lateral preserves blocks, inline, geometry, syntax and copy",
+      "status": "passed"
+    },
+    {
+      "test": "dark-modern: native primary and secondary action styles unchanged",
+      "status": "passed"
+    },
+    {
+      "test": "dark-modern: all temporary CSS removed and original code paint restored",
+      "status": "passed"
+    },
+    {
+      "test": "Protected themes, manifest, installed and copied bundles, personal settings unchanged",
+      "status": "passed"
+    }
+  ],
+  "screenshots": 60,
+  "limitations": [
+    "Transient inspector CSS prototypes; no supported persistent customization or upstream build validated.",
+    "Stop/busy and active/send-click not exercised; no messages submitted.",
+    "Clipboard callback unchanged but clipboard action not triggered.",
+    "Other themes/light/high-contrast require upstream regression coverage."
+  ]
+}

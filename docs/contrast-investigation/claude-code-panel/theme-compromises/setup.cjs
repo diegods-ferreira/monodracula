@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto'),assert=require('assert'),src=path.resolve(__dirname,'../dark-modern-comparison'),previous=require('../dark-modern-comparison/session.json');
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');for(const [f,h]of Object.entries(previous.files))assert.equal(sha(fs.readFileSync(f)),h,'Protected baseline changed: '+f);
+for(const f of ['control.cjs','cdp.cjs','snapshot.js','code-snapshot.js','native-snapshot.js','color.cjs','fixture.cjs','context.js']){if(!fs.existsSync(__dirname+'/'+f))fs.copyFileSync(src+'/'+f,__dirname+'/'+f);};fs.cpSync(src+'/probe',__dirname+'/probe',{recursive:true});
+const p=require(__dirname+'/probe/package.json');p.enabledApiProposals=['scmActionButton'];fs.writeFileSync(__dirname+'/probe/package.json',JSON.stringify(p,null,2));
+let probe=fs.readFileSync(__dirname+'/probe/extension.cjs','utf8');probe=probe.replace("let last='';",`let last='';
+ const errorRole=vscode.window.createStatusBarItem('contrastLab.errorRole',vscode.StatusBarAlignment.Left,100);errorRole.text='Local error role';errorRole.color=new vscode.ThemeColor('errorForeground');errorRole.show();context.subscriptions.push(errorRole);
+ const scm=vscode.scm.createSourceControl('contrastLab','Local Contrast Lab',vscode.Uri.file(root+'/fixtures'));context.subscriptions.push(scm);const group=scm.createResourceGroup('fixture','Local fixture');group.resourceStates=[{resourceUri:vscode.Uri.file(root+'/fixtures/example.ts')}];
+ context.subscriptions.push(vscode.commands.registerCommand('contrastLab.noop',()=>{}));const action=enabled=>{scm.actionButton={command:{command:'contrastLab.noop',title:'Local primary action'},enabled};};action(true);
+ `).replace("else if(r.action==='open')",`else if(r.action==='native'){action(!r.disabled);await vscode.commands.executeCommand('workbench.view.scm');}
+  else if(r.action==='editor'){await vscode.window.showTextDocument(await vscode.workspace.openTextDocument(vscode.Uri.file(root+'/fixtures/example.ts')),{preview:false});}
+  else if(r.action==='open')`);fs.writeFileSync(__dirname+'/probe/extension.cjs',probe);
+let prepare=fs.readFileSync(src+'/prepare.cjs','utf8').replaceAll('9405','9406').replace("'window.dialogStyle':'custom'","'window.dialogStyle':'custom','scm.showActionButton':true,'claudeCode.lockEditorGroups':false").replace("'--new-window','--sync'","'--new-window','--enable-proposed-api','local-audit.claude-panel-audit-probe','--sync'");fs.writeFileSync(__dirname+'/prepare.cjs',prepare);
+console.log('JSON-only variants prepared; proposed SCM API is restricted to the disposable native-control probe.');

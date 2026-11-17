@@ -1,0 +1,39 @@
+diff --git a/themes/MonoMinTheme.json b/themes/MonoMinTheme.json
+index 839734b..b4ddf21 100644
+--- a/themes/MonoMinTheme.json
++++ b/themes/MonoMinTheme.json
+@@ -22,7 +22,7 @@
+ 		"breadcrumb.focusForeground": "#888888",
+ 		"breadcrumb.foreground": "#888888",
+ 		"button.background": "#101010",
+-		"button.foreground": "#939293",
++		"button.foreground": "#EAEAEA",
+ 		"button.hoverBackground": "#1f1f1f",
+ 		"debugExceptionWidget.background": "#151515",
+ 		"debugExceptionWidget.border": "#1f1f1f",
+@@ -133,7 +133,7 @@
+ 		"editorWhitespace.foreground": "#1f1f1f",
+ 		"editorWidget.background": "#151515",
+ 		"editorWidget.border": "#151515",
+-		"errorForeground": "#f97583",
++		"errorForeground": "#d3636f",
+ 		"extensionButton.prominentBackground": "#151515",
+ 		"extensionButton.prominentForeground": "#EAEAEA",
+ 		"extensionButton.prominentHoverBackground": "#1f1f1f",
+diff --git a/themes/MonoDraculaTheme.json b/themes/MonoDraculaTheme.json
+index 46421e5..9a00fdf 100644
+--- a/themes/MonoDraculaTheme.json
++++ b/themes/MonoDraculaTheme.json
+@@ -20,9 +20,9 @@
+ 		"breadcrumb.activeSelectionForeground": "#fcfcfa",
+ 		"breadcrumb.focusForeground": "#797fa5",
+ 		"breadcrumb.foreground": "#5e627e",
+-		"button.background": "#21222c",
+-		"button.foreground": "#939293",
+-		"button.hoverBackground": "#282a36",
++		"button.background": "#797fa5",
++		"button.foreground": "#14141b",
++		"button.hoverBackground": "#898eaf",
+ 		"debugExceptionWidget.background": "#21222c",
+ 		"debugExceptionWidget.border": "#282a36",
+ 		"debugIcon.breakpointCurrentStackframeForeground": "#f1fa8c",
