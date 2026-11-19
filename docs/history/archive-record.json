@@ -1,0 +1,45 @@
+{
+  "startedAtUTC": "2026-11-18T22:53:25.222Z",
+  "finishedAtUTC": "2026-11-18T22:56:02.106Z",
+  "sourceRepository": "monodracula",
+  "head": "a6a4882939d201d522e751182bea517faa7bd442",
+  "scope": "All files under docs including tracked, untracked and ignored; no originals removed",
+  "docsFiles": 15107,
+  "docsBytes": 4369068563,
+  "archive": "docs-history.zip",
+  "archiveSHA256": "e6f2c45db2c52e509a5652ee03aacb50937dcbac66b7dfcad736f76a81877fe9",
+  "manifest": "docs-sha256.jsonl",
+  "inventory": "source-inventory.json",
+  "verification": {
+    "completedAtUTC": "2026-11-18T22:56:02.105Z",
+    "zipEntriesVerified": 15107,
+    "uncompressedBytesVerified": 4369068563,
+    "allEntrySHA256Match": true,
+    "sourceFilesRehashed": 15126,
+    "originalFilesUnchanged": true,
+    "gitHeadUnchanged": true,
+    "gitStatusUnchanged": true,
+    "archiveSHA256": "e6f2c45db2c52e509a5652ee03aacb50937dcbac66b7dfcad736f76a81877fe9",
+    "archiveBytes": 486321623
+  },
+  "note": "ZIP and per-file hashes checked by full decompression; originals rehashed after archive verification. Git metadata/history excluded.",
+  "archiveSidecarChecksums": {
+    "source-inventory.json": "9886c2000309635004a1a5affa77c5a96d20ff054506f13ac7afd6784c4e7bd2",
+    "docs-sha256.jsonl": "54429e51228417c6505f9100d208f7ef675a1f7a19a7c874e4e7e1db5af85a94",
+    "git-status-before.porcelain-z": "27dff239e3e0c62d3e9114f69066f525dd1ce79a32915aec0cb669277f194fb9",
+    "verification.json": "99b4b85f4a78780147fd3e73bf5f710eb7c2d1f4dcda04be24f19f4c81581d40",
+    "archive-record.json": "d9a21b41cd4b3a18d93e53796663041d7d21ccf062761955037c0d307483c0e3"
+  },
+  "portableUse": "Local path is a locator, not a runtime dependency. Identify the archive by SHA-256 if stored elsewhere.",
+  "rootFilesSupplement": {
+    "createdAtUTC": "2026-11-18T23:00:08.518Z",
+    "purpose": "Supplement protects the 19 original files outside docs, including three root VSIXs, log, themes and manifest. No originals removed.",
+    "archive": "repository-root-files.zip",
+    "archiveSHA256": "24b24cf15a9e5e4bde2260fd1e5c1f716c67236a46944a7941a96742573ce1bb",
+    "archiveBytes": 1690054,
+    "files": 19,
+    "sourceBytes": 1895428,
+    "allEntrySHA256Match": true,
+    "manifest": "source-inventory.json filtered to paths outside docs/"
+  }
+}

@@ -1,1 +1,0 @@
-{"name":"yellow-probe","publisher":"local-audit","version":"0.0.1","engines":{"vscode":"^1.146.0"},"main":"extension.cjs","activationEvents":["onStartupFinished"],"contributes":{"commands":[{"command":"yellowProbe.contrastDemo","title":"Contrast Demo Command"}]}}

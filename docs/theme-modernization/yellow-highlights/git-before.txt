@@ -1,2 +1,0 @@
-?? docs/contrast-investigation/
-?? docs/theme-modernization/yellow-highlights/

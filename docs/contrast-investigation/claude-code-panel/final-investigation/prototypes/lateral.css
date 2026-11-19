@@ -1,5 +1,0 @@
-/* Block-only lateral delimiter; no box geometry changes. */
-.codeBlockWrapper_-a7MRw > pre {
-  box-shadow: inset 2px 0 0 0
-    color-mix(in srgb, var(--app-secondary-foreground) 55%, transparent);
-}

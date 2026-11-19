@@ -1,5 +1,0 @@
-(() => {
- const e=document.querySelector('.search-view .findInFileMatch');if(!e)throw Error('No search match');const nodes=[];for(let p=e;p;p=p.parentElement)nodes.push(p);
- const rules=[];const walk=(rs,parents=[])=>{for(const r of rs){const context=r.selectorText?[...parents,r.selectorText]:parents;if(r.selectorText&&r.style?.getPropertyValue('color')&&!r.selectorText.includes('&')&&!parents.length){for(const node of nodes)try{if(node.matches(r.selectorText))rules.push({target:node.tagName+'.'+node.className,selector:r.selectorText,color:r.style.getPropertyValue('color'),important:r.style.getPropertyPriority('color')});}catch{}}if(r.cssRules)walk(r.cssRules,context);}};for(const sheet of document.styleSheets)try{walk(sheet.cssRules);}catch{}
- return {nodes:nodes.map(n=>({tag:n.tagName,classes:n.className,color:getComputedStyle(n).color,surfaceForeground:getComputedStyle(n).getPropertyValue('--vscode-surface-foreground'),inline:n.getAttribute('style')})),colorRules:rules,limitation:'Nested selector rules omitted to avoid treating relative selectors as global rules; computed inheritance chain remains authoritative.'};
-})()

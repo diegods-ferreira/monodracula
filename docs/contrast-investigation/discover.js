@@ -1,1 +1,0 @@
-(() => ({title:document.title,text:document.body.innerText.slice(0,6500),scripts:[...document.scripts].map(s=>s.src).filter(Boolean).map(s=>new URL(s).pathname),styles:[...document.querySelectorAll('link[rel=stylesheet]')].map(s=>new URL(s.href).pathname)}))()

@@ -1,4 +1,0 @@
-(() => {
- const visible=e=>e.checkVisibility()&&e.getBoundingClientRect().width>0,style=e=>{const s=getComputedStyle(e);return{color:s.color,background:s.backgroundColor,borderTop:s.borderTopColor,borderBottom:s.borderBottomColor,opacity:s.opacity,outline:s.outlineColor};};
- return {activity:[...document.querySelectorAll('.activitybar .action-item .action-label')].filter(visible).map(e=>({label:e.getAttribute('aria-label')||e.getAttribute('title'),classes:e.parentElement.className,style:style(e),parent:style(e.parentElement)})),tabs:[...document.querySelectorAll('.tabs-container .tab')].filter(visible).map(e=>({text:e.textContent,active:e.classList.contains('active'),style:style(e)})),explorer:[...document.querySelectorAll('.explorer-viewlet .monaco-list-row')].filter(visible).map(e=>({text:e.textContent,classes:e.className,style:style(e)}))};
-})()

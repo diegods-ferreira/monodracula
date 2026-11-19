@@ -1,4 +1,0 @@
-module.exports={
- MonoMin:{MutedButtons:{'button.foreground':'#101010','button.background':'#808080','button.hoverBackground':'#888888'},SoftError:{'button.foreground':'#EAEAEA','errorForeground':'#d3636f'},CodeFine:{'textCodeBlock.background':'#171717'},CodeRaised:{'textCodeBlock.background':'#1b1b1b'},CodeDark:{'textCodeBlock.background':'#00000099'},Combined:{'button.foreground':'#EAEAEA','errorForeground':'#d3636f','textCodeBlock.background':'#00000099'}},
- MonoDracula:{MutedButtons:{'button.foreground':'#14141b','button.background':'#797fa5','button.hoverBackground':'#898eaf'},CodeFine:{'textCodeBlock.background':'#232430'},CodeRaised:{'textCodeBlock.background':'#252633'},CodeDark:{'textCodeBlock.background':'#14141b'},Combined:{'button.foreground':'#14141b','button.background':'#797fa5','button.hoverBackground':'#898eaf','textCodeBlock.background':'#14141b'}}
-};

@@ -1,1 +1,0 @@
-(() => [...document.querySelectorAll('.quick-input-list .monaco-list-row')].some(e=>e.checkVisibility()&&e.classList.contains('focused')&&e.textContent.includes('Inspect Editor Tokens and Scopes')))()

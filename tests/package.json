@@ -1,0 +1,12 @@
+{
+  "name": "monodracula-validation",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Testes locais; não integra o manifesto da extensão",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test themes.test.cjs vsix.test.cjs" },
+  "dependencies": {
+    "jsonc-parser": "3.3.1",
+    "yauzl": "3.4.0"
+  }
+}

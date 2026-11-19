@@ -1,1 +1,0 @@
-(()=>[...document.querySelectorAll('.monaco-dialog-box')].filter(e=>e.checkVisibility()).map(e=>({text:e.innerText,buttons:[...e.querySelectorAll('.monaco-button')].map(b=>({text:b.textContent,aria:b.getAttribute('aria-label')}))})))()

@@ -4,3 +4,8 @@
 vsc-extension-quickstart.md
 docs/**
 *.vsix
+tests/**
+.artifacts/**
+**/*.log
+vscode-dark-modern-color-theme.json
+assets/**

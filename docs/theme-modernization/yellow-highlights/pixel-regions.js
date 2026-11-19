@@ -1,1 +1,0 @@
-(() => ({dpr:devicePixelRatio,regions:[...document.querySelectorAll('.monaco-editor .findMatchInline')].filter(e=>e.checkVisibility({checkVisibilityCSS:true})&&e.textContent==='contrast').map(e=>{const r=e.getBoundingClientRect();return {text:e.textContent,classes:e.className,color:getComputedStyle(e).color,rect:{x:r.x,y:r.y,width:r.width,height:r.height}};})}))()

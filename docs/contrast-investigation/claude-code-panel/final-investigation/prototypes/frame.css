@@ -1,5 +1,0 @@
-/* Block-only inset frame: no layout, background or inline-code changes. */
-.codeBlockWrapper_-a7MRw > pre {
-  box-shadow: inset 0 0 0 1px
-    color-mix(in srgb, var(--app-secondary-foreground) 55%, transparent);
-}

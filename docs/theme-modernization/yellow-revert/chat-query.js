@@ -1,1 +1,0 @@
-(() => {const inputs=[...document.querySelectorAll('input[aria-label="Find"]')].filter(e=>e.getBoundingClientRect().width&&e.checkVisibility({checkVisibilityCSS:true}));const input=inputs.at(-1);if(!input)throw Error('Native chat find input unavailable');input.focus();input.value='contrast';input.dispatchEvent(new Event('input',{bubbles:true}));return {query:input.value};})()

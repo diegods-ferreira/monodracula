@@ -1,1 +1,0 @@
-(() => [...document.querySelectorAll('input')].filter(e=>e.getBoundingClientRect().width&&e.checkVisibility({checkVisibilityCSS:true})).map(e=>({placeholder:e.getAttribute('placeholder'),aria:e.getAttribute('aria-label'),classes:e.className,parent:e.parentElement.className,grandparent:e.parentElement.parentElement.className})))()

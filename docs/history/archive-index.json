@@ -1,0 +1,562 @@
+{
+  "archiveSHA256": "e6f2c45db2c52e509a5652ee03aacb50937dcbac66b7dfcad736f76a81877fe9",
+  "archiveFile": "docs-history.zip",
+  "head": "a6a4882939d201d522e751182bea517faa7bd442",
+  "manifest": "docs-sha256.jsonl (all 15107 entries, next to archive)",
+  "reportsAndHTML": [
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/dark-modern-comparison/compare.html",
+      "bytes": 3802,
+      "sha256": "68ac6565a5aeea7e0a4e7ad433c501ab5d8a5376e66076de4ba579deca06b0c7",
+      "originalGitState": "tracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/dark-modern-comparison/README.md",
+      "bytes": 20745,
+      "sha256": "2b53b96e246da20cec301c715cd0fd92b879819e6d892a81a1bc8b637c42f4da",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/experiments/compare.html",
+      "bytes": 4663,
+      "sha256": "ae4f80d6acc41f887e6f7531762b6616b6920d1b51d92d5c9ebcd04a4e0cadb7",
+      "originalGitState": "tracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/experiments/README.md",
+      "bytes": 24569,
+      "sha256": "9be524e8a1fab0519121571cda533fd890b2e5031a4f3fed09cb74abdc60ad61",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/final-investigation/compare.html",
+      "bytes": 3324,
+      "sha256": "bcb77317bd7cc308d03136c9b730ace9dbd0321d8ef31bfe720b662ca6b44b7d",
+      "originalGitState": "tracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/final-investigation/README.md",
+      "bytes": 18380,
+      "sha256": "dc839209edf1e6f247d436735a64bf5a29a15eeb407ff2cfaad1a1ae55a315c8",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/README.md",
+      "bytes": 29591,
+      "sha256": "140125115741025c90ca917073ff990242a74f54a939f365f29b9da2e0d65d9a",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/theme-compromises/compare.html",
+      "bytes": 5586,
+      "sha256": "5d6b7a3340b134aef5098a9986ed502b8810cfd9274c06cb8ef2a0804cfdf081",
+      "originalGitState": "tracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/claude-code-panel/theme-compromises/README.md",
+      "bytes": 22992,
+      "sha256": "9b280a3469990689b0d6750d2a9f0a5f12ad6cafcd3ecd9dc506d2d03c58f162",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-design-system/compare.html",
+      "bytes": 5512,
+      "sha256": "fe832bfd56c05da9e4ca4b9ecd2216aa1160c9287e7b4c2304f3a8e483099cf0",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-design-system/component-matrix.md",
+      "bytes": 10481,
+      "sha256": "b68bb5590341175bb5d661229d49ee463c49ef4a58ffe5b52e3924c6e3b72b80",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-design-system/final-refinement/compare.html",
+      "bytes": 6274,
+      "sha256": "63afe3e6e0e638da8260b5f9f1918928ed05bb72c619e0ff6f2c856120313266",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-design-system/final-refinement/README.md",
+      "bytes": 17682,
+      "sha256": "bf1ac096fb28b6937f1328c23730ffde0be2f632a7548f67e3c5b479c8f18a18",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-design-system/README.md",
+      "bytes": 15060,
+      "sha256": "eb1643e5a13bc6a005c41370618f9cd32a60b0027753fae1a48365f5cf3c9e8d",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-redesign/compare.html",
+      "bytes": 4298,
+      "sha256": "31d0603f02f52d04ac1bff4566d903d669bbe9eba6af73881ad7e4dbf39b6b0e",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-redesign/README.md",
+      "bytes": 24827,
+      "sha256": "3ff4e67d80f1c2193818c0abe97c24d9cf59caab0415d095330fca02f9be89a3",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-redesign/refinements/compare.html",
+      "bytes": 4417,
+      "sha256": "37f5fb77b22ca24a8cb366d06244b8ebafed2694db82a72341702dedb6a20944",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/dark-modern-redesign/refinements/README.md",
+      "bytes": 19393,
+      "sha256": "d94525b9d89b5774c89eb2b8c5dbd589c786038a72c41cb8f43af9725f982ae2",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/compare.html",
+      "bytes": 3720,
+      "sha256": "40adeabb65983c05070e8115ad63262254c7892a876166e8bec3a276a7966ce4",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/fill-refinement/chat-compare.html",
+      "bytes": 1952,
+      "sha256": "e8e12db29134cf39952c8e1a76206d9bfe7be6a83aeeb67daf88e8b50404209f",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/fill-refinement/compare.html",
+      "bytes": 4938,
+      "sha256": "824b1911d1d3da254d1aa00d2e0f79f4cfaef1184a6d5f83c5ead8a97b36e82b",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/fill-refinement/README.md",
+      "bytes": 14477,
+      "sha256": "75da64bc6cbb0a4154d810725b1c02a540c802647d0b89aec9d3eb8f05a7c5da",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/final-alpha-fill/comparator.html",
+      "bytes": 2133,
+      "sha256": "b057493aedb95e98722610440fe3e8752915695a4e652b22087eb9e78aa2a235",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/final-alpha-fill/metrics.md",
+      "bytes": 884,
+      "sha256": "f3b478a89af3d6cb8ad0dfb6d3dc942d289cc68a82154616e496b3064c3ff0d3",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/final-alpha-fill/README.md",
+      "bytes": 12572,
+      "sha256": "391e1d15bec32a4b33b7ef61d5c2d108a685247168f2f0666109272ed180839b",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/layer-composition/comparator.html",
+      "bytes": 3987,
+      "sha256": "f2dfd59eab916c42b107e7be63a50a2a324fff5f94f04b634f52cfb9b2d6259d",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/layer-composition/metrics.md",
+      "bytes": 754,
+      "sha256": "29c5af24fab47a62250569eb5e3a4d62be24eac103053dd02dd7c52bf3b66ed8",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/layer-composition/README.md",
+      "bytes": 21314,
+      "sha256": "aedf52aa187204097253f0e864e554847a9269a3a1be685a0ec4e633820236a0",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/primary-fill/compare.html",
+      "bytes": 3114,
+      "sha256": "0baab82776cfe00dbc0e79a2fedb6687249d7ec4309f94f6c161a98db29ef266",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/primary-fill/final-validation/compare.html",
+      "bytes": 2272,
+      "sha256": "351b122102a079dc2c270c79ca7ce8cab8f063cb5a36216c9b67e13d86672293",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/primary-fill/final-validation/pre-update-status.md",
+      "bytes": 5365,
+      "sha256": "95bc33429187a26b13bb01c44e780c5bba3cf73f0deecb668059f0a4850a9246",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/primary-fill/final-validation/README.md",
+      "bytes": 13868,
+      "sha256": "ea94922eab70ea91c4420e8b82f695b3cb39d098d780374ef9f24c329b137062",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/primary-fill/README.md",
+      "bytes": 17963,
+      "sha256": "5617afe95213de23c0ee5b387871151e6498c029ff32216d5c19cc5062836fe9",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/README.md",
+      "bytes": 15068,
+      "sha256": "ea9584dea39a4f87f747bad45dae685a23874276d01ab6661af1f0187599dae9",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/vscode-147-review/compare.html",
+      "bytes": 2625,
+      "sha256": "0acbfbb15bf9bd27ec8cbae752113d942faf41109120499b32c181a2811aec30",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/vscode-147-review/README.md",
+      "bytes": 21654,
+      "sha256": "4fa9323f32341f9d60e7525e0c89bfb8264beba73e3555b044d15426b81abb64",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/global-search-highlights/vscode-147-review/update-compare.html",
+      "bytes": 1017,
+      "sha256": "7e8c014ae4eaf1b8bc5ce9899a81ac1c6cbb5c3bb6a59a697c48d6c6e989e047",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/README.md",
+      "bytes": 20453,
+      "sha256": "4ce7dc25f036c6ab66b837cdc9f376526d27b253aa0f9ce6e11f22a61880582b",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/search-and-tabs-147/comparator.html",
+      "bytes": 3830,
+      "sha256": "ed1c79a15ee075e2687c7759ffec761cc96e9aa4f01544b9ddc309eee9c87269",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/search-and-tabs-147/README.md",
+      "bytes": 24539,
+      "sha256": "eb3b7010784e573d8d3192224c8003dbe0146156d700a32ca1afbbe0a7e6c06b",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/search-and-tabs-147/tables.md",
+      "bytes": 1298,
+      "sha256": "89d8a4b52b17798149f82598fb4eb9c09e09e0e1faa51cd92f4cc1eaff166641",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/search-sidebar/README.md",
+      "bytes": 23394,
+      "sha256": "db2b7cfa5875cd6b0ac43f504808effb01e4256a0c5e2bcb1f02a151f0a9cf3d",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/visual-hierarchy/compare.html",
+      "bytes": 3208,
+      "sha256": "55b5faff9dcc7d73f0bf7bdfb869813efb9b8c5df36c5c75e55981ba0f474e58",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/contrast-investigation/visual-hierarchy/README.md",
+      "bytes": 25094,
+      "sha256": "c0025a1afd85177a3e55d2e10ad7ec2d02995a13294e1e9fe6fbca1e8a6320d9",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/chat-composer-and-code-blocks/compare.html",
+      "bytes": 2602,
+      "sha256": "b1c372161ca112cf7c25b0752c11acd87db5d210178d8900a7bfe252cdd3eae9",
+      "originalGitState": "tracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/chat-composer-and-code-blocks/README.md",
+      "bytes": 11973,
+      "sha256": "4b21ae1d5d993d41d98848f958a9810326664bc676ac92320cdda9a75bb77dc5",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/claude-code-prompt-border/compare.html",
+      "bytes": 2381,
+      "sha256": "43b388199d829c58440c031aa2160ee7558b458471bd9b8e6fe23c3d5bf28170",
+      "originalGitState": "tracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/claude-code-prompt-border/README.md",
+      "bytes": 12846,
+      "sha256": "964c012827b4f3d1831e186da007efc0e266de76c348a68f0f94fcf6aee07e2f",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/connected-tabs-147/comparator.html",
+      "bytes": 3219,
+      "sha256": "4545b6f52c08d54ab269128d2da19548bf125389649f08c520666ee137cdd186",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/connected-tabs-147/README.md",
+      "bytes": 11042,
+      "sha256": "dd93cf3dda896a3317e5bb759731b2904bea281a69abf2f6ea71008f683aea7e",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/dark-modern-design-system/compare.html",
+      "bytes": 4992,
+      "sha256": "a7477f50faa318fb953b77803911440004ec0848a432d0a4e731913ffcf95e36",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/dark-modern-design-system/derived-compare.html",
+      "bytes": 1401,
+      "sha256": "77aa407270147e4823e44cf16137c39db6b2f52eecd8e33623cf349b302bcb01",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/dark-modern-design-system/README.md",
+      "bytes": 15716,
+      "sha256": "8ae9d0d67dccba9fa748a6ecb0b851030d6741d17c2ad6bac3f4070c026ce2bf",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/dark-modern-redesign/compare.html",
+      "bytes": 4962,
+      "sha256": "e1a026ebf83d81e73e91b7288ec28c0de370d74e925b7045d19f66b580dc9c9b",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/dark-modern-redesign/README.md",
+      "bytes": 18197,
+      "sha256": "029490ad64eeb744eed1eace8844c012f0fd9d5c45b846797f06e57daf23e713",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/execution-report.md",
+      "bytes": 10411,
+      "sha256": "6395da97ddd92f8d08c00495438dcfc724d03dac0f810f18c402fea968d81ffa",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/menu-and-search-refinement/compare.html",
+      "bytes": 3956,
+      "sha256": "98b2be10ec8b34c4bf454e2922187d0df4f1d012637b47a22cc266169c9f2afb",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/menu-and-search-refinement/derived-compare.html",
+      "bytes": 2612,
+      "sha256": "664e3e8c5be5e8877e4ba19fc06e8783e381a42264038afb21dffaeacd6ed308",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/menu-and-search-refinement/README.md",
+      "bytes": 15292,
+      "sha256": "df278463cafdda2205543346c53f1e21f79b20c8962e5fbc0475f7d2bf8acf9a",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/menu-selection-border/compare.html",
+      "bytes": 12603,
+      "sha256": "62497d8f36100d9cfe5815d614b172047715840ad7ef26eba57897b3aba7fe19",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/menu-selection-border/README.md",
+      "bytes": 4921,
+      "sha256": "7c937e0037dc14d0f4bb07e6f3aae9d56993d795fa520d4c4b26b8d48f651f12",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/proposals.md",
+      "bytes": 2255,
+      "sha256": "0923056814b86098af4fb49cd2c492ba5f012f1b721f9a41cb6afc7a320023f3",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/README.md",
+      "bytes": 12509,
+      "sha256": "7f989d38f7dce6b453d985e91b92f8a8603cbde15d65b5d529b964a42bfb44f2",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-highlight-outline/comparator.html",
+      "bytes": 3328,
+      "sha256": "391e66996a0702ce0cea896b34123dc90dd9a4d7643eab9d2b0c13b71ce44f1b",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-highlight-outline/metrics.md",
+      "bytes": 381,
+      "sha256": "cc0f6d0fa25128066926776fb9871723ae8c085742ca40868edae8d1e9b5544d",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-highlight-outline/README.md",
+      "bytes": 11456,
+      "sha256": "3324eb2b133f484e306781da27408d3514e9aefa555a5d50d96d54566c1be611",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-outline-opacity/attempt-programmatic-find/README.md",
+      "bytes": 287,
+      "sha256": "55f3128fe6ddafdc3196ebe2dd4a63ea549cc5cea72ccaaf47b1febf68b3de44",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-outline-opacity/comparator.html",
+      "bytes": 2748,
+      "sha256": "e2e258e8b3f529a05e3b7a89bd69c35d5979db2abed43d6a7cd83efa539137ab",
+      "originalGitState": "untracked",
+      "kind": "comparator-or-html-evidence"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-outline-opacity/metrics.md",
+      "bytes": 423,
+      "sha256": "d345292cde6bfb1bc96ecfb001f11369cf9ceb83b9f7ed6a34258fe26f242cfe",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/search-outline-opacity/README.md",
+      "bytes": 10746,
+      "sha256": "9de8f48506736091ff6afe5b589c45bc8019b236c1708a74685d365a6830882f",
+      "originalGitState": "untracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/stage-b-comments/audit/proposals.md",
+      "bytes": 2255,
+      "sha256": "0923056814b86098af4fb49cd2c492ba5f012f1b721f9a41cb6afc7a320023f3",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/stage-b-comments/README.md",
+      "bytes": 7618,
+      "sha256": "5421d2b823a6564c03cf5035ba7a9cdea0fc38b65bda3d7dd1f30c659d1b3166",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/visual-results.md",
+      "bytes": 9773,
+      "sha256": "e66345109bc06d24b71fc39d6369469a39aab8e9ead528fb7759447e1986a23b",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/visual-review.md",
+      "bytes": 7189,
+      "sha256": "659195453c5f9db93811ceb01184cc6daadf45ff248885b5917de860a9dd180c",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/visual-validation.md",
+      "bytes": 12307,
+      "sha256": "c5d86ed9aa2404728e34fe6196903e9f84a4f19e1d9198cadbd5af456b5f1477",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/yellow-highlights/audit/proposals.md",
+      "bytes": 2255,
+      "sha256": "0923056814b86098af4fb49cd2c492ba5f012f1b721f9a41cb6afc7a320023f3",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/yellow-highlights/README.md",
+      "bytes": 14208,
+      "sha256": "8bde689b608c99d4e3e33e8a614de00db4a03eaae1903925bae4ada9e00ace48",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/yellow-revert/audit/proposals.md",
+      "bytes": 2255,
+      "sha256": "0923056814b86098af4fb49cd2c492ba5f012f1b721f9a41cb6afc7a320023f3",
+      "originalGitState": "tracked",
+      "kind": "report"
+    },
+    {
+      "archiveEntry": "docs/theme-modernization/yellow-revert/README.md",
+      "bytes": 10877,
+      "sha256": "062de8e50c6cfa8011b784bc6f18f6856b711484e02e6c844131aa6d2a3c0158",
+      "originalGitState": "tracked",
+      "kind": "report"
+    }
+  ],
+  "lookup": "Extract the required folder bundle with its original docs/ paths outside the repository; HTML files can construct image references dynamically."
+}
