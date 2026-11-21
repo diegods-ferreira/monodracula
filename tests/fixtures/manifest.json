@@ -1,10 +1,10 @@
 {
-  "sha256": "b9e1c26ff8f62737c0de7f81d11d6cb8d8fd0a1cc3b2d37f102bebb646b1ecc6",
+  "sha256": "27c9e49864f215be2d80a48003384bcd87b499f9c69cf7c6e7631151c1dbc752",
   "value": {
     "name": "monodracula",
     "displayName": "MonoDracula",
     "description": "A Monokai Pro syntax highlighting based color theme, but with Dracula's colors",
-    "version": "2.3.5",
+    "version": "2.3.6",
     "publisher": "diego-ferreira",
     "engines": {
       "vscode": "^1.49.0"

@@ -1,0 +1,15 @@
+{
+  "name": "monodracula-dark-modern-experiment",
+  "displayName": "Mono Themes Dark Modern Experiment",
+  "publisher": "mono-local",
+  "version": "0.0.1",
+  "private": true,
+  "engines": { "vscode": "^1.147.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      { "label": "MonoMin Experimental", "uiTheme": "vs-dark", "path": "./themes/MonoMinExperimental.json" },
+      { "label": "MonoDracula Experimental", "uiTheme": "vs-dark", "path": "./themes/MonoDraculaExperimental.json" }
+    ]
+  }
+}

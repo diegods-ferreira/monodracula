@@ -1,0 +1,13 @@
+{
+  "version": "1.147.0",
+  "commit": "8a14f0cc1b08d531eb83255ea3764ae22aa932b5",
+  "quality": "stable",
+  "architecture": "x64",
+  "buildDate": "2026-11-17T02:46:11Z",
+  "installationPath": "8a14f0cc1b/resources/app/extensions/theme-defaults/themes",
+  "sha256": {
+    "dark_modern.json": "24e2c79cd2c37769a83f1a89c5e97c8107fd0ec084cd7a021c2ab835d3809074",
+    "dark_plus.json": "88f5b662378cbe39473a4a8d916a1b4ec580f85858876eaec440288aee2852df",
+    "dark_vs.json": "38db2163183afd088cf621115087b60a23726856488eabc9fb893aff15b35470"
+  }
+}

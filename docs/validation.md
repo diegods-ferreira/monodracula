@@ -15,7 +15,7 @@ Os dois scripts foram preparados separadamente, sem migrar os scripts histórico
 
 `approved-themes.json` contém os dois objetos completos aprovados, hashes de origem e HEAD de referência. Isso evita perder cores/estilos ao reduzir o histórico. A presença ou ausência de propriedades semânticas também participa da igualdade. Não há modo automático de atualizar esse fixture: uma alteração visual futura exige aprovação e revisão explícita do baseline.
 
-`manifest.json` preserva o objeto e SHA-256 dos bytes do manifesto. `syntax-samples.json` preserva as seis fixtures pequenas já usadas (TypeScript, JavaScript, HTML, CSS, JSON e Markdown), extraídas do módulo de dados puro `primary-fill/fixtures.cjs`, inspecionado antes da leitura. A existência das fixtures não equivale a executar semantic highlighting.
+`manifest.json` preserva o objeto e o SHA-256 do manifesto 2.3.6 com finais de linha normalizados para LF. `syntax-samples.json` preserva as seis fixtures pequenas já usadas (TypeScript, JavaScript, HTML, CSS, JSON e Markdown), extraídas do módulo de dados puro `primary-fill/fixtures.cjs`, inspecionado antes da leitura. A existência das fixtures não equivale a executar semantic highlighting.
 
 ## Execução
 
@@ -40,7 +40,16 @@ $env:CLEAN_VSIX = '1'
 node --test tests/vsix.test.cjs
 ```
 
-Esse gate também rejeita logs, referência técnica raiz, assets de referência e fontes de teste no VSIX. As exclusões correspondentes estão em `.vscodeignore`. Pacotes históricos podem conter esses itens e devem ser consultados no arquivo externo; não são o pacote limpo da Fase 2.
+O gate exige a lista exata de entradas do VSIX 2.3.6, incluindo o aviso MIT dos arquivos derivados do VS Code. Para gerar e testar um pacote local sem dependências de runtime, use:
+
+```powershell
+npm exec --yes --package=@vscode/vsce@4.1.1 -- vsce package --no-dependencies --out .artifacts/monodracula-2.3.6-dark-modern-validation.vsix
+$env:VSIX_FILE = (Resolve-Path '.artifacts/monodracula-2.3.6-dark-modern-validation.vsix').Path
+$env:CLEAN_VSIX = '1'
+npm --prefix tests test
+```
+
+Os comandos do gerador, as fontes fixadas e o procedimento de promoção dos temas estão na [documentação da integração Dark Modern](experiments/dark-modern/README.md).
 
 Na Fase 1, os scripts foram experimentados no diretório de propostas usando dependências já instaladas. Na Fase 2, os testes adotados foram executados com as dependências locais instaladas pelo lockfile, sem `NODE_PATH` ou caminhos pessoais. Sem `MONODRACULA_REPO`, eles resolvem a raiz pelo próprio diretório `tests/`.
 

@@ -12,9 +12,11 @@ const manifest = require('./fixtures/manifest.json');
 const samples = require('./fixtures/syntax-samples.json');
 
 function readJsonc(file) {
+  const text = fs.readFileSync(file, 'utf8');
+  JSON.parse(text);
   const errors = [];
-  const root = jsonc.parseTree(fs.readFileSync(file, 'utf8'), errors, {
-    allowTrailingComma: true, disallowComments: false, allowEmptyContent: false
+  const root = jsonc.parseTree(text, errors, {
+    allowTrailingComma: false, disallowComments: true, allowEmptyContent: false
   });
   assert.deepEqual(errors, [], `${file}: JSONC inválido`);
   assert.equal(root.type, 'object', `${file}: raiz deve ser objeto`);
@@ -38,9 +40,16 @@ function readJsonc(file) {
 for (const [name, baseline] of Object.entries(approved.themes)) {
   test(`${name}: estrutura, syntax e cores aprovadas`, () => {
     const actual = readJsonc(path.join(repo, baseline.file));
+    const experiment = path.join(repo, 'docs/experiments/dark-modern');
+    const original = readJsonc(path.join(experiment, 'originals', name + 'Theme.json'));
+    const candidate = readJsonc(path.join(experiment, 'extension/themes', name + 'Experimental.json'));
+    assert.equal(candidate.name, name + ' Experimental');
+    assert.deepEqual(actual, { ...candidate, name });
     assert.equal(actual.tokenColors.length, 161);
+    assert.deepEqual(actual.tokenColors, original.tokenColors);
     assert.deepEqual(actual.tokenColors, baseline.theme.tokenColors);
     for (const key of ['semanticHighlighting', 'semanticTokenColors']) {
+      assert(!Object.hasOwn(actual, key), key);
       assert.equal(Object.hasOwn(actual, key), Object.hasOwn(baseline.theme, key));
       assert.deepEqual(actual[key], baseline.theme[key]);
     }
@@ -62,15 +71,21 @@ for (const [name, baseline] of Object.entries(approved.themes)) {
       assert.equal(comment.settings.foreground, '#797fa5');
       assert.equal(comment.settings.fontStyle, 'italic');
     }
+    if (name === 'MonoMin') {
+      assert.equal(actual.colors['button.background'], '#F8C66B');
+      assert.equal(actual.colors['button.hoverBackground'], '#F8C66Be6');
+      assert.equal(actual.colors['editor.findMatchHighlightBackground'], '#F8C66B26');
+      assert.equal(actual.colors['editor.findMatchBorder'], '#939293');
+    }
   });
 }
 
 test('manifesto, versão e caminhos de produção', () => {
-  const bytes = fs.readFileSync(path.join(repo, 'package.json'));
+  const bytes = fs.readFileSync(path.join(repo, 'package.json'), 'utf8').replace(/\r\n/g, '\n');
   assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'), manifest.sha256);
   const actual = readJsonc(path.join(repo, 'package.json'));
   assert.deepEqual(actual, manifest.value);
-  assert.equal(actual.version, '2.3.5');
+  assert.equal(actual.version, '2.3.6');
   assert.equal(actual.contributes.themes.length, 2);
   for (const theme of actual.contributes.themes) {
     assert.equal(theme.uiTheme, 'vs-dark');

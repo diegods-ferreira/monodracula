@@ -43,7 +43,7 @@ test('VSIX: manifesto, temas e ausência de dependência Dark Modern', {
   assert(manifest, 'Manifesto ausente');
   assert(manifest.equals(fs.readFileSync(path.join(repo, 'package.json'))));
   const pkg = JSON.parse(manifest.toString('utf8'));
-  assert.equal(pkg.version, '2.3.5');
+  assert.equal(pkg.version, '2.3.6');
   for (const theme of pkg.contributes.themes) {
     const relative = theme.path.replace(/^\.\//, '');
     assert(!relative.includes('..') && !path.isAbsolute(relative));
@@ -53,17 +53,19 @@ test('VSIX: manifesto, temas e ausência de dependência Dark Modern', {
   }
   assert(zip.has('extension/' + pkg.icon));
   assert(zip.has('[Content_Types].xml') && zip.has('extension.vsixmanifest'));
+  const license = zip.get('extension/LICENSE-VSCODE.txt');
+  assert(license && license.equals(fs.readFileSync(path.join(repo, 'LICENSE-VSCODE.txt'))));
   for (const name of zip.keys()) {
     assert(!name.startsWith('extension/docs/'), name);
     assert(!name.endsWith('/dark-modern-ui.colors.json'), name);
   }
   if (process.env.CLEAN_VSIX === '1') {
-    // Gate do pacote limpo; o VSIX histórico não satisfaz esta parte.
-    for (const name of zip.keys()) {
-      assert(!/^extension\/(?:tests|scripts|\.artifacts|node_modules)\//.test(name), name);
-      assert(!name.endsWith('.log'), name);
-      assert.notEqual(name, 'extension/vscode-dark-modern-color-theme.json');
-      assert(!name.startsWith('extension/assets/'), name);
-    }
+    const expected = [
+      '[Content_Types].xml', 'extension.vsixmanifest', 'extension/package.json',
+      'extension/readme.md', 'extension/changelog.md', 'extension/LICENSE-VSCODE.txt',
+      'extension/' + pkg.icon,
+      ...pkg.contributes.themes.map(theme => 'extension/' + theme.path.replace(/^\.\//, '')),
+    ];
+    assert.deepEqual([...zip.keys()].sort(), expected.sort());
   }
 });
